@@ -1,0 +1,381 @@
+{
+  "archive_sha256": "a9be1b297d4945aae3b4d0c3d1734ac8ec4788da2e4bed8d43cd380e4783fd2b",
+  "archive_bytes": 37284633,
+  "solver_sha256": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
+  "members": [
+    {
+      "construct": "1x",
+      "condition": "info_theory_untreated",
+      "member": "source_data/1x_SIP18_HXK1_info_theory_untreated.txt",
+      "sha256": "605d4b7dc2837d283b91a8a950e4e5999fe9074738494b3802323f4c0ee3cfc9",
+      "shape": [
+        619,
+        128
+      ],
+      "bytes": 331135
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_100nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_100nM.txt",
+      "sha256": "4138cd8c7480676492c4109b3a1b47bf803c9a588a428080c6c2e19c551fb5ba",
+      "shape": [
+        3470,
+        128
+      ],
+      "bytes": 2531439
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_175nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_175nM.txt",
+      "sha256": "a7ea1420518f20e26154b15e396787891f170abdc575545f51ca5ffcd9d7e710",
+      "shape": [
+        1461,
+        128
+      ],
+      "bytes": 1077715
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_275nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_275nM.txt",
+      "sha256": "34ede8931593304e242e68e5855356478ea8631b58a1839b95af8844e9abc6a3",
+      "shape": [
+        1547,
+        128
+      ],
+      "bytes": 1188840
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_413nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_413nM.txt",
+      "sha256": "0c8921cf2e6efe753a7e27bd2aea3e856113053d75f88bb0b3e80e7c73e1a0c6",
+      "shape": [
+        1205,
+        128
+      ],
+      "bytes": 956387
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_690nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_690nM.txt",
+      "sha256": "9531fca191f3760b9f861e15f60751cee5b349f3b545d61f9d5af6f7e23028ba",
+      "shape": [
+        1367,
+        128
+      ],
+      "bytes": 1108234
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_1117nM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_1117nM.txt",
+      "sha256": "35eac6fb5984413827c3ab87da724e5cdbcf1a7004ebc148ac17dcd705ae52be",
+      "shape": [
+        1423,
+        128
+      ],
+      "bytes": 1150306
+    },
+    {
+      "construct": "1x",
+      "condition": "DM_70min_3uM",
+      "member": "source_data/1x_SIP18_HXK1_DM_70min_3uM.txt",
+      "sha256": "62abb74456728883e0a97f7c7ca4c40e2507fceb30892f9fe793fd92abdcc4c4",
+      "shape": [
+        1755,
+        128
+      ],
+      "bytes": 1406099
+    },
+    {
+      "construct": "1x",
+      "condition": "FM1_5min_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM1_5min_690nM.txt",
+      "sha256": "0fa5e7c31d597d550047966f701be96576ec47ff6f66d4a9ddb223789b1e1ac6",
+      "shape": [
+        1088,
+        128
+      ],
+      "bytes": 707428
+    },
+    {
+      "construct": "1x",
+      "condition": "FM2_40minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM2_40minINT_690nM.txt",
+      "sha256": "304a0c735cdc1b00564d5ed5023522ba9bddec33b0ade16bbba508dba914e69a",
+      "shape": [
+        1050,
+        128
+      ],
+      "bytes": 729575
+    },
+    {
+      "construct": "1x",
+      "condition": "FM3_25minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM3_25minINT_690nM.txt",
+      "sha256": "9663e1cd8c0733c24735777e0406a9ac098020560d3845c194a6c42738221784",
+      "shape": [
+        983,
+        128
+      ],
+      "bytes": 686762
+    },
+    {
+      "construct": "1x",
+      "condition": "FM4_175minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM4_175minINT_690nM.txt",
+      "sha256": "b70b0378ae2a2076e7d5fdfc326590182cb139ec36b540d986550f3b0acab2fe",
+      "shape": [
+        1023,
+        128
+      ],
+      "bytes": 734307
+    },
+    {
+      "construct": "1x",
+      "condition": "FM5_13minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM5_13minINT_690nM.txt",
+      "sha256": "d1de646037db6807d5d57cb57ca94af6623b3fb910970a9c812183014abfaa82",
+      "shape": [
+        863,
+        128
+      ],
+      "bytes": 624704
+    },
+    {
+      "construct": "1x",
+      "condition": "FM6_10minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM6_10minINT_690nM.txt",
+      "sha256": "9ec63b5eeb7b4a5ee342faf9294d4543ba73e1b2960c5d6870b799eb43935c42",
+      "shape": [
+        916,
+        128
+      ],
+      "bytes": 674555
+    },
+    {
+      "construct": "1x",
+      "condition": "FM7_786minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM7_786minINT_690nM.txt",
+      "sha256": "081745a5644e09633a77890ea3052341b637d389fac89b9f4d7f62c140582e9d",
+      "shape": [
+        857,
+        128
+      ],
+      "bytes": 624180
+    },
+    {
+      "construct": "1x",
+      "condition": "FM8_625minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM8_625minINT_690nM.txt",
+      "sha256": "7d09cad0a7bffd8c4f7f5d7526a197c46072e345b7aebb7adeb0be865ad10177",
+      "shape": [
+        827,
+        128
+      ],
+      "bytes": 625053
+    },
+    {
+      "construct": "1x",
+      "condition": "FM9_5minINT_690nM",
+      "member": "source_data/1x_SIP18_HXK1_FM9_5minINT_690nM.txt",
+      "sha256": "dcbefff7f4e16b61359bca2fb68c158ddbffbdd62ae867dbac7d1da959df6a59",
+      "shape": [
+        782,
+        128
+      ],
+      "bytes": 607268
+    },
+    {
+      "construct": "2x",
+      "condition": "info_theory_untreated",
+      "member": "source_data/2x_SIP18_HXK1_info_theory_untreated.txt",
+      "sha256": "5234d3a07fcac8bd614e3d5c371d0a114aa2c0c8d09c4b8b56e59a89e9f35ef8",
+      "shape": [
+        785,
+        128
+      ],
+      "bytes": 400743
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_100nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_100nM.txt",
+      "sha256": "653da06b4b631acd4bbd105c6cf8b5e4fc34161475bad9f92723062d780e8dec",
+      "shape": [
+        1200,
+        128
+      ],
+      "bytes": 791461
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_175nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_175nM.txt",
+      "sha256": "eeaa86e989734168906170cf35228c66bf8bd2c03c098e347cf28d94117e6a30",
+      "shape": [
+        1832,
+        128
+      ],
+      "bytes": 1310546
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_275nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_275nM.txt",
+      "sha256": "cf69927c098f58af4fe2be3acd84a82a24f8e75609e8434b79cb5856573774d2",
+      "shape": [
+        1619,
+        128
+      ],
+      "bytes": 1258940
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_413nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_413nM.txt",
+      "sha256": "c68dd512f6b31f52dbe0d9ed003b14ed82f824aa88e7d7f97623127cebab5a6f",
+      "shape": [
+        1122,
+        128
+      ],
+      "bytes": 883999
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_690nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_690nM.txt",
+      "sha256": "7a05b7f6561fb1316652da4ef61b2ee46892c859c1facc8adc132dc0b098e0b7",
+      "shape": [
+        1390,
+        128
+      ],
+      "bytes": 1094341
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_1117nM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_1117nM.txt",
+      "sha256": "7a891d0b12a39dec8d2cc656e194c5384e62a0f20717e08ee00e43e7492f2b73",
+      "shape": [
+        1499,
+        128
+      ],
+      "bytes": 1172445
+    },
+    {
+      "construct": "2x",
+      "condition": "DM_70min_3uM",
+      "member": "source_data/2x_SIP18_HXK1_DM_70min_3uM.txt",
+      "sha256": "9d976ebdc4aa68f20ff8c74e38ca98830c5749d5afbbe45be4000c986290a937",
+      "shape": [
+        1654,
+        128
+      ],
+      "bytes": 1292709
+    },
+    {
+      "construct": "2x",
+      "condition": "FM1_5min_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM1_5min_690nM.txt",
+      "sha256": "6bcdf46cc7f1a873a924f3cb5119526f8fa7be913ee6a13c6291b98411dbbb2d",
+      "shape": [
+        803,
+        128
+      ],
+      "bytes": 548654
+    },
+    {
+      "construct": "2x",
+      "condition": "FM2_40minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM2_40minINT_690nM.txt",
+      "sha256": "926b2ba188ccfa0a1e1b091dd6621330c8eca67cb7b8c5935657451381e853f6",
+      "shape": [
+        860,
+        128
+      ],
+      "bytes": 628660
+    },
+    {
+      "construct": "2x",
+      "condition": "FM3_25minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM3_25minINT_690nM.txt",
+      "sha256": "d57a059aca8cebdf6e069414a61889841eb3ee5a43215a0ad02baae5b0c59b75",
+      "shape": [
+        825,
+        128
+      ],
+      "bytes": 588159
+    },
+    {
+      "construct": "2x",
+      "condition": "FM4_175minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM4_175minINT_690nM.txt",
+      "sha256": "eafa5eee7f07c06c51bb2ab71f7ec9fd3cff1890914325949a6d5ab7f2fbb6e2",
+      "shape": [
+        749,
+        128
+      ],
+      "bytes": 532886
+    },
+    {
+      "construct": "2x",
+      "condition": "FM5_13minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM5_13minINT_690nM.txt",
+      "sha256": "9862325686bff32ca8d227a1a075bb8e8878ab084a569e1db5de28e1664ce739",
+      "shape": [
+        986,
+        128
+      ],
+      "bytes": 716680
+    },
+    {
+      "construct": "2x",
+      "condition": "FM6_10minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM6_10minINT_690nM.txt",
+      "sha256": "a40a1ed025f4c82c25b7602b32c80b6d2bb2d5b7709be5cefc5aa2b2dcfd0146",
+      "shape": [
+        897,
+        128
+      ],
+      "bytes": 665484
+    },
+    {
+      "construct": "2x",
+      "condition": "FM7_786minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM7_786minINT_690nM.txt",
+      "sha256": "10d7691be31f3d8fd818c7fb2afc07258bc60908f3b3887618ef716a3ba6be43",
+      "shape": [
+        1066,
+        128
+      ],
+      "bytes": 799739
+    },
+    {
+      "construct": "2x",
+      "condition": "FM8_625minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM8_625minINT_690nM.txt",
+      "sha256": "9ad024bba70936a2e00571cfb93b88d4829105c163892e706981853c27710f00",
+      "shape": [
+        966,
+        128
+      ],
+      "bytes": 729497
+    },
+    {
+      "construct": "2x",
+      "condition": "FM9_5minINT_690nM",
+      "member": "source_data/2x_SIP18_HXK1_FM9_5minINT_690nM.txt",
+      "sha256": "0077516dce4d2edb2175ef63abbecb9d985592a1d701841fedbca15c02d55eab",
+      "shape": [
+        969,
+        128
+      ],
+      "bytes": 749437
+    }
+  ]
+}
