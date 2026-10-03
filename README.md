@@ -55,4 +55,6 @@ The analyses describe the finite records and declared model families. Numerical 
 
 ## Citation and reuse
 
-Citation metadata is in [CITATION.cff](CITATION.cff). The manuscript title is given above; a preprint identifier will be added after posting. The software license remains for the author to specify. No license grant is implied by this initial upload. Original source data should be cited through its own DOI.
+Citation metadata is in [CITATION.cff](CITATION.cff). The manuscript title is given above; a preprint identifier will be added after posting.
+
+The software is licensed under the [MIT License](LICENSE). The author-created paper, figures and scientific documentation are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [Licensing](LICENSING.md) for the scope of each license. Material obtained from other sources retains its original terms and attribution. Original source data should be cited through its own DOI.

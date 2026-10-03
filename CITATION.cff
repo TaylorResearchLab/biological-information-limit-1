@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 message: "Please cite this repository and the accompanying manuscript."
 type: software
+license: MIT
 title: 'Code for Information limits from partially characterized biological processes'
 authors:
   - family-names: Taylor
