@@ -1,0 +1,61 @@
+{
+  "integrity": {
+    "status": "PASS",
+    "imported_files": 23,
+    "python_sources": 19
+  },
+  "numerical_verification": {
+    "status": "PASS",
+    "scope": "Reproduction from archived primary binary counts; source fluorescence preprocessing was not rerun.",
+    "primary_comparisons": 272,
+    "linear_programs": 544,
+    "max_lp_discrepancy": 1.1102230246251565e-16,
+    "tcr_table_information_matches": true,
+    "msn2_tables_4_and_5_match": true,
+    "ribosome_drivers_completed": true,
+    "ribosome_tables_2_and_3_match": true,
+    "ribosome_local_bounds": {
+      "WT": [
+        0.6164231700456411,
+        0.8594175895427273
+      ],
+      "restrictive": [
+        0.7130199008442538,
+        0.9895900789402441
+      ]
+    },
+    "passage_control_bits": [
+      0.8253811175324837,
+      0.04654857444005904,
+      0.0045024786923536005
+    ],
+    "separate_output_U_threshold": 3.5999999999999996,
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]"
+  },
+  "reference_byte_comparison": {
+    "decision_comparison.json": {
+      "byte_identical": true,
+      "generated_sha256": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
+      "archived_sha256": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d"
+    },
+    "information_panel.json": {
+      "byte_identical": true,
+      "generated_sha256": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
+      "archived_sha256": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296"
+    },
+    "information_reveal.json": {
+      "byte_identical": true,
+      "generated_sha256": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
+      "archived_sha256": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89"
+    }
+  },
+  "scope": "Starts from archived primary binary counts. Raw fluorescence processing and alternate thresholds are separate commands.",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  },
+  "test_scope": "Local test of the prepared public import. Not a GitHub Actions run."
+}

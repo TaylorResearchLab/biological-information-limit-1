@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite this repository and the accompanying manuscript."
+type: software
+title: 'Code for Information limits from partially characterized biological processes'
+authors:
+  - family-names: Taylor
+    given-names: Deanne M.
+repository-code: 'https://github.com/TaylorResearchLab/biological-information-limit-1'
+abstract: 'Preserved code, primary binary inputs and reproducible outputs for kinetic proofreading, ribosomal tRNA selection and joint reporter information analyses.'

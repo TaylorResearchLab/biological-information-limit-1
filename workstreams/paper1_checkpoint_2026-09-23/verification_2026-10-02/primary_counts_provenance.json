@@ -1,0 +1,9 @@
+{
+  "source_repository": "TaylorResearchLab/BICSv1",
+  "source_commit": "32b0e6633ed2f2d9c8a46f98057382bf765822d4",
+  "source_path": "workstreams/msn2_pairing_2026-09-23/results/analysis/condition_counts.json",
+  "source_git_blob": "0e696fe1bcb91495a4e905403f8a5cacca2e628a",
+  "source_lines": "1-375",
+  "transformation": "Retained all 34 primary_median condition records from the fetched source. Recomputed the 272 pair comparisons using the unchanged reviewed analyze_counts implementation.",
+  "scope": "Verification from archived binary counts. Source fluorescence preprocessing and the four alternate threshold schemes were not rerun."
+}

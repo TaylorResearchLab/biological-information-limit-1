@@ -1,0 +1,376 @@
+[
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "info_theory_untreated",
+    "counts_00_01_10_11": [
+      612,
+      0,
+      7,
+      0
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_100nM",
+    "counts_00_01_10_11": [
+      2379,
+      409,
+      457,
+      225
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_175nM",
+    "counts_00_01_10_11": [
+      415,
+      261,
+      285,
+      500
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_275nM",
+    "counts_00_01_10_11": [
+      175,
+      227,
+      249,
+      896
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_413nM",
+    "counts_00_01_10_11": [
+      10,
+      62,
+      164,
+      969
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_690nM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      92,
+      1275
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_1117nM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      50,
+      1373
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "DM_70min_3uM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      43,
+      1712
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM1_5min_690nM",
+    "counts_00_01_10_11": [
+      981,
+      12,
+      95,
+      0
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM2_40minINT_690nM",
+    "counts_00_01_10_11": [
+      845,
+      45,
+      146,
+      14
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM3_25minINT_690nM",
+    "counts_00_01_10_11": [
+      688,
+      106,
+      144,
+      45
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM4_175minINT_690nM",
+    "counts_00_01_10_11": [
+      564,
+      191,
+      176,
+      92
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM5_13minINT_690nM",
+    "counts_00_01_10_11": [
+      353,
+      229,
+      129,
+      152
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM6_10minINT_690nM",
+    "counts_00_01_10_11": [
+      352,
+      230,
+      134,
+      200
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM7_786minINT_690nM",
+    "counts_00_01_10_11": [
+      246,
+      246,
+      127,
+      238
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM8_625minINT_690nM",
+    "counts_00_01_10_11": [
+      167,
+      185,
+      121,
+      354
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition": "FM9_5minINT_690nM",
+    "counts_00_01_10_11": [
+      100,
+      143,
+      122,
+      417
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "info_theory_untreated",
+    "counts_00_01_10_11": [
+      758,
+      0,
+      27,
+      0
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_100nM",
+    "counts_00_01_10_11": [
+      1016,
+      89,
+      84,
+      11
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_175nM",
+    "counts_00_01_10_11": [
+      894,
+      357,
+      318,
+      263
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_275nM",
+    "counts_00_01_10_11": [
+      35,
+      72,
+      242,
+      1270
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_413nM",
+    "counts_00_01_10_11": [
+      2,
+      40,
+      25,
+      1055
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_690nM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      16,
+      1374
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_1117nM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      32,
+      1467
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "DM_70min_3uM",
+    "counts_00_01_10_11": [
+      0,
+      0,
+      16,
+      1638
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM1_5min_690nM",
+    "counts_00_01_10_11": [
+      721,
+      9,
+      71,
+      2
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM2_40minINT_690nM",
+    "counts_00_01_10_11": [
+      692,
+      49,
+      107,
+      12
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM3_25minINT_690nM",
+    "counts_00_01_10_11": [
+      563,
+      102,
+      125,
+      35
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM4_175minINT_690nM",
+    "counts_00_01_10_11": [
+      437,
+      135,
+      122,
+      55
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM5_13minINT_690nM",
+    "counts_00_01_10_11": [
+      428,
+      239,
+      156,
+      163
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM6_10minINT_690nM",
+    "counts_00_01_10_11": [
+      337,
+      206,
+      161,
+      193
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM7_786minINT_690nM",
+    "counts_00_01_10_11": [
+      289,
+      286,
+      154,
+      337
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM8_625minINT_690nM",
+    "counts_00_01_10_11": [
+      191,
+      227,
+      159,
+      389
+    ]
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition": "FM9_5minINT_690nM",
+    "counts_00_01_10_11": [
+      88,
+      138,
+      167,
+      576
+    ]
+  }
+]
