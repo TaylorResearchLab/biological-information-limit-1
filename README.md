@@ -24,6 +24,16 @@ The command starts from the 34 included primary binary count records. It regener
 
 Read `runs/primary-001/run_manifest.json` for the numerical checks, file comparisons and software versions. The output directory also contains the generated pair records, decision results, information bounds, pairing-reveal results and figures. The primary command needs no private repository or prior conversation files.
 
+## Saved primary inputs and reference results
+
+The repository includes the [272 primary input records](workstreams/method_comparison_2026-09-23/inputs/primary_records.json) and the [reference result files](workstreams/method_comparison_2026-09-23/results/science). These cover the decision comparisons, information bounds, pairing-reveal calculation and summary. Each file matches the historical analysis checkpoint byte for byte. Their SHA-256 digests and Git object identities are recorded in [the materialization record](provenance/primary_reference_materialization.json).
+
+To rerun the comparison directly from the archived input:
+
+```bash
+python workstreams/method_comparison_2026-09-23/src/run_comparison.py --inputs workstreams/method_comparison_2026-09-23/inputs/primary_records.json --out runs/information-001
+```
+
 ## Files and provenance
 
 The initial import contains all 18 Python source files from Supplementary Code S1 with their comments and docstrings unchanged. An existing verification program and its binary count inputs are included. The original directory paths are retained so that imports and manuscript paths continue to resolve.
