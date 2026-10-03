@@ -43,9 +43,23 @@ The archived result identities are in `reference_results/expected_information_sh
 
 The generated primary-pair file contains more fields than the historical compact input file. Consequently, the input-file hash in the newly generated `summary.json` can differ from the historical summary while the three scientific result files remain byte-identical. Input-file identity and numerical result identity are recorded separately.
 
+## Complete Msn2 derived analysis
+
+```bash
+python tools/verify_msn2_derived.py --out runs/msn2-derived-validation-001.json
+```
+
+Choose a new output file. The verifier first checks the archived identities of all nine Msn2 data and result files. It then reconstructs thresholds and counts from all 40,458 saved scalar-feature rows and recomputes all 1,360 comparisons across the five response definitions. It checks 170 condition records, 10 threshold records, 10 summaries, 40 reference contrasts and the pairing-reveal calculation with its 40 nested-interval checks. The 34 primary count records are also compared with those used by the primary reproduction command.
+
+Exact fractions, count values, labels and other discrete fields must match exactly. Floating values use absolute and relative tolerances of 1e-12. The report records the largest floating difference and byte agreement for each regenerated analysis JSON file. It separately requires exact byte agreement for the descriptive pairing-reveal output. Archived files are preserved.
+
+The transfer verification found zero numerical differences and exact byte agreement for all five regenerated analysis JSON files. The report in `provenance/msn2_archive_validation.json` records that execution. The automated workflow repeats this check from the public checkout and stores its new report in the workflow output artifact.
+
+The six additional comparison-guard tests cover exact values, floating tolerances, missing fields, missing rows and nonfinite values. These are software tests, separate from scientific or biological validation.
+
 ## Original fluorescence data
 
-See [Data provenance](DATA_PROVENANCE.md) for the source DOI and pinned archive digest. The source command regenerates all five response definitions. This larger calculation is distinct from the primary binary-count entry point. The original data archive is not redistributed here.
+See [Data provenance](DATA_PROVENANCE.md) for the source DOI and pinned archive digest. The source command regenerates all five response definitions from the original trajectories. This calculation is distinct from both the primary binary-count entry point and the scalar-feature verification above. The original data archive is not redistributed here.
 
 ## Interpretation
 

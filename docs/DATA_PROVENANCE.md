@@ -22,6 +22,14 @@ The count totals are 21,236 cells for the one-copy construct and 19,222 for the 
 
 The primary reproduction command derives all 272 within-construct protocol-pair comparisons from these counts. Its generated pair file is the complete input for the information and decision comparison program. No private repository access is required for that command.
 
+## Included full derived archive
+
+The saved files under `workstreams/msn2_pairing_2026-09-23/results/analysis/` contain 40,458 rows of scalar fluorescence features, 170 condition-count records, 10 threshold records with two reporter thresholds each, 1,360 comparisons across five response definitions, 40 reference contrasts and 10 summaries. Source-member provenance and the zero-value audit are included. The saved `results/constraint_reveal.json` contains 10 descriptive cases and 40 checks of nested accuracy intervals.
+
+`provenance/msn2_archive_manifest.json` records the size, SHA-256 digest and Git object identity of each of the nine files against scientific checkpoint `32b0e6633ed2f2d9c8a46f98057382bf765822d4`. All transferred bytes match these historical identities. `provenance/msn2_archive_transfer.json` records the transfer method separately from scientific computation.
+
+`tools/verify_msn2_derived.py` reconstructs all five response definitions from the archived scalar features using the unchanged analysis functions. It verifies the thresholds, counts, pair comparisons, summaries, reference contrasts and pairing-reveal results. This check starts after the original trajectory smoothing and feature extraction. The archived zero-value audit is checked for byte identity and dimensions rather than recomputed from raw traces.
+
 ## Regenerate from the original archive
 
 ```bash
@@ -31,7 +39,7 @@ python workstreams/msn2_pairing_2026-09-23/src/reveal_pairing.py --results runs/
 
 The original program defines its smoothing, trace summary, thresholds, zeros and outcome ordering explicitly. The primary response uses the maximum of complete 11-point moving-average windows and median thresholds calibrated separately for each reporter. Four alternate response definitions are available in the same program.
 
-The larger historical outputs include the derived fluorescence feature table, 170 condition-count records and 1,360 comparisons across five response definitions. Those saved tables are a separate archival addition and are not part of this initial public import. The commands above provide their generation path; they are not run by the default binary-count reproduction command.
+The commands above provide the generation path from the original source archive for the saved derived files. They are separate from the default binary-count reproduction command and the scalar-feature verification command. Original fluorescence preprocessing was not repeated during the public archive transfer.
 
 ## Measurement scope
 

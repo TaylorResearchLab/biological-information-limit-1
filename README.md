@@ -43,13 +43,23 @@ The initial import contains all 18 Python source files from Supplementary Code S
 - [Imported file manifest](provenance/import_manifest.json) records sizes, SHA-256 digests and Git object identities.
 - [Reference result identities](reference_results/expected_information_sha256.json) records the exact archived outputs used for comparison.
 
-`verify_archive.py` checks all 28 imported files and parses all 19 imported Python programs. The top-level wrapper, archive verifier and packaging tests are separate additions. Run the packaging tests with `python -m unittest discover -s tests -v`.
+`verify_archive.py` checks all 37 imported files and parses all 19 imported Python programs. The top-level wrapper, archive verifier, derived-data verifier and packaging tests are separate additions. Run the packaging tests with `python -m unittest discover -s tests -v`.
 
-The GitHub Actions workflow runs archive checks and primary reproduction from a checkout of this public repository. Its output artifact contains the generated results and run record. Read the workflow's actual status rather than treating the presence of the workflow as a passed test.
+The GitHub Actions workflow runs archive checks, primary reproduction and verification of the complete Msn2 derived archive from a checkout of this public repository. Its output artifact contains the generated results and run records. Read the workflow's actual status rather than treating the presence of the workflow as a passed test.
 
-## Scope of this initial import
+## Complete Msn2 derived archive
 
-The primary analysis is executable from the included binary counts. The larger historical tables of derived fluorescence features and the complete set of 1,360 comparisons across all five response definitions are not yet included as saved files. The original preprocessing programs and source-data instructions are included for their regeneration. Raw fluorescence preprocessing and the alternate response definitions are separate from the default primary command.
+The [saved Msn2 analysis files](workstreams/msn2_pairing_2026-09-23/results/analysis) include 40,458 rows of scalar fluorescence features, 170 condition-count records and all 1,360 comparisons across five response definitions. The archive also includes thresholds, source-member identities, zero-value audit records, reference contrasts, summaries and the [descriptive pairing-reveal results](workstreams/msn2_pairing_2026-09-23/results/constraint_reveal.json). All nine files match their historical size, SHA-256 digest and Git object identity. See [the archive manifest](provenance/msn2_archive_manifest.json).
+
+To verify the full derived analysis:
+
+```bash
+python tools/verify_msn2_derived.py --out runs/msn2-derived-validation-001.json
+```
+
+This command starts from the saved scalar features. It reconstructs the thresholds and all 170 count records, recomputes all 1,360 comparisons and checks the saved summaries and reference contrasts. It also reproduces the pairing-reveal calculation. Exact fractions and discrete fields must match exactly. Floating values are checked with absolute and relative tolerances of 1e-12; the report separately records whether each regenerated JSON file is byte-identical. The [recorded verification](provenance/msn2_archive_validation.json) found zero numerical differences and exact byte agreement for all five regenerated analysis JSON files.
+
+Original fluorescence preprocessing remains a separate calculation. The original programs and source-data instructions are included for that purpose. Neither the default primary command nor the derived-data verifier reruns the raw trajectories.
 
 The analyses describe the finite records and declared model families. Numerical reproduction does not establish population confidence coverage or independent biological replication.
 

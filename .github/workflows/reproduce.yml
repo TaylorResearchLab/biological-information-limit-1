@@ -21,6 +21,7 @@ jobs:
       - run: python verify_archive.py
       - run: python -m unittest discover -s tests -v
       - run: python reproduce.py --out runs/ci --figures --strict-bytes
+      - run: python tools/verify_msn2_derived.py --out runs/msn2-derived-validation.json
       - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
         if: always()
         with:

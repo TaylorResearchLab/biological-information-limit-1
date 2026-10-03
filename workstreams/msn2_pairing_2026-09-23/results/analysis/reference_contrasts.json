@@ -1,0 +1,9082 @@
+[
+  {
+    "counts": [
+      [
+        612,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        92,
+        1275
+      ]
+    ],
+    "cell_rows": [
+      619,
+      1367
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "7/619",
+        "value": 0.011308562197092083
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1275/1367",
+        "value": 0.9326993416239941
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1275/1367",
+        "value": 0.9326993416239941
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      },
+      {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "1231/1238",
+      "value": 0.994345718901454
+    },
+    "SIP18_accuracy": {
+      "exact": "1231/1238",
+      "value": 0.994345718901454
+    },
+    "HXK1_accuracy": {
+      "exact": "1321/1367",
+      "value": 0.9663496708119971
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "1231/1238",
+      "value": 0.994345718901454
+    },
+    "independence_decoder": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1231/1238",
+      "value": 0.994345718901454
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      },
+      "decisions": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9766430794134373,
+    "SIP18_MI_bits": 0.9552335720421761,
+    "HXK1_MI_bits": 0.8188460128758326,
+    "independence_completion_MI_bits": 0.9766430794134373,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1275/1367",
+          "value": 0.9326993416239941
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "612/619",
+            "value": 0.9886914378029079
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/619",
+            "value": 0.011308562197092083
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "92/1367",
+            "value": 0.06730065837600585
+          },
+          {
+            "exact": "1275/1367",
+            "value": 0.9326993416239941
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1275/1367",
+          "value": 0.9326993416239941
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "612/619",
+            "value": 0.9886914378029079
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/619",
+            "value": 0.011308562197092083
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "92/1367",
+            "value": 0.06730065837600585
+          },
+          {
+            "exact": "1275/1367",
+            "value": 0.9326993416239941
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        2379,
+        409,
+        457,
+        225
+      ],
+      [
+        0,
+        0,
+        43,
+        1712
+      ]
+    ],
+    "cell_rows": [
+      3470,
+      1755
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "341/1735",
+        "value": 0.19654178674351586
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "317/1735",
+        "value": 0.18270893371757926
+      },
+      {
+        "exact": "1712/1755",
+        "value": 0.9754985754985755
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "45/694",
+        "value": 0.06484149855907781
+      },
+      {
+        "exact": "1712/1755",
+        "value": 0.9754985754985755
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "3129/3470",
+        "value": 0.9017291066282421
+      },
+      {
+        "exact": "3467/3510",
+        "value": 0.9877492877492877
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "10477/121797",
+      "value": 0.08602018112104567
+    },
+    "paired_accuracy": {
+      "exact": "2327123/2435940",
+      "value": 0.9553285384697489
+    },
+    "SIP18_accuracy": {
+      "exact": "3129/3470",
+      "value": 0.9017291066282421
+    },
+    "HXK1_accuracy": {
+      "exact": "545891/608985",
+      "value": 0.8963948208904982
+    },
+    "gain_over_best_single": {
+      "exact": "26113/487188",
+      "value": 0.05359943184150677
+    },
+    "independence_completion_accuracy": {
+      "exact": "1024673984/1056588975",
+      "value": 0.9697943176058599
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2327123/2435940",
+      "value": 0.9553285384697489
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "174181/12040900",
+      "value": 0.014465779136111087
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "3129/3470",
+        "value": 0.9017291066282421
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.775954324551142,
+    "SIP18_MI_bits": 0.6144743171697805,
+    "HXK1_MI_bits": 0.5558759592921251,
+    "independence_completion_MI_bits": 0.8359013973741458,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "3129/3470",
+        "value": 0.9017291066282421
+      },
+      "t": [
+        {
+          "exact": "20954/121797",
+          "value": 0.17204036224209135
+        },
+        {
+          "exact": "1712/1755",
+          "value": 0.9754985754985755
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "482797/608985",
+            "value": 0.7927896417809962
+          },
+          {
+            "exact": "6497/608985",
+            "value": 0.010668571475487902
+          },
+          {
+            "exact": "43/1755",
+            "value": 0.0245014245014245
+          },
+          {
+            "exact": "20954/121797",
+            "value": 0.17204036224209135
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "43/1755",
+            "value": 0.0245014245014245
+          },
+          {
+            "exact": "1712/1755",
+            "value": 0.9754985754985755
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "3467/3510",
+        "value": 0.9877492877492877
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1712/1755",
+          "value": 0.9754985754985755
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1077/1735",
+            "value": 0.6207492795389049
+          },
+          {
+            "exact": "317/1735",
+            "value": 0.18270893371757926
+          },
+          {
+            "exact": "341/1735",
+            "value": 0.19654178674351586
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "43/1755",
+            "value": 0.0245014245014245
+          },
+          {
+            "exact": "1712/1755",
+            "value": 0.9754985754985755
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        92,
+        1275
+      ],
+      [
+        100,
+        143,
+        122,
+        417
+      ]
+    ],
+    "cell_rows": [
+      1367,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "539/782",
+        "value": 0.6892583120204604
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1275/1367",
+        "value": 0.9326993416239941
+      },
+      {
+        "exact": "280/391",
+        "value": 0.7161125319693095
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1275/1367",
+        "value": 0.9326993416239941
+      },
+      {
+        "exact": "417/782",
+        "value": 0.5332480818414322
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1025/1564",
+        "value": 0.6553708439897699
+      },
+      {
+        "exact": "1632705/2137988",
+        "value": 0.7636642488171121
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "115765/1068994",
+      "value": 0.10829340482734234
+    },
+    "paired_accuracy": {
+      "exact": "1496005/2137988",
+      "value": 0.699725629891281
+    },
+    "SIP18_accuracy": {
+      "exact": "1025/1564",
+      "value": 0.6553708439897699
+    },
+    "HXK1_accuracy": {
+      "exact": "325131/534497",
+      "value": 0.6082934048273423
+    },
+    "gain_over_best_single": {
+      "exact": "47415/1068994",
+      "value": 0.04435478590151114
+    },
+    "independence_completion_accuracy": {
+      "exact": "150378891/208988327",
+      "value": 0.719556413311065
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1496005/2137988",
+      "value": 0.699725629891281
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "12127/611524",
+      "value": 0.019830783419784014
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1025/1564",
+        "value": 0.6553708439897699
+      },
+      "decisions": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.20819664713031127,
+    "SIP18_MI_bits": 0.1761053411258891,
+    "HXK1_MI_bits": 0.062111837910529814,
+    "independence_completion_MI_bits": 0.22852916905546355,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1025/1564",
+        "value": 0.6553708439897699
+      },
+      "t": [
+        {
+          "exact": "1275/1367",
+          "value": 0.9326993416239941
+        },
+        {
+          "exact": "664869/1068994",
+          "value": 0.6219576536444545
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "92/1367",
+            "value": 0.06730065837600585
+          },
+          {
+            "exact": "1275/1367",
+            "value": 0.9326993416239941
+          }
+        ],
+        [
+          {
+            "exact": "115765/534497",
+            "value": 0.2165868096546847
+          },
+          {
+            "exact": "100651/1068994",
+            "value": 0.09415487832485496
+          },
+          {
+            "exact": "92/1367",
+            "value": 0.06730065837600585
+          },
+          {
+            "exact": "664869/1068994",
+            "value": 0.6219576536444545
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1632705/2137988",
+        "value": 0.7636642488171121
+      },
+      "t": [
+        {
+          "exact": "1275/1367",
+          "value": 0.9326993416239941
+        },
+        {
+          "exact": "317/782",
+          "value": 0.4053708439897698
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "92/1367",
+            "value": 0.06730065837600585
+          },
+          {
+            "exact": "1275/1367",
+            "value": 0.9326993416239941
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "243/782",
+            "value": 0.31074168797953966
+          },
+          {
+            "exact": "111/391",
+            "value": 0.28388746803069054
+          },
+          {
+            "exact": "317/782",
+            "value": 0.4053708439897698
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        981,
+        12,
+        95,
+        0
+      ],
+      [
+        100,
+        143,
+        122,
+        417
+      ]
+    ],
+    "cell_rows": [
+      1088,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "95/1088",
+        "value": 0.08731617647058823
+      },
+      {
+        "exact": "539/782",
+        "value": 0.6892583120204604
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "3/272",
+        "value": 0.011029411764705883
+      },
+      {
+        "exact": "280/391",
+        "value": 0.7161125319693095
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "417/782",
+        "value": 0.5332480818414322
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "10667/12512",
+        "value": 0.8525415601023018
+      },
+      {
+        "exact": "2081/2176",
+        "value": 0.9563419117647058
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "5195/50048",
+      "value": 0.10380035166240409
+    },
+    "paired_accuracy": {
+      "exact": "2611/2944",
+      "value": 0.8868885869565217
+    },
+    "SIP18_accuracy": {
+      "exact": "40087/50048",
+      "value": 0.8009710677749361
+    },
+    "HXK1_accuracy": {
+      "exact": "10667/12512",
+      "value": 0.8525415601023018
+    },
+    "gain_over_best_single": {
+      "exact": "1719/50048",
+      "value": 0.03434702685421995
+    },
+    "independence_completion_accuracy": {
+      "exact": "284044861/313100288",
+      "value": 0.9072008934083127
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2611/2944",
+      "value": 0.8868885869565217
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "6359789/313100288",
+      "value": 0.020312306451790937
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "10667/12512",
+        "value": 0.8525415601023018
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.5762307687834602,
+    "SIP18_MI_bits": 0.3029476966469383,
+    "HXK1_MI_bits": 0.4714892006619621,
+    "independence_completion_MI_bits": 0.6251163440698821,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "10667/12512",
+        "value": 0.8525415601023018
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "15063/25024",
+          "value": 0.6019421355498721
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "981/1088",
+            "value": 0.9016544117647058
+          },
+          {
+            "exact": "3/272",
+            "value": 0.011029411764705883
+          },
+          {
+            "exact": "95/1088",
+            "value": 0.08731617647058823
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "4919/25024",
+            "value": 0.1965712915601023
+          },
+          {
+            "exact": "2857/25024",
+            "value": 0.11417039641943734
+          },
+          {
+            "exact": "95/1088",
+            "value": 0.08731617647058823
+          },
+          {
+            "exact": "15063/25024",
+            "value": 0.6019421355498721
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2081/2176",
+        "value": 0.9563419117647058
+      },
+      "t": [
+        {
+          "exact": "3/272",
+          "value": 0.011029411764705883
+        },
+        {
+          "exact": "317/782",
+          "value": 0.4053708439897698
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "993/1088",
+            "value": 0.9126838235294118
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "83/1088",
+            "value": 0.07628676470588236
+          },
+          {
+            "exact": "3/272",
+            "value": 0.011029411764705883
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "243/782",
+            "value": 0.31074168797953966
+          },
+          {
+            "exact": "111/391",
+            "value": 0.28388746803069054
+          },
+          {
+            "exact": "317/782",
+            "value": 0.4053708439897698
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "1x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        758,
+        0,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        1374
+      ]
+    ],
+    "cell_rows": [
+      785,
+      1390
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "27/785",
+        "value": 0.034394904458598725
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "687/695",
+        "value": 0.9884892086330935
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "687/695",
+        "value": 0.9884892086330935
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      },
+      {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "691/695",
+      "value": 0.9942446043165467
+    },
+    "SIP18_accuracy": {
+      "exact": "1543/1570",
+      "value": 0.9828025477707006
+    },
+    "HXK1_accuracy": {
+      "exact": "691/695",
+      "value": 0.9942446043165467
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "691/695",
+      "value": 0.9942446043165467
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "691/695",
+      "value": 0.9942446043165467
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9813516705256055,
+    "SIP18_MI_bits": 0.891159261255132,
+    "HXK1_MI_bits": 0.9545793622313397,
+    "independence_completion_MI_bits": 0.9813516705256055,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "687/695",
+          "value": 0.9884892086330935
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "758/785",
+            "value": 0.9656050955414013
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/785",
+            "value": 0.034394904458598725
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/695",
+            "value": 0.011510791366906475
+          },
+          {
+            "exact": "687/695",
+            "value": 0.9884892086330935
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "687/695",
+          "value": 0.9884892086330935
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "758/785",
+            "value": 0.9656050955414013
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/785",
+            "value": 0.034394904458598725
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/695",
+            "value": 0.011510791366906475
+          },
+          {
+            "exact": "687/695",
+            "value": 0.9884892086330935
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        1016,
+        89,
+        84,
+        11
+      ],
+      [
+        0,
+        0,
+        16,
+        1638
+      ]
+    ],
+    "cell_rows": [
+      1200,
+      1654
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "19/240",
+        "value": 0.07916666666666666
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1/12",
+        "value": 0.08333333333333333
+      },
+      {
+        "exact": "819/827",
+        "value": 0.9903264812575574
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "11/1200",
+        "value": 0.009166666666666667
+      },
+      {
+        "exact": "819/827",
+        "value": 0.9903264812575574
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "461/480",
+        "value": 0.9604166666666667
+      },
+      {
+        "exact": "823/827",
+        "value": 0.9951632406287787
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "13793/396960",
+      "value": 0.03474657396211205
+    },
+    "paired_accuracy": {
+      "exact": "1966103/1984800",
+      "value": 0.9905799072954454
+    },
+    "SIP18_accuracy": {
+      "exact": "461/480",
+      "value": 0.9604166666666667
+    },
+    "HXK1_accuracy": {
+      "exact": "18925/19848",
+      "value": 0.9534965739621121
+    },
+    "gain_over_best_single": {
+      "exact": "4989/165400",
+      "value": 0.030163240628778717
+    },
+    "independence_completion_accuracy": {
+      "exact": "4724767/4763520",
+      "value": 0.9918646295176676
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1966103/1984800",
+      "value": 0.9905799072954454
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "37/28800",
+      "value": 0.0012847222222222223
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "461/480",
+        "value": 0.9604166666666667
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9411456076658804,
+    "SIP18_MI_bits": 0.7958562899805315,
+    "HXK1_MI_bits": 0.7498637015379342,
+    "independence_completion_MI_bits": 0.9498913316151326,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "461/480",
+        "value": 0.9604166666666667
+      },
+      "t": [
+        {
+          "exact": "13793/198480",
+          "value": 0.0694931479242241
+        },
+        {
+          "exact": "819/827",
+          "value": 0.9903264812575574
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "9001/9924",
+            "value": 0.9069931479242241
+          },
+          {
+            "exact": "2747/198480",
+            "value": 0.01384018540910923
+          },
+          {
+            "exact": "8/827",
+            "value": 0.009673518742442563
+          },
+          {
+            "exact": "13793/198480",
+            "value": 0.0694931479242241
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/827",
+            "value": 0.009673518742442563
+          },
+          {
+            "exact": "819/827",
+            "value": 0.9903264812575574
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "823/827",
+        "value": 0.9951632406287787
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "819/827",
+          "value": 0.9903264812575574
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "67/80",
+            "value": 0.8375
+          },
+          {
+            "exact": "1/12",
+            "value": 0.08333333333333333
+          },
+          {
+            "exact": "19/240",
+            "value": 0.07916666666666666
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/827",
+            "value": 0.009673518742442563
+          },
+          {
+            "exact": "819/827",
+            "value": 0.9903264812575574
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        16,
+        1374
+      ],
+      [
+        88,
+        138,
+        167,
+        576
+      ]
+    ],
+    "cell_rows": [
+      1390,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "743/969",
+        "value": 0.7667698658410733
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "687/695",
+        "value": 0.9884892086330935
+      },
+      {
+        "exact": "14/19",
+        "value": 0.7368421052631579
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "687/695",
+        "value": 0.9884892086330935
+      },
+      {
+        "exact": "192/323",
+        "value": 0.5944272445820433
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "8264/13205",
+        "value": 0.6258235516849678
+      },
+      {
+        "exact": "499999/673455",
+        "value": 0.7424386187644312
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "113/969",
+      "value": 0.11661506707946337
+    },
+    "paired_accuracy": {
+      "exact": "156473/224485",
+      "value": 0.697030982025525
+    },
+    "SIP18_accuracy": {
+      "exact": "1195/1938",
+      "value": 0.6166150670794633
+    },
+    "HXK1_accuracy": {
+      "exact": "8264/13205",
+      "value": 0.6258235516849678
+    },
+    "gain_over_best_single": {
+      "exact": "23/323",
+      "value": 0.07120743034055728
+    },
+    "independence_completion_accuracy": {
+      "exact": "9107306/12795645",
+      "value": 0.7117504432172039
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "156473/224485",
+      "value": 0.697030982025525
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "271/18411",
+      "value": 0.014719461191678888
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "8264/13205",
+        "value": 0.6258235516849678
+      },
+      "decisions": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.21325394528872374,
+    "SIP18_MI_bits": 0.12775217119640198,
+    "HXK1_MI_bits": 0.11615264341504467,
+    "independence_completion_MI_bits": 0.23311820125787822,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "8264/13205",
+        "value": 0.6258235516849678
+      },
+      "t": [
+        {
+          "exact": "687/695",
+          "value": 0.9884892086330935
+        },
+        {
+          "exact": "14/19",
+          "value": 0.7368421052631579
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/695",
+            "value": 0.011510791366906475
+          },
+          {
+            "exact": "687/695",
+            "value": 0.9884892086330935
+          }
+        ],
+        [
+          {
+            "exact": "226/969",
+            "value": 0.23323013415892674
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "29/969",
+            "value": 0.029927760577915376
+          },
+          {
+            "exact": "14/19",
+            "value": 0.7368421052631579
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "499999/673455",
+        "value": 0.7424386187644312
+      },
+      "t": [
+        {
+          "exact": "687/695",
+          "value": 0.9884892086330935
+        },
+        {
+          "exact": "488/969",
+          "value": 0.5036119711042312
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/695",
+            "value": 0.011510791366906475
+          },
+          {
+            "exact": "687/695",
+            "value": 0.9884892086330935
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "226/969",
+            "value": 0.23323013415892674
+          },
+          {
+            "exact": "5/19",
+            "value": 0.2631578947368421
+          },
+          {
+            "exact": "488/969",
+            "value": 0.5036119711042312
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        721,
+        9,
+        71,
+        2
+      ],
+      [
+        88,
+        138,
+        167,
+        576
+      ]
+    ],
+    "cell_rows": [
+      803,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1/11",
+        "value": 0.09090909090909091
+      },
+      {
+        "exact": "743/969",
+        "value": 0.7667698658410733
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1/73",
+        "value": 0.0136986301369863
+      },
+      {
+        "exact": "14/19",
+        "value": 0.7368421052631579
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "2/803",
+        "value": 0.0024906600249066002
+      },
+      {
+        "exact": "192/323",
+        "value": 0.5944272445820433
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1195/1387",
+        "value": 0.8615717375630858
+      },
+      {
+        "exact": "21/22",
+        "value": 0.9545454545454546
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "2837/30514",
+      "value": 0.09297371698236875
+    },
+    "paired_accuracy": {
+      "exact": "703046/778107",
+      "value": 0.9035338327505086
+    },
+    "SIP18_accuracy": {
+      "exact": "17863/21318",
+      "value": 0.8379303874659911
+    },
+    "HXK1_accuracy": {
+      "exact": "1195/1387",
+      "value": 0.8615717375630858
+    },
+    "gain_over_best_single": {
+      "exact": "32651/778107",
+      "value": 0.04196209518742281
+    },
+    "independence_completion_accuracy": {
+      "exact": "27132563/29568066",
+      "value": 0.9176306289359608
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "703046/778107",
+      "value": 0.9035338327505086
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "416815/29568066",
+      "value": 0.014096796185452237
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1195/1387",
+        "value": 0.8615717375630858
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.6201405677496267,
+    "SIP18_MI_bits": 0.3737907849752176,
+    "HXK1_MI_bits": 0.48668629665227525,
+    "independence_completion_MI_bits": 0.6664875745765035,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1195/1387",
+        "value": 0.8615717375630858
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "7204/10659",
+          "value": 0.6758607749319824
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "719/803",
+            "value": 0.8953922789539228
+          },
+          {
+            "exact": "1/73",
+            "value": 0.0136986301369863
+          },
+          {
+            "exact": "1/11",
+            "value": 0.09090909090909091
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "36/209",
+            "value": 0.1722488038277512
+          },
+          {
+            "exact": "650/10659",
+            "value": 0.06098133033117553
+          },
+          {
+            "exact": "1/11",
+            "value": 0.09090909090909091
+          },
+          {
+            "exact": "7204/10659",
+            "value": 0.6758607749319824
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "21/22",
+        "value": 0.9545454545454546
+      },
+      "t": [
+        {
+          "exact": "1/73",
+          "value": 0.0136986301369863
+        },
+        {
+          "exact": "488/969",
+          "value": 0.5036119711042312
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "10/11",
+            "value": 0.9090909090909091
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "62/803",
+            "value": 0.07721046077210461
+          },
+          {
+            "exact": "1/73",
+            "value": 0.0136986301369863
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "226/969",
+            "value": 0.23323013415892674
+          },
+          {
+            "exact": "5/19",
+            "value": 0.2631578947368421
+          },
+          {
+            "exact": "488/969",
+            "value": 0.5036119711042312
+          }
+        ]
+      ]
+    },
+    "scheme": "primary_median",
+    "construct": "2x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        442,
+        0,
+        177,
+        0
+      ],
+      [
+        0,
+        0,
+        7,
+        1360
+      ]
+    ],
+    "cell_rows": [
+      619,
+      1367
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "177/619",
+        "value": 0.2859450726978998
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1360/1367",
+        "value": 0.9948792977322605
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1360/1367",
+        "value": 0.9948792977322605
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "2727/2734",
+        "value": 0.9974396488661302
+      },
+      {
+        "exact": "2727/2734",
+        "value": 0.9974396488661302
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "2727/2734",
+      "value": 0.9974396488661302
+    },
+    "SIP18_accuracy": {
+      "exact": "1061/1238",
+      "value": 0.8570274636510501
+    },
+    "HXK1_accuracy": {
+      "exact": "2727/2734",
+      "value": 0.9974396488661302
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "2727/2734",
+      "value": 0.9974396488661302
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2727/2734",
+      "value": 0.9974396488661302
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "2727/2734",
+        "value": 0.9974396488661302
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9814149512114739,
+    "SIP18_MI_bits": 0.5084753314423068,
+    "HXK1_MI_bits": 0.9768139077746224,
+    "independence_completion_MI_bits": 0.9814149512114739,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "2727/2734",
+        "value": 0.9974396488661302
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1360/1367",
+          "value": 0.9948792977322605
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "442/619",
+            "value": 0.7140549273021002
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "177/619",
+            "value": 0.2859450726978998
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/1367",
+            "value": 0.005120702267739576
+          },
+          {
+            "exact": "1360/1367",
+            "value": 0.9948792977322605
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2727/2734",
+        "value": 0.9974396488661302
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1360/1367",
+          "value": 0.9948792977322605
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "442/619",
+            "value": 0.7140549273021002
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "177/619",
+            "value": 0.2859450726978998
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/1367",
+            "value": 0.005120702267739576
+          },
+          {
+            "exact": "1360/1367",
+            "value": 0.9948792977322605
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "1x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        733,
+        433,
+        940,
+        1364
+      ],
+      [
+        0,
+        0,
+        4,
+        1751
+      ]
+    ],
+    "cell_rows": [
+      3470,
+      1755
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1152/1735",
+        "value": 0.6639769452449568
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1797/3470",
+        "value": 0.5178674351585014
+      },
+      {
+        "exact": "1751/1755",
+        "value": 0.9977207977207977
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "682/1735",
+        "value": 0.3930835734870317
+      },
+      {
+        "exact": "1751/1755",
+        "value": 0.9977207977207977
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1802417/2435940",
+        "value": 0.7399266812811481
+      },
+      {
+        "exact": "2211683/2435940",
+        "value": 0.9079382086586697
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "583/3470",
+      "value": 0.16801152737752162
+    },
+    "paired_accuracy": {
+      "exact": "97720/121797",
+      "value": 0.802318612116883
+    },
+    "SIP18_accuracy": {
+      "exact": "1159/1735",
+      "value": 0.6680115273775216
+    },
+    "HXK1_accuracy": {
+      "exact": "1802417/2435940",
+      "value": 0.7399266812811481
+    },
+    "gain_over_best_single": {
+      "exact": "433/6940",
+      "value": 0.06239193083573487
+    },
+    "independence_completion_accuracy": {
+      "exact": "873729749/1056588975",
+      "value": 0.8269343800412076
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "97720/121797",
+      "value": 0.802318612116883
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "74099/3010225",
+      "value": 0.024615767924324593
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1802417/2435940",
+        "value": 0.7399266812811481
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.3931361166375672,
+    "SIP18_MI_bits": 0.19265466660781566,
+    "HXK1_MI_bits": 0.2875052627238806,
+    "independence_completion_MI_bits": 0.43942440945982963,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1802417/2435940",
+        "value": 0.7399266812811481
+      },
+      "t": [
+        {
+          "exact": "1797/3470",
+          "value": 0.5178674351585014
+        },
+        {
+          "exact": "1751/1755",
+          "value": 0.9977207977207977
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "583/1735",
+            "value": 0.33602305475504324
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "507/3470",
+            "value": 0.14610951008645534
+          },
+          {
+            "exact": "1797/3470",
+            "value": 0.5178674351585014
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "4/1755",
+            "value": 0.002279202279202279
+          },
+          {
+            "exact": "1751/1755",
+            "value": 0.9977207977207977
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2211683/2435940",
+        "value": 0.9079382086586697
+      },
+      "t": [
+        {
+          "exact": "631/3470",
+          "value": 0.1818443804034582
+        },
+        {
+          "exact": "1751/1755",
+          "value": 0.9977207977207977
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "583/1735",
+            "value": 0.33602305475504324
+          },
+          {
+            "exact": "1673/3470",
+            "value": 0.4821325648414986
+          },
+          {
+            "exact": "631/3470",
+            "value": 0.1818443804034582
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "4/1755",
+            "value": 0.002279202279202279
+          },
+          {
+            "exact": "1751/1755",
+            "value": 0.9977207977207977
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "1x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        7,
+        1360
+      ],
+      [
+        8,
+        68,
+        27,
+        679
+      ]
+    ],
+    "cell_rows": [
+      1367,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "353/391",
+        "value": 0.9028132992327366
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1360/1367",
+        "value": 0.9948792977322605
+      },
+      {
+        "exact": "747/782",
+        "value": 0.9552429667519181
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1360/1367",
+        "value": 0.9948792977322605
+      },
+      {
+        "exact": "679/782",
+        "value": 0.8682864450127877
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "429/782",
+        "value": 0.5485933503836317
+      },
+      {
+        "exact": "1215257/2137988",
+        "value": 0.5684115158738029
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "42371/2137988",
+      "value": 0.01981816549017113
+    },
+    "paired_accuracy": {
+      "exact": "1204321/2137988",
+      "value": 0.5632964263597363
+    },
+    "SIP18_accuracy": {
+      "exact": "429/782",
+      "value": 0.5485933503836317
+    },
+    "HXK1_accuracy": {
+      "exact": "1111365/2137988",
+      "value": 0.5198181654901711
+    },
+    "gain_over_best_single": {
+      "exact": "31435/2137988",
+      "value": 0.014703075976104636
+    },
+    "independence_completion_accuracy": {
+      "exact": "473347377/835953308",
+      "value": 0.566236621675047
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1204321/2137988",
+      "value": 0.5632964263597363
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "899/305762",
+      "value": 0.002940195315310601
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "429/782",
+        "value": 0.5485933503836317
+      },
+      "decisions": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.06051727211125926,
+    "SIP18_MI_bits": 0.05038445530374172,
+    "HXK1_MI_bits": 0.013323952831907154,
+    "independence_completion_MI_bits": 0.06321924791107829,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "429/782",
+        "value": 0.5485933503836317
+      },
+      "t": [
+        {
+          "exact": "1360/1367",
+          "value": 0.9948792977322605
+        },
+        {
+          "exact": "479814/534497",
+          "value": 0.897692596964997
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/1367",
+            "value": 0.005120702267739576
+          },
+          {
+            "exact": "1360/1367",
+            "value": 0.9948792977322605
+          }
+        ],
+        [
+          {
+            "exact": "42371/1068994",
+            "value": 0.03963633098034226
+          },
+          {
+            "exact": "61521/1068994",
+            "value": 0.057550369786921164
+          },
+          {
+            "exact": "7/1367",
+            "value": 0.005120702267739576
+          },
+          {
+            "exact": "479814/534497",
+            "value": 0.897692596964997
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1215257/2137988",
+        "value": 0.5684115158738029
+      },
+      "t": [
+        {
+          "exact": "1360/1367",
+          "value": 0.9948792977322605
+        },
+        {
+          "exact": "671/782",
+          "value": 0.8580562659846548
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/1367",
+            "value": 0.005120702267739576
+          },
+          {
+            "exact": "1360/1367",
+            "value": 0.9948792977322605
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "38/391",
+            "value": 0.09718670076726342
+          },
+          {
+            "exact": "35/782",
+            "value": 0.04475703324808184
+          },
+          {
+            "exact": "671/782",
+            "value": 0.8580562659846548
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "1x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        497,
+        148,
+        313,
+        130
+      ],
+      [
+        8,
+        68,
+        27,
+        679
+      ]
+    ],
+    "cell_rows": [
+      1088,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "443/1088",
+        "value": 0.4071691176470588
+      },
+      {
+        "exact": "353/391",
+        "value": 0.9028132992327366
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "139/544",
+        "value": 0.2555147058823529
+      },
+      {
+        "exact": "747/782",
+        "value": 0.9552429667519181
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "65/544",
+        "value": 0.11948529411764706
+      },
+      {
+        "exact": "679/782",
+        "value": 0.8682864450127877
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1251/1472",
+        "value": 0.8498641304347826
+      },
+      {
+        "exact": "372/391",
+        "value": 0.9514066496163683
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "2541/25024",
+      "value": 0.10154251918158567
+    },
+    "paired_accuracy": {
+      "exact": "21881/25024",
+      "value": 0.8744005754475703
+    },
+    "SIP18_accuracy": {
+      "exact": "37427/50048",
+      "value": 0.7478220907928389
+    },
+    "HXK1_accuracy": {
+      "exact": "1251/1472",
+      "value": 0.8498641304347826
+    },
+    "gain_over_best_single": {
+      "exact": "307/12512",
+      "value": 0.024536445012787723
+    },
+    "independence_completion_accuracy": {
+      "exact": "550545639/626200576",
+      "value": 0.8791841785211005
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "21881/25024",
+      "value": 0.8744005754475703
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "2995495/626200576",
+      "value": 0.00478360307353023
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1251/1472",
+        "value": 0.8498641304347826
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.5149811318271682,
+    "SIP18_MI_bits": 0.21202943863139773,
+    "HXK1_MI_bits": 0.42591935854478524,
+    "independence_completion_MI_bits": 0.5374490316637449,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1251/1472",
+        "value": 0.8498641304347826
+      },
+      "t": [
+        {
+          "exact": "1981/12512",
+          "value": 0.15832800511508952
+        },
+        {
+          "exact": "671/782",
+          "value": 0.8580562659846548
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "12403/25024",
+            "value": 0.49564418158567775
+          },
+          {
+            "exact": "38/391",
+            "value": 0.09718670076726342
+          },
+          {
+            "exact": "6227/25024",
+            "value": 0.2488411125319693
+          },
+          {
+            "exact": "1981/12512",
+            "value": 0.15832800511508952
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "38/391",
+            "value": 0.09718670076726342
+          },
+          {
+            "exact": "35/782",
+            "value": 0.04475703324808184
+          },
+          {
+            "exact": "671/782",
+            "value": 0.8580562659846548
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "372/391",
+        "value": 0.9514066496163683
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "353/391",
+          "value": 0.9028132992327366
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "367/1088",
+            "value": 0.33731617647058826
+          },
+          {
+            "exact": "139/544",
+            "value": 0.2555147058823529
+          },
+          {
+            "exact": "443/1088",
+            "value": 0.4071691176470588
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "35/782",
+            "value": 0.04475703324808184
+          },
+          {
+            "exact": "41/782",
+            "value": 0.052429667519181586
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "353/391",
+            "value": 0.9028132992327366
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "1x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        491,
+        0,
+        294,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1390
+      ]
+    ],
+    "cell_rows": [
+      785,
+      1390
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "294/785",
+        "value": 0.37452229299363055
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "SIP18_accuracy": {
+      "exact": "638/785",
+      "value": 0.8127388535031848
+    },
+    "HXK1_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 1.0,
+    "SIP18_MI_bits": 0.4192691142998902,
+    "HXK1_MI_bits": 1.0,
+    "independence_completion_MI_bits": 1.0,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "491/785",
+            "value": 0.6254777070063694
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "294/785",
+            "value": 0.37452229299363055
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "491/785",
+            "value": 0.6254777070063694
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "294/785",
+            "value": 0.37452229299363055
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "2x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        426,
+        300,
+        298,
+        176
+      ],
+      [
+        0,
+        0,
+        0,
+        1654
+      ]
+    ],
+    "cell_rows": [
+      1200,
+      1654
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "79/200",
+        "value": 0.395
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "119/300",
+        "value": 0.39666666666666667
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "11/75",
+        "value": 0.14666666666666667
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "321/400",
+        "value": 0.8025
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "79/400",
+      "value": 0.1975
+    },
+    "paired_accuracy": {
+      "exact": "139/150",
+      "value": 0.9266666666666666
+    },
+    "SIP18_accuracy": {
+      "exact": "321/400",
+      "value": 0.8025
+    },
+    "HXK1_accuracy": {
+      "exact": "481/600",
+      "value": 0.8016666666666666
+    },
+    "gain_over_best_single": {
+      "exact": "149/1200",
+      "value": 0.12416666666666666
+    },
+    "independence_completion_accuracy": {
+      "exact": "110599/120000",
+      "value": 0.9216583333333334
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "139/150",
+      "value": 0.9266666666666666
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "-601/120000",
+      "value": -0.005008333333333333
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "321/400",
+        "value": 0.8025
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.6837092045854728,
+    "SIP18_MI_bits": 0.40035017765148184,
+    "HXK1_MI_bits": 0.39883504210396875,
+    "independence_completion_MI_bits": 0.6690601494161067,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "321/400",
+        "value": 0.8025
+      },
+      "t": [
+        {
+          "exact": "79/200",
+          "value": 0.395
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "181/300",
+            "value": 0.6033333333333334
+          },
+          {
+            "exact": "1/600",
+            "value": 0.0016666666666666668
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "79/200",
+            "value": 0.395
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "5/24",
+            "value": 0.20833333333333334
+          },
+          {
+            "exact": "119/300",
+            "value": 0.39666666666666667
+          },
+          {
+            "exact": "79/200",
+            "value": 0.395
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "2x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        0,
+        1390
+      ],
+      [
+        3,
+        61,
+        21,
+        884
+      ]
+    ],
+    "cell_rows": [
+      1390,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "905/969",
+        "value": 0.9339525283797729
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "315/323",
+        "value": 0.9752321981424149
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "52/57",
+        "value": 0.9122807017543859
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1033/1938",
+        "value": 0.5330237358101135
+      },
+      {
+        "exact": "1057/1938",
+        "value": 0.5454076367389061
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "4/323",
+      "value": 0.01238390092879257
+    },
+    "paired_accuracy": {
+      "exact": "31/57",
+      "value": 0.543859649122807
+    },
+    "SIP18_accuracy": {
+      "exact": "1033/1938",
+      "value": 0.5330237358101135
+    },
+    "HXK1_accuracy": {
+      "exact": "331/646",
+      "value": 0.5123839009287926
+    },
+    "gain_over_best_single": {
+      "exact": "7/646",
+      "value": 0.010835913312693499
+    },
+    "independence_completion_accuracy": {
+      "exact": "113633/208658",
+      "value": 0.544589711393764
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "31/57",
+      "value": 0.543859649122807
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "457/625974",
+      "value": 0.0007300622709569407
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1033/1938",
+        "value": 0.5330237358101135
+      },
+      "decisions": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.04531144517580785,
+    "SIP18_MI_bits": 0.03383743818744128,
+    "HXK1_MI_bits": 0.01249591761012997,
+    "independence_completion_MI_bits": 0.04609140634801457,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1033/1938",
+        "value": 0.5330237358101135
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "905/969",
+          "value": 0.9339525283797729
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "8/323",
+            "value": 0.02476780185758514
+          },
+          {
+            "exact": "40/969",
+            "value": 0.0412796697626419
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "905/969",
+            "value": 0.9339525283797729
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1057/1938",
+        "value": 0.5454076367389061
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "881/969",
+          "value": 0.9091847265221878
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/969",
+            "value": 0.06604747162022703
+          },
+          {
+            "exact": "8/323",
+            "value": 0.02476780185758514
+          },
+          {
+            "exact": "881/969",
+            "value": 0.9091847265221878
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "2x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        345,
+        83,
+        293,
+        82
+      ],
+      [
+        3,
+        61,
+        21,
+        884
+      ]
+    ],
+    "cell_rows": [
+      803,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "375/803",
+        "value": 0.4669987546699875
+      },
+      {
+        "exact": "905/969",
+        "value": 0.9339525283797729
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "15/73",
+        "value": 0.2054794520547945
+      },
+      {
+        "exact": "315/323",
+        "value": 0.9752321981424149
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "82/803",
+        "value": 0.10211706102117062
+      },
+      {
+        "exact": "52/57",
+        "value": 0.9122807017543859
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "41729/47158",
+        "value": 0.8848763730438102
+      },
+      {
+        "exact": "937/969",
+        "value": 0.9669762641898865
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "11615/141474",
+      "value": 0.08209989114607631
+    },
+    "paired_accuracy": {
+      "exact": "82853/91542",
+      "value": 0.9050818203666077
+    },
+    "SIP18_accuracy": {
+      "exact": "1141447/1556214",
+      "value": 0.7334768868548928
+    },
+    "HXK1_accuracy": {
+      "exact": "41729/47158",
+      "value": 0.8848763730438102
+    },
+    "gain_over_best_single": {
+      "exact": "15722/778107",
+      "value": 0.02020544732279751
+    },
+    "independence_completion_accuracy": {
+      "exact": "11099081501/12231323302",
+      "value": 0.9074309644963058
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "82853/91542",
+      "value": 0.9050818203666077
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "43099712/18346984953",
+      "value": 0.002349144129698137
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "41729/47158",
+        "value": 0.8848763730438102
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.6079881001058627,
+    "SIP18_MI_bits": 0.20678236651661494,
+    "HXK1_MI_bits": 0.5262209403637067,
+    "independence_completion_MI_bits": 0.6175437847646673,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "41729/47158",
+        "value": 0.8848763730438102
+      },
+      "t": [
+        {
+          "exact": "9863/70737",
+          "value": 0.13943198043456748
+        },
+        {
+          "exact": "881/969",
+          "value": 0.9091847265221878
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "363340/778107",
+            "value": 0.4669537737097854
+          },
+          {
+            "exact": "64/969",
+            "value": 0.06604747162022703
+          },
+          {
+            "exact": "254882/778107",
+            "value": 0.3275667742354201
+          },
+          {
+            "exact": "9863/70737",
+            "value": 0.13943198043456748
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/969",
+            "value": 0.06604747162022703
+          },
+          {
+            "exact": "8/323",
+            "value": 0.02476780185758514
+          },
+          {
+            "exact": "881/969",
+            "value": 0.9091847265221878
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "937/969",
+        "value": 0.9669762641898865
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "905/969",
+          "value": 0.9339525283797729
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "263/803",
+            "value": 0.3275217932752179
+          },
+          {
+            "exact": "15/73",
+            "value": 0.2054794520547945
+          },
+          {
+            "exact": "375/803",
+            "value": 0.4669987546699875
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "8/323",
+            "value": 0.02476780185758514
+          },
+          {
+            "exact": "40/969",
+            "value": 0.0412796697626419
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "905/969",
+            "value": 0.9339525283797729
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q25",
+    "construct": "2x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        619,
+        0,
+        0,
+        0
+      ],
+      [
+        90,
+        92,
+        338,
+        847
+      ]
+    ],
+    "cell_rows": [
+      619,
+      1367
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1185/1367",
+        "value": 0.866861741038771
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "939/1367",
+        "value": 0.6869056327724945
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "847/1367",
+        "value": 0.6196049743964887
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1276/1367",
+        "value": 0.9334308705193856
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "91/1367",
+      "value": 0.06656912948061448
+    },
+    "paired_accuracy": {
+      "exact": "1322/1367",
+      "value": 0.9670811997073885
+    },
+    "SIP18_accuracy": {
+      "exact": "1276/1367",
+      "value": 0.9334308705193856
+    },
+    "HXK1_accuracy": {
+      "exact": "1153/1367",
+      "value": 0.8434528163862473
+    },
+    "gain_over_best_single": {
+      "exact": "46/1367",
+      "value": 0.033650329188002925
+    },
+    "independence_completion_accuracy": {
+      "exact": "1829741/1868689",
+      "value": 0.9791575805283811
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1322/1367",
+      "value": 0.9670811997073885
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "22567/1868689",
+      "value": 0.012076380820992685
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1276/1367",
+        "value": 0.9334308705193856
+      },
+      "decisions": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.821773598309861,
+    "SIP18_MI_bits": 0.7041842544106091,
+    "HXK1_MI_bits": 0.47972798075419987,
+    "independence_completion_MI_bits": 0.873763959543842,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1276/1367",
+        "value": 0.9334308705193856
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "939/1367",
+          "value": 0.6869056327724945
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "182/1367",
+            "value": 0.13313825896122897
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "246/1367",
+            "value": 0.1799561082662765
+          },
+          {
+            "exact": "939/1367",
+            "value": 0.6869056327724945
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "757/1367",
+          "value": 0.5537673738112655
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "182/1367",
+            "value": 0.13313825896122897
+          },
+          {
+            "exact": "428/1367",
+            "value": 0.3130943672275055
+          },
+          {
+            "exact": "757/1367",
+            "value": 0.5537673738112655
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "1x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        3326,
+        124,
+        15,
+        5
+      ],
+      [
+        1,
+        1,
+        251,
+        1502
+      ]
+    ],
+    "cell_rows": [
+      3470,
+      1755
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "2/347",
+        "value": 0.005763688760806916
+      },
+      {
+        "exact": "1753/1755",
+        "value": 0.9988603988603989
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "129/3470",
+        "value": 0.03717579250720461
+      },
+      {
+        "exact": "167/195",
+        "value": 0.8564102564102564
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1/694",
+        "value": 0.001440922190201729
+      },
+      {
+        "exact": "1502/1755",
+        "value": 0.8558404558404559
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "606883/608985",
+        "value": 0.996548355049796
+      },
+      {
+        "exact": "606883/608985",
+        "value": 0.996548355049796
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "606883/608985",
+      "value": 0.996548355049796
+    },
+    "SIP18_accuracy": {
+      "exact": "606883/608985",
+      "value": 0.996548355049796
+    },
+    "HXK1_accuracy": {
+      "exact": "246197/270660",
+      "value": 0.9096172319515259
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "606883/608985",
+      "value": 0.996548355049796
+    },
+    "independence_decoder": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "606883/608985",
+      "value": 0.996548355049796
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "606883/608985",
+        "value": 0.996548355049796
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9726659374459474,
+    "SIP18_MI_bits": 0.9680088520473892,
+    "HXK1_MI_bits": 0.5804393583288053,
+    "independence_completion_MI_bits": 0.9770521066745157,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "606883/608985",
+        "value": 0.996548355049796
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1501/1755",
+          "value": 0.8552706552706553
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "3321/3470",
+            "value": 0.9570605187319885
+          },
+          {
+            "exact": "129/3470",
+            "value": 0.03717579250720461
+          },
+          {
+            "exact": "2/347",
+            "value": 0.005763688760806916
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "2/1755",
+            "value": 0.0011396011396011395
+          },
+          {
+            "exact": "28/195",
+            "value": 0.14358974358974358
+          },
+          {
+            "exact": "1501/1755",
+            "value": 0.8552706552706553
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "606883/608985",
+        "value": 0.996548355049796
+      },
+      "t": [
+        {
+          "exact": "2/347",
+          "value": 0.005763688760806916
+        },
+        {
+          "exact": "167/195",
+          "value": 0.8564102564102564
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "3341/3470",
+            "value": 0.9628242074927954
+          },
+          {
+            "exact": "109/3470",
+            "value": 0.0314121037463977
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "2/347",
+            "value": 0.005763688760806916
+          }
+        ],
+        [
+          {
+            "exact": "2/1755",
+            "value": 0.0011396011396011395
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "50/351",
+            "value": 0.14245014245014245
+          },
+          {
+            "exact": "167/195",
+            "value": 0.8564102564102564
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "1x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        90,
+        92,
+        338,
+        847
+      ],
+      [
+        456,
+        178,
+        76,
+        72
+      ]
+    ],
+    "cell_rows": [
+      1367,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1185/1367",
+        "value": 0.866861741038771
+      },
+      {
+        "exact": "74/391",
+        "value": 0.18925831202046037
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "939/1367",
+        "value": 0.6869056327724945
+      },
+      {
+        "exact": "125/391",
+        "value": 0.319693094629156
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "847/1367",
+        "value": 0.6196049743964887
+      },
+      {
+        "exact": "36/391",
+        "value": 0.09207161125319693
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "448337/534497",
+        "value": 0.8388017145091553
+      },
+      {
+        "exact": "1153/1367",
+        "value": 0.8434528163862473
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "2486/534497",
+      "value": 0.00465110187709192
+    },
+    "paired_accuracy": {
+      "exact": "448337/534497",
+      "value": 0.8388017145091553
+    },
+    "SIP18_accuracy": {
+      "exact": "448337/534497",
+      "value": 0.8388017145091553
+    },
+    "HXK1_accuracy": {
+      "exact": "730771/1068994",
+      "value": 0.6836062690716692
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "448337/534497",
+      "value": 0.8388017145091553
+    },
+    "independence_decoder": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "448337/534497",
+      "value": 0.8388017145091553
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "448337/534497",
+        "value": 0.8388017145091553
+      },
+      "decisions": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.3864971638221591,
+    "SIP18_MI_bits": 0.3647770468172937,
+    "HXK1_MI_bits": 0.09958832055398821,
+    "independence_completion_MI_bits": 0.4190848878250961,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "448337/534497",
+        "value": 0.8388017145091553
+      },
+      "t": [
+        {
+          "exact": "757/1367",
+          "value": 0.5537673738112655
+        },
+        {
+          "exact": "0",
+          "value": 0.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "182/1367",
+            "value": 0.13313825896122897
+          },
+          {
+            "exact": "428/1367",
+            "value": 0.3130943672275055
+          },
+          {
+            "exact": "757/1367",
+            "value": 0.5537673738112655
+          }
+        ],
+        [
+          {
+            "exact": "192/391",
+            "value": 0.49104859335038364
+          },
+          {
+            "exact": "125/391",
+            "value": 0.319693094629156
+          },
+          {
+            "exact": "74/391",
+            "value": 0.18925831202046037
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1153/1367",
+        "value": 0.8434528163862473
+      },
+      "t": [
+        {
+          "exact": "939/1367",
+          "value": 0.6869056327724945
+        },
+        {
+          "exact": "0",
+          "value": 0.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "182/1367",
+            "value": 0.13313825896122897
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "246/1367",
+            "value": 0.1799561082662765
+          },
+          {
+            "exact": "939/1367",
+            "value": 0.6869056327724945
+          }
+        ],
+        [
+          {
+            "exact": "192/391",
+            "value": 0.49104859335038364
+          },
+          {
+            "exact": "125/391",
+            "value": 0.319693094629156
+          },
+          {
+            "exact": "74/391",
+            "value": 0.18925831202046037
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "1x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        1087,
+        0,
+        1,
+        0
+      ],
+      [
+        456,
+        178,
+        76,
+        72
+      ]
+    ],
+    "cell_rows": [
+      1088,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1/1088",
+        "value": 0.0009191176470588235
+      },
+      {
+        "exact": "74/391",
+        "value": 0.18925831202046037
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "125/391",
+        "value": 0.319693094629156
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "36/391",
+        "value": 0.09207161125319693
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "258/391",
+        "value": 0.659846547314578
+      },
+      {
+        "exact": "37737/50048",
+        "value": 0.7540161445012787
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "4713/50048",
+      "value": 0.09416959718670077
+    },
+    "paired_accuracy": {
+      "exact": "35433/50048",
+      "value": 0.7079803388746803
+    },
+    "SIP18_accuracy": {
+      "exact": "29737/50048",
+      "value": 0.5941695971867008
+    },
+    "HXK1_accuracy": {
+      "exact": "258/391",
+      "value": 0.659846547314578
+    },
+    "gain_over_best_single": {
+      "exact": "2409/50048",
+      "value": 0.0481337915601023
+    },
+    "independence_completion_accuracy": {
+      "exact": "14163167/19568768",
+      "value": 0.7237638567742231
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "35433/50048",
+      "value": 0.7079803388746803
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "2413/152881",
+      "value": 0.01578351789954278
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "258/391",
+        "value": 0.659846547314578
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.24505234370341666,
+    "SIP18_MI_bits": 0.09797383198239434,
+    "HXK1_MI_bits": 0.18191862206997522,
+    "independence_completion_MI_bits": 0.26799506022909486,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "258/391",
+        "value": 0.659846547314578
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "4713/25024",
+          "value": 0.18833919437340155
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1087/1088",
+            "value": 0.9990808823529411
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1/1088",
+            "value": 0.0009191176470588235
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "17001/25024",
+            "value": 0.6793877877237852
+          },
+          {
+            "exact": "3287/25024",
+            "value": 0.13135390025575447
+          },
+          {
+            "exact": "1/1088",
+            "value": 0.0009191176470588235
+          },
+          {
+            "exact": "4713/25024",
+            "value": 0.18833919437340155
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "37737/50048",
+        "value": 0.7540161445012787
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "0",
+          "value": 0.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1087/1088",
+            "value": 0.9990808823529411
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1/1088",
+            "value": 0.0009191176470588235
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "192/391",
+            "value": 0.49104859335038364
+          },
+          {
+            "exact": "125/391",
+            "value": 0.319693094629156
+          },
+          {
+            "exact": "74/391",
+            "value": 0.18925831202046037
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "1x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        785,
+        0,
+        0,
+        0
+      ],
+      [
+        86,
+        65,
+        350,
+        889
+      ]
+    ],
+    "cell_rows": [
+      785,
+      1390
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1239/1390",
+        "value": 0.8913669064748202
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "477/695",
+        "value": 0.6863309352517986
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "889/1390",
+        "value": 0.639568345323741
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "2629/2780",
+        "value": 0.9456834532374101
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "151/2780",
+      "value": 0.05431654676258993
+    },
+    "paired_accuracy": {
+      "exact": "1347/1390",
+      "value": 0.9690647482014388
+    },
+    "SIP18_accuracy": {
+      "exact": "2629/2780",
+      "value": 0.9456834532374101
+    },
+    "HXK1_accuracy": {
+      "exact": "586/695",
+      "value": 0.8431654676258993
+    },
+    "gain_over_best_single": {
+      "exact": "13/556",
+      "value": 0.023381294964028777
+    },
+    "independence_completion_accuracy": {
+      "exact": "949591/966050",
+      "value": 0.9829625795766265
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1347/1390",
+      "value": 0.9690647482014388
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "6713/483025",
+      "value": 0.01389783137518762
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "2629/2780",
+        "value": 0.9456834532374101
+      },
+      "decisions": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.829824047100124,
+    "SIP18_MI_bits": 0.7435808783589611,
+    "HXK1_MI_bits": 0.4791339465146256,
+    "independence_completion_MI_bits": 0.8919461310272762,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "2629/2780",
+        "value": 0.9456834532374101
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "477/695",
+          "value": 0.6863309352517986
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "151/1390",
+            "value": 0.10863309352517986
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "57/278",
+            "value": 0.20503597122302158
+          },
+          {
+            "exact": "477/695",
+            "value": 0.6863309352517986
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "803/1390",
+          "value": 0.5776978417266188
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "151/1390",
+            "value": 0.10863309352517986
+          },
+          {
+            "exact": "218/695",
+            "value": 0.31366906474820144
+          },
+          {
+            "exact": "803/1390",
+            "value": 0.5776978417266188
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "2x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        1186,
+        11,
+        3,
+        0
+      ],
+      [
+        0,
+        0,
+        225,
+        1429
+      ]
+    ],
+    "cell_rows": [
+      1200,
+      1654
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1/400",
+        "value": 0.0025
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "11/1200",
+        "value": 0.009166666666666667
+      },
+      {
+        "exact": "1429/1654",
+        "value": 0.8639661426844014
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1429/1654",
+        "value": 0.8639661426844014
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "799/800",
+        "value": 0.99875
+      },
+      {
+        "exact": "799/800",
+        "value": 0.99875
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "799/800",
+      "value": 0.99875
+    },
+    "SIP18_accuracy": {
+      "exact": "799/800",
+      "value": 0.99875
+    },
+    "HXK1_accuracy": {
+      "exact": "1840703/1984800",
+      "value": 0.9273997380088674
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "799/800",
+      "value": 0.99875
+    },
+    "independence_decoder": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "799/800",
+      "value": 0.99875
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "799/800",
+        "value": 0.99875
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9909727935058947,
+    "SIP18_MI_bits": 0.9873895586268336,
+    "HXK1_MI_bits": 0.6638716286954494,
+    "independence_completion_MI_bits": 0.9908485127089505,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "799/800",
+        "value": 0.99875
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1429/1654",
+          "value": 0.8639661426844014
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "593/600",
+            "value": 0.9883333333333333
+          },
+          {
+            "exact": "11/1200",
+            "value": 0.009166666666666667
+          },
+          {
+            "exact": "1/400",
+            "value": 0.0025
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "225/1654",
+            "value": 0.13603385731559856
+          },
+          {
+            "exact": "1429/1654",
+            "value": 0.8639661426844014
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "799/800",
+        "value": 0.99875
+      },
+      "t": [
+        {
+          "exact": "1/400",
+          "value": 0.0025
+        },
+        {
+          "exact": "1429/1654",
+          "value": 0.8639661426844014
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1189/1200",
+            "value": 0.9908333333333333
+          },
+          {
+            "exact": "1/150",
+            "value": 0.006666666666666667
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1/400",
+            "value": 0.0025
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "225/1654",
+            "value": 0.13603385731559856
+          },
+          {
+            "exact": "1429/1654",
+            "value": 0.8639661426844014
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "2x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        86,
+        65,
+        350,
+        889
+      ],
+      [
+        578,
+        222,
+        82,
+        87
+      ]
+    ],
+    "cell_rows": [
+      1390,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1239/1390",
+        "value": 0.8913669064748202
+      },
+      {
+        "exact": "169/969",
+        "value": 0.17440660474716202
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "477/695",
+        "value": 0.6863309352517986
+      },
+      {
+        "exact": "103/323",
+        "value": 0.3188854489164087
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "889/1390",
+        "value": 0.639568345323741
+      },
+      {
+        "exact": "29/323",
+        "value": 0.08978328173374613
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "2312591/2693820",
+        "value": 0.858480150863829
+      },
+      {
+        "exact": "2312591/2693820",
+        "value": 0.858480150863829
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "2312591/2693820",
+      "value": 0.858480150863829
+    },
+    "SIP18_accuracy": {
+      "exact": "2312591/2693820",
+      "value": 0.858480150863829
+    },
+    "HXK1_accuracy": {
+      "exact": "306971/448970",
+      "value": 0.683722743167695
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "2312591/2693820",
+      "value": 0.858480150863829
+    },
+    "independence_decoder": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2312591/2693820",
+      "value": 0.858480150863829
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "2312591/2693820",
+        "value": 0.858480150863829
+      },
+      "decisions": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.4282879180357893,
+    "SIP18_MI_bits": 0.41514420293195253,
+    "HXK1_MI_bits": 0.0997159883530107,
+    "independence_completion_MI_bits": 0.46397227751079195,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "2312591/2693820",
+        "value": 0.858480150863829
+      },
+      "t": [
+        {
+          "exact": "803/1390",
+          "value": 0.5776978417266188
+        },
+        {
+          "exact": "0",
+          "value": 0.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "151/1390",
+            "value": 0.10863309352517986
+          },
+          {
+            "exact": "218/695",
+            "value": 0.31366906474820144
+          },
+          {
+            "exact": "803/1390",
+            "value": 0.5776978417266188
+          }
+        ],
+        [
+          {
+            "exact": "491/969",
+            "value": 0.5067079463364293
+          },
+          {
+            "exact": "103/323",
+            "value": 0.3188854489164087
+          },
+          {
+            "exact": "169/969",
+            "value": 0.17440660474716202
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2312591/2693820",
+        "value": 0.858480150863829
+      },
+      "t": [
+        {
+          "exact": "477/695",
+          "value": 0.6863309352517986
+        },
+        {
+          "exact": "169/969",
+          "value": 0.17440660474716202
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "151/1390",
+            "value": 0.10863309352517986
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "57/278",
+            "value": 0.20503597122302158
+          },
+          {
+            "exact": "477/695",
+            "value": 0.6863309352517986
+          }
+        ],
+        [
+          {
+            "exact": "220/323",
+            "value": 0.6811145510835913
+          },
+          {
+            "exact": "140/969",
+            "value": 0.14447884416924664
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "169/969",
+            "value": 0.17440660474716202
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "2x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        803,
+        0,
+        0,
+        0
+      ],
+      [
+        578,
+        222,
+        82,
+        87
+      ]
+    ],
+    "cell_rows": [
+      803,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "169/969",
+        "value": 0.17440660474716202
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "103/323",
+        "value": 0.3188854489164087
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "29/323",
+        "value": 0.08978328173374613
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "213/323",
+        "value": 0.6594427244582043
+      },
+      {
+        "exact": "1447/1938",
+        "value": 0.7466460268317854
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "169/1938",
+      "value": 0.08720330237358101
+    },
+    "paired_accuracy": {
+      "exact": "40/57",
+      "value": 0.7017543859649122
+    },
+    "SIP18_accuracy": {
+      "exact": "569/969",
+      "value": 0.587203302373581
+    },
+    "HXK1_accuracy": {
+      "exact": "213/323",
+      "value": 0.6594427244582043
+    },
+    "gain_over_best_single": {
+      "exact": "41/969",
+      "value": 0.04231166150670795
+    },
+    "independence_completion_accuracy": {
+      "exact": "224987/312987",
+      "value": 0.7188381626073926
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "40/57",
+      "value": 0.7017543859649122
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "5347/312987",
+      "value": 0.01708377664248036
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "213/323",
+        "value": 0.6594427244582043
+      },
+      "decisions": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.23893995747210928,
+    "SIP18_MI_bits": 0.09322194952919105,
+    "HXK1_MI_bits": 0.18139205412352105,
+    "independence_completion_MI_bits": 0.2636587167711766,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "213/323",
+        "value": 0.6594427244582043
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "169/969",
+          "value": 0.17440660474716202
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "220/323",
+            "value": 0.6811145510835913
+          },
+          {
+            "exact": "140/969",
+            "value": 0.14447884416924664
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "169/969",
+            "value": 0.17440660474716202
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1447/1938",
+        "value": 0.7466460268317854
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "0",
+          "value": 0.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1",
+            "value": 1.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "491/969",
+            "value": 0.5067079463364293
+          },
+          {
+            "exact": "103/323",
+            "value": 0.3188854489164087
+          },
+          {
+            "exact": "169/969",
+            "value": 0.17440660474716202
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_q75",
+    "construct": "2x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        559,
+        30,
+        30,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1367
+      ]
+    ],
+    "cell_rows": [
+      619,
+      1367
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "30/619",
+        "value": 0.048465266558966075
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "30/619",
+        "value": 0.048465266558966075
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "604/619",
+        "value": 0.975767366720517
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "15/619",
+      "value": 0.024232633279483037
+    },
+    "paired_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "SIP18_accuracy": {
+      "exact": "604/619",
+      "value": 0.975767366720517
+    },
+    "HXK1_accuracy": {
+      "exact": "604/619",
+      "value": 0.975767366720517
+    },
+    "gain_over_best_single": {
+      "exact": "15/619",
+      "value": 0.024232633279483037
+    },
+    "independence_completion_accuracy": {
+      "exact": "382711/383161",
+      "value": 0.9988255589686842
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1",
+      "value": 1.0
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "-450/383161",
+      "value": -0.0011744410313158176
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "604/619",
+        "value": 0.975767366720517
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 1.0,
+    "SIP18_MI_bits": 0.858384276454317,
+    "HXK1_MI_bits": 0.858384276454317,
+    "independence_completion_MI_bits": 0.9880463065461236,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "604/619",
+        "value": 0.975767366720517
+      },
+      "t": [
+        {
+          "exact": "30/619",
+          "value": 0.048465266558966075
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "589/619",
+            "value": 0.9515347334410339
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "30/619",
+            "value": 0.048465266558966075
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "559/619",
+            "value": 0.9030694668820679
+          },
+          {
+            "exact": "30/619",
+            "value": 0.048465266558966075
+          },
+          {
+            "exact": "30/619",
+            "value": 0.048465266558966075
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "1x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        111,
+        2120,
+        26,
+        1213
+      ],
+      [
+        0,
+        0,
+        0,
+        1755
+      ]
+    ],
+    "cell_rows": [
+      3470,
+      1755
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1239/3470",
+        "value": 0.35706051873198846
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "3333/3470",
+        "value": 0.9605187319884726
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1213/3470",
+        "value": 0.3495677233429395
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "5701/6940",
+        "value": 0.8214697406340058
+      },
+      {
+        "exact": "2919/3470",
+        "value": 0.8412103746397694
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "137/6940",
+      "value": 0.019740634005763688
+    },
+    "paired_accuracy": {
+      "exact": "5727/6940",
+      "value": 0.8252161383285302
+    },
+    "SIP18_accuracy": {
+      "exact": "5701/6940",
+      "value": 0.8214697406340058
+    },
+    "HXK1_accuracy": {
+      "exact": "3607/6940",
+      "value": 0.5197406340057636
+    },
+    "gain_over_best_single": {
+      "exact": "13/3470",
+      "value": 0.0037463976945244955
+    },
+    "independence_completion_accuracy": {
+      "exact": "19952213/24081800",
+      "value": 0.8285183416522021
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "5727/6940",
+      "value": 0.8252161383285302
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "79523/24081800",
+      "value": 0.0033022033236718186
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "5701/6940",
+        "value": 0.8214697406340058
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.44312317399238754,
+    "SIP18_MI_bits": 0.43586453361879557,
+    "HXK1_MI_bits": 0.02002741812229138,
+    "independence_completion_MI_bits": 0.4495922984759138,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "5701/6940",
+        "value": 0.8214697406340058
+      },
+      "t": [
+        {
+          "exact": "1239/3470",
+          "value": 0.35706051873198846
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "137/3470",
+            "value": 0.039481268011527376
+          },
+          {
+            "exact": "1047/1735",
+            "value": 0.6034582132564842
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1239/3470",
+            "value": 0.35706051873198846
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2919/3470",
+        "value": 0.8412103746397694
+      },
+      "t": [
+        {
+          "exact": "551/1735",
+          "value": 0.3175792507204611
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "2231/3470",
+            "value": 0.6429394812680115
+          },
+          {
+            "exact": "137/3470",
+            "value": 0.039481268011527376
+          },
+          {
+            "exact": "551/1735",
+            "value": 0.3175792507204611
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "1x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        0,
+        1367
+      ],
+      [
+        0,
+        161,
+        0,
+        621
+      ]
+    ],
+    "cell_rows": [
+      1367,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "27/34",
+        "value": 0.7941176470588235
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "27/34",
+        "value": 0.7941176470588235
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "41/68",
+        "value": 0.6029411764705882
+      },
+      {
+        "exact": "41/68",
+        "value": 0.6029411764705882
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "41/68",
+      "value": 0.6029411764705882
+    },
+    "SIP18_accuracy": {
+      "exact": "41/68",
+      "value": 0.6029411764705882
+    },
+    "HXK1_accuracy": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "41/68",
+      "value": 0.6029411764705882
+    },
+    "independence_decoder": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "41/68",
+      "value": 0.6029411764705882
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "41/68",
+        "value": 0.6029411764705882
+      },
+      "decisions": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.11148119955278121,
+    "SIP18_MI_bits": 0.11148119955278121,
+    "HXK1_MI_bits": 0.0,
+    "independence_completion_MI_bits": 0.11148119955278121,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "41/68",
+        "value": 0.6029411764705882
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "27/34",
+          "value": 0.7941176470588235
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/34",
+            "value": 0.20588235294117646
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/34",
+            "value": 0.7941176470588235
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "41/68",
+        "value": 0.6029411764705882
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "27/34",
+          "value": 0.7941176470588235
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/34",
+            "value": 0.20588235294117646
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/34",
+            "value": 0.7941176470588235
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "1x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        162,
+        745,
+        15,
+        166
+      ],
+      [
+        0,
+        161,
+        0,
+        621
+      ]
+    ],
+    "cell_rows": [
+      1088,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "181/1088",
+        "value": 0.16636029411764705
+      },
+      {
+        "exact": "27/34",
+        "value": 0.7941176470588235
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "911/1088",
+        "value": 0.8373161764705882
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "83/544",
+        "value": 0.15257352941176472
+      },
+      {
+        "exact": "27/34",
+        "value": 0.7941176470588235
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1771/2176",
+        "value": 0.8138786764705882
+      },
+      {
+        "exact": "487/544",
+        "value": 0.8952205882352942
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "177/2176",
+      "value": 0.08134191176470588
+    },
+    "paired_accuracy": {
+      "exact": "893/1088",
+      "value": 0.8207720588235294
+    },
+    "SIP18_accuracy": {
+      "exact": "1771/2176",
+      "value": 0.8138786764705882
+    },
+    "HXK1_accuracy": {
+      "exact": "1265/2176",
+      "value": 0.5813419117647058
+    },
+    "gain_over_best_single": {
+      "exact": "15/2176",
+      "value": 0.006893382352941176
+    },
+    "independence_completion_accuracy": {
+      "exact": "1958885/2367488",
+      "value": 0.8274107408358564
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "893/1088",
+      "value": 0.8207720588235294
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "15717/2367488",
+      "value": 0.00663868201232699
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1771/2176",
+        "value": 0.8138786764705882
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.3510755656338296,
+    "SIP18_MI_bits": 0.30744872262282497,
+    "HXK1_MI_bits": 0.08654412667809142,
+    "independence_completion_MI_bits": 0.36642315898909117,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1771/2176",
+        "value": 0.8138786764705882
+      },
+      "t": [
+        {
+          "exact": "181/1088",
+          "value": 0.16636029411764705
+        },
+        {
+          "exact": "27/34",
+          "value": 0.7941176470588235
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "177/1088",
+            "value": 0.16268382352941177
+          },
+          {
+            "exact": "365/544",
+            "value": 0.6709558823529411
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "181/1088",
+            "value": 0.16636029411764705
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/34",
+            "value": 0.20588235294117646
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/34",
+            "value": 0.7941176470588235
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "487/544",
+        "value": 0.8952205882352942
+      },
+      "t": [
+        {
+          "exact": "1/272",
+          "value": 0.003676470588235294
+        },
+        {
+          "exact": "27/34",
+          "value": 0.7941176470588235
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "907/1088",
+            "value": 0.8336397058823529
+          },
+          {
+            "exact": "177/1088",
+            "value": 0.16268382352941177
+          },
+          {
+            "exact": "1/272",
+            "value": 0.003676470588235294
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "7/34",
+            "value": 0.20588235294117646
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "27/34",
+            "value": 0.7941176470588235
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "1x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        710,
+        36,
+        36,
+        3
+      ],
+      [
+        0,
+        0,
+        0,
+        1390
+      ]
+    ],
+    "cell_rows": [
+      785,
+      1390
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "39/785",
+        "value": 0.049681528662420385
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "39/785",
+        "value": 0.049681528662420385
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "3/785",
+        "value": 0.003821656050955414
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1531/1570",
+        "value": 0.9751592356687898
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "39/1570",
+      "value": 0.024840764331210193
+    },
+    "paired_accuracy": {
+      "exact": "1567/1570",
+      "value": 0.9980891719745223
+    },
+    "SIP18_accuracy": {
+      "exact": "1531/1570",
+      "value": 0.9751592356687898
+    },
+    "HXK1_accuracy": {
+      "exact": "1531/1570",
+      "value": 0.9751592356687898
+    },
+    "gain_over_best_single": {
+      "exact": "18/785",
+      "value": 0.022929936305732482
+    },
+    "independence_completion_accuracy": {
+      "exact": "1230929/1232450",
+      "value": 0.9987658728548825
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1567/1570",
+      "value": 0.9980891719745223
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "417/616225",
+      "value": 0.000676700880360258
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1531/1570",
+        "value": 0.9751592356687898
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9818910166477998,
+    "SIP18_MI_bits": 0.8556975124223964,
+    "HXK1_MI_bits": 0.8556975124223964,
+    "independence_completion_MI_bits": 0.9875269641296879,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1531/1570",
+        "value": 0.9751592356687898
+      },
+      "t": [
+        {
+          "exact": "39/785",
+          "value": 0.049681528662420385
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "746/785",
+            "value": 0.9503184713375796
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "39/785",
+            "value": 0.049681528662420385
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "707/785",
+            "value": 0.9006369426751593
+          },
+          {
+            "exact": "39/785",
+            "value": 0.049681528662420385
+          },
+          {
+            "exact": "39/785",
+            "value": 0.049681528662420385
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "2x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        23,
+        1049,
+        2,
+        126
+      ],
+      [
+        0,
+        0,
+        0,
+        1654
+      ]
+    ],
+    "cell_rows": [
+      1200,
+      1654
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "8/75",
+        "value": 0.10666666666666667
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "47/48",
+        "value": 0.9791666666666666
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "21/200",
+        "value": 0.105
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "71/75",
+        "value": 0.9466666666666667
+      },
+      {
+        "exact": "2297/2400",
+        "value": 0.9570833333333333
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "1/96",
+      "value": 0.010416666666666666
+    },
+    "paired_accuracy": {
+      "exact": "379/400",
+      "value": 0.9475
+    },
+    "SIP18_accuracy": {
+      "exact": "71/75",
+      "value": 0.9466666666666667
+    },
+    "HXK1_accuracy": {
+      "exact": "49/96",
+      "value": 0.5104166666666666
+    },
+    "gain_over_best_single": {
+      "exact": "1/1200",
+      "value": 0.0008333333333333334
+    },
+    "independence_completion_accuracy": {
+      "exact": "853/900",
+      "value": 0.9477777777777778
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "379/400",
+      "value": 0.9475
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "1/3600",
+      "value": 0.0002777777777777778
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "71/75",
+        "value": 0.9466666666666667
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.7497085955194813,
+    "SIP18_MI_bits": 0.7468875265693087,
+    "HXK1_MI_bits": 0.010495763250254253,
+    "independence_completion_MI_bits": 0.7506527749111771,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "71/75",
+        "value": 0.9466666666666667
+      },
+      "t": [
+        {
+          "exact": "8/75",
+          "value": 0.10666666666666667
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1/48",
+            "value": 0.020833333333333332
+          },
+          {
+            "exact": "349/400",
+            "value": 0.8725
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "8/75",
+            "value": 0.10666666666666667
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2297/2400",
+        "value": 0.9570833333333333
+      },
+      "t": [
+        {
+          "exact": "103/1200",
+          "value": 0.08583333333333333
+        },
+        {
+          "exact": "1",
+          "value": 1.0
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "67/75",
+            "value": 0.8933333333333333
+          },
+          {
+            "exact": "1/48",
+            "value": 0.020833333333333332
+          },
+          {
+            "exact": "103/1200",
+            "value": 0.08583333333333333
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "2x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        0,
+        1390
+      ],
+      [
+        0,
+        192,
+        0,
+        777
+      ]
+    ],
+    "cell_rows": [
+      1390,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "259/323",
+        "value": 0.8018575851393189
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "259/323",
+        "value": 0.8018575851393189
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "387/646",
+        "value": 0.5990712074303406
+      },
+      {
+        "exact": "387/646",
+        "value": 0.5990712074303406
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "387/646",
+      "value": 0.5990712074303406
+    },
+    "SIP18_accuracy": {
+      "exact": "387/646",
+      "value": 0.5990712074303406
+    },
+    "HXK1_accuracy": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "387/646",
+      "value": 0.5990712074303406
+    },
+    "independence_decoder": [
+      0,
+      1,
+      0,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "387/646",
+      "value": 0.5990712074303406
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "387/646",
+        "value": 0.5990712074303406
+      },
+      "decisions": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.1069457918023746,
+    "SIP18_MI_bits": 0.1069457918023746,
+    "HXK1_MI_bits": 0.0,
+    "independence_completion_MI_bits": 0.1069457918023746,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "387/646",
+        "value": 0.5990712074303406
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "259/323",
+          "value": 0.8018575851393189
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/323",
+            "value": 0.19814241486068113
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "259/323",
+            "value": 0.8018575851393189
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "387/646",
+        "value": 0.5990712074303406
+      },
+      "t": [
+        {
+          "exact": "1",
+          "value": 1.0
+        },
+        {
+          "exact": "259/323",
+          "value": 0.8018575851393189
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "1",
+            "value": 1.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/323",
+            "value": 0.19814241486068113
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "259/323",
+            "value": 0.8018575851393189
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "2x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        146,
+        559,
+        16,
+        82
+      ],
+      [
+        0,
+        192,
+        0,
+        777
+      ]
+    ],
+    "cell_rows": [
+      803,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "98/803",
+        "value": 0.12204234122042341
+      },
+      {
+        "exact": "259/323",
+        "value": 0.8018575851393189
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "641/803",
+        "value": 0.7982565379825654
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "82/803",
+        "value": 0.10211706102117062
+      },
+      {
+        "exact": "259/323",
+        "value": 0.8018575851393189
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "217846/259369",
+        "value": 0.8399076219594478
+      },
+      {
+        "exact": "291/323",
+        "value": 0.9009287925696594
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "49/803",
+      "value": 0.06102117061021171
+    },
+    "paired_accuracy": {
+      "exact": "220430/259369",
+      "value": 0.8498702620590741
+    },
+    "SIP18_accuracy": {
+      "exact": "217846/259369",
+      "value": 0.8399076219594478
+    },
+    "HXK1_accuracy": {
+      "exact": "965/1606",
+      "value": 0.6008717310087173
+    },
+    "gain_over_best_single": {
+      "exact": "8/803",
+      "value": 0.009962640099626401
+    },
+    "independence_completion_accuracy": {
+      "exact": "177494312/208273307",
+      "value": 0.8522182441747084
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "220430/259369",
+      "value": 0.8498702620590741
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "1514/644809",
+      "value": 0.002347982115634242
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "217846/259369",
+        "value": 0.8399076219594478
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.4288557887683089,
+    "SIP18_MI_bits": 0.3691182309714174,
+    "HXK1_MI_bits": 0.10905216818427242,
+    "independence_completion_MI_bits": 0.4354670434860098,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "217846/259369",
+        "value": 0.8399076219594478
+      },
+      "t": [
+        {
+          "exact": "98/803",
+          "value": 0.12204234122042341
+        },
+        {
+          "exact": "259/323",
+          "value": 0.8018575851393189
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "162/803",
+            "value": 0.20174346201743462
+          },
+          {
+            "exact": "543/803",
+            "value": 0.676214196762142
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "98/803",
+            "value": 0.12204234122042341
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/323",
+            "value": 0.19814241486068113
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "259/323",
+            "value": 0.8018575851393189
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "291/323",
+        "value": 0.9009287925696594
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "259/323",
+          "value": 0.8018575851393189
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "64/803",
+            "value": 0.07970112079701121
+          },
+          {
+            "exact": "641/803",
+            "value": 0.7982565379825654
+          },
+          {
+            "exact": "98/803",
+            "value": 0.12204234122042341
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "64/323",
+            "value": 0.19814241486068113
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "259/323",
+            "value": 0.8018575851393189
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_control95",
+    "construct": "2x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        614,
+        0,
+        5,
+        0
+      ],
+      [
+        0,
+        0,
+        89,
+        1278
+      ]
+    ],
+    "cell_rows": [
+      619,
+      1367
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "5/619",
+        "value": 0.008077544426494346
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1278/1367",
+        "value": 0.9348939283101683
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1278/1367",
+        "value": 0.9348939283101683
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "1233/1238",
+        "value": 0.9959612277867528
+      },
+      {
+        "exact": "1233/1238",
+        "value": 0.9959612277867528
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "1233/1238",
+      "value": 0.9959612277867528
+    },
+    "SIP18_accuracy": {
+      "exact": "1233/1238",
+      "value": 0.9959612277867528
+    },
+    "HXK1_accuracy": {
+      "exact": "2645/2734",
+      "value": 0.9674469641550841
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "1233/1238",
+      "value": 0.9959612277867528
+    },
+    "independence_decoder": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1233/1238",
+      "value": 0.9959612277867528
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "1233/1238",
+        "value": 0.9959612277867528
+      },
+      "decisions": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9816659659424326,
+    "SIP18_MI_bits": 0.9660728043764327,
+    "HXK1_MI_bits": 0.8232456106306479,
+    "independence_completion_MI_bits": 0.9816659659424326,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "1233/1238",
+        "value": 0.9959612277867528
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1278/1367",
+          "value": 0.9348939283101683
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "614/619",
+            "value": 0.9919224555735057
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "5/619",
+            "value": 0.008077544426494346
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "89/1367",
+            "value": 0.06510607168983175
+          },
+          {
+            "exact": "1278/1367",
+            "value": 0.9348939283101683
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1233/1238",
+        "value": 0.9959612277867528
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1278/1367",
+          "value": 0.9348939283101683
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "614/619",
+            "value": 0.9919224555735057
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "5/619",
+            "value": 0.008077544426494346
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "89/1367",
+            "value": 0.06510607168983175
+          },
+          {
+            "exact": "1278/1367",
+            "value": 0.9348939283101683
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "1x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        2347,
+        430,
+        468,
+        225
+      ],
+      [
+        0,
+        0,
+        37,
+        1718
+      ]
+    ],
+    "cell_rows": [
+      3470,
+      1755
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "693/3470",
+        "value": 0.19971181556195966
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "131/694",
+        "value": 0.18876080691642652
+      },
+      {
+        "exact": "1718/1755",
+        "value": 0.978917378917379
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "45/694",
+        "value": 0.06484149855907781
+      },
+      {
+        "exact": "1718/1755",
+        "value": 0.978917378917379
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "6247/6940",
+        "value": 0.9001440922190201
+      },
+      {
+        "exact": "3473/3510",
+        "value": 0.9894586894586894
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "43513/487188",
+      "value": 0.08931459723966928
+    },
+    "paired_accuracy": {
+      "exact": "2331287/2435940",
+      "value": 0.9570379401791506
+    },
+    "SIP18_accuracy": {
+      "exact": "6247/6940",
+      "value": 0.9001440922190201
+    },
+    "HXK1_accuracy": {
+      "exact": "2180357/2435940",
+      "value": 0.8950782860004762
+    },
+    "gain_over_best_single": {
+      "exact": "13859/243594",
+      "value": 0.05689384796013038
+    },
+    "independence_completion_accuracy": {
+      "exact": "328171399/338108472",
+      "value": 0.9706098077305795
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2331287/2435940",
+      "value": 0.9570379401791506
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "65367/4816360",
+      "value": 0.01357186755142888
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "6247/6940",
+        "value": 0.9001440922190201
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.7801818901532604,
+    "SIP18_MI_bits": 0.6103591448723449,
+    "HXK1_MI_bits": 0.5564481348751217,
+    "independence_completion_MI_bits": 0.8365562502123265,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "6247/6940",
+        "value": 0.9001440922190201
+      },
+      "t": [
+        {
+          "exact": "43513/243594",
+          "value": 0.17862919447933856
+        },
+        {
+          "exact": "1718/1755",
+          "value": 0.978917378917379
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "962387/1217970",
+            "value": 0.7901565720009524
+          },
+          {
+            "exact": "1234/121797",
+            "value": 0.010131612437087942
+          },
+          {
+            "exact": "37/1755",
+            "value": 0.021082621082621083
+          },
+          {
+            "exact": "43513/243594",
+            "value": 0.17862919447933856
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "37/1755",
+            "value": 0.021082621082621083
+          },
+          {
+            "exact": "1718/1755",
+            "value": 0.978917378917379
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "3473/3510",
+        "value": 0.9894586894586894
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1718/1755",
+          "value": 0.978917378917379
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1061/1735",
+            "value": 0.6115273775216138
+          },
+          {
+            "exact": "131/694",
+            "value": 0.18876080691642652
+          },
+          {
+            "exact": "693/3470",
+            "value": 0.19971181556195966
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "37/1755",
+            "value": 0.021082621082621083
+          },
+          {
+            "exact": "1718/1755",
+            "value": 0.978917378917379
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "1x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        89,
+        1278
+      ],
+      [
+        103,
+        143,
+        119,
+        417
+      ]
+    ],
+    "cell_rows": [
+      1367,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "268/391",
+        "value": 0.6854219948849105
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1278/1367",
+        "value": 0.9348939283101683
+      },
+      {
+        "exact": "280/391",
+        "value": 0.7161125319693095
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1278/1367",
+        "value": 0.9348939283101683
+      },
+      {
+        "exact": "417/782",
+        "value": 0.5332480818414322
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "257/391",
+        "value": 0.6572890025575447
+      },
+      {
+        "exact": "409788/534497",
+        "value": 0.7666797007279742
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "58469/534497",
+      "value": 0.1093906981704294
+    },
+    "paired_accuracy": {
+      "exact": "1498351/2137988",
+      "value": 0.700822923234368
+    },
+    "SIP18_accuracy": {
+      "exact": "257/391",
+      "value": 0.6572890025575447
+    },
+    "HXK1_accuracy": {
+      "exact": "651435/1068994",
+      "value": 0.6093906981704293
+    },
+    "gain_over_best_single": {
+      "exact": "5475/125764",
+      "value": 0.043533920676823254
+    },
+    "independence_completion_accuracy": {
+      "exact": "301790565/417976654",
+      "value": 0.72202732404284
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1498351/2137988",
+      "value": 0.700822923234368
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "12967/611524",
+      "value": 0.021204400808471947
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "257/391",
+        "value": 0.6572890025575447
+      },
+      "decisions": [
+        1,
+        1,
+        0,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.21037382076376737,
+    "SIP18_MI_bits": 0.17859061526796885,
+    "HXK1_MI_bits": 0.06384732803287009,
+    "independence_completion_MI_bits": 0.23237012307238286,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "257/391",
+        "value": 0.6572890025575447
+      },
+      "t": [
+        {
+          "exact": "1278/1367",
+          "value": 0.9348939283101683
+        },
+        {
+          "exact": "331557/534497",
+          "value": 0.6203159231950788
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "89/1367",
+            "value": 0.06510607168983175
+          },
+          {
+            "exact": "1278/1367",
+            "value": 0.9348939283101683
+          }
+        ],
+        [
+          {
+            "exact": "116938/534497",
+            "value": 0.2187813963408588
+          },
+          {
+            "exact": "51203/534497",
+            "value": 0.09579660877423073
+          },
+          {
+            "exact": "89/1367",
+            "value": 0.06510607168983175
+          },
+          {
+            "exact": "331557/534497",
+            "value": 0.6203159231950788
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "409788/534497",
+        "value": 0.7666797007279742
+      },
+      "t": [
+        {
+          "exact": "1278/1367",
+          "value": 0.9348939283101683
+        },
+        {
+          "exact": "157/391",
+          "value": 0.40153452685422
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "89/1367",
+            "value": 0.06510607168983175
+          },
+          {
+            "exact": "1278/1367",
+            "value": 0.9348939283101683
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "123/391",
+            "value": 0.3145780051150895
+          },
+          {
+            "exact": "111/391",
+            "value": 0.28388746803069054
+          },
+          {
+            "exact": "157/391",
+            "value": 0.40153452685422
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "1x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        986,
+        10,
+        92,
+        0
+      ],
+      [
+        103,
+        143,
+        119,
+        417
+      ]
+    ],
+    "cell_rows": [
+      1088,
+      782
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "23/272",
+        "value": 0.08455882352941177
+      },
+      {
+        "exact": "268/391",
+        "value": 0.6854219948849105
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "5/544",
+        "value": 0.009191176470588236
+      },
+      {
+        "exact": "280/391",
+        "value": 0.7161125319693095
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "417/782",
+        "value": 0.5332480818414322
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "21357/25024",
+        "value": 0.8534606777493606
+      },
+      {
+        "exact": "521/544",
+        "value": 0.9577205882352942
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "2609/25024",
+      "value": 0.1042599104859335
+    },
+    "paired_accuracy": {
+      "exact": "22203/25024",
+      "value": 0.8872682225063938
+    },
+    "SIP18_accuracy": {
+      "exact": "10015/12512",
+      "value": 0.8004315856777494
+    },
+    "HXK1_accuracy": {
+      "exact": "21357/25024",
+      "value": 0.8534606777493606
+    },
+    "gain_over_best_single": {
+      "exact": "423/12512",
+      "value": 0.03380754475703325
+    },
+    "independence_completion_accuracy": {
+      "exact": "142282355/156550144",
+      "value": 0.9088612208494679
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "22203/25024",
+      "value": 0.8872682225063938
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "3380387/156550144",
+      "value": 0.021592998343074026
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "21357/25024",
+        "value": 0.8534606777493606
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.5772254963812714,
+    "SIP18_MI_bits": 0.3032756094888094,
+    "HXK1_MI_bits": 0.47682443396687274,
+    "independence_completion_MI_bits": 0.6300394308450722,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "21357/25024",
+        "value": 0.8534606777493606
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "3759/6256",
+          "value": 0.6008631713554987
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "29/32",
+            "value": 0.90625
+          },
+          {
+            "exact": "5/544",
+            "value": 0.009191176470588236
+          },
+          {
+            "exact": "23/272",
+            "value": 0.08455882352941177
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "1247/6256",
+            "value": 0.19932864450127877
+          },
+          {
+            "exact": "721/6256",
+            "value": 0.11524936061381075
+          },
+          {
+            "exact": "23/272",
+            "value": 0.08455882352941177
+          },
+          {
+            "exact": "3759/6256",
+            "value": 0.6008631713554987
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "521/544",
+        "value": 0.9577205882352942
+      },
+      "t": [
+        {
+          "exact": "5/544",
+          "value": 0.009191176470588236
+        },
+        {
+          "exact": "157/391",
+          "value": 0.40153452685422
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "249/272",
+            "value": 0.9154411764705882
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "41/544",
+            "value": 0.07536764705882353
+          },
+          {
+            "exact": "5/544",
+            "value": 0.009191176470588236
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "123/391",
+            "value": 0.3145780051150895
+          },
+          {
+            "exact": "111/391",
+            "value": 0.28388746803069054
+          },
+          {
+            "exact": "157/391",
+            "value": 0.40153452685422
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "1x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        763,
+        0,
+        22,
+        0
+      ],
+      [
+        0,
+        0,
+        19,
+        1371
+      ]
+    ],
+    "cell_rows": [
+      785,
+      1390
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "22/785",
+        "value": 0.02802547770700637
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1371/1390",
+        "value": 0.9863309352517986
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "0",
+        "value": 0.0
+      },
+      {
+        "exact": "1371/1390",
+        "value": 0.9863309352517986
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "2761/2780",
+        "value": 0.9931654676258993
+      },
+      {
+        "exact": "2761/2780",
+        "value": 0.9931654676258993
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "paired_accuracy": {
+      "exact": "2761/2780",
+      "value": 0.9931654676258993
+    },
+    "SIP18_accuracy": {
+      "exact": "774/785",
+      "value": 0.9859872611464968
+    },
+    "HXK1_accuracy": {
+      "exact": "2761/2780",
+      "value": 0.9931654676258993
+    },
+    "gain_over_best_single": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "independence_completion_accuracy": {
+      "exact": "2761/2780",
+      "value": 0.9931654676258993
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "2761/2780",
+      "value": 0.9931654676258993
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "0",
+      "value": 0.0
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "2761/2780",
+        "value": 0.9931654676258993
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9809726448259852,
+    "SIP18_MI_bits": 0.9072378810900372,
+    "HXK1_MI_bits": 0.947746909292899,
+    "independence_completion_MI_bits": 0.9809726448259852,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "2761/2780",
+        "value": 0.9931654676258993
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1371/1390",
+          "value": 0.9863309352517986
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "763/785",
+            "value": 0.9719745222929936
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "22/785",
+            "value": 0.02802547770700637
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "19/1390",
+            "value": 0.013669064748201438
+          },
+          {
+            "exact": "1371/1390",
+            "value": 0.9863309352517986
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "2761/2780",
+        "value": 0.9931654676258993
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "1371/1390",
+          "value": 0.9863309352517986
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "763/785",
+            "value": 0.9719745222929936
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "22/785",
+            "value": 0.02802547770700637
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "19/1390",
+            "value": 0.013669064748201438
+          },
+          {
+            "exact": "1371/1390",
+            "value": 0.9863309352517986
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "2x",
+    "condition0": "info_theory_untreated",
+    "condition1": "DM_70min_690nM",
+    "reference_contrast": "untreated_vs_sustained"
+  },
+  {
+    "counts": [
+      [
+        1013,
+        90,
+        85,
+        12
+      ],
+      [
+        0,
+        0,
+        18,
+        1636
+      ]
+    ],
+    "cell_rows": [
+      1200,
+      1654
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "97/1200",
+        "value": 0.08083333333333333
+      },
+      {
+        "exact": "1",
+        "value": 1.0
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "17/200",
+        "value": 0.085
+      },
+      {
+        "exact": "818/827",
+        "value": 0.9891172914147521
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1/100",
+        "value": 0.01
+      },
+      {
+        "exact": "818/827",
+        "value": 0.9891172914147521
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "2303/2400",
+        "value": 0.9595833333333333
+      },
+      {
+        "exact": "1645/1654",
+        "value": 0.9945586457073761
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "69419/1984800",
+      "value": 0.03497531237404272
+    },
+    "paired_accuracy": {
+      "exact": "163673/165400",
+      "value": 0.9895586457073761
+    },
+    "SIP18_accuracy": {
+      "exact": "2303/2400",
+      "value": 0.9595833333333333
+    },
+    "HXK1_accuracy": {
+      "exact": "314941/330800",
+      "value": 0.9520586457073761
+    },
+    "gain_over_best_single": {
+      "exact": "11899/396960",
+      "value": 0.029975312374042724
+    },
+    "independence_completion_accuracy": {
+      "exact": "393436277/396960000",
+      "value": 0.9911232290407094
+    },
+    "independence_decoder": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "163673/165400",
+      "value": 0.9895586457073761
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "751/480000",
+      "value": 0.0015645833333333334
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "2303/2400",
+        "value": 0.9595833333333333
+      },
+      "decisions": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.9364806170334031,
+    "SIP18_MI_bits": 0.7927271954386477,
+    "HXK1_MI_bits": 0.7429606165022785,
+    "independence_completion_MI_bits": 0.9469509462670187,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "2303/2400",
+        "value": 0.9595833333333333
+      },
+      "t": [
+        {
+          "exact": "69419/992400",
+          "value": 0.06995062474808544
+        },
+        {
+          "exact": "818/827",
+          "value": 0.9891172914147521
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "149541/165400",
+            "value": 0.9041172914147522
+          },
+          {
+            "exact": "2987/198480",
+            "value": 0.01504937525191455
+          },
+          {
+            "exact": "9/827",
+            "value": 0.010882708585247884
+          },
+          {
+            "exact": "69419/992400",
+            "value": 0.06995062474808544
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "9/827",
+            "value": 0.010882708585247884
+          },
+          {
+            "exact": "818/827",
+            "value": 0.9891172914147521
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "1645/1654",
+        "value": 0.9945586457073761
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "818/827",
+          "value": 0.9891172914147521
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "1001/1200",
+            "value": 0.8341666666666666
+          },
+          {
+            "exact": "17/200",
+            "value": 0.085
+          },
+          {
+            "exact": "97/1200",
+            "value": 0.08083333333333333
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "9/827",
+            "value": 0.010882708585247884
+          },
+          {
+            "exact": "818/827",
+            "value": 0.9891172914147521
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "2x",
+    "condition0": "DM_70min_100nM",
+    "condition1": "DM_70min_3uM",
+    "reference_contrast": "low_vs_high_amplitude"
+  },
+  {
+    "counts": [
+      [
+        0,
+        0,
+        19,
+        1371
+      ],
+      [
+        91,
+        143,
+        161,
+        574
+      ]
+    ],
+    "cell_rows": [
+      1390,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "1",
+        "value": 1.0
+      },
+      {
+        "exact": "245/323",
+        "value": 0.7585139318885449
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1371/1390",
+        "value": 0.9863309352517986
+      },
+      {
+        "exact": "239/323",
+        "value": 0.739938080495356
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "1371/1390",
+        "value": 0.9863309352517986
+      },
+      {
+        "exact": "574/969",
+        "value": 0.5923632610939112
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "559593/897940",
+        "value": 0.6231964273782212
+      },
+      {
+        "exact": "668013/897940",
+        "value": 0.7439394614339488
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "39/323",
+      "value": 0.12074303405572756
+    },
+    "paired_accuracy": {
+      "exact": "1877549/2693820",
+      "value": 0.6969838370789436
+    },
+    "SIP18_accuracy": {
+      "exact": "401/646",
+      "value": 0.6207430340557275
+    },
+    "HXK1_accuracy": {
+      "exact": "559593/897940",
+      "value": 0.6231964273782212
+    },
+    "gain_over_best_single": {
+      "exact": "143/1938",
+      "value": 0.0737874097007224
+    },
+    "independence_completion_accuracy": {
+      "exact": "206660919/290034620",
+      "value": 0.7125387962306017
+    },
+    "independence_decoder": [
+      1,
+      1,
+      1,
+      0
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "1877549/2693820",
+      "value": 0.6969838370789436
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "9737/625974",
+      "value": 0.015554959151658056
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "559593/897940",
+        "value": 0.6231964273782212
+      },
+      "decisions": [
+        1,
+        1,
+        1,
+        0
+      ]
+    },
+    "paired_MI_bits": 0.2116070310963346,
+    "SIP18_MI_bits": 0.1327415104382478,
+    "HXK1_MI_bits": 0.11043237581233616,
+    "independence_completion_MI_bits": 0.23235041117315203,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "559593/897940",
+        "value": 0.6231964273782212
+      },
+      "t": [
+        {
+          "exact": "1371/1390",
+          "value": 0.9863309352517986
+        },
+        {
+          "exact": "239/323",
+          "value": 0.739938080495356
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "19/1390",
+            "value": 0.013669064748201438
+          },
+          {
+            "exact": "1371/1390",
+            "value": 0.9863309352517986
+          }
+        ],
+        [
+          {
+            "exact": "78/323",
+            "value": 0.24148606811145512
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "6/323",
+            "value": 0.018575851393188854
+          },
+          {
+            "exact": "239/323",
+            "value": 0.739938080495356
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "668013/897940",
+        "value": 0.7439394614339488
+      },
+      "t": [
+        {
+          "exact": "1371/1390",
+          "value": 0.9863309352517986
+        },
+        {
+          "exact": "161/323",
+          "value": 0.4984520123839009
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "19/1390",
+            "value": 0.013669064748201438
+          },
+          {
+            "exact": "1371/1390",
+            "value": 0.9863309352517986
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "78/323",
+            "value": 0.24148606811145512
+          },
+          {
+            "exact": "84/323",
+            "value": 0.26006191950464397
+          },
+          {
+            "exact": "161/323",
+            "value": 0.4984520123839009
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "2x",
+    "condition0": "DM_70min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "sustained_vs_nine_pulses"
+  },
+  {
+    "counts": [
+      [
+        724,
+        9,
+        68,
+        2
+      ],
+      [
+        91,
+        143,
+        161,
+        574
+      ]
+    ],
+    "cell_rows": [
+      803,
+      969
+    ],
+    "marginal_SIP18": [
+      {
+        "exact": "70/803",
+        "value": 0.08717310087173101
+      },
+      {
+        "exact": "245/323",
+        "value": 0.7585139318885449
+      }
+    ],
+    "marginal_HXK1": [
+      {
+        "exact": "1/73",
+        "value": 0.0136986301369863
+      },
+      {
+        "exact": "239/323",
+        "value": 0.739938080495356
+      }
+    ],
+    "paired_probability_11": [
+      {
+        "exact": "2/803",
+        "value": 0.0024906600249066002
+      },
+      {
+        "exact": "574/969",
+        "value": 0.5923632610939112
+      }
+    ],
+    "marginal_only_accuracy_bounds": [
+      {
+        "exact": "40703/47158",
+        "value": 0.8631197251791849
+      },
+      {
+        "exact": "768/803",
+        "value": 0.9564134495641345
+      }
+    ],
+    "marginal_only_width": {
+      "exact": "48395/518738",
+      "value": 0.09329372438494962
+    },
+    "paired_accuracy": {
+      "exact": "703295/778107",
+      "value": 0.9038538401530894
+    },
+    "SIP18_accuracy": {
+      "exact": "216747/259369",
+      "value": 0.8356704155084069
+    },
+    "HXK1_accuracy": {
+      "exact": "40703/47158",
+      "value": 0.8631197251791849
+    },
+    "gain_over_best_single": {
+      "exact": "63391/1556214",
+      "value": 0.04073411497390462
+    },
+    "independence_completion_accuracy": {
+      "exact": "11237657267/12231323302",
+      "value": 0.9187605453256623
+    },
+    "independence_decoder": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "independence_decoder_actual_accuracy": {
+      "exact": "703295/778107",
+      "value": 0.9038538401530894
+    },
+    "independence_completion_error_in_accuracy": {
+      "exact": "546986191/36693969906",
+      "value": 0.014906705172572777
+    },
+    "best_fixed_deterministic_worst_case": {
+      "worst_case_accuracy": {
+        "exact": "40703/47158",
+        "value": 0.8631197251791849
+      },
+      "decisions": [
+        0,
+        1,
+        0,
+        1
+      ]
+    },
+    "paired_MI_bits": 0.6190693690687071,
+    "SIP18_MI_bits": 0.3705212019876729,
+    "HXK1_MI_bits": 0.4901344617089848,
+    "independence_completion_MI_bits": 0.6676282653720864,
+    "minimum_witness": {
+      "accuracy": {
+        "exact": "40703/47158",
+        "value": 0.8631197251791849
+      },
+      "t": [
+        {
+          "exact": "0",
+          "value": 0.0
+        },
+        {
+          "exact": "174125/259369",
+          "value": 0.6713408310168139
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "722/803",
+            "value": 0.8991282689912827
+          },
+          {
+            "exact": "1/73",
+            "value": 0.0136986301369863
+          },
+          {
+            "exact": "70/803",
+            "value": 0.08717310087173101
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          }
+        ],
+        [
+          {
+            "exact": "44842/259369",
+            "value": 0.17288881863291294
+          },
+          {
+            "exact": "17792/259369",
+            "value": 0.06859724947854215
+          },
+          {
+            "exact": "70/803",
+            "value": 0.08717310087173101
+          },
+          {
+            "exact": "174125/259369",
+            "value": 0.6713408310168139
+          }
+        ]
+      ]
+    },
+    "maximum_witness": {
+      "accuracy": {
+        "exact": "768/803",
+        "value": 0.9564134495641345
+      },
+      "t": [
+        {
+          "exact": "1/73",
+          "value": 0.0136986301369863
+        },
+        {
+          "exact": "161/323",
+          "value": 0.4984520123839009
+        }
+      ],
+      "channel": [
+        [
+          {
+            "exact": "733/803",
+            "value": 0.912826899128269
+          },
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "59/803",
+            "value": 0.07347447073474471
+          },
+          {
+            "exact": "1/73",
+            "value": 0.0136986301369863
+          }
+        ],
+        [
+          {
+            "exact": "0",
+            "value": 0.0
+          },
+          {
+            "exact": "78/323",
+            "value": 0.24148606811145512
+          },
+          {
+            "exact": "84/323",
+            "value": 0.26006191950464397
+          },
+          {
+            "exact": "161/323",
+            "value": 0.4984520123839009
+          }
+        ]
+      ]
+    },
+    "scheme": "sensitivity_at120",
+    "construct": "2x",
+    "condition0": "FM1_5min_690nM",
+    "condition1": "FM9_5minINT_690nM",
+    "reference_contrast": "one_vs_nine_pulses"
+  }
+]

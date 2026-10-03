@@ -1,0 +1,122 @@
+[
+  {
+    "scheme": "primary_median",
+    "construct": "1x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "threshold_SIP18": 150.76636363636365,
+    "threshold_HXK1": 4359.900000000001
+  },
+  {
+    "scheme": "primary_median",
+    "construct": "2x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "threshold_SIP18": 260.25545454545454,
+    "threshold_HXK1": 8197.50909090909
+  },
+  {
+    "scheme": "sensitivity_q25",
+    "construct": "1x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/4",
+      "value": 0.25
+    },
+    "threshold_SIP18": 15.617854545454547,
+    "threshold_HXK1": 2273.5909090909095
+  },
+  {
+    "scheme": "sensitivity_q25",
+    "construct": "2x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/4",
+      "value": 0.25
+    },
+    "threshold_SIP18": 28.797363636363638,
+    "threshold_HXK1": 4436.690909090909
+  },
+  {
+    "scheme": "sensitivity_q75",
+    "construct": "1x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "3/4",
+      "value": 0.75
+    },
+    "threshold_SIP18": 1263.7000000000003,
+    "threshold_HXK1": 6900.372727272727
+  },
+  {
+    "scheme": "sensitivity_q75",
+    "construct": "2x",
+    "feature": "max11",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "3/4",
+      "value": 0.75
+    },
+    "threshold_SIP18": 2967.163636363636,
+    "threshold_HXK1": 12832.545454545454
+  },
+  {
+    "scheme": "sensitivity_control95",
+    "construct": "1x",
+    "feature": "max11",
+    "method": "untreated",
+    "quantile": {
+      "exact": "19/20",
+      "value": 0.95
+    },
+    "threshold_SIP18": 74.76318181818182,
+    "threshold_HXK1": 412.7663636363637
+  },
+  {
+    "scheme": "sensitivity_control95",
+    "construct": "2x",
+    "feature": "max11",
+    "method": "untreated",
+    "quantile": {
+      "exact": "19/20",
+      "value": 0.95
+    },
+    "threshold_SIP18": 193.66709090909092,
+    "threshold_HXK1": 1073.4736363636366
+  },
+  {
+    "scheme": "sensitivity_at120",
+    "construct": "1x",
+    "feature": "at120",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "threshold_SIP18": 132.56181818181815,
+    "threshold_HXK1": 4168.554545454546
+  },
+  {
+    "scheme": "sensitivity_at120",
+    "construct": "2x",
+    "feature": "at120",
+    "method": "equal_condition",
+    "quantile": {
+      "exact": "1/2",
+      "value": 0.5
+    },
+    "threshold_SIP18": 227.69545454545457,
+    "threshold_HXK1": 7849.836363636364
+  }
+]
