@@ -1,0 +1,48 @@
+name: Materialize verified primary reference files
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/materialize-primary-reference.yml']
+permissions:
+  contents: read
+jobs:
+  materialize:
+    if: github.repository == 'TaylorResearchLab/biological-information-limit-1' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - run: python -m pip install -r requirements.txt
+      - run: python reproduce.py --out runs/reference_materialization --strict-bytes
+      - run: python tools/materialize_primary_reference.py --from-run runs/reference_materialization/primary
+      - run: python verify_archive.py
+      - name: Save only the verified reference files on a separate branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git switch -c archive/primary-reference-2026-10-02
+          git add -- README.md SHA256SUMS provenance/import_manifest.json provenance/primary_reference_materialization.json
+          git add -- workstreams/method_comparison_2026-09-23/inputs/primary_records.json
+          git add -- workstreams/method_comparison_2026-09-23/results/science/decision_comparison.json
+          git add -- workstreams/method_comparison_2026-09-23/results/science/information_panel.json
+          git add -- workstreams/method_comparison_2026-09-23/results/science/information_reveal.json
+          git add -- workstreams/method_comparison_2026-09-23/results/science/summary.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git diff --cached --stat
+          git commit -m 'Store primary reference files with exact historical SHA-256 matches'
+          git push origin HEAD:refs/heads/archive/primary-reference-2026-10-02
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: primary-reference-verification
+          path: runs/reference_materialization/
+          retention-days: 30
