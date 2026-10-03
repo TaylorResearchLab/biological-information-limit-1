@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "source_checkpoint": "32b0e6633ed2f2d9c8a46f98057382bf765822d4",
+  "scope": "Byte-identical archival materialization from the reproduced primary records.",
+  "files": [
+    {
+      "path": "workstreams/method_comparison_2026-09-23/inputs/primary_records.json",
+      "bytes": 279046,
+      "sha256": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
+      "git_blob": "f54125fe381dd26e28989c8aa50bc9e1915e1664",
+      "origin": "scientific_checkpoint_32b0e66"
+    },
+    {
+      "path": "workstreams/method_comparison_2026-09-23/results/science/decision_comparison.json",
+      "bytes": 135584,
+      "sha256": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
+      "git_blob": "39efb060f8f8400443e949710f362f76c7828899",
+      "origin": "scientific_checkpoint_32b0e66"
+    },
+    {
+      "path": "workstreams/method_comparison_2026-09-23/results/science/information_panel.json",
+      "bytes": 17988,
+      "sha256": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
+      "git_blob": "717767e31f3b07b485df1154a5bf281ee949cc78",
+      "origin": "scientific_checkpoint_32b0e66"
+    },
+    {
+      "path": "workstreams/method_comparison_2026-09-23/results/science/information_reveal.json",
+      "bytes": 5427,
+      "sha256": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
+      "git_blob": "b695b110d28de2f948afd3297cb092c1d1e03c8f",
+      "origin": "scientific_checkpoint_32b0e66"
+    },
+    {
+      "path": "workstreams/method_comparison_2026-09-23/results/science/summary.json",
+      "bytes": 966,
+      "sha256": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b",
+      "git_blob": "8875107abd0225f993e6a93f1162384d580811d3",
+      "origin": "scientific_checkpoint_32b0e66"
+    }
+  ]
+}

@@ -33,7 +33,7 @@ The initial import contains all 18 Python source files from Supplementary Code S
 - [Imported file manifest](provenance/import_manifest.json) records sizes, SHA-256 digests and Git object identities.
 - [Reference result identities](reference_results/expected_information_sha256.json) records the exact archived outputs used for comparison.
 
-`verify_archive.py` checks all 23 imported files and parses all 19 imported Python programs. The top-level wrapper, archive verifier and packaging tests are separate additions. Run the packaging tests with `python -m unittest discover -s tests -v`.
+`verify_archive.py` checks all 28 imported files and parses all 19 imported Python programs. The top-level wrapper, archive verifier and packaging tests are separate additions. Run the packaging tests with `python -m unittest discover -s tests -v`.
 
 The GitHub Actions workflow runs archive checks and primary reproduction from a checkout of this public repository. Its output artifact contains the generated results and run record. Read the workflow's actual status rather than treating the presence of the workflow as a passed test.
 
