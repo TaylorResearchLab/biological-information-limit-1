@@ -1,0 +1,41 @@
+name: Import exact Msn2 derived archive
+on:
+  push:
+    branches: [archive/import-msn2-2026-10-03]
+permissions:
+  contents: write
+jobs:
+  import:
+    if: github.actor == 'taylordm'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      MPLBACKEND: Agg
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: '3.13.5'
+      - run: python -m pip install -r requirements.txt
+      - run: python tools/import_msn2_archive.py
+      - run: python verify_archive.py
+      - run: python tools/verify_msn2_derived.py --out provenance/msn2_archive_validation.json
+      - run: python reproduce.py --out runs/import-check --figures --strict-bytes
+      - name: Store only the verified archive and its records
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add workstreams/msn2_pairing_2026-09-23/results/analysis/cell_features.csv.gz workstreams/msn2_pairing_2026-09-23/results/analysis/condition_counts.json workstreams/msn2_pairing_2026-09-23/results/analysis/member_provenance.json workstreams/msn2_pairing_2026-09-23/results/analysis/pair_results.json workstreams/msn2_pairing_2026-09-23/results/analysis/reference_contrasts.json workstreams/msn2_pairing_2026-09-23/results/analysis/summary.json workstreams/msn2_pairing_2026-09-23/results/analysis/thresholds.json workstreams/msn2_pairing_2026-09-23/results/analysis/zero_audit.json workstreams/msn2_pairing_2026-09-23/results/constraint_reveal.json provenance/import_manifest.json provenance/msn2_archive_transfer.json provenance/msn2_archive_validation.json SHA256SUMS
+          git commit -m 'Store full Msn2 derived archive with exact historical byte checks'
+          git push origin HEAD:refs/heads/archive/msn2-data-2026-10-03
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        if: always()
+        with:
+          name: msn2-import-verification
+          path: |
+            provenance/
+            runs/
+            workstreams/msn2_pairing_2026-09-23/results/
+            tools/verify_msn2_derived.py
+          retention-days: 30
