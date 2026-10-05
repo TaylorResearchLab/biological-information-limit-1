@@ -1,0 +1,57 @@
+[
+  {
+    "proofreading_steps": 1,
+    "self_completion_probability": "1/11",
+    "agonist_completion_probability": "10/11",
+    "completion_ratio": "10",
+    "bayes_error": "1/11",
+    "information_bits_enclosure": {
+      "lower": "0.560503013078486696",
+      "upper": "0.560503013078486697"
+    }
+  },
+  {
+    "proofreading_steps": 2,
+    "self_completion_probability": "1/121",
+    "agonist_completion_probability": "100/121",
+    "completion_ratio": "100",
+    "bayes_error": "1/11",
+    "information_bits_enclosure": {
+      "lower": "0.612789487118543386",
+      "upper": "0.612789487118543387"
+    }
+  },
+  {
+    "proofreading_steps": 3,
+    "self_completion_probability": "1/1331",
+    "agonist_completion_probability": "1000/1331",
+    "completion_ratio": "1000",
+    "bayes_error": "166/1331",
+    "information_bits_enclosure": {
+      "lower": "0.546157830977353069",
+      "upper": "0.546157830977353070"
+    }
+  },
+  {
+    "proofreading_steps": 4,
+    "self_completion_probability": "1/14641",
+    "agonist_completion_probability": "10000/14641",
+    "completion_ratio": "10000",
+    "bayes_error": "211/1331",
+    "information_bits_enclosure": {
+      "lower": "0.475226616265992236",
+      "upper": "0.475226616265992237"
+    }
+  },
+  {
+    "proofreading_steps": 8,
+    "self_completion_probability": "1/214358881",
+    "agonist_completion_probability": "100000000/214358881",
+    "completion_ratio": "100000000",
+    "bayes_error": "5198131/19487171",
+    "information_bits_enclosure": {
+      "lower": "0.285259737375068840",
+      "upper": "0.285259737375068841"
+    }
+  }
+]

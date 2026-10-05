@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "checks": {
+    "table_2_rows": 2,
+    "table_3_rows": 3,
+    "source_frequency_rows": 6,
+    "extended_passage_rows": 4,
+    "separate_product_assay_U_threshold": 3.5999999999999996
+  },
+  "source_sha256": {
+    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py": "a661d9700487c27fa075cf16a8bdeb77e378573bf3610b2a8f210907fa9b36ce",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/src/ribosome_boundary.py": "df1ebffc499b1931c951c0aa603c6fc1fcf96b37d9a48e4f211965001f912e68",
+    "workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py": "6a9534ee2375c0425066bf6b03a398e6a7137781a3c45f8ec3e0d0e539c630bb"
+  },
+  "output_sha256": {
+    "extended_passage_sweep.csv": "deb7f5c56e884df14e043c52574abc6e59ab8570ac83b3988e407968a6428824",
+    "figure_2_ribosome_selection.png": "6e4bf763e0cee2a3a4b88fb684f8b015171e6dc2f68b7605876bbdb3ed2b8de4",
+    "figure_data.json": "6534e334a5cf1440d0ec5eeb8b8e35e98430105e453e4d5c0d00201de6ce3d38",
+    "local_information_enclosures.json": "55c2cf2849e134b8521a9d480a4c1f132507f4448e92e5f3d7a3388ce8eb2401",
+    "parameters_used.json": "7c743d5fc5ceb41e047bc67e57c51482117e8d15966d4cb63da92e64cd1b5d63",
+    "run.log": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b",
+    "separate_product_assay.json": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b",
+    "source_frequency_sensitivity.csv": "f7aa50cb5f9226fb345ebbfc5186860637a746f20c420e9cd55be49398a112ea",
+    "table_2_ribosome_information.csv": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad",
+    "table_3_ribosome_passage.csv": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66"
+  },
+  "elapsed_seconds": 0.778,
+  "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  }
+}

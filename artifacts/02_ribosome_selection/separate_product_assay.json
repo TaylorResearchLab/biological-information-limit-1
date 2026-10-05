@@ -1,0 +1,49 @@
+{
+  "observed_competition": {
+    "res_error_ratio": 0.00023,
+    "res_over_wt": 0.14375,
+    "used_for_calibration": false,
+    "wt_error_ratio": 0.0016
+  },
+  "rate_based_comparator": {
+    "U_one_uncertainty_rectangle": [
+      0.3356366311269952,
+      0.5472406316293297
+    ],
+    "U_point": 0.4272067434559685,
+    "broad_sensitivity_family_contains_observed": true,
+    "definition": "codon-recognition-state two-exit approximation a=k3/(k3+k_-2), using observed k_GTP as k3 proxy",
+    "interpretation": "matched mechanistic sensitivity comparator only; not a rate-free BICS prediction and not a confidence interval",
+    "observed_relative_error": 0.14375,
+    "point_late_family_contains_observed": false,
+    "relative_error_with_one_uncertainty_rate_and_acceptance_rectangles": [
+      0.011618191077472912,
+      0.1520112865637027
+    ],
+    "relative_error_with_point_late_acceptance_and_cognate_envelope": [
+      0.05382804967545203,
+      0.06645438231537287
+    ]
+  },
+  "rate_free_late_stage": {
+    "U_threshold_for_guaranteed_res_lt_wt_under_one_uncertainty_family": 3.5999999999999996,
+    "factor_one_displayed_uncertainty_family": [
+      0.03461538461538462,
+      0.2777777777777778
+    ],
+    "factor_point_with_cognate_envelope": [
+      0.126,
+      0.15555555555555556
+    ],
+    "if_U_equals_1_one_uncertainty_family": [
+      0.03461538461538462,
+      0.2777777777777778
+    ],
+    "if_U_equals_1_point": [
+      0.126,
+      0.15555555555555556
+    ],
+    "unconditional_quantitative_prediction": "not identified because no numerical source-derived bound on U was found independent of the competition endpoint"
+  },
+  "status": "executed algebraic calibration-ledger analysis; not scientific acceptance"
+}

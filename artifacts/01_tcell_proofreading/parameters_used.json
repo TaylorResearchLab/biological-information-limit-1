@@ -1,0 +1,18 @@
+{
+  "example": "T cell receptor proofreading",
+  "source_doi": "10.1073/pnas.92.11.5042",
+  "scope": "A single already-bound encounter; binary completion outcome.",
+  "progression_rate_relative_units": "1",
+  "self_dissociation_rate": "10",
+  "agonist_dissociation_rate": "1/10",
+  "self_step_passage": "1/11",
+  "agonist_step_passage": "10/11",
+  "agonist_input_probability": "1/2",
+  "proofreading_steps": [
+    1,
+    2,
+    3,
+    4,
+    8
+  ]
+}

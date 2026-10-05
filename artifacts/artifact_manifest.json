@@ -1,0 +1,243 @@
+{
+  "status": "PASS",
+  "format_version": 1,
+  "source_commit": "5695fd8979fc9a77f3ddddb80b5023eda3761dbc",
+  "source_sha256": {
+    "examples/01_tcell_proofreading/README.md": "a15e45d602768da63f8cb59f736db9f15184fafbd7497636d21f3b3f3ee5c46f",
+    "examples/01_tcell_proofreading/expected_results/table_1_tcell_proofreading.csv": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973",
+    "examples/01_tcell_proofreading/run_tcell_proofreading.py": "b552e8c6bc62b3327d8453a1202c14766c533fb8ec4b2a54b17fc7d254c13a46",
+    "examples/02_ribosome_selection/README.md": "a5b6c03c7c0731b1aeda492fab5014305d7f1cb6f972e30789d44052fb30d7b8",
+    "examples/02_ribosome_selection/expected_results/extended_passage_sweep.csv": "deb7f5c56e884df14e043c52574abc6e59ab8570ac83b3988e407968a6428824",
+    "examples/02_ribosome_selection/expected_results/source_frequency_sensitivity.csv": "f7aa50cb5f9226fb345ebbfc5186860637a746f20c420e9cd55be49398a112ea",
+    "examples/02_ribosome_selection/expected_results/table_2_ribosome_information.csv": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad",
+    "examples/02_ribosome_selection/expected_results/table_3_ribosome_passage.csv": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66",
+    "examples/02_ribosome_selection/run_ribosome_selection.py": "a588b977e702c8dbfb84ccb3041338317493a9dfabfd9bac5cee1b2dea0f049a",
+    "examples/03_msn2_reporters/README.md": "0b34c29cb843084cec9d2dbb67d61f935e3dd24009f65627a344c2828fca03d7",
+    "examples/03_msn2_reporters/expected_results/table_4_msn2_information.csv": "794a1ab8c0ea80ec27dd1552f0f20b9112a71423c39b2c0d5e22f4ee0910daa6",
+    "examples/03_msn2_reporters/expected_results/table_5_msn2_pairing.csv": "d827bb063bb874e800b8f2b5ee57e11e6b21e9531c70349c059f7ba93b591ae0",
+    "examples/03_msn2_reporters/run_msn2_reporters.py": "26cd48a2036e8521df1021d4a81981f2734c1aff88eda525864f7d6a9058c8e3",
+    "examples/README.md": "546c7bf35f0b7e604dad0f47b3d072f96818045bc8a308a2d9b2c0c706d968fa",
+    "examples/REFERENCE_RESULTS.md": "d2486e16a9151bb027ea24186e7ebd1b9296e1d54aa161e6313d6c19c1eedf76",
+    "examples/_common.py": "8ce911390411c6ad30b7bda95e105f8f327f3ea0a8ec049928eea4f492c5215e",
+    "examples/_plot.py": "fca23480fad78c0b60d3df2485bf9c89b567097350ad91df2be0978ed2bcb5f8",
+    "generate_artifacts.py": "a7c9e34a6b390c765c1125dcb932d36911567ab6538b86e78bee38fafb9e6f2b",
+    "provenance/examples_manifest.json": "288e273ddba68fd1450e2bd46ab33cf173d08939d9c3f97e74faacd332f8500c",
+    "provenance/import_manifest.json": "a89b5fb2c394b74da48dc39bbf7f5284920e9c1392d2a3dcb3c496ffa0c8864f",
+    "provenance/local_verification.json": "62e26ef7202fbb7de06e420b8d9f19c06aea75b34f286b816180322d32931af4",
+    "provenance/msn2_archive_manifest.json": "6682081f9ee6d2f86621dc3278da98a9a29c3a1bc45414a0ec9090c8667c29ee",
+    "provenance/msn2_archive_transfer.json": "3652d000111e70712568a3335ff9e686fed2920fad1bf2240660bace77f02791",
+    "provenance/msn2_archive_validation.json": "e0f1d73b84d122b17374f4734bdb2053bf64aa641c24404555b8a024ecb3afb8",
+    "provenance/primary_reference_materialization.json": "9fac09a65076aeb3e11b0d8cf88bd28846fba81a009f78e8a24d65312822ad4f",
+    "reference_results/expected_information_sha256.json": "766200ad755e5cb9db7fba72b2aa72926cf8bd5b2873c6f8c7b38bcf524bf491",
+    "requirements.txt": "434cb5b16661d587c9fb648e4b23b145b50ea657de367218783de0dfa9cb8cd2",
+    "tools/materialize_primary_reference.py": "2ce75489a563156b1942c395f6e3a56b6c0e92c563dd62109fbda7d3373f4c26",
+    "tools/verify_msn2_derived.py": "4f67edda7f1d5a97991ab5308be0016c5f159b657b6efe3465f68242e8f09513",
+    "verify_archive.py": "5a3f52a09ca763de49e7d00550c8eec8aba84fa0db2ca158b63f0e07f921a984",
+    "workstreams/method_comparison_2026-09-23/inputs/primary_records.json": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
+    "workstreams/method_comparison_2026-09-23/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
+    "workstreams/method_comparison_2026-09-23/reference/joint_task_bounds.py": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
+    "workstreams/method_comparison_2026-09-23/reference/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607",
+    "workstreams/method_comparison_2026-09-23/requirements.txt": "834b95f435034610a6170f1f3c530631dc21afb80ad2dbc480118f3207eee9e8",
+    "workstreams/method_comparison_2026-09-23/results/science/decision_comparison.json": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
+    "workstreams/method_comparison_2026-09-23/results/science/information_panel.json": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
+    "workstreams/method_comparison_2026-09-23/results/science/information_reveal.json": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
+    "workstreams/method_comparison_2026-09-23/results/science/summary.json": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b",
+    "workstreams/method_comparison_2026-09-23/src/matched_information.py": "17828f569d09292102f94c04a088823de7f135186f335ce82484b4a2f846c8b2",
+    "workstreams/method_comparison_2026-09-23/src/run_comparison.py": "82c730f1b7bba1af49d4b79c686343483f7ae1132615805052cc997d948559c6",
+    "workstreams/msn2_pairing_2026-09-23/reference/joint_task_bounds.py": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/cell_features.csv.gz": "e53451cff62e700ed39c7eff1640858e2b75062633fa41fe4117fe7888caca54",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/condition_counts.json": "090393284e45c2586dcb2d0333e5da41b3b9268c76099e8f9ccb276c9d17358e",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/member_provenance.json": "0bb2b62177a1d18cfa499424716cdf1447a161b10f24974532e01e225a8319a5",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/pair_results.json": "e42c0277801159fb014eb2e40e06a62b813e156be538b3f91b5ee859bbaeb7d3",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/reference_contrasts.json": "bf870a8610b126576623c8d5e67452ac9d62044682d3b29fba6a0a1f9de5fb37",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/summary.json": "d4a901583cac2d33a4fcf46717eba276710cecad617ab773b274d02b9b5090f5",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/thresholds.json": "d6d54f9e85c5ac320080f9242d78a06dde02f4727e51376a8a25cf7fa83a8abf",
+    "workstreams/msn2_pairing_2026-09-23/results/analysis/zero_audit.json": "0d60b20b93310d3bc8729f1ba10aca35a0fb38e72a8fda92ca08425c9944d152",
+    "workstreams/msn2_pairing_2026-09-23/results/constraint_reveal.json": "cd4373ee9e860422d600b62d7d4191e75a5abdacede0e45d1eea5afa12c63d95",
+    "workstreams/msn2_pairing_2026-09-23/src/analyze_msn2.py": "eec7a738ae8f595077e4972fef31e4b7da1d817947321e050f51f2b29b8b637f",
+    "workstreams/msn2_pairing_2026-09-23/src/reveal_pairing.py": "4779b177bb413bb868c91ff8c3286558d5c42f292d0b8e9e9efec4d169f19650",
+    "workstreams/paper1_checkpoint_2026-09-23/scripts/make_manuscript_figures.py": "b84dce5cec6c77ab5e2476c9cdcd28b0f761c3489e941bd1d61adc034b465c89",
+    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py": "a661d9700487c27fa075cf16a8bdeb77e378573bf3610b2a8f210907fa9b36ce",
+    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py": "9a351b0776f38912797b80d14d754cfca4a0a91653f6d5403c657a2341c378f6",
+    "workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/SOURCE_MANIFEST.json": "8c839d4c221101aa6fd2b565bcb448f18834d61ca2c5cdc0d75c77f5b392fb9e",
+    "workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/primary_condition_counts.json": "73fcd9c500f9e4e70d920eb25340db3210b25ecd31dd2419333f3ac88ca24d6d",
+    "workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/primary_counts_provenance.json": "576a58afa4e535d203b6f444ea60da449b13b4da8f67d08a3b2518af318b2fe6",
+    "workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/reproduce_primary_panel.py": "28378bee20dad623a029a08138840ba9b56a61a69d0557dff317a4b361f0070c",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607",
+    "workstreams/research_update_2026-09-23/ribosome_boundary/src/ribosome_boundary.py": "df1ebffc499b1931c951c0aa603c6fc1fcf96b37d9a48e4f211965001f912e68",
+    "workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py": "6a9534ee2375c0425066bf6b03a398e6a7137781a3c45f8ec3e0d0e539c630bb",
+    "workstreams/transfer_proofreading_v0_1/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
+    "workstreams/transfer_proofreading_v0_1/src/proofreading.py": "2d5bec9874d519fa6defd8a4b9de3242dfce745bb1f96dba3937bcef8657a9b6",
+    "workstreams/transfer_proofreading_v0_1/src/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607"
+  },
+  "tables": 5,
+  "figures": 3,
+  "msn2_full_derived_verification": true,
+  "files": {
+    "01_tcell_proofreading/README.md": {
+      "bytes": 1133,
+      "sha256": "8e99ed3bcae480ffba9b60ecef29a2fc132618cb0b89d9e0c1b6e4907646e519"
+    },
+    "01_tcell_proofreading/exact_results.json": {
+      "bytes": 1595,
+      "sha256": "089c689d943b9cbd7d3f53a047a18ae93def2faeee81140bb2c2d5ddfb8039c6"
+    },
+    "01_tcell_proofreading/figure_1_tcell_proofreading.png": {
+      "bytes": 212415,
+      "sha256": "b7ea0fa1ddd0e152cf3630a65fa5c30c5c729f78dd46018937cd99ec92825232"
+    },
+    "01_tcell_proofreading/figure_data.json": {
+      "bytes": 1731,
+      "sha256": "10cc05ba76adc471045e347daf537a5d7d78489185ce2f7b30b24e29c611caaf"
+    },
+    "01_tcell_proofreading/ligand_dependence.json": {
+      "bytes": 256,
+      "sha256": "8b114446f388898c4508fcb6a1235e06daa1149acee63aea2300ac56eee99a9e"
+    },
+    "01_tcell_proofreading/parameters_used.json": {
+      "bytes": 450,
+      "sha256": "b738e4cbd85710469e0ce61245939804d731ba6683f472af9afe44cb665c773a"
+    },
+    "01_tcell_proofreading/run.log": {
+      "bytes": 403,
+      "sha256": "f68b80f6459027827a1f797f08344223d795886e948a4e54dbd81737711b40b6"
+    },
+    "01_tcell_proofreading/table_1_tcell_proofreading.csv": {
+      "bytes": 467,
+      "sha256": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973"
+    },
+    "01_tcell_proofreading/verification.json": {
+      "bytes": 1629,
+      "sha256": "92b3571522f5c19de047df7a4a46d7bd0b94d750a29f8dace7993b49bc12117d"
+    },
+    "01_tcell_proofreading.log": {
+      "bytes": 226,
+      "sha256": "9d5b5b1f9a650e721dfdc45a1945be37f59e35b59b58e188d81963d8b3c76579"
+    },
+    "02_ribosome_selection/README.md": {
+      "bytes": 1365,
+      "sha256": "ff2223fa439ef4790776e7a519d53ff5b0744948e0029cf14b6f7b93df08d56a"
+    },
+    "02_ribosome_selection/extended_passage_sweep.csv": {
+      "bytes": 167,
+      "sha256": "deb7f5c56e884df14e043c52574abc6e59ab8570ac83b3988e407968a6428824"
+    },
+    "02_ribosome_selection/figure_2_ribosome_selection.png": {
+      "bytes": 234598,
+      "sha256": "6e4bf763e0cee2a3a4b88fb684f8b015171e6dc2f68b7605876bbdb3ed2b8de4"
+    },
+    "02_ribosome_selection/figure_data.json": {
+      "bytes": 1617,
+      "sha256": "6534e334a5cf1440d0ec5eeb8b8e35e98430105e453e4d5c0d00201de6ce3d38"
+    },
+    "02_ribosome_selection/local_information_enclosures.json": {
+      "bytes": 1995,
+      "sha256": "55c2cf2849e134b8521a9d480a4c1f132507f4448e92e5f3d7a3388ce8eb2401"
+    },
+    "02_ribosome_selection/parameters_used.json": {
+      "bytes": 658,
+      "sha256": "7c743d5fc5ceb41e047bc67e57c51482117e8d15966d4cb63da92e64cd1b5d63"
+    },
+    "02_ribosome_selection/run.log": {
+      "bytes": 1742,
+      "sha256": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b"
+    },
+    "02_ribosome_selection/separate_product_assay.json": {
+      "bytes": 1742,
+      "sha256": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b"
+    },
+    "02_ribosome_selection/source_frequency_sensitivity.csv": {
+      "bytes": 647,
+      "sha256": "f7aa50cb5f9226fb345ebbfc5186860637a746f20c420e9cd55be49398a112ea"
+    },
+    "02_ribosome_selection/table_2_ribosome_information.csv": {
+      "bytes": 345,
+      "sha256": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad"
+    },
+    "02_ribosome_selection/table_3_ribosome_passage.csv": {
+      "bytes": 137,
+      "sha256": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66"
+    },
+    "02_ribosome_selection/verification.json": {
+      "bytes": 2257,
+      "sha256": "420a1986dae7e8cb807c33dea44f551708438ed943520a3cde2649d2fda14ae6"
+    },
+    "02_ribosome_selection.log": {
+      "bytes": 323,
+      "sha256": "4c5f60870eef97cd83bcf045ae1742ce4f24eb828c089110a00750522f33fc98"
+    },
+    "03_msn2_reporters/README.md": {
+      "bytes": 1377,
+      "sha256": "e563543288a98190e688d3ef9733685b2f11ce4144162941309709585e44fde0"
+    },
+    "03_msn2_reporters/all_272_discrimination_comparisons.csv": {
+      "bytes": 31154,
+      "sha256": "b029e6c888bd4385fd51886e11ffe03a20d573d2136304584dbb6f06e004b6a8"
+    },
+    "03_msn2_reporters/all_five_definitions_verification.json": {
+      "bytes": 923,
+      "sha256": "e0f1d73b84d122b17374f4734bdb2053bf64aa641c24404555b8a024ecb3afb8"
+    },
+    "03_msn2_reporters/detailed_results/decision_comparison.json": {
+      "bytes": 135584,
+      "sha256": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d"
+    },
+    "03_msn2_reporters/detailed_results/information_panel.json": {
+      "bytes": 17988,
+      "sha256": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296"
+    },
+    "03_msn2_reporters/detailed_results/information_reveal.json": {
+      "bytes": 5427,
+      "sha256": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89"
+    },
+    "03_msn2_reporters/detailed_results/summary.json": {
+      "bytes": 966,
+      "sha256": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b"
+    },
+    "03_msn2_reporters/figure_3_msn2_information.png": {
+      "bytes": 181237,
+      "sha256": "d13e22ecb55cdbeaa16d979848c5c5cb40d3c61dcc801ef85d95ebf3fe8b3908"
+    },
+    "03_msn2_reporters/figure_data.json": {
+      "bytes": 2017,
+      "sha256": "97f9bc103804ffff061923471e3d1cda68f550eddc5d66c6f638b0cee755a09c"
+    },
+    "03_msn2_reporters/full_derived.log": {
+      "bytes": 923,
+      "sha256": "e0f1d73b84d122b17374f4734bdb2053bf64aa641c24404555b8a024ecb3afb8"
+    },
+    "03_msn2_reporters/parameters_used.json": {
+      "bytes": 464,
+      "sha256": "8feb7e73e3ca3df11db55b1a3522679e25b475c14a894fb204e21c5825bcd5f6"
+    },
+    "03_msn2_reporters/primary_records.json": {
+      "bytes": 279046,
+      "sha256": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e"
+    },
+    "03_msn2_reporters/run.log": {
+      "bytes": 3473,
+      "sha256": "2c50763a9d2de03136939528009138a71db6e645770331500fe46b509fc157bc"
+    },
+    "03_msn2_reporters/table_4_msn2_information.csv": {
+      "bytes": 364,
+      "sha256": "794a1ab8c0ea80ec27dd1552f0f20b9112a71423c39b2c0d5e22f4ee0910daa6"
+    },
+    "03_msn2_reporters/table_5_msn2_pairing.csv": {
+      "bytes": 257,
+      "sha256": "d827bb063bb874e800b8f2b5ee57e11e6b21e9531c70349c059f7ba93b591ae0"
+    },
+    "03_msn2_reporters/verification.json": {
+      "bytes": 7636,
+      "sha256": "152aaa38ffffd986934b1a0da5e7a3fe9ca65993aebe1e122d60573581771fad"
+    },
+    "03_msn2_reporters.log": {
+      "bytes": 286,
+      "sha256": "efa7678ca60d4852bc651a0c2f9fe28a125e90e78ac0d7ca5d06825e5bb4f0d4"
+    },
+    "README.md": {
+      "bytes": 2559,
+      "sha256": "bdce761943964558d8b2dead920403a903845605b00912512bb75a791c48c41d"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+1x|info_theory_untreated|DM_70min_690nM {'lower': '0.976643079413437', 'upper': '0.976643079413438'} {'lower': '0.976643079413437', 'upper': '0.976643079413438'} gap 7.5455333397966e-27
+1x|DM_70min_100nM|DM_70min_3uM {'lower': '0.617717856899185', 'upper': '0.617717856910091'} {'lower': '0.944467536670447', 'upper': '0.944467536670448'} gap 1.090536647473708e-11
+1x|DM_70min_690nM|FM9_5minINT_690nM {'lower': '0.176105341125889', 'upper': '0.176105341125890'} {'lower': '0.284217991970068', 'upper': '0.284217991970069'} gap 1.0114510683497618e-25
+1x|FM1_5min_690nM|FM9_5minINT_690nM {'lower': '0.471489200661962', 'upper': '0.471489200661963'} {'lower': '0.829110911070671', 'upper': '0.829110911070672'} gap 2.5435843483856274e-25
+2x|info_theory_untreated|DM_70min_690nM {'lower': '0.981351670525605', 'upper': '0.981351670525606'} {'lower': '0.981351670525605', 'upper': '0.981351670525606'} gap 2.784926701108847e-27
+2x|DM_70min_100nM|DM_70min_3uM {'lower': '0.795856289980531', 'upper': '0.795856289980532'} {'lower': '0.977943252245715', 'upper': '0.977943252245716'} gap 1.2639783960147453e-25
+2x|DM_70min_690nM|FM9_5minINT_690nM {'lower': '0.132958516714816', 'upper': '0.132958516723656'} {'lower': '0.277357580537593', 'upper': '0.277357580537594'} gap 8.838917838160697e-12
+2x|FM1_5min_690nM|FM9_5minINT_690nM {'lower': '0.487813315075192', 'upper': '0.487813315080817'} {'lower': '0.822905519860037', 'upper': '0.822905519860038'} gap 5.623792754476691e-12
+1x|DM_70min_175nM|FM7_786minINT_690nM {'lower': '0.008982611277761', 'upper': '0.008982611277762'} {'lower': '0.916265845917286', 'upper': '0.916265845917287'} gap 1.255082835945841e-25
+2x|FM7_786minINT_690nM|FM8_625minINT_690nM {'lower': '0.008232635510502', 'upper': '0.008232635510503'} {'lower': '0.726611400100518', 'upper': '0.726611400100519'} gap 1.259646240618712e-25
+reveal (False, False) {'lower': '0.008982611277761', 'upper': '0.008982611277762'} {'lower': '0.916265845917286', 'upper': '0.916265845917287'} 1.255082835945841e-25
+reveal (True, False) {'lower': '0.012823171737368', 'upper': '0.012823172544072'} {'lower': '0.395666211759185', 'upper': '0.395666211759186'} 8.067032344929341e-10
+reveal (False, True) {'lower': '0.011679057927310', 'upper': '0.011679057991205'} {'lower': '0.281038852236308', 'upper': '0.281038852236309'} 6.3894158535964e-11
+reveal (True, True) {'lower': '0.013933516948868', 'upper': '0.013933516948869'} {'lower': '0.013933516948868', 'upper': '0.013933516948869'} 1.5466194104214965e-25
+{
+  "scope": "Established-framework comparison on previously derived empirical counts; no new sampling claims",
+  "input_sha256": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
+  "primary_cases": 272,
+  "new_linear_programs": 544,
+  "max_lp_discrepancy": 1.1102230246251565e-16,
+  "max_lp_constraint_residual": 1.1102230246251565e-16,
+  "primary_cases_randomized_equals_historical_deterministic_within_1e_9": 272,
+  "information_panel": 10,
+  "reveal_records": 4,
+  "unique_information_families": 13,
+  "max_minimum_certificate_width_bits": 8.067032344929341e-10,
+  "minimum_methods": {
+    "singleton family": 3,
+    "convex tangent with rational interval logarithms": 5,
+    "exact marginal DPI equality via X garbling": 5,
+    "exact marginal DPI equality via Y garbling": 1
+  },
+  "external_software_status": "No JavaBayes, BROJA-2PID or minimax-SVM implementation was run. Matched mathematical reductions with separately formulated LPs."
+}

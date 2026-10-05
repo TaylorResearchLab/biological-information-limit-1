@@ -1,0 +1,11 @@
+{
+  "example": "Yeast Msn2 reporters",
+  "source_doi": "10.7554/eLife.06559",
+  "data_doi": "10.5061/dryad.97vt8",
+  "response_definition": "primary_median",
+  "inputs": "Two equally weighted protocols per comparison",
+  "input_prior": "1/2",
+  "response": "Binary SIP18 and HXK1 responses; count order 00,01,10,11",
+  "scope": "Starts from archived binary counts. Raw fluorescence processing is a separate documented step.",
+  "full_derived_verification": true
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "checks": {
+    "table_1_rows": 5,
+    "preserved_driver_agreement": true,
+    "continuing_ligand_dependence": true
+  },
+  "source_sha256": {
+    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py": "9a351b0776f38912797b80d14d754cfca4a0a91653f6d5403c657a2341c378f6",
+    "workstreams/transfer_proofreading_v0_1/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
+    "workstreams/transfer_proofreading_v0_1/src/proofreading.py": "2d5bec9874d519fa6defd8a4b9de3242dfce745bb1f96dba3937bcef8657a9b6",
+    "workstreams/transfer_proofreading_v0_1/src/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607"
+  },
+  "output_sha256": {
+    "exact_results.json": "089c689d943b9cbd7d3f53a047a18ae93def2faeee81140bb2c2d5ddfb8039c6",
+    "figure_1_tcell_proofreading.png": "b7ea0fa1ddd0e152cf3630a65fa5c30c5c729f78dd46018937cd99ec92825232",
+    "figure_data.json": "10cc05ba76adc471045e347daf537a5d7d78489185ce2f7b30b24e29c611caaf",
+    "ligand_dependence.json": "8b114446f388898c4508fcb6a1235e06daa1149acee63aea2300ac56eee99a9e",
+    "parameters_used.json": "b738e4cbd85710469e0ce61245939804d731ba6683f472af9afe44cb665c773a",
+    "run.log": "f68b80f6459027827a1f797f08344223d795886e948a4e54dbd81737711b40b6",
+    "table_1_tcell_proofreading.csv": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973"
+  },
+  "elapsed_seconds": 1.151,
+  "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "mpmath": "1.3.0",
+    "matplotlib": "3.10.8"
+  }
+}

@@ -1,0 +1,74 @@
+[
+  {
+    "ribosome_preparation": "wild_type",
+    "near_cognate_input_probability": "1/2",
+    "minimum_information_bits": {
+      "lower": "0.616423170045641063",
+      "upper": "0.616423170045641064"
+    },
+    "maximum_information_bits": {
+      "lower": "0.859417589542727323",
+      "upper": "0.859417589542727324"
+    }
+  },
+  {
+    "ribosome_preparation": "restrictive",
+    "near_cognate_input_probability": "1/2",
+    "minimum_information_bits": {
+      "lower": "0.713019900844253767",
+      "upper": "0.713019900844253768"
+    },
+    "maximum_information_bits": {
+      "lower": "0.989590078940244110",
+      "upper": "0.989590078940244111"
+    }
+  },
+  {
+    "ribosome_preparation": "wild_type",
+    "near_cognate_input_probability": "1/10",
+    "minimum_information_bits": {
+      "lower": "0.238886508886717366",
+      "upper": "0.238886508886717367"
+    },
+    "maximum_information_bits": {
+      "lower": "0.425808639068712682",
+      "upper": "0.425808639068712683"
+    }
+  },
+  {
+    "ribosome_preparation": "restrictive",
+    "near_cognate_input_probability": "1/10",
+    "minimum_information_bits": {
+      "lower": "0.267480567317693682",
+      "upper": "0.267480567317693683"
+    },
+    "maximum_information_bits": {
+      "lower": "0.466279880666367293",
+      "upper": "0.466279880666367294"
+    }
+  },
+  {
+    "ribosome_preparation": "wild_type",
+    "near_cognate_input_probability": "1/100",
+    "minimum_information_bits": {
+      "lower": "0.028060120848891712",
+      "upper": "0.028060120848891713"
+    },
+    "maximum_information_bits": {
+      "lower": "0.074815588792238589",
+      "upper": "0.074815588792238590"
+    }
+  },
+  {
+    "ribosome_preparation": "restrictive",
+    "near_cognate_input_probability": "1/100",
+    "minimum_information_bits": {
+      "lower": "0.031285013067997803",
+      "upper": "0.031285013067997804"
+    },
+    "maximum_information_bits": {
+      "lower": "0.080452378885546978",
+      "upper": "0.080452378885546979"
+    }
+  }
+]

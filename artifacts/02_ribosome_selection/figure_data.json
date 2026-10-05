@@ -1,0 +1,47 @@
+{
+  "figure": "figure_2_ribosome_selection.png",
+  "inputs": {
+    "table_2_ribosome_information.csv": {
+      "sha256": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad",
+      "rows": [
+        {
+          "ribosome_preparation": "wild_type",
+          "near_cognate_input_probability": "0.5",
+          "cognate_acceptance_min": "0.9",
+          "cognate_acceptance_max": "1.0",
+          "near_cognate_acceptance_min": "0.048",
+          "near_cognate_acceptance_max": "0.052",
+          "information_min_bits": "0.6164231700456411",
+          "information_max_bits": "0.8594175895427273"
+        },
+        {
+          "ribosome_preparation": "restrictive",
+          "near_cognate_input_probability": "0.5",
+          "cognate_acceptance_min": "0.9",
+          "cognate_acceptance_max": "1.0",
+          "near_cognate_acceptance_min": "0.002",
+          "near_cognate_acceptance_max": "0.012",
+          "information_min_bits": "0.7130199008442538",
+          "information_max_bits": "0.9895900789402441"
+        }
+      ]
+    },
+    "table_3_ribosome_passage.csv": {
+      "sha256": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66",
+      "rows": [
+        {
+          "passage_probability_both_classes": "1.0",
+          "terminal_information_bits": "0.8253811175324837"
+        },
+        {
+          "passage_probability_both_classes": "0.1",
+          "terminal_information_bits": "0.04654857444005904"
+        },
+        {
+          "passage_probability_both_classes": "0.01",
+          "terminal_information_bits": "0.0045024786923536005"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "figure": "figure_1_tcell_proofreading.png",
+  "inputs": {
+    "table_1_tcell_proofreading.csv": {
+      "sha256": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973",
+      "rows": [
+        {
+          "proofreading_steps": "1",
+          "agonist_completion_probability": "0.9090909090909091",
+          "agonist_self_completion_ratio": "10",
+          "equal_prior_classification_error": "0.09090909090909091",
+          "mutual_information_bits": "0.5605030130784867"
+        },
+        {
+          "proofreading_steps": "2",
+          "agonist_completion_probability": "0.8264462809917356",
+          "agonist_self_completion_ratio": "100",
+          "equal_prior_classification_error": "0.09090909090909091",
+          "mutual_information_bits": "0.6127894871185434"
+        },
+        {
+          "proofreading_steps": "3",
+          "agonist_completion_probability": "0.7513148009015778",
+          "agonist_self_completion_ratio": "1000",
+          "equal_prior_classification_error": "0.1247182569496619",
+          "mutual_information_bits": "0.546157830977353"
+        },
+        {
+          "proofreading_steps": "4",
+          "agonist_completion_probability": "0.6830134553650707",
+          "agonist_self_completion_ratio": "10000",
+          "equal_prior_classification_error": "0.1585274229902329",
+          "mutual_information_bits": "0.4752266162659922"
+        },
+        {
+          "proofreading_steps": "8",
+          "agonist_completion_probability": "0.4665073802097334",
+          "agonist_self_completion_ratio": "100000000",
+          "equal_prior_classification_error": "0.2667463122276702",
+          "mutual_information_bits": "0.2852597373750688"
+        }
+      ]
+    }
+  }
+}

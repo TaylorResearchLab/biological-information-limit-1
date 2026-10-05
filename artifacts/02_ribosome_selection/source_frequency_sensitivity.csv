@@ -1,0 +1,7 @@
+ribosome_preparation,near_cognate_input_probability,cognate_acceptance_min,cognate_acceptance_max,near_cognate_acceptance_min,near_cognate_acceptance_max,information_min_bits,information_max_bits
+wild_type,0.5,0.9,1.0,0.048,0.052,0.6164231700456411,0.8594175895427273
+restrictive,0.5,0.9,1.0,0.002,0.012,0.7130199008442538,0.9895900789402441
+wild_type,0.1,0.9,1.0,0.048,0.052,0.23888650888671736,0.4258086390687127
+restrictive,0.1,0.9,1.0,0.002,0.012,0.2674805673176937,0.4662798806663673
+wild_type,0.01,0.9,1.0,0.048,0.052,0.02806012084889171,0.07481558879223858
+restrictive,0.01,0.9,1.0,0.002,0.012,0.0312850130679978,0.08045237888554697

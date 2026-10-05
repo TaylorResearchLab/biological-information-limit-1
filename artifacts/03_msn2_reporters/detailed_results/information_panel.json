@@ -1,0 +1,768 @@
+[
+  {
+    "case_id": "1x|info_theory_untreated|DM_70min_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        612,
+        0,
+        7,
+        0
+      ],
+      [
+        0,
+        0,
+        92,
+        1275
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "0",
+          "1275/1367"
+        ],
+        "method": "singleton family",
+        "bits_enclosure": {
+          "lower": "0.976643079413437",
+          "upper": "0.976643079413438"
+        },
+        "certificate_width_bits": 7.5455333397966e-27
+      },
+      "maximum": {
+        "point": [
+          "0",
+          "1275/1367"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.976643079413437",
+          "upper": "0.976643079413438"
+        },
+        "certificate_width_bits": 7.5455333397966e-27
+      },
+      "family_bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "1275/1367",
+          "1275/1367"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 1
+    },
+    "observed_bits": {
+      "lower": "0.976643079413437",
+      "upper": "0.976643079413438"
+    },
+    "independent_completion_bits": {
+      "lower": "0.976643079413437",
+      "upper": "0.976643079413438"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0E-15",
+      "upper": "1E-15"
+    }
+  },
+  {
+    "case_id": "1x|DM_70min_100nM|DM_70min_3uM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        2379,
+        409,
+        457,
+        225
+      ],
+      [
+        0,
+        0,
+        43,
+        1712
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "3169999999682999049/17350000000000000000",
+          "1712/1755"
+        ],
+        "gradient": [
+          {
+            "lower": "-0.596869213609035496",
+            "upper": "-0.596869213609035495"
+          },
+          {
+            "lower": "0E-18",
+            "upper": "0E-18"
+          }
+        ],
+        "method": "convex tangent with rational interval logarithms",
+        "search": {
+          "algorithm": "SciPy SLSQP candidate only",
+          "starts": 3,
+          "converged": true,
+          "message": "Optimization terminated successfully",
+          "recorded_warning_count": 0
+        },
+        "bits_enclosure": {
+          "lower": "0.617717856899185",
+          "upper": "0.617717856910091"
+        },
+        "certificate_width_bits": 1.090536647473708e-11
+      },
+      "maximum": {
+        "point": [
+          "0",
+          "1712/1755"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.944467536670447",
+          "upper": "0.944467536670448"
+        },
+        "certificate_width_bits": 2.5402871776010248e-26
+      },
+      "family_bounds": [
+        [
+          "0",
+          "317/1735"
+        ],
+        [
+          "1712/1755",
+          "1712/1755"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 2
+    },
+    "observed_bits": {
+      "lower": "0.775954324551141",
+      "upper": "0.775954324551142"
+    },
+    "independent_completion_bits": {
+      "lower": "0.835901397374145",
+      "upper": "0.835901397374146"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.158236467641051",
+      "upper": "0.158236467651957"
+    }
+  },
+  {
+    "case_id": "1x|DM_70min_690nM|FM9_5minINT_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        0,
+        0,
+        92,
+        1275
+      ],
+      [
+        100,
+        143,
+        122,
+        417
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "1275/1367",
+          "40425/62882"
+        ],
+        "method": "exact marginal DPI equality via X garbling",
+        "garbling": {
+          "parent": "X",
+          "child_high_given_parent_low": "78295/332181",
+          "child_high_given_parent_high": "1275/1367"
+        },
+        "bits_enclosure": {
+          "lower": "0.176105341125889",
+          "upper": "0.176105341125890"
+        },
+        "certificate_width_bits": 1.0114510683497618e-25
+      },
+      "maximum": {
+        "point": [
+          "1275/1367",
+          "317/782"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.284217991970068",
+          "upper": "0.284217991970069"
+        },
+        "certificate_width_bits": 1.1041061674051861e-25
+      },
+      "family_bounds": [
+        [
+          "1275/1367",
+          "1275/1367"
+        ],
+        [
+          "317/782",
+          "539/782"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 2
+    },
+    "observed_bits": {
+      "lower": "0.208196647130311",
+      "upper": "0.208196647130312"
+    },
+    "independent_completion_bits": {
+      "lower": "0.228529169055463",
+      "upper": "0.228529169055464"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.032091306004422",
+      "upper": "0.032091306004423"
+    }
+  },
+  {
+    "case_id": "1x|FM1_5min_690nM|FM9_5minINT_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        981,
+        12,
+        95,
+        0
+      ],
+      [
+        100,
+        143,
+        122,
+        417
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "838311/81585856",
+          "19560590/29319917"
+        ],
+        "method": "exact marginal DPI equality via Y garbling",
+        "garbling": {
+          "parent": "Y",
+          "child_high_given_parent_low": "11683/149974",
+          "child_high_given_parent_high": "279437/299948"
+        },
+        "bits_enclosure": {
+          "lower": "0.471489200661962",
+          "upper": "0.471489200661963"
+        },
+        "certificate_width_bits": 2.5435843483856274e-25
+      },
+      "maximum": {
+        "point": [
+          "3/272",
+          "317/782"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.829110911070671",
+          "upper": "0.829110911070672"
+        },
+        "certificate_width_bits": 9.818378505704797e-26
+      },
+      "family_bounds": [
+        [
+          "0",
+          "3/272"
+        ],
+        [
+          "317/782",
+          "539/782"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 4
+    },
+    "observed_bits": {
+      "lower": "0.576230768783460",
+      "upper": "0.576230768783461"
+    },
+    "independent_completion_bits": {
+      "lower": "0.625116344069882",
+      "upper": "0.625116344069883"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.104741568121497",
+      "upper": "0.104741568121498"
+    }
+  },
+  {
+    "case_id": "2x|info_theory_untreated|DM_70min_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        758,
+        0,
+        27,
+        0
+      ],
+      [
+        0,
+        0,
+        16,
+        1374
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "0",
+          "687/695"
+        ],
+        "method": "singleton family",
+        "bits_enclosure": {
+          "lower": "0.981351670525605",
+          "upper": "0.981351670525606"
+        },
+        "certificate_width_bits": 2.784926701108847e-27
+      },
+      "maximum": {
+        "point": [
+          "0",
+          "687/695"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.981351670525605",
+          "upper": "0.981351670525606"
+        },
+        "certificate_width_bits": 2.784926701108847e-27
+      },
+      "family_bounds": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "687/695",
+          "687/695"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 1
+    },
+    "observed_bits": {
+      "lower": "0.981351670525605",
+      "upper": "0.981351670525606"
+    },
+    "independent_completion_bits": {
+      "lower": "0.981351670525605",
+      "upper": "0.981351670525606"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0E-15",
+      "upper": "1E-15"
+    }
+  },
+  {
+    "case_id": "2x|DM_70min_100nM|DM_70min_3uM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        1016,
+        89,
+        84,
+        11
+      ],
+      [
+        0,
+        0,
+        16,
+        1638
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "5187/66160",
+          "819/827"
+        ],
+        "method": "exact marginal DPI equality via X garbling",
+        "garbling": {
+          "parent": "X",
+          "child_high_given_parent_low": "979/182767",
+          "child_high_given_parent_high": "819/827"
+        },
+        "bits_enclosure": {
+          "lower": "0.795856289980531",
+          "upper": "0.795856289980532"
+        },
+        "certificate_width_bits": 1.2639783960147453e-25
+      },
+      "maximum": {
+        "point": [
+          "0",
+          "819/827"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.977943252245715",
+          "upper": "0.977943252245716"
+        },
+        "certificate_width_bits": 1.0210441266540639e-26
+      },
+      "family_bounds": [
+        [
+          "0",
+          "19/240"
+        ],
+        [
+          "819/827",
+          "819/827"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 2
+    },
+    "observed_bits": {
+      "lower": "0.941145607665880",
+      "upper": "0.941145607665881"
+    },
+    "independent_completion_bits": {
+      "lower": "0.949891331615132",
+      "upper": "0.949891331615133"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.145289317685348",
+      "upper": "0.145289317685349"
+    }
+  },
+  {
+    "case_id": "2x|DM_70min_690nM|FM9_5minINT_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        0,
+        0,
+        16,
+        1374
+      ],
+      [
+        88,
+        138,
+        167,
+        576
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "687/695",
+          "3569999999887/4845000000000"
+        ],
+        "gradient": [
+          {
+            "lower": "0E-18",
+            "upper": "0E-18"
+          },
+          {
+            "lower": "-0.378978379875115507",
+            "upper": "-0.378978379875115506"
+          }
+        ],
+        "method": "convex tangent with rational interval logarithms",
+        "search": {
+          "algorithm": "SciPy SLSQP candidate only",
+          "starts": 3,
+          "converged": true,
+          "message": "Optimization terminated successfully",
+          "recorded_warning_count": 0
+        },
+        "bits_enclosure": {
+          "lower": "0.132958516714816",
+          "upper": "0.132958516723656"
+        },
+        "certificate_width_bits": 8.838917838160697e-12
+      },
+      "maximum": {
+        "point": [
+          "687/695",
+          "488/969"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.277357580537593",
+          "upper": "0.277357580537594"
+        },
+        "certificate_width_bits": 1.2255555603657738e-25
+      },
+      "family_bounds": [
+        [
+          "687/695",
+          "687/695"
+        ],
+        [
+          "488/969",
+          "14/19"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 2
+    },
+    "observed_bits": {
+      "lower": "0.213253945288723",
+      "upper": "0.213253945288724"
+    },
+    "independent_completion_bits": {
+      "lower": "0.233118201257878",
+      "upper": "0.233118201257879"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.080295428565067",
+      "upper": "0.080295428573907"
+    }
+  },
+  {
+    "case_id": "2x|FM1_5min_690nM|FM9_5minINT_690nM",
+    "selection": "previously declared reference contrast",
+    "counts": [
+      [
+        721,
+        9,
+        71,
+        2
+      ],
+      [
+        88,
+        138,
+        167,
+        576
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "9999999999/730000000000",
+          "3569999999887/4845000000000"
+        ],
+        "gradient": [
+          {
+            "lower": "-0.730351071388040288",
+            "upper": "-0.730351071388040287"
+          },
+          {
+            "lower": "-0.198229609198629775",
+            "upper": "-0.198229609198629774"
+          }
+        ],
+        "method": "convex tangent with rational interval logarithms",
+        "search": {
+          "algorithm": "SciPy SLSQP candidate only",
+          "starts": 9,
+          "converged": true,
+          "message": "Optimization terminated successfully",
+          "recorded_warning_count": 0
+        },
+        "bits_enclosure": {
+          "lower": "0.487813315075192",
+          "upper": "0.487813315080817"
+        },
+        "certificate_width_bits": 5.623792754476691e-12
+      },
+      "maximum": {
+        "point": [
+          "1/73",
+          "488/969"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.822905519860037",
+          "upper": "0.822905519860038"
+        },
+        "certificate_width_bits": 1.1205252399923568e-25
+      },
+      "family_bounds": [
+        [
+          "0",
+          "1/73"
+        ],
+        [
+          "488/969",
+          "14/19"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 4
+    },
+    "observed_bits": {
+      "lower": "0.620140567749626",
+      "upper": "0.620140567749627"
+    },
+    "independent_completion_bits": {
+      "lower": "0.666487574576503",
+      "upper": "0.666487574576504"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.132327252668809",
+      "upper": "0.132327252674434"
+    }
+  },
+  {
+    "case_id": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+    "selection": "previously reported widest marginal-only accuracy interval",
+    "counts": [
+      [
+        415,
+        261,
+        285,
+        500
+      ],
+      [
+        246,
+        246,
+        127,
+        238
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "1853699/10189014",
+          "861911/5976718"
+        ],
+        "method": "exact marginal DPI equality via X garbling",
+        "garbling": {
+          "parent": "X",
+          "child_high_given_parent_low": "20435/27896",
+          "child_high_given_parent_high": "11807/34870"
+        },
+        "bits_enclosure": {
+          "lower": "0.008982611277761",
+          "upper": "0.008982611277762"
+        },
+        "certificate_width_bits": 1.255082835945841e-25
+      },
+      "maximum": {
+        "point": [
+          "761/1461",
+          "0"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.916265845917286",
+          "upper": "0.916265845917287"
+        },
+        "certificate_width_bits": 1.4034691889238858e-25
+      },
+      "family_bounds": [
+        [
+          "85/1461",
+          "761/1461"
+        ],
+        [
+          "0",
+          "365/857"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 4
+    },
+    "observed_bits": {
+      "lower": "0.013933516948868",
+      "upper": "0.013933516948869"
+    },
+    "independent_completion_bits": {
+      "lower": "0.010365168602777",
+      "upper": "0.010365168602778"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.004950905671106",
+      "upper": "0.004950905671107"
+    }
+  },
+  {
+    "case_id": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+    "selection": "previously reported widest marginal-only accuracy interval",
+    "counts": [
+      [
+        289,
+        286,
+        154,
+        337
+      ],
+      [
+        191,
+        227,
+        159,
+        389
+      ]
+    ],
+    "information_bounds": {
+      "minimum": {
+        "point": [
+          "23024463/58556446",
+          "611842/1263413"
+        ],
+        "method": "exact marginal DPI equality via X garbling",
+        "garbling": {
+          "parent": "X",
+          "child_high_given_parent_low": "19474/54931",
+          "child_high_given_parent_high": "46893/54931"
+        },
+        "bits_enclosure": {
+          "lower": "0.008232635510502",
+          "upper": "0.008232635510503"
+        },
+        "certificate_width_bits": 1.259646240618712e-25
+      },
+      "maximum": {
+        "point": [
+          "24/533",
+          "274/483"
+        ],
+        "method": "convex objective maximum at rectangle corner",
+        "bits_enclosure": {
+          "lower": "0.726611400100518",
+          "upper": "0.726611400100519"
+        },
+        "certificate_width_bits": 1.4182246520535797e-25
+      },
+      "family_bounds": [
+        [
+          "24/533",
+          "491/1066"
+        ],
+        [
+          "33/161",
+          "274/483"
+        ]
+      ],
+      "prior": "1/2",
+      "log_series_terms": 24,
+      "max_corners_evaluated": 4
+    },
+    "observed_bits": {
+      "lower": "0.009196961941272",
+      "upper": "0.009196961941273"
+    },
+    "independent_completion_bits": {
+      "lower": "0.010361260898479",
+      "upper": "0.010361260898480"
+    },
+    "BROJA_complementary_information_bits": {
+      "lower": "0.000964326430769",
+      "upper": "0.000964326430770"
+    }
+  }
+]

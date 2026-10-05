@@ -1,0 +1,57 @@
+{
+  "figure": "figure_3_msn2_information.png",
+  "inputs": {
+    "table_4_msn2_information.csv": {
+      "sha256": "794a1ab8c0ea80ec27dd1552f0f20b9112a71423c39b2c0d5e22f4ee0910daa6",
+      "rows": [
+        {
+          "comparison": "1x|DM_70min_100nM|DM_70min_3uM",
+          "information_min_bits": "0.617717856899185",
+          "information_max_bits": "0.944467536670448",
+          "observed_paired_information_bits": "0.775954324551141"
+        },
+        {
+          "comparison": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+          "information_min_bits": "0.008982611277761",
+          "information_max_bits": "0.916265845917287",
+          "observed_paired_information_bits": "0.013933516948868"
+        },
+        {
+          "comparison": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+          "information_min_bits": "0.008232635510502",
+          "information_max_bits": "0.726611400100519",
+          "observed_paired_information_bits": "0.009196961941272"
+        }
+      ]
+    },
+    "table_5_msn2_pairing.csv": {
+      "sha256": "d827bb063bb874e800b8f2b5ee57e11e6b21e9531c70349c059f7ba93b591ae0",
+      "rows": [
+        {
+          "pairing_sustained_retained": "0",
+          "pairing_pulsed_retained": "0",
+          "information_min_bits": "0.008982611277761",
+          "information_max_bits": "0.916265845917287"
+        },
+        {
+          "pairing_sustained_retained": "1",
+          "pairing_pulsed_retained": "0",
+          "information_min_bits": "0.012823171737368",
+          "information_max_bits": "0.395666211759186"
+        },
+        {
+          "pairing_sustained_retained": "0",
+          "pairing_pulsed_retained": "1",
+          "information_min_bits": "0.01167905792731",
+          "information_max_bits": "0.281038852236309"
+        },
+        {
+          "pairing_sustained_retained": "1",
+          "pairing_pulsed_retained": "1",
+          "information_min_bits": "0.013933516948868",
+          "information_max_bits": "0.013933516948869"
+        }
+      ]
+    }
+  }
+}

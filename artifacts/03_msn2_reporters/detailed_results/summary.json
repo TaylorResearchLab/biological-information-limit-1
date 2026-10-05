@@ -1,0 +1,20 @@
+{
+  "scope": "Established-framework comparison on previously derived empirical counts; no new sampling claims",
+  "input_sha256": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
+  "primary_cases": 272,
+  "new_linear_programs": 544,
+  "max_lp_discrepancy": 1.1102230246251565e-16,
+  "max_lp_constraint_residual": 1.1102230246251565e-16,
+  "primary_cases_randomized_equals_historical_deterministic_within_1e_9": 272,
+  "information_panel": 10,
+  "reveal_records": 4,
+  "unique_information_families": 13,
+  "max_minimum_certificate_width_bits": 8.067032344929341e-10,
+  "minimum_methods": {
+    "singleton family": 3,
+    "convex tangent with rational interval logarithms": 5,
+    "exact marginal DPI equality via X garbling": 5,
+    "exact marginal DPI equality via Y garbling": 1
+  },
+  "external_software_status": "No JavaBayes, BROJA-2PID or minimax-SVM implementation was run. Matched mathematical reductions with separately formulated LPs."
+}

@@ -1,0 +1,31 @@
+{
+  "example": "Ribosomal tRNA selection",
+  "source_doi": "10.1016/j.molcel.2010.06.009",
+  "scope": "Declared acceptance sensitivity families, not population confidence intervals.",
+  "cognate_interval": [
+    "9/10",
+    "1"
+  ],
+  "wild_type_near_interval": [
+    "0.048",
+    "0.052"
+  ],
+  "restrictive_near_interval": [
+    "0.002",
+    "0.012"
+  ],
+  "near_cognate_input_probabilities": [
+    "1/2",
+    "1/10",
+    "1/100"
+  ],
+  "whole_encounter_cognate_acceptance": "0.95",
+  "whole_encounter_near_acceptance": "0.007",
+  "whole_encounter_near_prior": "1/2",
+  "equal_passage_probabilities": [
+    "1",
+    "1/10",
+    "1/100",
+    "1/1000"
+  ]
+}
