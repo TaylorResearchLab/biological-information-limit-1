@@ -2,25 +2,31 @@
   "status": "PASS",
   "checks": {
     "table_1_rows": 5,
-    "preserved_driver_agreement": true,
     "continuing_ligand_dependence": true
   },
   "source_sha256": {
-    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py": "9a351b0776f38912797b80d14d754cfca4a0a91653f6d5403c657a2341c378f6",
-    "workstreams/transfer_proofreading_v0_1/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
-    "workstreams/transfer_proofreading_v0_1/src/proofreading.py": "2d5bec9874d519fa6defd8a4b9de3242dfce745bb1f96dba3937bcef8657a9b6",
-    "workstreams/transfer_proofreading_v0_1/src/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607"
+    "src/bics/__init__.py": "27574b521ebd969b462fc6e41366218430813a24be50761a04dec779d610398b",
+    "src/bics/comparison.py": "cf3b43639ff6f8db2dcd792f0305649c6a94086b93c46b6139132452b3b92942",
+    "src/bics/finite.py": "0c32cc4d67ce3d2169cc6653d059fbb57087258de5752e5c396989c177e34ffd",
+    "src/bics/information.py": "96e1a74c0a65a5a328f87a9c45f0e8197fabd43af4ab597f86c1aafe174f7ddf",
+    "src/bics/joint_bounds.py": "21b59cbd0ac0900231ca74701369275e8742825bb883ad1a9d29355e98cabaff",
+    "src/bics/matched_information.py": "c9f315429a6f49c0a86e67c1996489f305b326038adc56fb402ed8c76e2eee0e",
+    "src/bics/msn2.py": "d39d7317be712a5ffd3edbcb9cc22a5506b9f49c95b2828767fae5647f8ae245",
+    "src/bics/pairing.py": "285a5a6e59d12294847b229f1c39b0673eeb89bb07f53f989e113c270611162e",
+    "src/bics/ribosome.py": "15be8bdb5a069193e6ba713fc616e4899e79562d9ccbe9a8857e399411b3cf68",
+    "src/bics/ribosome_product.py": "ed00c1d907c1d593a10eebc161e9a15a878f1ba706327225c046a2f62dc2a075",
+    "src/bics/tcell.py": "3960b93da8fd70bc98a27f2aff597fbce0216f7239b9c70ebdf328eca8a1c6ec"
   },
   "output_sha256": {
     "exact_results.json": "089c689d943b9cbd7d3f53a047a18ae93def2faeee81140bb2c2d5ddfb8039c6",
     "figure_1_tcell_proofreading.png": "b7ea0fa1ddd0e152cf3630a65fa5c30c5c729f78dd46018937cd99ec92825232",
     "figure_data.json": "10cc05ba76adc471045e347daf537a5d7d78489185ce2f7b30b24e29c611caaf",
-    "ligand_dependence.json": "8b114446f388898c4508fcb6a1235e06daa1149acee63aea2300ac56eee99a9e",
+    "ligand_dependence.json": "ad61b3bae6fbd1ac503f7c92d1f3288350f01a33ac280b489f03cd7437059ed7",
     "parameters_used.json": "b738e4cbd85710469e0ce61245939804d731ba6683f472af9afe44cb665c773a",
-    "run.log": "f68b80f6459027827a1f797f08344223d795886e948a4e54dbd81737711b40b6",
+    "run.log": "3e4589ab54dfc378d5a4aa4855f47376de6e81c56ef250b1df9714ab5c9dea8e",
     "table_1_tcell_proofreading.csv": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973"
   },
-  "elapsed_seconds": 1.151,
+  "elapsed_seconds": 0.949,
   "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
   "packages": {
     "numpy": "2.3.5",

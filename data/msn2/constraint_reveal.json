@@ -1,0 +1,536 @@
+{
+  "status": "Descriptive pairing restoration using observed outcomes.",
+  "cases": [
+    {
+      "construct": "1x",
+      "condition0": "info_theory_untreated",
+      "condition1": "DM_70min_690nM",
+      "reference_contrast": "untreated_vs_sustained",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "1231/1238",
+        "value": 0.994345718901454
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          },
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          },
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          },
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          }
+        ],
+        "both": [
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          },
+          {
+            "exact": "1231/1238",
+            "value": 0.994345718901454
+          }
+        ]
+      }
+    },
+    {
+      "construct": "1x",
+      "condition0": "DM_70min_100nM",
+      "condition1": "DM_70min_3uM",
+      "reference_contrast": "low_vs_high_amplitude",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "2327123/2435940",
+        "value": 0.9553285384697489
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "3129/3470",
+            "value": 0.9017291066282421
+          },
+          {
+            "exact": "3467/3510",
+            "value": 0.9877492877492877
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "2327123/2435940",
+            "value": 0.9553285384697489
+          },
+          {
+            "exact": "2327123/2435940",
+            "value": 0.9553285384697489
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "3129/3470",
+            "value": 0.9017291066282421
+          },
+          {
+            "exact": "3467/3510",
+            "value": 0.9877492877492877
+          }
+        ],
+        "both": [
+          {
+            "exact": "2327123/2435940",
+            "value": 0.9553285384697489
+          },
+          {
+            "exact": "2327123/2435940",
+            "value": 0.9553285384697489
+          }
+        ]
+      }
+    },
+    {
+      "construct": "1x",
+      "condition0": "DM_70min_175nM",
+      "condition1": "FM7_786minINT_690nM",
+      "reference_contrast": null,
+      "widest_marginal_interval": true,
+      "paired_accuracy": {
+        "exact": "1391557/2504154",
+        "value": 0.5556994497942219
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "1391557/2504154",
+            "value": 0.5556994497942219
+          },
+          {
+            "exact": "411983/417359",
+            "value": 0.9871190030645081
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "1391557/2504154",
+            "value": 0.5556994497942219
+          },
+          {
+            "exact": "337424/417359",
+            "value": 0.8084742392041384
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "1391557/2504154",
+            "value": 0.5556994497942219
+          },
+          {
+            "exact": "943178/1252077",
+            "value": 0.7532907321195103
+          }
+        ],
+        "both": [
+          {
+            "exact": "1391557/2504154",
+            "value": 0.5556994497942219
+          },
+          {
+            "exact": "1391557/2504154",
+            "value": 0.5556994497942219
+          }
+        ]
+      }
+    },
+    {
+      "construct": "1x",
+      "condition0": "DM_70min_690nM",
+      "condition1": "FM9_5minINT_690nM",
+      "reference_contrast": "sustained_vs_nine_pulses",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "1496005/2137988",
+        "value": 0.699725629891281
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "1025/1564",
+            "value": 0.6553708439897699
+          },
+          {
+            "exact": "1632705/2137988",
+            "value": 0.7636642488171121
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "1025/1564",
+            "value": 0.6553708439897699
+          },
+          {
+            "exact": "1632705/2137988",
+            "value": 0.7636642488171121
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "1496005/2137988",
+            "value": 0.699725629891281
+          },
+          {
+            "exact": "1496005/2137988",
+            "value": 0.699725629891281
+          }
+        ],
+        "both": [
+          {
+            "exact": "1496005/2137988",
+            "value": 0.699725629891281
+          },
+          {
+            "exact": "1496005/2137988",
+            "value": 0.699725629891281
+          }
+        ]
+      }
+    },
+    {
+      "construct": "1x",
+      "condition0": "FM1_5min_690nM",
+      "condition1": "FM9_5minINT_690nM",
+      "reference_contrast": "one_vs_nine_pulses",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "2611/2944",
+        "value": 0.8868885869565217
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "10667/12512",
+            "value": 0.8525415601023018
+          },
+          {
+            "exact": "2081/2176",
+            "value": 0.9563419117647058
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "10667/12512",
+            "value": 0.8525415601023018
+          },
+          {
+            "exact": "2069/2176",
+            "value": 0.9508272058823529
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "2611/2944",
+            "value": 0.8868885869565217
+          },
+          {
+            "exact": "44663/50048",
+            "value": 0.8924032928388747
+          }
+        ],
+        "both": [
+          {
+            "exact": "2611/2944",
+            "value": 0.8868885869565217
+          },
+          {
+            "exact": "2611/2944",
+            "value": 0.8868885869565217
+          }
+        ]
+      }
+    },
+    {
+      "construct": "2x",
+      "condition0": "info_theory_untreated",
+      "condition1": "DM_70min_690nM",
+      "reference_contrast": "untreated_vs_sustained",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "691/695",
+        "value": 0.9942446043165467
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          },
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          },
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          },
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          }
+        ],
+        "both": [
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          },
+          {
+            "exact": "691/695",
+            "value": 0.9942446043165467
+          }
+        ]
+      }
+    },
+    {
+      "construct": "2x",
+      "condition0": "DM_70min_100nM",
+      "condition1": "DM_70min_3uM",
+      "reference_contrast": "low_vs_high_amplitude",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "1966103/1984800",
+        "value": 0.9905799072954454
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "461/480",
+            "value": 0.9604166666666667
+          },
+          {
+            "exact": "823/827",
+            "value": 0.9951632406287787
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "1966103/1984800",
+            "value": 0.9905799072954454
+          },
+          {
+            "exact": "1966103/1984800",
+            "value": 0.9905799072954454
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "461/480",
+            "value": 0.9604166666666667
+          },
+          {
+            "exact": "823/827",
+            "value": 0.9951632406287787
+          }
+        ],
+        "both": [
+          {
+            "exact": "1966103/1984800",
+            "value": 0.9905799072954454
+          },
+          {
+            "exact": "1966103/1984800",
+            "value": 0.9905799072954454
+          }
+        ]
+      }
+    },
+    {
+      "construct": "2x",
+      "condition0": "DM_70min_690nM",
+      "condition1": "FM9_5minINT_690nM",
+      "reference_contrast": "sustained_vs_nine_pulses",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "156473/224485",
+        "value": 0.697030982025525
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "8264/13205",
+            "value": 0.6258235516849678
+          },
+          {
+            "exact": "499999/673455",
+            "value": 0.7424386187644312
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "8264/13205",
+            "value": 0.6258235516849678
+          },
+          {
+            "exact": "499999/673455",
+            "value": 0.7424386187644312
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "156473/224485",
+            "value": 0.697030982025525
+          },
+          {
+            "exact": "156473/224485",
+            "value": 0.697030982025525
+          }
+        ],
+        "both": [
+          {
+            "exact": "156473/224485",
+            "value": 0.697030982025525
+          },
+          {
+            "exact": "156473/224485",
+            "value": 0.697030982025525
+          }
+        ]
+      }
+    },
+    {
+      "construct": "2x",
+      "condition0": "FM1_5min_690nM",
+      "condition1": "FM9_5minINT_690nM",
+      "reference_contrast": "one_vs_nine_pulses",
+      "widest_marginal_interval": false,
+      "paired_accuracy": {
+        "exact": "703046/778107",
+        "value": 0.9035338327505086
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "1195/1387",
+            "value": 0.8615717375630858
+          },
+          {
+            "exact": "21/22",
+            "value": 0.9545454545454546
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "1195/1387",
+            "value": 0.8615717375630858
+          },
+          {
+            "exact": "762/803",
+            "value": 0.9489414694894147
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "702077/778107",
+            "value": 0.9022885027380553
+          },
+          {
+            "exact": "19381/21318",
+            "value": 0.9091378178065485
+          }
+        ],
+        "both": [
+          {
+            "exact": "703046/778107",
+            "value": 0.9035338327505086
+          },
+          {
+            "exact": "703046/778107",
+            "value": 0.9035338327505086
+          }
+        ]
+      }
+    },
+    {
+      "construct": "2x",
+      "condition0": "FM7_786minINT_690nM",
+      "condition1": "FM8_625minINT_690nM",
+      "reference_contrast": null,
+      "widest_marginal_interval": true,
+      "paired_accuracy": {
+        "exact": "569809/1029756",
+        "value": 0.5533437047222838
+      },
+      "ranges_by_revealed_condition": {
+        "neither": [
+          {
+            "exact": "569809/1029756",
+            "value": 0.5533437047222838
+          },
+          {
+            "exact": "242582/257439",
+            "value": 0.9422892413348405
+          }
+        ],
+        "condition0_only": [
+          {
+            "exact": "569809/1029756",
+            "value": 0.5533437047222838
+          },
+          {
+            "exact": "118617/171626",
+            "value": 0.6911365410835189
+          }
+        ],
+        "condition1_only": [
+          {
+            "exact": "569809/1029756",
+            "value": 0.5533437047222838
+          },
+          {
+            "exact": "400417/514878",
+            "value": 0.777692968042915
+          }
+        ],
+        "both": [
+          {
+            "exact": "569809/1029756",
+            "value": 0.5533437047222838
+          },
+          {
+            "exact": "569809/1029756",
+            "value": 0.5533437047222838
+          }
+        ]
+      }
+    }
+  ],
+  "nested_interval_checks": 40
+}

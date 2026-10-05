@@ -13,7 +13,7 @@
     "U_point": 0.4272067434559685,
     "broad_sensitivity_family_contains_observed": true,
     "definition": "codon-recognition-state two-exit approximation a=k3/(k3+k_-2), using observed k_GTP as k3 proxy",
-    "interpretation": "matched mechanistic sensitivity comparator only; not a rate-free BICS prediction and not a confidence interval",
+    "interpretation": "Mechanistic sensitivity comparison conditional on the stated rates and acceptance ranges.",
     "observed_relative_error": 0.14375,
     "point_late_family_contains_observed": false,
     "relative_error_with_one_uncertainty_rate_and_acceptance_rectangles": [
@@ -43,7 +43,7 @@
       0.126,
       0.15555555555555556
     ],
-    "unconditional_quantitative_prediction": "not identified because no numerical source-derived bound on U was found independent of the competition endpoint"
+    "unconditional_quantitative_prediction": "Identification requires an independent numerical bound on the upstream factor U."
   },
-  "status": "executed algebraic calibration-ledger analysis; not scientific acceptance"
+  "status": "Algebraic sensitivity analysis of published measurements"
 }

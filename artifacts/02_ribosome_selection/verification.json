@@ -8,25 +8,31 @@
     "separate_product_assay_U_threshold": 3.5999999999999996
   },
   "source_sha256": {
-    "workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py": "a661d9700487c27fa075cf16a8bdeb77e378573bf3610b2a8f210907fa9b36ce",
-    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
-    "workstreams/research_update_2026-09-23/ribosome_boundary/reference/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607",
-    "workstreams/research_update_2026-09-23/ribosome_boundary/src/ribosome_boundary.py": "df1ebffc499b1931c951c0aa603c6fc1fcf96b37d9a48e4f211965001f912e68",
-    "workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py": "6a9534ee2375c0425066bf6b03a398e6a7137781a3c45f8ec3e0d0e539c630bb"
+    "src/bics/__init__.py": "27574b521ebd969b462fc6e41366218430813a24be50761a04dec779d610398b",
+    "src/bics/comparison.py": "cf3b43639ff6f8db2dcd792f0305649c6a94086b93c46b6139132452b3b92942",
+    "src/bics/finite.py": "0c32cc4d67ce3d2169cc6653d059fbb57087258de5752e5c396989c177e34ffd",
+    "src/bics/information.py": "96e1a74c0a65a5a328f87a9c45f0e8197fabd43af4ab597f86c1aafe174f7ddf",
+    "src/bics/joint_bounds.py": "21b59cbd0ac0900231ca74701369275e8742825bb883ad1a9d29355e98cabaff",
+    "src/bics/matched_information.py": "c9f315429a6f49c0a86e67c1996489f305b326038adc56fb402ed8c76e2eee0e",
+    "src/bics/msn2.py": "d39d7317be712a5ffd3edbcb9cc22a5506b9f49c95b2828767fae5647f8ae245",
+    "src/bics/pairing.py": "285a5a6e59d12294847b229f1c39b0673eeb89bb07f53f989e113c270611162e",
+    "src/bics/ribosome.py": "15be8bdb5a069193e6ba713fc616e4899e79562d9ccbe9a8857e399411b3cf68",
+    "src/bics/ribosome_product.py": "ed00c1d907c1d593a10eebc161e9a15a878f1ba706327225c046a2f62dc2a075",
+    "src/bics/tcell.py": "3960b93da8fd70bc98a27f2aff597fbce0216f7239b9c70ebdf328eca8a1c6ec"
   },
   "output_sha256": {
     "extended_passage_sweep.csv": "deb7f5c56e884df14e043c52574abc6e59ab8570ac83b3988e407968a6428824",
     "figure_2_ribosome_selection.png": "6e4bf763e0cee2a3a4b88fb684f8b015171e6dc2f68b7605876bbdb3ed2b8de4",
     "figure_data.json": "6534e334a5cf1440d0ec5eeb8b8e35e98430105e453e4d5c0d00201de6ce3d38",
     "local_information_enclosures.json": "55c2cf2849e134b8521a9d480a4c1f132507f4448e92e5f3d7a3388ce8eb2401",
-    "parameters_used.json": "7c743d5fc5ceb41e047bc67e57c51482117e8d15966d4cb63da92e64cd1b5d63",
-    "run.log": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b",
-    "separate_product_assay.json": "75b49dbb47aecec753e65ea193e118a785b319e442167a403f6b5e01919e733b",
+    "parameters_used.json": "3eedcaded85300cc985a621a9c433cc8dd9c92914cdf5633c68dd6576f237495",
+    "run.log": "9f4be16fd678315987c205888be4cba7d447673f02c320dc4968e073bb2b2b3e",
+    "separate_product_assay.json": "9f4be16fd678315987c205888be4cba7d447673f02c320dc4968e073bb2b2b3e",
     "source_frequency_sensitivity.csv": "f7aa50cb5f9226fb345ebbfc5186860637a746f20c420e9cd55be49398a112ea",
     "table_2_ribosome_information.csv": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad",
     "table_3_ribosome_passage.csv": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66"
   },
-  "elapsed_seconds": 0.778,
+  "elapsed_seconds": 0.713,
   "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
   "packages": {
     "numpy": "2.3.5",

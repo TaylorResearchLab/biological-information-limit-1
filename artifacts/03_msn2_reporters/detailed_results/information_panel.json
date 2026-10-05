@@ -1,7 +1,7 @@
 [
   {
     "case_id": "1x|info_theory_untreated|DM_70min_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         612,
@@ -70,7 +70,7 @@
   },
   {
     "case_id": "1x|DM_70min_100nM|DM_70min_3uM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         2379,
@@ -156,7 +156,7 @@
   },
   {
     "case_id": "1x|DM_70min_690nM|FM9_5minINT_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         0,
@@ -230,7 +230,7 @@
   },
   {
     "case_id": "1x|FM1_5min_690nM|FM9_5minINT_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         981,
@@ -304,7 +304,7 @@
   },
   {
     "case_id": "2x|info_theory_untreated|DM_70min_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         758,
@@ -373,7 +373,7 @@
   },
   {
     "case_id": "2x|DM_70min_100nM|DM_70min_3uM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         1016,
@@ -447,7 +447,7 @@
   },
   {
     "case_id": "2x|DM_70min_690nM|FM9_5minINT_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         0,
@@ -533,7 +533,7 @@
   },
   {
     "case_id": "2x|FM1_5min_690nM|FM9_5minINT_690nM",
-    "selection": "previously declared reference contrast",
+    "selection": "specified reference contrast",
     "counts": [
       [
         721,
@@ -619,7 +619,7 @@
   },
   {
     "case_id": "1x|DM_70min_175nM|FM7_786minINT_690nM",
-    "selection": "previously reported widest marginal-only accuracy interval",
+    "selection": "widest marginal-only accuracy interval",
     "counts": [
       [
         415,
@@ -693,7 +693,7 @@
   },
   {
     "case_id": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
-    "selection": "previously reported widest marginal-only accuracy interval",
+    "selection": "widest marginal-only accuracy interval",
     "counts": [
       [
         289,

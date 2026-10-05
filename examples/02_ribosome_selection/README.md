@@ -1,46 +1,33 @@
-# Example 2. Ribosomal tRNA selection
+# Ribosomal tRNA selection
 
-**Run [run_ribosome_selection.py](run_ribosome_selection.py) to reproduce Tables 2–3, Figure 2 and the separate product-assay threshold.**
+[Saved results](../../artifacts/02_ribosome_selection/) | [Source code](../../src/)
 
-## Biological question
+## Biological source and question
 
-What does acceptance measured at proofreading establish about tRNA discrimination? What additional information is required to connect that checkpoint to the final outcome of an original encounter?
+[Zaher and Green, Molecular Cell (2010), DOI 10.1016/j.molcel.2010.06.009](https://doi.org/10.1016/j.molcel.2010.06.009) measured tRNA selection in wild-type and restrictive ribosomes. Their UUC-codon experiments compared cognate Phe-tRNA with near-cognate Leu-tRNA.
 
-## Source publication and analysis settings
+The example asks what acceptance and rejection at proofreading establish about tRNA identity and what remains unresolved about the complete encounter.
 
-Zaher HS and Green R. *Hyperaccurate and error-prone ribosomes exploit distinct mechanisms during tRNA selection.* Molecular Cell (2010). [DOI 10.1016/j.molcel.2010.06.009](https://doi.org/10.1016/j.molcel.2010.06.009).
+## Calculation
 
-The source compares cognate Phe-tRNA and near-cognate Leu-tRNA at the UUC codon. Its proofreading acceptance summaries are interpreted as conditional probabilities among tRNAs that reached proofreading. The analysis uses a closed cognate acceptance interval of 0.9–1.0, conservatively relaxing the source's statement of acceptance above 0.9. Near-cognate intervals are 0.048–0.052 for wild type and 0.002–0.012 for restrictive ribosomes.
+Cognate acceptance ranges from 0.9 to 1. Near-cognate acceptance ranges from 0.048 to 0.052 for wild type and from 0.002 to 0.012 for restrictive ribosomes. These are declared sensitivity ranges based on the reported summaries. The information intervals describe that probability family. Input frequencies are specified independently.
 
-These rectangular ranges define sensitivity families based on the reported summaries. They quantify variation across the specified acceptance probabilities. Interpreting a range as a population confidence region would require a justified statistical coverage calculation. The two substrate classes receive equal weight by design for the standardized comparison. Source-frequency sensitivity also uses assumed near-cognate frequencies of 1/10 and 1/100.
+The script calculates local information bounds at equally weighted inputs, then at near-cognate frequencies of 0.1 and 0.01. The whole-encounter comparison holds cognate acceptance at 0.95 and near-cognate acceptance at 0.007 while varying equal upstream passage through 1, 0.1, 0.01 and 0.001. Tables 2–3 and Fig. 2 summarize the local bounds and the first three upstream conditions.
 
-For the whole-encounter calculation, proofreading acceptance is fixed at 0.95 for cognate and 0.007 for near-cognate tRNA. Equal upstream passage for both classes is varied through 1, 1/10, 1/100 and 1/1000. These upstream values are controlled model settings. The first three rows are Table 3. The fourth is an additional reference sweep value.
+The separate product-assay calculation evaluates how an upstream factor U affects the ordering of product ratios. It reports the threshold U < 3.6 under its specified sensitivity family and a comparison based on the source rate summaries.
+
+The implementation is [ribosome.py](../../src/bics/ribosome.py), including `info_bounds` and `assembly_metrics`. [ribosome_product.py](../../src/bics/ribosome_product.py) implements the product-assay comparison.
+
+## Outputs
+
+The directory contains Tables 2–3 and Fig. 2. `source_frequency_sensitivity.csv` and `extended_passage_sweep.csv` provide the additional conditions. `local_information_enclosures.json` retains the certified numerical bounds. `separate_product_assay.json` records the upstream threshold and rate comparison.
 
 ## Run
 
-Follow the [installation instructions](../../README.md#install-once). From the repository folder:
+After [installation](../../README.md#install-once), run from the repository folder:
 
 ```bash
-python examples/02_ribosome_selection/run_ribosome_selection.py
+python examples/02_ribosome_selection/run_ribosome_selection.py --out runs/02_ribosome_selection
 ```
 
-The script calculates local information and the response across both selection stages. It also runs the separate peptide-product calculation. That calculation identifies the condition `U < 3.6` for a guaranteed ordering within its declared sensitivity family. It keeps the rate-based comparator separate from the rate-free result.
-
-## Outputs in `runs/ribosome/`
-
-| File | Meaning |
-| --- | --- |
-| `table_2_ribosome_information.csv` | Equal-weight local information bounds. [Expected values](expected_results/table_2_ribosome_information.csv). |
-| `table_3_ribosome_passage.csv` | Terminal information per original encounter as upstream passage changes. [Expected values](expected_results/table_3_ribosome_passage.csv). |
-| `source_frequency_sensitivity.csv` | Both preparations under three input mixtures. [Expected values](expected_results/source_frequency_sensitivity.csv). |
-| `extended_passage_sweep.csv` | All four upstream passage settings. [Expected values](expected_results/extended_passage_sweep.csv). |
-| `separate_product_assay.json` | Product-assay threshold, model assumptions and separate rate-based comparator. |
-| `figure_2_ribosome_selection.png` | Stage diagram annotated from the calculated Tables 2–3. |
-| `local_information_enclosures.json` | Numerical enclosures for local extrema. |
-| `parameters_used.json` / `verification.json` | Input settings, reference comparisons, hashes, versions and elapsed time. |
-
-## Where the methods are implemented
-
-`AcceptanceBox`, `info_bounds()` and `assembly_metrics()` are in [ribosome_boundary.py](../../workstreams/research_update_2026-09-23/ribosome_boundary/src/ribosome_boundary.py). Mutual information and rectangular extrema use [transfer.py](../../workstreams/research_update_2026-09-23/ribosome_boundary/reference/transfer.py). The product-assay calculation runs [evaluate_separate_output.py](../../workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py). The reference calculation script is [run_ribosome_reference.py](../../workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py).
-
-For another run use `--out runs/ribosome_second_run`. Use `--help` for options.
+Choose a new output directory for each run. Use `--help` for options or `--skip-figures` for numerical results only. Each run records its parameters and source identities. Read `verification.json` for the result checks.

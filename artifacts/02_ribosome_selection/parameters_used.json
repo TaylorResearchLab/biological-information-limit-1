@@ -1,7 +1,7 @@
 {
   "example": "Ribosomal tRNA selection",
   "source_doi": "10.1016/j.molcel.2010.06.009",
-  "scope": "Declared acceptance sensitivity families, not population confidence intervals.",
+  "scope": "Information ranges across declared acceptance sensitivity families.",
   "cognate_interval": [
     "9/10",
     "1"

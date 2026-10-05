@@ -1,5 +1,5 @@
 {
-  "scope": "Conditional progression laws in the preserved two-step model; not a trajectory information calculation.",
+  "scope": "Conditional progression laws in the two-step model, conditional on completion of the first step.",
   "second_step_given_first_completed": {
     "self": "1/11",
     "agonist": "10/11"

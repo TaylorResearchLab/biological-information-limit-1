@@ -6,6 +6,6 @@
   "inputs": "Two equally weighted protocols per comparison",
   "input_prior": "1/2",
   "response": "Binary SIP18 and HXK1 responses; count order 00,01,10,11",
-  "scope": "Starts from archived binary counts. Raw fluorescence processing is a separate documented step.",
+  "scope": "Starts from included binary counts. Raw fluorescence processing is a separate documented step.",
   "full_derived_verification": true
 }

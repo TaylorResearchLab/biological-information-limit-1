@@ -32,7 +32,7 @@ class ExampleTests(unittest.TestCase):
             check_rows([{'y':'1'}],[{'x':'1'}])
 
     def test_source_destinations_rejected(self):
-        for p in (ROOT, ROOT.parent, ROOT/'workstreams/new',ROOT/'examples/new', ROOT/'runs'):
+        for p in (ROOT, ROOT.parent, ROOT/'src/new',ROOT/'examples/new', ROOT/'runs'):
             with self.assertRaises(ValueError):
                 prepare_out(p)
 
@@ -60,7 +60,7 @@ class ExampleTests(unittest.TestCase):
             self.assertTrue((p.parent/'README.md').is_file())
 
     def test_example_manifest(self):
-        records=json.loads((ROOT/'provenance/examples_manifest.json').read_text())['files']
+        records=json.loads((ROOT/'provenance/source_manifest.json').read_text())['files']
         for row in records:
             p=ROOT/row['path']
             self.assertEqual(hashlib.sha256(p.read_bytes()).hexdigest(),row['sha256'],row['path'])

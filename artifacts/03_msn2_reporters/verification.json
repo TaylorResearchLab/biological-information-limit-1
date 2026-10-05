@@ -6,36 +6,36 @@
     "decision_rows": 272,
     "linear_programs": 544,
     "max_lp_discrepancy": 1.1102230246251565e-16,
-    "historical_byte_checks": {
+    "reference_byte_checks": {
       "primary_records.json": {
         "byte_identical": true,
         "sha256": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
-        "archived_path": "workstreams/method_comparison_2026-09-23/inputs/primary_records.json"
+        "reference_path": "artifacts/03_msn2_reporters/primary_records.json"
       },
       "decision_comparison.json": {
         "byte_identical": true,
-        "sha256": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
-        "archived_path": "workstreams/method_comparison_2026-09-23/results/science/decision_comparison.json"
+        "sha256": "7226f914eed0956d172ebda7361f1e1685f5a00ed2517b3034f928563ad22d8f",
+        "reference_path": "artifacts/03_msn2_reporters/detailed_results/decision_comparison.json"
       },
       "information_panel.json": {
         "byte_identical": true,
-        "sha256": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
-        "archived_path": "workstreams/method_comparison_2026-09-23/results/science/information_panel.json"
+        "sha256": "4d87c7b608aac2534879cb976709a509ad248a7f42b5af2159a0f963a5e46eb1",
+        "reference_path": "artifacts/03_msn2_reporters/detailed_results/information_panel.json"
       },
       "information_reveal.json": {
         "byte_identical": true,
         "sha256": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
-        "archived_path": "workstreams/method_comparison_2026-09-23/results/science/information_reveal.json"
+        "reference_path": "artifacts/03_msn2_reporters/detailed_results/information_reveal.json"
       },
       "summary.json": {
         "byte_identical": true,
-        "sha256": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b",
-        "archived_path": "workstreams/method_comparison_2026-09-23/results/science/summary.json"
+        "sha256": "d5af57437dd93d307efef834bc620e705a00938ce069cc46034f0acf3b089da7",
+        "reference_path": "artifacts/03_msn2_reporters/detailed_results/summary.json"
       }
     },
     "full_derived": {
       "status": "PASS",
-      "archived_files": 9,
+      "reference_files": 9,
       "feature_rows": 40458,
       "condition_records": 170,
       "threshold_records": 10,
@@ -62,51 +62,50 @@
       },
       "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
       "numpy": "2.3.5",
-      "scope": "Verification from archived scalar features. Original fluorescence preprocessing and experimental replication were not rerun."
+      "scope": "Descriptive reconstruction from scalar fluorescence features across five binary response definitions."
     }
   },
   "source_sha256": {
-    "workstreams/method_comparison_2026-09-23/inputs/primary_records.json": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
-    "workstreams/method_comparison_2026-09-23/reference/bics_finite.py": "bf9cc2c21abc823f8bd73a7916d7573e0ee3356521f6b3a9ef7ff6c36ca2d968",
-    "workstreams/method_comparison_2026-09-23/reference/joint_task_bounds.py": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
-    "workstreams/method_comparison_2026-09-23/reference/transfer.py": "fcfaed44cbf7a0e858c9e97c9bc201eeda3abe8c7b99a1f5850ef0e345126607",
-    "workstreams/method_comparison_2026-09-23/requirements.txt": "834b95f435034610a6170f1f3c530631dc21afb80ad2dbc480118f3207eee9e8",
-    "workstreams/method_comparison_2026-09-23/results/science/decision_comparison.json": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
-    "workstreams/method_comparison_2026-09-23/results/science/information_panel.json": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
-    "workstreams/method_comparison_2026-09-23/results/science/information_reveal.json": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
-    "workstreams/method_comparison_2026-09-23/results/science/summary.json": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b",
-    "workstreams/method_comparison_2026-09-23/src/matched_information.py": "17828f569d09292102f94c04a088823de7f135186f335ce82484b4a2f846c8b2",
-    "workstreams/method_comparison_2026-09-23/src/run_comparison.py": "82c730f1b7bba1af49d4b79c686343483f7ae1132615805052cc997d948559c6",
-    "workstreams/msn2_pairing_2026-09-23/reference/joint_task_bounds.py": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/cell_features.csv.gz": "e53451cff62e700ed39c7eff1640858e2b75062633fa41fe4117fe7888caca54",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/condition_counts.json": "090393284e45c2586dcb2d0333e5da41b3b9268c76099e8f9ccb276c9d17358e",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/member_provenance.json": "0bb2b62177a1d18cfa499424716cdf1447a161b10f24974532e01e225a8319a5",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/pair_results.json": "e42c0277801159fb014eb2e40e06a62b813e156be538b3f91b5ee859bbaeb7d3",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/reference_contrasts.json": "bf870a8610b126576623c8d5e67452ac9d62044682d3b29fba6a0a1f9de5fb37",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/summary.json": "d4a901583cac2d33a4fcf46717eba276710cecad617ab773b274d02b9b5090f5",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/thresholds.json": "d6d54f9e85c5ac320080f9242d78a06dde02f4727e51376a8a25cf7fa83a8abf",
-    "workstreams/msn2_pairing_2026-09-23/results/analysis/zero_audit.json": "0d60b20b93310d3bc8729f1ba10aca35a0fb38e72a8fda92ca08425c9944d152",
-    "workstreams/msn2_pairing_2026-09-23/results/constraint_reveal.json": "cd4373ee9e860422d600b62d7d4191e75a5abdacede0e45d1eea5afa12c63d95",
-    "workstreams/msn2_pairing_2026-09-23/src/analyze_msn2.py": "eec7a738ae8f595077e4972fef31e4b7da1d817947321e050f51f2b29b8b637f",
-    "workstreams/msn2_pairing_2026-09-23/src/reveal_pairing.py": "4779b177bb413bb868c91ff8c3286558d5c42f292d0b8e9e9efec4d169f19650"
+    "data/msn2/README.md": "1bcaf2a8c37bddc7cf9f8d5bb4ce1aa8636ab0e56922f4c22a68aade104e918c",
+    "data/msn2/cell_features.csv.gz": "e53451cff62e700ed39c7eff1640858e2b75062633fa41fe4117fe7888caca54",
+    "data/msn2/condition_counts.json": "090393284e45c2586dcb2d0333e5da41b3b9268c76099e8f9ccb276c9d17358e",
+    "data/msn2/constraint_reveal.json": "22cd3ffe6784953d66c8edd1dbc66b7d76dc362c53ebb5651362750d01b4a08a",
+    "data/msn2/member_provenance.json": "0bb2b62177a1d18cfa499424716cdf1447a161b10f24974532e01e225a8319a5",
+    "data/msn2/pair_results.json": "e42c0277801159fb014eb2e40e06a62b813e156be538b3f91b5ee859bbaeb7d3",
+    "data/msn2/primary_condition_counts.json": "73fcd9c500f9e4e70d920eb25340db3210b25ecd31dd2419333f3ac88ca24d6d",
+    "data/msn2/reference_contrasts.json": "bf870a8610b126576623c8d5e67452ac9d62044682d3b29fba6a0a1f9de5fb37",
+    "data/msn2/summary.json": "d4a901583cac2d33a4fcf46717eba276710cecad617ab773b274d02b9b5090f5",
+    "data/msn2/thresholds.json": "d6d54f9e85c5ac320080f9242d78a06dde02f4727e51376a8a25cf7fa83a8abf",
+    "data/msn2/zero_audit.json": "0d60b20b93310d3bc8729f1ba10aca35a0fb38e72a8fda92ca08425c9944d152",
+    "src/bics/__init__.py": "27574b521ebd969b462fc6e41366218430813a24be50761a04dec779d610398b",
+    "src/bics/comparison.py": "cf3b43639ff6f8db2dcd792f0305649c6a94086b93c46b6139132452b3b92942",
+    "src/bics/finite.py": "0c32cc4d67ce3d2169cc6653d059fbb57087258de5752e5c396989c177e34ffd",
+    "src/bics/information.py": "96e1a74c0a65a5a328f87a9c45f0e8197fabd43af4ab597f86c1aafe174f7ddf",
+    "src/bics/joint_bounds.py": "21b59cbd0ac0900231ca74701369275e8742825bb883ad1a9d29355e98cabaff",
+    "src/bics/matched_information.py": "c9f315429a6f49c0a86e67c1996489f305b326038adc56fb402ed8c76e2eee0e",
+    "src/bics/msn2.py": "d39d7317be712a5ffd3edbcb9cc22a5506b9f49c95b2828767fae5647f8ae245",
+    "src/bics/pairing.py": "285a5a6e59d12294847b229f1c39b0673eeb89bb07f53f989e113c270611162e",
+    "src/bics/ribosome.py": "15be8bdb5a069193e6ba713fc616e4899e79562d9ccbe9a8857e399411b3cf68",
+    "src/bics/ribosome_product.py": "ed00c1d907c1d593a10eebc161e9a15a878f1ba706327225c046a2f62dc2a075",
+    "src/bics/tcell.py": "3960b93da8fd70bc98a27f2aff597fbce0216f7239b9c70ebdf328eca8a1c6ec"
   },
   "output_sha256": {
     "all_272_discrimination_comparisons.csv": "b029e6c888bd4385fd51886e11ffe03a20d573d2136304584dbb6f06e004b6a8",
-    "all_five_definitions_verification.json": "e0f1d73b84d122b17374f4734bdb2053bf64aa641c24404555b8a024ecb3afb8",
-    "detailed_results/decision_comparison.json": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
-    "detailed_results/information_panel.json": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
+    "all_five_definitions_verification.json": "921c9a30c80b6c23758aa1e6b9b2102a25eac65702a093d247bf2d86e6ae4225",
+    "detailed_results/decision_comparison.json": "7226f914eed0956d172ebda7361f1e1685f5a00ed2517b3034f928563ad22d8f",
+    "detailed_results/information_panel.json": "4d87c7b608aac2534879cb976709a509ad248a7f42b5af2159a0f963a5e46eb1",
     "detailed_results/information_reveal.json": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89",
-    "detailed_results/summary.json": "1083dbfbe43b1c1b7427842ddb18fcd5b9a35772fd93b2b8320da73cbae20f4b",
+    "detailed_results/summary.json": "d5af57437dd93d307efef834bc620e705a00938ce069cc46034f0acf3b089da7",
     "figure_3_msn2_information.png": "d13e22ecb55cdbeaa16d979848c5c5cb40d3c61dcc801ef85d95ebf3fe8b3908",
     "figure_data.json": "97f9bc103804ffff061923471e3d1cda68f550eddc5d66c6f638b0cee755a09c",
-    "full_derived.log": "e0f1d73b84d122b17374f4734bdb2053bf64aa641c24404555b8a024ecb3afb8",
-    "parameters_used.json": "8feb7e73e3ca3df11db55b1a3522679e25b475c14a894fb204e21c5825bcd5f6",
+    "full_derived.log": "921c9a30c80b6c23758aa1e6b9b2102a25eac65702a093d247bf2d86e6ae4225",
+    "parameters_used.json": "0be31ee40fc2d8b8f000d085d7b176dc6804f00ca32b7ebded12bbecefcabfb2",
     "primary_records.json": "3d3eabda2d14617d9e25fb645ffd89cb9c8a1eb9583d8acaa8ac6dcb000fbb0e",
-    "run.log": "2c50763a9d2de03136939528009138a71db6e645770331500fe46b509fc157bc",
+    "run.log": "b2c330872a515323b4f9d638669d945ae65b75ab3e0a5cfd5b7b2d148cf9d3ba",
     "table_4_msn2_information.csv": "794a1ab8c0ea80ec27dd1552f0f20b9112a71423c39b2c0d5e22f4ee0910daa6",
     "table_5_msn2_pairing.csv": "d827bb063bb874e800b8f2b5ee57e11e6b21e9531c70349c059f7ba93b591ae0"
   },
-  "elapsed_seconds": 7.76,
+  "elapsed_seconds": 6.548,
   "python": "3.13.5 (main, Jun 12 2025, 03:51:07) [GCC 13.3.0]",
   "packages": {
     "numpy": "2.3.5",

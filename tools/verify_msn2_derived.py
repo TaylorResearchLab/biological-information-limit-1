@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
-"""Check archived Msn2 derived files and recompute all five response definitions.
-
-Starts from the archived scalar fluorescence features, not the original traces.
-Checks hashes first. Preserves archived outputs. Exact values and discrete fields
-must agree exactly; floating values use absolute and relative tolerances 1e-12.
-"""
+'Recompute five response definitions from scalar fluorescence features. Discrete fields and exact fractions must agree exactly. Floating values use absolute and relative tolerances of 1e-12.'
 from __future__ import annotations
 import argparse
 from collections import Counter
@@ -21,10 +16,8 @@ import tempfile
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-WS = ROOT / 'workstreams/msn2_pairing_2026-09-23'
-sys.path.insert(0, str(WS / 'src'))
-import analyze_msn2 as analysis
-import reveal_pairing
+sys.path.insert(0, str(ROOT / 'src'))
+from bics import msn2 as analysis, pairing as reveal_pairing
 
 
 def require(ok: bool, message: str) -> None:
@@ -51,8 +44,8 @@ def compare(a, b, location: str, errors: list[float]) -> None:
 
 
 def run() -> dict:
-    manifest = json.loads((ROOT / 'provenance/msn2_archive_manifest.json').read_text())
-    require(len(manifest['files']) == 9, 'Expected nine archived data/result files')
+    manifest = json.loads((ROOT / 'provenance/msn2_manifest.json').read_text())
+    require(len(manifest['files']) == 9, 'Expected nine Msn2 data/result files')
     for item in manifest['files']:
         path = ROOT / item['path']
         require(path.resolve().is_relative_to(ROOT) and not path.is_symlink(), 'Invalid archive path')
@@ -62,7 +55,7 @@ def run() -> dict:
         blob = hashlib.sha1(b'blob ' + str(len(raw)).encode() + b'\0' + raw).hexdigest()
         require(blob == item['git_blob'], item['path'] + ': Git object mismatch')
     analysis.verify_solver()
-    base = WS / 'results/analysis'
+    base = ROOT / 'data/msn2'
     groups = {(con, cond): [] for con in ('1x', '2x') for cond in analysis.CONDITIONS}
     with gzip.open(base / 'cell_features.csv.gz', 'rt', encoding='utf-8', newline='') as handle:
         reader = csv.DictReader(handle)
@@ -115,7 +108,7 @@ def run() -> dict:
         regenerated = (json.dumps(analysis.encode(result), indent=2, allow_nan=False) + '\n').encode()
         exact_serializations[name] = regenerated == expected_bytes
     primary = [analysis.encode(r) for r in conditions if r['scheme'] == 'primary_median']
-    expected_primary = json.loads((ROOT / 'workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/primary_condition_counts.json').read_text())
+    expected_primary = json.loads((base / 'primary_condition_counts.json').read_text())
     compare(primary, expected_primary, 'primary condition cross-check', errors)
     provenance = json.loads((base / 'member_provenance.json').read_text())
     require(provenance['archive_sha256'] == analysis.SOURCE_SHA, 'Raw archive identity differs')
@@ -132,23 +125,25 @@ def run() -> dict:
     with tempfile.TemporaryDirectory() as directory:
         output = Path(directory) / 'constraint_reveal.json'
         reveal_pairing.run(base / 'pair_results.json', output)
-        require(output.read_bytes() == (WS / 'results/constraint_reveal.json').read_bytes(), 'Reveal output bytes differ')
+        require(output.read_bytes() == (base / 'constraint_reveal.json').read_bytes(), 'Reveal output bytes differ')
         reveal = json.loads(output.read_text())
-    return dict(status='PASS', archived_files=9, feature_rows=40458, condition_records=len(conditions),
+    return dict(status='PASS', reference_files=9, feature_rows=40458, condition_records=len(conditions),
         threshold_records=len(thresholds), comparisons=len(records), response_definitions=5,
         summaries=len(summaries), reference_contrasts=len(outputs['reference_contrasts.json']),
         comparisons_per_scheme=dict(Counter(r['scheme'] for r in records)),
         reveal_cases=len(reveal['cases']), reveal_nested_checks=reveal['nested_interval_checks'],
         max_float_absolute_difference=max(errors, default=0),
         regenerated_json_byte_matches=exact_serializations, python=sys.version, numpy=np.__version__,
-        scope='Verification from archived scalar features. Original fluorescence preprocessing and experimental replication were not rerun.')
+        scope='Descriptive reconstruction from scalar fluorescence features across five binary response definitions.')
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--out', type=Path, required=True)
     args = parser.parse_args()
-    require(not args.out.exists(), 'Choose a new output file')
+    sys.path.insert(0, str(ROOT / 'examples'))
+    from _common import validate_output_file
+    args.out = validate_output_file(args.out)
     result = run()
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text(json.dumps(result, indent=2) + '\n', encoding='utf-8')

@@ -1,7 +1,4 @@
-"""Plot tables and figures from calculated CSV results.
-
-figure_data.json records the plotted rows and input file hashes.
-"""
+"""Plot calculated CSV results and record the figure inputs."""
 from pathlib import Path
 import json
 import math

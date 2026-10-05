@@ -7,7 +7,7 @@ import sys
 import time
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from _common import (WS, arguments, prepare_out, verify_sources, write_csv,
+from _common import (ROOT, arguments, prepare_out, verify_sources, write_csv,
                      write_json, check_table, run_script, finish, entry)
 HERE = Path(__file__).resolve().parent
 
@@ -15,13 +15,9 @@ HERE = Path(__file__).resolve().parent
 def main():
     started = time.perf_counter()
     args = arguments(__doc__, 'ribosome')
-    sources = verify_sources(('workstreams/research_update_2026-09-23/ribosome_boundary/',
-                              'workstreams/ribosome_separate_output_2026-09-24/',
-                              'workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py'))
+    sources = verify_sources(('src/bics/',))
     out = prepare_out(args.out)
-    original = WS / 'research_update_2026-09-23/ribosome_boundary'
-    sys.path[:0] = [str(original / 'src'), str(original / 'reference')]
-    from ribosome_boundary import AcceptanceBox, info_bounds, assembly_metrics
+    from bics.ribosome import AcceptanceBox, info_bounds, assembly_metrics
     boxes = {'wild_type': AcceptanceBox((F('.9'), F(1)), (F('.048'), F('.052'))),
              'restrictive': AcceptanceBox((F('.9'), F(1)), (F('.002'), F('.012')))}
     local, sensitivity, exact = [], [], []
@@ -51,7 +47,7 @@ def main():
     write_csv(out / 'source_frequency_sensitivity.csv', sensitivity)
     write_csv(out / 'extended_passage_sweep.csv', passage)
     write_json(out / 'local_information_enclosures.json', exact)
-    run_script(WS / 'ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py',
+    run_script('bics.ribosome_product',
                [str(out / 'separate_product_assay.json')], out / 'run.log')
     product = json.loads((out / 'separate_product_assay.json').read_text())
     threshold = product['rate_free_late_stage']['U_threshold_for_guaranteed_res_lt_wt_under_one_uncertainty_family']
@@ -68,7 +64,7 @@ def main():
         from _plot import ribosome
         ribosome(out)
     finish(out, {'example': 'Ribosomal tRNA selection', 'source_doi': '10.1016/j.molcel.2010.06.009',
-                 'scope': 'Declared acceptance sensitivity families, not population confidence intervals.',
+                 'scope': 'Information ranges across declared acceptance sensitivity families.',
                  'cognate_interval': ['9/10','1'], 'wild_type_near_interval': ['0.048','0.052'],
                  'restrictive_near_interval': ['0.002','0.012'], 'near_cognate_input_probabilities': ['1/2','1/10','1/100'],
                  'whole_encounter_cognate_acceptance': '0.95', 'whole_encounter_near_acceptance': '0.007',

@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""Regenerate Tables 1-5, Figures 1-3 and supporting outputs in a new directory.
-
-Runs the three biological examples and writes tables, figures and supporting
-outputs to the selected folder. Source files and published results are protected.
-"""
+"""Generate the paper tables, figures and supporting numerical outputs."""
 from __future__ import annotations
 import argparse
 import csv
@@ -37,8 +33,8 @@ def sha256(path: Path) -> str:
 
 def source_records() -> dict[str, str]:
     """Identify calculation programs, required inputs and reference checks."""
-    paths = [ROOT / 'generate_artifacts.py', ROOT / 'requirements.txt', ROOT / 'verify_archive.py']
-    for name in ('examples', 'workstreams', 'tools', 'provenance', 'reference_results'):
+    paths = [ROOT / 'generate_artifacts.py', ROOT / 'requirements.txt', ROOT / 'verify_sources.py']
+    for name in ('examples', 'src', 'data', 'tools', 'provenance'):
         paths.extend(p for p in (ROOT / name).rglob('*') if p.is_file()
                      and '__pycache__' not in p.parts and p.suffix != '.pyc')
     return {p.relative_to(ROOT).as_posix(): sha256(p) for p in sorted(set(paths))}
@@ -92,25 +88,20 @@ def write_index(out: Path) -> None:
                   'The verification record identifies every source file checked and output produced.', '']
         (folder / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
     overview += ['', '## Generate your own results', '',
-        'From the repository folder after installing `requirements.txt`:', '', '```bash',
+        'After installing the repository requirements, run:', '', '```bash',
         'python generate_artifacts.py --out runs/my_artifacts', '```', '',
-        'Choose a new or empty folder beneath `runs/`, or an absolute path outside the repository. '
-        'Quote paths containing spaces. Each run has its own output folder. Source files and published results are protected.', '',
-        'The generated folder has the same example directories as this one. Compare the CSV tables and figures directly. '
-        'Each example also performs numerical reference checks automatically.', '',
-        'Numerical files and figure inputs support direct comparison across runs. Log paths and elapsed times describe each run. '
-        'Image rendering depends on plotting libraries and fonts. '
-        '`figure_data.json` records the plotted values and input hashes.', '',
-        '## Calculation scope', '',
-        'The command generates all five main tables and three main figures. The Msn2 example starts with included binary counts '
-        'and also verifies all 1,360 comparisons from the saved scalar features. '
-        'Processing deposited fluorescence trajectories uses the source-data procedure in the data provenance guide.', '',
-        'The reported bounds describe the specified response families and empirical records. '
-        'Statistical confidence coverage requires a suitable sampling model and experimental replication.', '',
-        '## File identities', '',
-        '`artifact_manifest.json` records the numerical run and file checksums. '
-        '`documentation_generator_sha256` identifies the program used to create these index pages. '
-        'The manifest lists the identities of all accompanying files. Published results are stored in `artifacts/` on main.', '']
+        'Choose a new or empty folder beneath `runs/` or an absolute output path outside the repository. '
+        'Quote paths containing spaces. Each run writes to its own folder.', '',
+        'The generated folder uses the same structure as this results directory. '
+        'Open corresponding tables and figures to compare them. Numerical checks also run automatically.', '',
+        'The five tables and three figures are calculated from the supplied input files. '
+        'The Msn2 analysis includes all 1,360 comparisons across five response definitions.', '',
+        '## Calculation records', '',
+        '`parameters_used.json` records the assumptions. `verification.json` records the checks and software versions. '
+        '`figure_data.json` contains the calculated values used to draw each figure.', '',
+        '`artifact_manifest.json` records the generating source identities and output checksums. '
+        'Numerical outputs and figure inputs support direct comparison. Runtime and log paths describe individual runs. '
+        'Image rendering can vary with plotting libraries and fonts.', '']
     (out / 'README.md').write_text('\n'.join(overview), encoding='utf-8')
 
 
@@ -158,7 +149,9 @@ def main() -> None:
     if (ROOT / '.git').exists():
         result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=ROOT, capture_output=True, text=True)
         if result.returncode == 0:
-            revision = result.stdout.strip()
+            dirty = subprocess.run(['git', 'status', '--porcelain', '--untracked-files=no'], cwd=ROOT, capture_output=True, text=True)
+            if dirty.returncode == 0 and not dirty.stdout.strip():
+                revision = result.stdout.strip()
     for directory, title, script, _, _, extra in EXAMPLES:
         print(f'Running {title}', flush=True)
         run_script(ROOT / 'examples' / directory / script,
@@ -172,7 +165,7 @@ def main() -> None:
     files = {p.relative_to(out).as_posix(): {'bytes': p.stat().st_size, 'sha256': sha256(p)}
              for p in sorted(out.rglob('*')) if p.is_file()}
     write_json(out / 'artifact_manifest.json', {'status': 'PASS', 'format_version': 1,
-        'source_commit': revision, 'source_sha256': before,
+        'source_commit': revision, 'source_manifest_sha256': sha256(ROOT / 'provenance/source_manifest.json'), 'source_sha256': before,
         'documentation_generator_sha256': sha256(ROOT / 'generate_artifacts.py'),
         'tables': 5, 'figures': 3, 'msn2_full_derived_verification': True,
         'files': files})

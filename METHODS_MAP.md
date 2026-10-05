@@ -1,39 +1,27 @@
 # Manuscript methods and scripts
 
-Start with [Examples](examples/). Each primary script runs on its own after the common [installation](README.md#install-once).
+Each example has one primary script. [Installation](README.md#install-once) is shared by all examples.
 
-| Manuscript result | Primary script | Output beneath the chosen `--out` folder |
+| Result | Script | Output |
 | --- | --- | --- |
-| Table 1: T cell completion, selectivity, classification error and mutual information | [run_tcell_proofreading.py](examples/01_tcell_proofreading/run_tcell_proofreading.py) | `table_1_tcell_proofreading.csv` |
-| Continuing ligand dependence in the sequential T cell model | Same T cell script; `build()` function | `ligand_dependence.json` |
-| Figure 1 | Same T cell script | `figure_1_tcell_proofreading.png` |
-| Table 2: ribosome information at proofreading | [run_ribosome_selection.py](examples/02_ribosome_selection/run_ribosome_selection.py) | `table_2_ribosome_information.csv` |
-| Table 3: information per original encounter | Same ribosome script | `table_3_ribosome_passage.csv` |
-| Ribosome source-frequency sensitivity | Same ribosome script | `source_frequency_sensitivity.csv` |
-| Separate product-assay threshold and rate-based comparison | Same ribosome script | `separate_product_assay.json` |
-| Figure 2 | Same ribosome script | `figure_2_ribosome_selection.png` |
-| Table 4: selected Msn2 information ranges | [run_msn2_reporters.py](examples/03_msn2_reporters/run_msn2_reporters.py) | `table_4_msn2_information.csv` |
-| Table 5: restoration of same-cell pairing | Same Msn2 script | `table_5_msn2_pairing.csv` |
-| All 272 primary accuracy comparisons | Same Msn2 script | `all_272_discrimination_comparisons.csv` and `detailed_results/decision_comparison.json` |
-| The complete 10-case information panel | Same Msn2 script | `detailed_results/information_panel.json` |
-| Figure 3 | Same Msn2 script | `figure_3_msn2_information.png` |
-| All five Msn2 response definitions | Same Msn2 script with `--full-derived` | `all_five_definitions_verification.json` |
-| Fluorescence preprocessing | `analyze_msn2.py --archive ... --out ...` | See [Data provenance](docs/DATA_PROVENANCE.md) |
+| Table 1 and Fig. 1 | [T cell proofreading](examples/01_tcell_proofreading/run_tcell_proofreading.py) | `table_1_tcell_proofreading.csv`, `figure_1_tcell_proofreading.png` |
+| Continuing ligand dependence | Same T cell script | `ligand_dependence.json` |
+| Tables 2–3 and Fig. 2 | [Ribosome selection](examples/02_ribosome_selection/run_ribosome_selection.py) | `table_2_ribosome_information.csv`, `table_3_ribosome_passage.csv`, `figure_2_ribosome_selection.png` |
+| Source frequencies and upstream passage | Same ribosome script | `source_frequency_sensitivity.csv`, `extended_passage_sweep.csv` |
+| Separate product-assay calculation | Same ribosome script | `separate_product_assay.json` |
+| Tables 4–5 and Fig. 3 | [Msn2 reporters](examples/03_msn2_reporters/run_msn2_reporters.py) | `table_4_msn2_information.csv`, `table_5_msn2_pairing.csv`, `figure_3_msn2_information.png` |
+| All 272 primary comparisons | Same Msn2 script | `all_272_discrimination_comparisons.csv`, `detailed_results/` |
+| All five response definitions | Same Msn2 script with `--full-derived` | `all_five_definitions_verification.json` |
+| Source fluorescence preprocessing | [process_msn2_fluorescence.py](tools/process_msn2_fluorescence.py) | Scalar features, count tables and comparisons |
 
 ## Scientific implementation
 
-T cell rates and response metrics use [proofreading.py](workstreams/transfer_proofreading_v0_1/src/proofreading.py). Shannon mutual information uses `information()` in [transfer.py](workstreams/transfer_proofreading_v0_1/src/transfer.py).
+T cell calculations use `coarse_from_competing_rates`, `response_metrics` and `build` in [tcell.py](src/bics/tcell.py). Shannon mutual information is implemented in [information.py](src/bics/information.py).
 
-Ribosome local bounds and encounter assembly use [ribosome_boundary.py](workstreams/research_update_2026-09-23/ribosome_boundary/src/ribosome_boundary.py). The product assay uses [evaluate_separate_output.py](workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py).
+Ribosome bounds use `info_bounds` and `assembly_metrics` in [ribosome.py](src/bics/ribosome.py). The separate product assay uses [ribosome_product.py](src/bics/ribosome_product.py).
 
-Msn2 count analysis uses [analyze_msn2.py](workstreams/msn2_pairing_2026-09-23/src/analyze_msn2.py). The information and decision formulations use [matched_information.py](workstreams/method_comparison_2026-09-23/src/matched_information.py), executed by [run_comparison.py](workstreams/method_comparison_2026-09-23/src/run_comparison.py).
-
-## Output verification
-
-Each example checks its inputs against the [source manifest](provenance/import_manifest.json). It then calculates results and compares the CSV values with the [reference tables](examples/REFERENCE_RESULTS.md). Every figure reads calculated CSVs. `figure_data.json` records the plotted rows and input hashes.
-
-Detailed JSON files contain exact probability fractions and certified numerical information enclosures. CSV files retain full numerical precision. The table previews use rounded values for reading.
+Msn2 processing and count analysis use [msn2.py](src/bics/msn2.py). Exact classification bounds use [joint_bounds.py](src/bics/joint_bounds.py). Certified information bounds and independent linear programs use [matched_information.py](src/bics/matched_information.py). [comparison.py](src/bics/comparison.py) runs the primary panel.
 
 ## Saved results
 
-[Artifacts](artifacts/) contains the five tables and three figures with their supporting outputs. Run `python generate_artifacts.py --out runs/my_artifacts` to generate the same directory structure. Each run records its source file identities and calculation settings.
+[Artifacts](artifacts/) contains the figures, full precision CSV tables and supporting results. Generate a separate copy with `python generate_artifacts.py --out runs/my_artifacts`. Every figure reads calculated CSVs. Parameters and source identities accompany each run.

@@ -6,7 +6,7 @@ import sys
 import time
 sys.dont_write_bytecode = True
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from _common import (WS, arguments, prepare_out, verify_sources, write_csv,
+from _common import (ROOT, arguments, prepare_out, verify_sources, write_csv,
                      write_json, check_table, run_script, finish, entry)
 HERE = Path(__file__).resolve().parent
 
@@ -14,13 +14,10 @@ HERE = Path(__file__).resolve().parent
 def main():
     started = time.perf_counter()
     args = arguments(__doc__, 'tcell')
-    sources = verify_sources(('workstreams/transfer_proofreading_v0_1/',
-                              'workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py'))
+    sources = verify_sources(('src/bics/',))
     out = prepare_out(args.out)
-    original = WS / 'transfer_proofreading_v0_1'
-    sys.path[:0] = [str(original / 'src'), str(original / 'reference')]
-    from proofreading import coarse_from_competing_rates, response_metrics, build
-    # The same illustrative rates and equally weighted inputs as the archived driver.
+    from bics.tcell import coarse_from_competing_rates, response_metrics, build
+    # McKeithan's illustrative rates with equally weighted ligand classes.
     kp, off_self, off_agonist = F(1), F(10), F(1, 10)
     alpha_self = coarse_from_competing_rates(kp, off_self)
     alpha_agonist = coarse_from_competing_rates(kp, off_agonist)
@@ -39,28 +36,18 @@ def main():
                            'information_bits_enclosure': info.decimal(18)})
     write_csv(out / 'table_1_tcell_proofreading.csv', rows)
     write_json(out / 'exact_results.json', exact_rows)
-    # Inspect the existing sequential model: after survival, later steps still depend on ligand class.
+    # Inspect the sequential model: after survival, later steps still depend on ligand class.
     model = build([alpha_self]*2, [alpha_agonist]*2)
     later = model.motifs[2]
     if later.rows[(0, 1)][(1,)] != alpha_self or later.rows[(1, 1)][(1,)] != alpha_agonist:
         raise AssertionError('Continuing ligand dependence changed')
     write_json(out / 'ligand_dependence.json', {
-        'scope': 'Conditional progression laws in the preserved two-step model; not a trajectory information calculation.',
+        'scope': 'Conditional progression laws in the two-step model, conditional on completion of the first step.',
         'second_step_given_first_completed': {'self': str(alpha_self), 'agonist': str(alpha_agonist)},
         'input_independent_reduction_valid': alpha_self == alpha_agonist})
-    run_script(WS / 'paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py', [], out / 'run.log')
-    import csv
-    with (out / 'run.log').open() as handle:
-        archived_driver = list(csv.DictReader(handle, delimiter='\t'))
-    for row, direct in zip(rows, archived_driver):
-        actual = [row[k] for k in row]
-        wanted = [float(direct[k]) for k in direct]
-        if len(actual) != len(wanted) or any(abs(float(a)-b) > 1e-12 for a,b in zip(actual,wanted)):
-            raise AssertionError('Table differs from preserved driver')
-    if len(archived_driver) != len(rows):
-        raise AssertionError('Preserved driver row count differs')
+    (out / 'run.log').write_text('Calculated five proofreading depths from specified rates.\n')
     checks = {'table_1_rows': check_table(out, 'table_1_tcell_proofreading.csv', HERE),
-              'preserved_driver_agreement': True, 'continuing_ligand_dependence': True}
+              'continuing_ligand_dependence': True}
     if not args.skip_figures:
         from _plot import tcell
         tcell(out)

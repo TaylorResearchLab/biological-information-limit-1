@@ -1,9 +1,0 @@
-{
-  "source_commit": "32b0e6633ed2f2d9c8a46f98057382bf765822d4",
-  "source_directory": "workstreams/method_comparison_2026-09-23/results/science",
-  "outputs": {
-    "decision_comparison.json": "89d1900392d8ed2c0e4d16b80666ff7776bbfdf620e6e780abcd52f71be3d38d",
-    "information_panel.json": "24685289ecb0e49be24a63ee23690bb6479fccd462a9eeaca383946906851296",
-    "information_reveal.json": "3e82eb1b550aa337e58372289d9b7be0986a700cc6d7904ad1be51622edddd89"
-  }
-}

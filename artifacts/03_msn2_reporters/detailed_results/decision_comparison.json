@@ -9,8 +9,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5926166122732118,
-    "historical_exact_deterministic_guarantee": 0.5926166122732118,
+    "exact_minimum": 0.5926166122732118,
+    "exact_deterministic_guarantee": 0.5926166122732118,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -25,8 +25,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7629973273887914,
-    "historical_exact_deterministic_guarantee": 0.7629973273887914,
+    "exact_minimum": 0.7629973273887914,
+    "exact_deterministic_guarantee": 0.7629973273887914,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -41,8 +41,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.864416824266677,
-    "historical_exact_deterministic_guarantee": 0.864416824266677,
+    "exact_minimum": 0.864416824266677,
+    "exact_deterministic_guarantee": 0.864416824266677,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -57,8 +57,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9644702002292548,
-    "historical_exact_deterministic_guarantee": 0.9644702002292548,
+    "exact_minimum": 0.9644702002292548,
+    "exact_deterministic_guarantee": 0.9644702002292548,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -73,8 +73,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.994345718901454,
-    "historical_exact_deterministic_guarantee": 0.994345718901454,
+    "exact_minimum": 0.994345718901454,
+    "exact_deterministic_guarantee": 0.994345718901454,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -89,8 +89,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.994345718901454,
-    "historical_exact_deterministic_guarantee": 0.994345718901454,
+    "exact_minimum": 0.994345718901454,
+    "exact_deterministic_guarantee": 0.994345718901454,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -105,8 +105,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.994345718901454,
-    "historical_exact_deterministic_guarantee": 0.994345718901454,
+    "exact_minimum": 0.994345718901454,
+    "exact_deterministic_guarantee": 0.994345718901454,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -121,8 +121,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5380038071367481,
-    "historical_exact_deterministic_guarantee": 0.5380038071367481,
+    "exact_minimum": 0.5380038071367481,
+    "exact_deterministic_guarantee": 0.5380038071367481,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -137,8 +137,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5705361950919301,
-    "historical_exact_deterministic_guarantee": 0.5705361950919301,
+    "exact_minimum": 0.5705361950919301,
+    "exact_deterministic_guarantee": 0.5705361950919301,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -153,8 +153,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5904800017091854,
-    "historical_exact_deterministic_guarantee": 0.5904800017091854,
+    "exact_minimum": 0.5904800017091854,
+    "exact_deterministic_guarantee": 0.5904800017091854,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -169,8 +169,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6383186705767351,
-    "historical_exact_deterministic_guarantee": 0.6383186705767351,
+    "exact_minimum": 0.6383186705767351,
+    "exact_deterministic_guarantee": 0.6383186705767351,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -185,8 +185,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7207415990730012,
-    "historical_exact_deterministic_guarantee": 0.7207415990730012,
+    "exact_minimum": 0.7207415990730012,
+    "exact_deterministic_guarantee": 0.7207415990730012,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -201,8 +201,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7347161572052402,
-    "historical_exact_deterministic_guarantee": 0.7347161572052402,
+    "exact_minimum": 0.7347161572052402,
+    "exact_deterministic_guarantee": 0.7347161572052402,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -217,8 +217,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7823803967327888,
-    "historical_exact_deterministic_guarantee": 0.7823803967327888,
+    "exact_minimum": 0.7823803967327888,
+    "exact_deterministic_guarantee": 0.7823803967327888,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -233,8 +233,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8258766626360339,
-    "historical_exact_deterministic_guarantee": 0.8258766626360339,
+    "exact_minimum": 0.8258766626360339,
+    "exact_deterministic_guarantee": 0.8258766626360339,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -249,8 +249,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8580562659846548,
-    "historical_exact_deterministic_guarantee": 0.8580562659846548,
+    "exact_minimum": 0.8580562659846548,
+    "exact_deterministic_guarantee": 0.8580562659846548,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -265,8 +265,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6703807151155795,
-    "historical_exact_deterministic_guarantee": 0.6703807151155795,
+    "exact_minimum": 0.6703807151155795,
+    "exact_deterministic_guarantee": 0.6703807151155795,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -281,8 +281,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.771800211993465,
-    "historical_exact_deterministic_guarantee": 0.771800211993465,
+    "exact_minimum": 0.771800211993465,
+    "exact_deterministic_guarantee": 0.771800211993465,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -297,8 +297,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.871853587956043,
-    "historical_exact_deterministic_guarantee": 0.871853587956043,
+    "exact_minimum": 0.871853587956043,
+    "exact_deterministic_guarantee": 0.871853587956043,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -313,8 +313,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9017291066282421,
-    "historical_exact_deterministic_guarantee": 0.9017291066282421,
+    "exact_minimum": 0.9017291066282421,
+    "exact_deterministic_guarantee": 0.9017291066282421,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -329,8 +329,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9017291066282421,
-    "historical_exact_deterministic_guarantee": 0.9017291066282421,
+    "exact_minimum": 0.9017291066282421,
+    "exact_deterministic_guarantee": 0.9017291066282421,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -345,8 +345,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9017291066282421,
-    "historical_exact_deterministic_guarantee": 0.9017291066282421,
+    "exact_minimum": 0.9017291066282421,
+    "exact_deterministic_guarantee": 0.9017291066282421,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -361,8 +361,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5858397609764366,
-    "historical_exact_deterministic_guarantee": 0.5858397609764366,
+    "exact_minimum": 0.5858397609764366,
+    "exact_deterministic_guarantee": 0.5858397609764366,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -377,8 +377,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5632592287635515,
-    "historical_exact_deterministic_guarantee": 0.5632592287635515,
+    "exact_minimum": 0.5632592287635515,
+    "exact_deterministic_guarantee": 0.5632592287635515,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -393,8 +393,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5145487700124011,
-    "historical_exact_deterministic_guarantee": 0.5145487700124011,
+    "exact_minimum": 0.5145487700124011,
+    "exact_deterministic_guarantee": 0.5145487700124011,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -409,8 +409,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5469642037179455,
-    "historical_exact_deterministic_guarantee": 0.5469642037179455,
+    "exact_minimum": 0.5469642037179455,
+    "exact_deterministic_guarantee": 0.5469642037179455,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -425,8 +425,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6293871322142115,
-    "historical_exact_deterministic_guarantee": 0.6293871322142115,
+    "exact_minimum": 0.6293871322142115,
+    "exact_deterministic_guarantee": 0.6293871322142115,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -441,8 +441,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6433616903464505,
-    "historical_exact_deterministic_guarantee": 0.6433616903464505,
+    "exact_minimum": 0.6433616903464505,
+    "exact_deterministic_guarantee": 0.6433616903464505,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -457,8 +457,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6910259298739991,
-    "historical_exact_deterministic_guarantee": 0.6910259298739991,
+    "exact_minimum": 0.6910259298739991,
+    "exact_deterministic_guarantee": 0.6910259298739991,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -473,8 +473,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7345221957772442,
-    "historical_exact_deterministic_guarantee": 0.7345221957772442,
+    "exact_minimum": 0.7345221957772442,
+    "exact_deterministic_guarantee": 0.7345221957772442,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -489,8 +489,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7667017991258651,
-    "historical_exact_deterministic_guarantee": 0.7667017991258651,
+    "exact_minimum": 0.7667017991258651,
+    "exact_deterministic_guarantee": 0.7667017991258651,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -505,8 +505,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6025225127169807,
-    "historical_exact_deterministic_guarantee": 0.6025225127169807,
+    "exact_minimum": 0.6025225127169807,
+    "exact_deterministic_guarantee": 0.6025225127169807,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -521,8 +521,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7014728728404633,
-    "historical_exact_deterministic_guarantee": 0.7014728728404633,
+    "exact_minimum": 0.7014728728404633,
+    "exact_deterministic_guarantee": 0.7014728728404633,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -537,8 +537,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7313483915126625,
-    "historical_exact_deterministic_guarantee": 0.7313483915126625,
+    "exact_minimum": 0.7313483915126625,
+    "exact_deterministic_guarantee": 0.7313483915126625,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -553,8 +553,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7313483915126625,
-    "historical_exact_deterministic_guarantee": 0.7313483915126625,
+    "exact_minimum": 0.7313483915126625,
+    "exact_deterministic_guarantee": 0.7313483915126625,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -569,8 +569,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7313483915126625,
-    "historical_exact_deterministic_guarantee": 0.7313483915126625,
+    "exact_minimum": 0.7313483915126625,
+    "exact_deterministic_guarantee": 0.7313483915126625,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -585,8 +585,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7549233502435881,
-    "historical_exact_deterministic_guarantee": 0.7549233502435881,
+    "exact_minimum": 0.7549233502435881,
+    "exact_deterministic_guarantee": 0.7549233502435881,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -601,8 +601,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.732342818030703,
-    "historical_exact_deterministic_guarantee": 0.732342818030703,
+    "exact_minimum": 0.732342818030703,
+    "exact_deterministic_guarantee": 0.732342818030703,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -617,8 +617,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6836323592795526,
-    "historical_exact_deterministic_guarantee": 0.6836323592795526,
+    "exact_minimum": 0.6836323592795526,
+    "exact_deterministic_guarantee": 0.6836323592795526,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -633,8 +633,8 @@
       -0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6376643162097226,
-    "historical_exact_deterministic_guarantee": 0.6376643162097226,
+    "exact_minimum": 0.6376643162097226,
+    "exact_deterministic_guarantee": 0.6376643162097226,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -649,8 +649,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6058474369925518,
-    "historical_exact_deterministic_guarantee": 0.6058474369925518,
+    "exact_minimum": 0.6058474369925518,
+    "exact_deterministic_guarantee": 0.6058474369925518,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -665,8 +665,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5863371980069881,
-    "historical_exact_deterministic_guarantee": 0.5863371980069881,
+    "exact_minimum": 0.5863371980069881,
+    "exact_deterministic_guarantee": 0.5863371980069881,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -681,8 +681,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5556994497942219,
-    "historical_exact_deterministic_guarantee": 0.5556994497942219,
+    "exact_minimum": 0.5556994497942219,
+    "exact_deterministic_guarantee": 0.5556994497942219,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -697,8 +697,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5654386065100927,
-    "historical_exact_deterministic_guarantee": 0.5654386065100927,
+    "exact_minimum": 0.5654386065100927,
+    "exact_deterministic_guarantee": 0.5654386065100927,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -713,8 +713,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5976182098587136,
-    "historical_exact_deterministic_guarantee": 0.5976182098587136,
+    "exact_minimum": 0.5976182098587136,
+    "exact_deterministic_guarantee": 0.5976182098587136,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -729,8 +729,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6000533759625778,
-    "historical_exact_deterministic_guarantee": 0.6000533759625778,
+    "exact_minimum": 0.6000533759625778,
+    "exact_deterministic_guarantee": 0.6000533759625778,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -745,8 +745,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.629928894634777,
-    "historical_exact_deterministic_guarantee": 0.629928894634777,
+    "exact_minimum": 0.629928894634777,
+    "exact_deterministic_guarantee": 0.629928894634777,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -761,8 +761,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.629928894634777,
-    "historical_exact_deterministic_guarantee": 0.629928894634777,
+    "exact_minimum": 0.629928894634777,
+    "exact_deterministic_guarantee": 0.629928894634777,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -777,8 +777,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.629928894634777,
-    "historical_exact_deterministic_guarantee": 0.629928894634777,
+    "exact_minimum": 0.629928894634777,
+    "exact_deterministic_guarantee": 0.629928894634777,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -793,8 +793,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8574458629605688,
-    "historical_exact_deterministic_guarantee": 0.8574458629605688,
+    "exact_minimum": 0.8574458629605688,
+    "exact_deterministic_guarantee": 0.8574458629605688,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -809,8 +809,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8348653307476837,
-    "historical_exact_deterministic_guarantee": 0.8348653307476837,
+    "exact_minimum": 0.8348653307476837,
+    "exact_deterministic_guarantee": 0.8348653307476837,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -825,8 +825,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7861548719965332,
-    "historical_exact_deterministic_guarantee": 0.7861548719965332,
+    "exact_minimum": 0.7861548719965332,
+    "exact_deterministic_guarantee": 0.7861548719965332,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -841,8 +841,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7390838130876082,
-    "historical_exact_deterministic_guarantee": 0.7390838130876082,
+    "exact_minimum": 0.7390838130876082,
+    "exact_deterministic_guarantee": 0.7390838130876082,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -857,8 +857,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7072669338704374,
-    "historical_exact_deterministic_guarantee": 0.7072669338704374,
+    "exact_minimum": 0.7072669338704374,
+    "exact_deterministic_guarantee": 0.7072669338704374,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -873,8 +873,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6877566948848737,
-    "historical_exact_deterministic_guarantee": 0.6877566948848737,
+    "exact_minimum": 0.6877566948848737,
+    "exact_deterministic_guarantee": 0.6877566948848737,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -889,8 +889,8 @@
       -0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6571189466721075,
-    "historical_exact_deterministic_guarantee": 0.6571189466721075,
+    "exact_minimum": 0.6571189466721075,
+    "exact_deterministic_guarantee": 0.6571189466721075,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -905,8 +905,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5828885176989594,
-    "historical_exact_deterministic_guarantee": 0.5828885176989594,
+    "exact_minimum": 0.5828885176989594,
+    "exact_deterministic_guarantee": 0.5828885176989594,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -921,8 +921,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5254419493549929,
-    "historical_exact_deterministic_guarantee": 0.5254419493549929,
+    "exact_minimum": 0.5254419493549929,
+    "exact_deterministic_guarantee": 0.5254419493549929,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -937,8 +937,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5385488409364784,
-    "historical_exact_deterministic_guarantee": 0.5385488409364784,
+    "exact_minimum": 0.5385488409364784,
+    "exact_deterministic_guarantee": 0.5385488409364784,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -953,8 +953,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5546306529073345,
-    "historical_exact_deterministic_guarantee": 0.5546306529073345,
+    "exact_minimum": 0.5546306529073345,
+    "exact_deterministic_guarantee": 0.5546306529073345,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -969,8 +969,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5599484578737691,
-    "historical_exact_deterministic_guarantee": 0.5599484578737691,
+    "exact_minimum": 0.5599484578737691,
+    "exact_deterministic_guarantee": 0.5599484578737691,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -985,8 +985,8 @@
       -0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9264663930925067,
-    "historical_exact_deterministic_guarantee": 0.9264663930925067,
+    "exact_minimum": 0.9264663930925067,
+    "exact_deterministic_guarantee": 0.9264663930925067,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1001,8 +1001,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8997055917802805,
-    "historical_exact_deterministic_guarantee": 0.8997055917802805,
+    "exact_minimum": 0.8997055917802805,
+    "exact_deterministic_guarantee": 0.8997055917802805,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1017,8 +1017,8 @@
       -0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8739901985200694,
-    "historical_exact_deterministic_guarantee": 0.8739901985200694,
+    "exact_minimum": 0.8739901985200694,
+    "exact_deterministic_guarantee": 0.8739901985200694,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1033,8 +1033,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.839137189050186,
-    "historical_exact_deterministic_guarantee": 0.839137189050186,
+    "exact_minimum": 0.839137189050186,
+    "exact_deterministic_guarantee": 0.839137189050186,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1049,8 +1049,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8073203098330152,
-    "historical_exact_deterministic_guarantee": 0.8073203098330152,
+    "exact_minimum": 0.8073203098330152,
+    "exact_deterministic_guarantee": 0.8073203098330152,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1065,8 +1065,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7878100708474515,
-    "historical_exact_deterministic_guarantee": 0.7878100708474515,
+    "exact_minimum": 0.7878100708474515,
+    "exact_deterministic_guarantee": 0.7878100708474515,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1081,8 +1081,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7571723226346853,
-    "historical_exact_deterministic_guarantee": 0.7571723226346853,
+    "exact_minimum": 0.7571723226346853,
+    "exact_deterministic_guarantee": 0.7571723226346853,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1097,8 +1097,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6829418936615372,
-    "historical_exact_deterministic_guarantee": 0.6829418936615372,
+    "exact_minimum": 0.6829418936615372,
+    "exact_deterministic_guarantee": 0.6829418936615372,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1113,8 +1113,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6254953253175707,
-    "historical_exact_deterministic_guarantee": 0.6254953253175707,
+    "exact_minimum": 0.6254953253175707,
+    "exact_deterministic_guarantee": 0.6254953253175707,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1129,8 +1129,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.516081811970856,
-    "historical_exact_deterministic_guarantee": 0.516081811970856,
+    "exact_minimum": 0.516081811970856,
+    "exact_deterministic_guarantee": 0.516081811970856,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1145,8 +1145,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5213996169372906,
-    "historical_exact_deterministic_guarantee": 0.5213996169372906,
+    "exact_minimum": 0.5213996169372906,
+    "exact_deterministic_guarantee": 0.5213996169372906,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1161,8 +1161,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9608349649296442,
-    "historical_exact_deterministic_guarantee": 0.9608349649296442,
+    "exact_minimum": 0.9608349649296442,
+    "exact_deterministic_guarantee": 0.9608349649296442,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1177,8 +1177,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.938254432716759,
-    "historical_exact_deterministic_guarantee": 0.938254432716759,
+    "exact_minimum": 0.938254432716759,
+    "exact_deterministic_guarantee": 0.938254432716759,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1193,8 +1193,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9038657171922686,
-    "historical_exact_deterministic_guarantee": 0.9038657171922686,
+    "exact_minimum": 0.9038657171922686,
+    "exact_deterministic_guarantee": 0.9038657171922686,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1209,8 +1209,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8690127077223851,
-    "historical_exact_deterministic_guarantee": 0.8690127077223851,
+    "exact_minimum": 0.8690127077223851,
+    "exact_deterministic_guarantee": 0.8690127077223851,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1225,8 +1225,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8371958285052143,
-    "historical_exact_deterministic_guarantee": 0.8371958285052143,
+    "exact_minimum": 0.8371958285052143,
+    "exact_deterministic_guarantee": 0.8371958285052143,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1241,8 +1241,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8176855895196506,
-    "historical_exact_deterministic_guarantee": 0.8176855895196506,
+    "exact_minimum": 0.8176855895196506,
+    "exact_deterministic_guarantee": 0.8176855895196506,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1257,8 +1257,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7870478413068844,
-    "historical_exact_deterministic_guarantee": 0.7870478413068844,
+    "exact_minimum": 0.7870478413068844,
+    "exact_deterministic_guarantee": 0.7870478413068844,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1273,8 +1273,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7128174123337364,
-    "historical_exact_deterministic_guarantee": 0.7128174123337364,
+    "exact_minimum": 0.7128174123337364,
+    "exact_deterministic_guarantee": 0.7128174123337364,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1289,8 +1289,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6553708439897699,
-    "historical_exact_deterministic_guarantee": 0.6553708439897699,
+    "exact_minimum": 0.6553708439897699,
+    "exact_deterministic_guarantee": 0.6553708439897699,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1305,8 +1305,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5053178049664346,
-    "historical_exact_deterministic_guarantee": 0.5053178049664346,
+    "exact_minimum": 0.5053178049664346,
+    "exact_deterministic_guarantee": 0.5053178049664346,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1321,8 +1321,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9769167769005002,
-    "historical_exact_deterministic_guarantee": 0.9769167769005002,
+    "exact_minimum": 0.9769167769005002,
+    "exact_deterministic_guarantee": 0.9769167769005002,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1337,8 +1337,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.954336244687615,
-    "historical_exact_deterministic_guarantee": 0.954336244687615,
+    "exact_minimum": 0.954336244687615,
+    "exact_deterministic_guarantee": 0.954336244687615,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1353,8 +1353,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9056257859364645,
-    "historical_exact_deterministic_guarantee": 0.9056257859364645,
+    "exact_minimum": 0.9056257859364645,
+    "exact_deterministic_guarantee": 0.9056257859364645,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1369,8 +1369,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8690127077223851,
-    "historical_exact_deterministic_guarantee": 0.8690127077223851,
+    "exact_minimum": 0.8690127077223851,
+    "exact_deterministic_guarantee": 0.8690127077223851,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1385,8 +1385,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8371958285052143,
-    "historical_exact_deterministic_guarantee": 0.8371958285052143,
+    "exact_minimum": 0.8371958285052143,
+    "exact_deterministic_guarantee": 0.8371958285052143,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1401,8 +1401,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8176855895196506,
-    "historical_exact_deterministic_guarantee": 0.8176855895196506,
+    "exact_minimum": 0.8176855895196506,
+    "exact_deterministic_guarantee": 0.8176855895196506,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1417,8 +1417,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7870478413068844,
-    "historical_exact_deterministic_guarantee": 0.7870478413068844,
+    "exact_minimum": 0.7870478413068844,
+    "exact_deterministic_guarantee": 0.7870478413068844,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1433,8 +1433,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7128174123337364,
-    "historical_exact_deterministic_guarantee": 0.7128174123337364,
+    "exact_minimum": 0.7128174123337364,
+    "exact_deterministic_guarantee": 0.7128174123337364,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1449,8 +1449,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6553708439897699,
-    "historical_exact_deterministic_guarantee": 0.6553708439897699,
+    "exact_minimum": 0.6553708439897699,
+    "exact_deterministic_guarantee": 0.6553708439897699,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1465,8 +1465,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9822345818669348,
-    "historical_exact_deterministic_guarantee": 0.9822345818669348,
+    "exact_minimum": 0.9822345818669348,
+    "exact_deterministic_guarantee": 0.9822345818669348,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1481,8 +1481,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9596540496540497,
-    "historical_exact_deterministic_guarantee": 0.9596540496540497,
+    "exact_minimum": 0.9596540496540497,
+    "exact_deterministic_guarantee": 0.9596540496540497,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1497,8 +1497,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9109435909028991,
-    "historical_exact_deterministic_guarantee": 0.9109435909028991,
+    "exact_minimum": 0.9109435909028991,
+    "exact_deterministic_guarantee": 0.9109435909028991,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1513,8 +1513,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8690127077223851,
-    "historical_exact_deterministic_guarantee": 0.8690127077223851,
+    "exact_minimum": 0.8690127077223851,
+    "exact_deterministic_guarantee": 0.8690127077223851,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1529,8 +1529,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8371958285052143,
-    "historical_exact_deterministic_guarantee": 0.8371958285052143,
+    "exact_minimum": 0.8371958285052143,
+    "exact_deterministic_guarantee": 0.8371958285052143,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1545,8 +1545,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8176855895196506,
-    "historical_exact_deterministic_guarantee": 0.8176855895196506,
+    "exact_minimum": 0.8176855895196506,
+    "exact_deterministic_guarantee": 0.8176855895196506,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1561,8 +1561,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7870478413068844,
-    "historical_exact_deterministic_guarantee": 0.7870478413068844,
+    "exact_minimum": 0.7870478413068844,
+    "exact_deterministic_guarantee": 0.7870478413068844,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1577,8 +1577,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7128174123337364,
-    "historical_exact_deterministic_guarantee": 0.7128174123337364,
+    "exact_minimum": 0.7128174123337364,
+    "exact_deterministic_guarantee": 0.7128174123337364,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1593,8 +1593,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6553708439897699,
-    "historical_exact_deterministic_guarantee": 0.6553708439897699,
+    "exact_minimum": 0.6553708439897699,
+    "exact_deterministic_guarantee": 0.6553708439897699,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1609,8 +1609,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5325323879551821,
-    "historical_exact_deterministic_guarantee": 0.5325323879551821,
+    "exact_minimum": 0.5325323879551821,
+    "exact_deterministic_guarantee": 0.5325323879551821,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1625,8 +1625,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5712909909640357,
-    "historical_exact_deterministic_guarantee": 0.5712909909640357,
+    "exact_minimum": 0.5712909909640357,
+    "exact_deterministic_guarantee": 0.5712909909640357,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -1641,8 +1641,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6328039646943822,
-    "historical_exact_deterministic_guarantee": 0.6328039646943822,
+    "exact_minimum": 0.6328039646943822,
+    "exact_deterministic_guarantee": 0.6328039646943822,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1657,8 +1657,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7152268931906482,
-    "historical_exact_deterministic_guarantee": 0.7152268931906482,
+    "exact_minimum": 0.7152268931906482,
+    "exact_deterministic_guarantee": 0.7152268931906482,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1673,8 +1673,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7292014513228873,
-    "historical_exact_deterministic_guarantee": 0.7292014513228873,
+    "exact_minimum": 0.7292014513228873,
+    "exact_deterministic_guarantee": 0.7292014513228873,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1689,8 +1689,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7768656908504359,
-    "historical_exact_deterministic_guarantee": 0.7768656908504359,
+    "exact_minimum": 0.7768656908504359,
+    "exact_deterministic_guarantee": 0.7768656908504359,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1705,8 +1705,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.820361956753681,
-    "historical_exact_deterministic_guarantee": 0.820361956753681,
+    "exact_minimum": 0.820361956753681,
+    "exact_deterministic_guarantee": 0.820361956753681,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1721,8 +1721,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8525415601023018,
-    "historical_exact_deterministic_guarantee": 0.8525415601023018,
+    "exact_minimum": 0.8525415601023018,
+    "exact_deterministic_guarantee": 0.8525415601023018,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1737,8 +1737,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5487104587511505,
-    "historical_exact_deterministic_guarantee": 0.5487104587511505,
+    "exact_minimum": 0.5487104587511505,
+    "exact_deterministic_guarantee": 0.5487104587511505,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1753,8 +1753,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.610223432481497,
-    "historical_exact_deterministic_guarantee": 0.610223432481497,
+    "exact_minimum": 0.610223432481497,
+    "exact_deterministic_guarantee": 0.610223432481497,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1769,8 +1769,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6926463609777631,
-    "historical_exact_deterministic_guarantee": 0.6926463609777631,
+    "exact_minimum": 0.6926463609777631,
+    "exact_deterministic_guarantee": 0.6926463609777631,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1785,8 +1785,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7066209191100021,
-    "historical_exact_deterministic_guarantee": 0.7066209191100021,
+    "exact_minimum": 0.7066209191100021,
+    "exact_deterministic_guarantee": 0.7066209191100021,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1801,8 +1801,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7542851586375507,
-    "historical_exact_deterministic_guarantee": 0.7542851586375507,
+    "exact_minimum": 0.7542851586375507,
+    "exact_deterministic_guarantee": 0.7542851586375507,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1817,8 +1817,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7977814245407958,
-    "historical_exact_deterministic_guarantee": 0.7977814245407958,
+    "exact_minimum": 0.7977814245407958,
+    "exact_deterministic_guarantee": 0.7977814245407958,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1833,8 +1833,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8299610278894166,
-    "historical_exact_deterministic_guarantee": 0.8299610278894166,
+    "exact_minimum": 0.8299610278894166,
+    "exact_deterministic_guarantee": 0.8299610278894166,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1849,8 +1849,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5615129737303465,
-    "historical_exact_deterministic_guarantee": 0.5615129737303465,
+    "exact_minimum": 0.5615129737303465,
+    "exact_deterministic_guarantee": 0.5615129737303465,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1865,8 +1865,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6439359022266126,
-    "historical_exact_deterministic_guarantee": 0.6439359022266126,
+    "exact_minimum": 0.6439359022266126,
+    "exact_deterministic_guarantee": 0.6439359022266126,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1881,8 +1881,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6579104603588516,
-    "historical_exact_deterministic_guarantee": 0.6579104603588516,
+    "exact_minimum": 0.6579104603588516,
+    "exact_deterministic_guarantee": 0.6579104603588516,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 5.551115123125783e-17,
     "solves": 2
@@ -1897,8 +1897,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7055746998864002,
-    "historical_exact_deterministic_guarantee": 0.7055746998864002,
+    "exact_minimum": 0.7055746998864002,
+    "exact_deterministic_guarantee": 0.7055746998864002,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1913,8 +1913,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7490709657896453,
-    "historical_exact_deterministic_guarantee": 0.7490709657896453,
+    "exact_minimum": 0.7490709657896453,
+    "exact_deterministic_guarantee": 0.7490709657896453,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1929,8 +1929,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7812505691382661,
-    "historical_exact_deterministic_guarantee": 0.7812505691382661,
+    "exact_minimum": 0.7812505691382661,
+    "exact_deterministic_guarantee": 0.7812505691382661,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1945,8 +1945,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5824229284962661,
-    "historical_exact_deterministic_guarantee": 0.5824229284962661,
+    "exact_minimum": 0.5824229284962661,
+    "exact_deterministic_guarantee": 0.5824229284962661,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1961,8 +1961,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5963974866285051,
-    "historical_exact_deterministic_guarantee": 0.5963974866285051,
+    "exact_minimum": 0.5963974866285051,
+    "exact_deterministic_guarantee": 0.5963974866285051,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1977,8 +1977,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6440617261560537,
-    "historical_exact_deterministic_guarantee": 0.6440617261560537,
+    "exact_minimum": 0.6440617261560537,
+    "exact_deterministic_guarantee": 0.6440617261560537,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -1993,8 +1993,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6875579920592988,
-    "historical_exact_deterministic_guarantee": 0.6875579920592988,
+    "exact_minimum": 0.6875579920592988,
+    "exact_deterministic_guarantee": 0.6875579920592988,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2009,8 +2009,8 @@
       -0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7197375954079196,
-    "historical_exact_deterministic_guarantee": 0.7197375954079196,
+    "exact_minimum": 0.7197375954079196,
+    "exact_deterministic_guarantee": 0.7197375954079196,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2025,8 +2025,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5195102389855637,
-    "historical_exact_deterministic_guarantee": 0.5195102389855637,
+    "exact_minimum": 0.5195102389855637,
+    "exact_deterministic_guarantee": 0.5195102389855637,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2041,8 +2041,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5616387976597876,
-    "historical_exact_deterministic_guarantee": 0.5616387976597876,
+    "exact_minimum": 0.5616387976597876,
+    "exact_deterministic_guarantee": 0.5616387976597876,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2057,8 +2057,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6243784161714779,
-    "historical_exact_deterministic_guarantee": 0.6243784161714779,
+    "exact_minimum": 0.6243784161714779,
+    "exact_deterministic_guarantee": 0.6243784161714779,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2073,8 +2073,8 @@
       1.0000000000000002,
       1.0
     ],
-    "historical_exact_minimum": 0.6818249845154446,
-    "historical_exact_deterministic_guarantee": 0.6818249845154446,
+    "exact_minimum": 0.6818249845154446,
+    "exact_deterministic_guarantee": 0.6818249845154446,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2089,8 +2089,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5476642395275486,
-    "historical_exact_deterministic_guarantee": 0.5476642395275486,
+    "exact_minimum": 0.5476642395275486,
+    "exact_deterministic_guarantee": 0.5476642395275486,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2105,8 +2105,8 @@
       0.9999999999999999,
       1.0
     ],
-    "historical_exact_minimum": 0.6048681771859142,
-    "historical_exact_deterministic_guarantee": 0.6048681771859142,
+    "exact_minimum": 0.6048681771859142,
+    "exact_deterministic_guarantee": 0.6048681771859142,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2121,8 +2121,8 @@
       0.9999999999999996,
       1.0
     ],
-    "historical_exact_minimum": 0.6623147455298808,
-    "historical_exact_deterministic_guarantee": 0.6623147455298808,
+    "exact_minimum": 0.6623147455298808,
+    "exact_deterministic_guarantee": 0.6623147455298808,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2137,8 +2137,8 @@
       1.0000000000000002,
       1.0
     ],
-    "historical_exact_minimum": 0.5742304289731481,
-    "historical_exact_deterministic_guarantee": 0.5742304289731481,
+    "exact_minimum": 0.5742304289731481,
+    "exact_deterministic_guarantee": 0.5742304289731481,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2153,8 +2153,8 @@
       1.0000000000000002,
       1.0
     ],
-    "historical_exact_minimum": 0.6316769973171147,
-    "historical_exact_deterministic_guarantee": 0.6316769973171147,
+    "exact_minimum": 0.6316769973171147,
+    "exact_deterministic_guarantee": 0.6316769973171147,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2169,8 +2169,8 @@
       1.0000000000000004,
       1.0
     ],
-    "historical_exact_minimum": 0.5574465683439666,
-    "historical_exact_deterministic_guarantee": 0.5574465683439666,
+    "exact_minimum": 0.5574465683439666,
+    "exact_deterministic_guarantee": 0.5574465683439666,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2185,8 +2185,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5416666666666666,
-    "historical_exact_deterministic_guarantee": 0.5416666666666666,
+    "exact_minimum": 0.5416666666666666,
+    "exact_deterministic_guarantee": 0.5416666666666666,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2201,8 +2201,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6692139737991266,
-    "historical_exact_deterministic_guarantee": 0.6692139737991266,
+    "exact_minimum": 0.6692139737991266,
+    "exact_deterministic_guarantee": 0.6692139737991266,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2217,8 +2217,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.949757458209243,
-    "historical_exact_deterministic_guarantee": 0.949757458209243,
+    "exact_minimum": 0.949757458209243,
+    "exact_deterministic_guarantee": 0.949757458209243,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2233,8 +2233,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9879679144385026,
-    "historical_exact_deterministic_guarantee": 0.9879679144385026,
+    "exact_minimum": 0.9879679144385026,
+    "exact_deterministic_guarantee": 0.9879679144385026,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2249,8 +2249,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9942446043165467,
-    "historical_exact_deterministic_guarantee": 0.9942446043165467,
+    "exact_minimum": 0.9942446043165467,
+    "exact_deterministic_guarantee": 0.9942446043165467,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2265,8 +2265,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9893262174783188,
-    "historical_exact_deterministic_guarantee": 0.9893262174783188,
+    "exact_minimum": 0.9893262174783188,
+    "exact_deterministic_guarantee": 0.9893262174783188,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2281,8 +2281,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9951632406287787,
-    "historical_exact_deterministic_guarantee": 0.9951632406287787,
+    "exact_minimum": 0.9951632406287787,
+    "exact_deterministic_guarantee": 0.9951632406287787,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2297,8 +2297,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.528257093225246,
-    "historical_exact_deterministic_guarantee": 0.528257093225246,
+    "exact_minimum": 0.528257093225246,
+    "exact_deterministic_guarantee": 0.528257093225246,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2313,8 +2313,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5519885942823285,
-    "historical_exact_deterministic_guarantee": 0.5519885942823285,
+    "exact_minimum": 0.5519885942823285,
+    "exact_deterministic_guarantee": 0.5519885942823285,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2329,8 +2329,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.583030303030303,
-    "historical_exact_deterministic_guarantee": 0.583030303030303,
+    "exact_minimum": 0.583030303030303,
+    "exact_deterministic_guarantee": 0.583030303030303,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2345,8 +2345,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6268357810413885,
-    "historical_exact_deterministic_guarantee": 0.6268357810413885,
+    "exact_minimum": 0.6268357810413885,
+    "exact_deterministic_guarantee": 0.6268357810413885,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2361,8 +2361,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7038539553752535,
-    "historical_exact_deterministic_guarantee": 0.7038539553752535,
+    "exact_minimum": 0.7038539553752535,
+    "exact_deterministic_guarantee": 0.7038539553752535,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2377,8 +2377,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7224080267558528,
-    "historical_exact_deterministic_guarantee": 0.7224080267558528,
+    "exact_minimum": 0.7224080267558528,
+    "exact_deterministic_guarantee": 0.7224080267558528,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2393,8 +2393,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7922138836772983,
-    "historical_exact_deterministic_guarantee": 0.7922138836772983,
+    "exact_minimum": 0.7922138836772983,
+    "exact_deterministic_guarantee": 0.7922138836772983,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2409,8 +2409,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8188405797101449,
-    "historical_exact_deterministic_guarantee": 0.8188405797101449,
+    "exact_minimum": 0.8188405797101449,
+    "exact_deterministic_guarantee": 0.8188405797101449,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2425,8 +2425,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.868421052631579,
-    "historical_exact_deterministic_guarantee": 0.868421052631579,
+    "exact_minimum": 0.868421052631579,
+    "exact_deterministic_guarantee": 0.868421052631579,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2441,8 +2441,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.62754730713246,
-    "historical_exact_deterministic_guarantee": 0.62754730713246,
+    "exact_minimum": 0.62754730713246,
+    "exact_deterministic_guarantee": 0.62754730713246,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2457,8 +2457,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.927371577105209,
-    "historical_exact_deterministic_guarantee": 0.927371577105209,
+    "exact_minimum": 0.927371577105209,
+    "exact_deterministic_guarantee": 0.927371577105209,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2473,8 +2473,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.946301247771836,
-    "historical_exact_deterministic_guarantee": 0.946301247771836,
+    "exact_minimum": 0.946301247771836,
+    "exact_deterministic_guarantee": 0.946301247771836,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2489,8 +2489,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9604166666666667,
-    "historical_exact_deterministic_guarantee": 0.9604166666666667,
+    "exact_minimum": 0.9604166666666667,
+    "exact_deterministic_guarantee": 0.9604166666666667,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2505,8 +2505,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9604166666666667,
-    "historical_exact_deterministic_guarantee": 0.9604166666666667,
+    "exact_minimum": 0.9604166666666667,
+    "exact_deterministic_guarantee": 0.9604166666666667,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2521,8 +2521,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.9604166666666667,
-    "historical_exact_deterministic_guarantee": 0.9604166666666667,
+    "exact_minimum": 0.9604166666666667,
+    "exact_deterministic_guarantee": 0.9604166666666667,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2537,8 +2537,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5348173515981736,
-    "historical_exact_deterministic_guarantee": 0.5348173515981736,
+    "exact_minimum": 0.5348173515981736,
+    "exact_deterministic_guarantee": 0.5348173515981736,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2553,8 +2553,8 @@
       1.0,
       1.0000000000000007
     ],
-    "historical_exact_minimum": 0.5296027131782945,
-    "historical_exact_deterministic_guarantee": 0.5296027131782945,
+    "exact_minimum": 0.5296027131782945,
+    "exact_deterministic_guarantee": 0.5296027131782945,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2569,8 +2569,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5573863636363636,
-    "historical_exact_deterministic_guarantee": 0.5573863636363636,
+    "exact_minimum": 0.5573863636363636,
+    "exact_deterministic_guarantee": 0.5573863636363636,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2585,8 +2585,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5851691143747219,
-    "historical_exact_deterministic_guarantee": 0.5851691143747219,
+    "exact_minimum": 0.5851691143747219,
+    "exact_deterministic_guarantee": 0.5851691143747219,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2601,8 +2601,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6621872887085869,
-    "historical_exact_deterministic_guarantee": 0.6621872887085869,
+    "exact_minimum": 0.6621872887085869,
+    "exact_deterministic_guarantee": 0.6621872887085869,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2617,8 +2617,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6807413600891862,
-    "historical_exact_deterministic_guarantee": 0.6807413600891862,
+    "exact_minimum": 0.6807413600891862,
+    "exact_deterministic_guarantee": 0.6807413600891862,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2633,8 +2633,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7505472170106317,
-    "historical_exact_deterministic_guarantee": 0.7505472170106317,
+    "exact_minimum": 0.7505472170106317,
+    "exact_deterministic_guarantee": 0.7505472170106317,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2649,8 +2649,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7771739130434783,
-    "historical_exact_deterministic_guarantee": 0.7771739130434783,
+    "exact_minimum": 0.7771739130434783,
+    "exact_deterministic_guarantee": 0.7771739130434783,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2665,8 +2665,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8438015995872034,
-    "historical_exact_deterministic_guarantee": 0.8438015995872034,
+    "exact_minimum": 0.8438015995872034,
+    "exact_deterministic_guarantee": 0.8438015995872034,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -2681,8 +2681,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8083850414429091,
-    "historical_exact_deterministic_guarantee": 0.8083850414429091,
+    "exact_minimum": 0.8083850414429091,
+    "exact_deterministic_guarantee": 0.8083850414429091,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2697,8 +2697,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8227135534642599,
-    "historical_exact_deterministic_guarantee": 0.8227135534642599,
+    "exact_minimum": 0.8227135534642599,
+    "exact_deterministic_guarantee": 0.8227135534642599,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2713,8 +2713,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8414301310043668,
-    "historical_exact_deterministic_guarantee": 0.8414301310043668,
+    "exact_minimum": 0.8414301310043668,
+    "exact_deterministic_guarantee": 0.8414301310043668,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2729,8 +2729,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8414301310043668,
-    "historical_exact_deterministic_guarantee": 0.8414301310043668,
+    "exact_minimum": 0.8414301310043668,
+    "exact_deterministic_guarantee": 0.8414301310043668,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2745,8 +2745,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8414301310043668,
-    "historical_exact_deterministic_guarantee": 0.8414301310043668,
+    "exact_minimum": 0.8414301310043668,
+    "exact_deterministic_guarantee": 0.8414301310043668,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2761,8 +2761,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6623646587306334,
-    "historical_exact_deterministic_guarantee": 0.6623646587306334,
+    "exact_minimum": 0.6623646587306334,
+    "exact_deterministic_guarantee": 0.6623646587306334,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2777,8 +2777,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6337488575200568,
-    "historical_exact_deterministic_guarantee": 0.6337488575200568,
+    "exact_minimum": 0.6337488575200568,
+    "exact_deterministic_guarantee": 0.6337488575200568,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2793,8 +2793,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5861836707688236,
-    "historical_exact_deterministic_guarantee": 0.5861836707688236,
+    "exact_minimum": 0.5861836707688236,
+    "exact_deterministic_guarantee": 0.5861836707688236,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2809,8 +2809,8 @@
       0.9999999999999993,
       0.0
     ],
-    "historical_exact_minimum": 0.5423781927577381,
-    "historical_exact_deterministic_guarantee": 0.5423781927577381,
+    "exact_minimum": 0.5423781927577381,
+    "exact_deterministic_guarantee": 0.5423781927577381,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2825,8 +2825,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5346399815761269,
-    "historical_exact_deterministic_guarantee": 0.5346399815761269,
+    "exact_minimum": 0.5346399815761269,
+    "exact_deterministic_guarantee": 0.5346399815761269,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2841,8 +2841,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5531940529567262,
-    "historical_exact_deterministic_guarantee": 0.5531940529567262,
+    "exact_minimum": 0.5531940529567262,
+    "exact_deterministic_guarantee": 0.5531940529567262,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2857,8 +2857,8 @@
       -0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6229999098781717,
-    "historical_exact_deterministic_guarantee": 0.6229999098781717,
+    "exact_minimum": 0.6229999098781717,
+    "exact_deterministic_guarantee": 0.6229999098781717,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2873,8 +2873,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6496266059110183,
-    "historical_exact_deterministic_guarantee": 0.6496266059110183,
+    "exact_minimum": 0.6496266059110183,
+    "exact_deterministic_guarantee": 0.6496266059110183,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2889,8 +2889,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7248150639249035,
-    "historical_exact_deterministic_guarantee": 0.7248150639249035,
+    "exact_minimum": 0.7248150639249035,
+    "exact_deterministic_guarantee": 0.7248150639249035,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2905,8 +2905,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5735145481630239,
-    "historical_exact_deterministic_guarantee": 0.5735145481630239,
+    "exact_minimum": 0.5735145481630239,
+    "exact_deterministic_guarantee": 0.5735145481630239,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2921,8 +2921,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.579791238041068,
-    "historical_exact_deterministic_guarantee": 0.579791238041068,
+    "exact_minimum": 0.579791238041068,
+    "exact_deterministic_guarantee": 0.579791238041068,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2937,8 +2937,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5748728512028402,
-    "historical_exact_deterministic_guarantee": 0.5748728512028402,
+    "exact_minimum": 0.5748728512028402,
+    "exact_deterministic_guarantee": 0.5748728512028402,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2953,8 +2953,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5807098743533,
-    "historical_exact_deterministic_guarantee": 0.5807098743533,
+    "exact_minimum": 0.5807098743533,
+    "exact_deterministic_guarantee": 0.5807098743533,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2969,8 +2969,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9215003649839969,
-    "historical_exact_deterministic_guarantee": 0.9215003649839969,
+    "exact_minimum": 0.9215003649839969,
+    "exact_deterministic_guarantee": 0.9215003649839969,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -2985,8 +2985,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8977688639269144,
-    "historical_exact_deterministic_guarantee": 0.8977688639269144,
+    "exact_minimum": 0.8977688639269144,
+    "exact_deterministic_guarantee": 0.8977688639269144,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3001,8 +3001,8 @@
       -0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8699852134688454,
-    "historical_exact_deterministic_guarantee": 0.8699852134688454,
+    "exact_minimum": 0.8699852134688454,
+    "exact_deterministic_guarantee": 0.8699852134688454,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3017,8 +3017,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8487973670473541,
-    "historical_exact_deterministic_guarantee": 0.8487973670473541,
+    "exact_minimum": 0.8487973670473541,
+    "exact_deterministic_guarantee": 0.8487973670473541,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3033,8 +3033,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8051902045561894,
-    "historical_exact_deterministic_guarantee": 0.8051902045561894,
+    "exact_minimum": 0.8051902045561894,
+    "exact_deterministic_guarantee": 0.8051902045561894,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3049,8 +3049,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7696304957228233,
-    "historical_exact_deterministic_guarantee": 0.7696304957228233,
+    "exact_minimum": 0.7696304957228233,
+    "exact_deterministic_guarantee": 0.7696304957228233,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3065,8 +3065,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7366547228212815,
-    "historical_exact_deterministic_guarantee": 0.7366547228212815,
+    "exact_minimum": 0.7366547228212815,
+    "exact_deterministic_guarantee": 0.7366547228212815,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3081,8 +3081,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6833110180989977,
-    "historical_exact_deterministic_guarantee": 0.6833110180989977,
+    "exact_minimum": 0.6833110180989977,
+    "exact_deterministic_guarantee": 0.6833110180989977,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3097,8 +3097,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5835699775180057,
-    "historical_exact_deterministic_guarantee": 0.5835699775180057,
+    "exact_minimum": 0.5835699775180057,
+    "exact_deterministic_guarantee": 0.5835699775180057,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3113,8 +3113,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5187165775401069,
-    "historical_exact_deterministic_guarantee": 0.5187165775401069,
+    "exact_minimum": 0.5187165775401069,
+    "exact_deterministic_guarantee": 0.5187165775401069,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3129,8 +3129,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5187165775401069,
-    "historical_exact_deterministic_guarantee": 0.5187165775401069,
+    "exact_minimum": 0.5187165775401069,
+    "exact_deterministic_guarantee": 0.5187165775401069,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3145,8 +3145,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5187165775401069,
-    "historical_exact_deterministic_guarantee": 0.5187165775401069,
+    "exact_minimum": 0.5187165775401069,
+    "exact_deterministic_guarantee": 0.5187165775401069,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3161,8 +3161,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9811185993700096,
-    "historical_exact_deterministic_guarantee": 0.9811185993700096,
+    "exact_minimum": 0.9811185993700096,
+    "exact_deterministic_guarantee": 0.9811185993700096,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3177,8 +3177,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.952502798159433,
-    "historical_exact_deterministic_guarantee": 0.952502798159433,
+    "exact_minimum": 0.952502798159433,
+    "exact_deterministic_guarantee": 0.952502798159433,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3193,8 +3193,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9049376114081996,
-    "historical_exact_deterministic_guarantee": 0.9049376114081996,
+    "exact_minimum": 0.9049376114081996,
+    "exact_deterministic_guarantee": 0.9049376114081996,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3209,8 +3209,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8631258790687047,
-    "historical_exact_deterministic_guarantee": 0.8631258790687047,
+    "exact_minimum": 0.8631258790687047,
+    "exact_deterministic_guarantee": 0.8631258790687047,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3225,8 +3225,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.81951871657754,
-    "historical_exact_deterministic_guarantee": 0.81951871657754,
+    "exact_minimum": 0.81951871657754,
+    "exact_deterministic_guarantee": 0.81951871657754,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3241,8 +3241,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7839590077441739,
-    "historical_exact_deterministic_guarantee": 0.7839590077441739,
+    "exact_minimum": 0.7839590077441739,
+    "exact_deterministic_guarantee": 0.7839590077441739,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3257,8 +3257,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7509832348426323,
-    "historical_exact_deterministic_guarantee": 0.7509832348426323,
+    "exact_minimum": 0.7509832348426323,
+    "exact_deterministic_guarantee": 0.7509832348426323,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3273,8 +3273,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6976395301203485,
-    "historical_exact_deterministic_guarantee": 0.6976395301203485,
+    "exact_minimum": 0.6976395301203485,
+    "exact_deterministic_guarantee": 0.6976395301203485,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3289,8 +3289,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6195468618069238,
-    "historical_exact_deterministic_guarantee": 0.6195468618069238,
+    "exact_minimum": 0.6195468618069238,
+    "exact_deterministic_guarantee": 0.6195468618069238,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3305,8 +3305,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.5049183868382279,
-    "historical_exact_deterministic_guarantee": 0.5049183868382279,
+    "exact_minimum": 0.5049183868382279,
+    "exact_deterministic_guarantee": 0.5049183868382279,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3321,8 +3321,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.500918636312232,
-    "historical_exact_deterministic_guarantee": 0.500918636312232,
+    "exact_minimum": 0.500918636312232,
+    "exact_deterministic_guarantee": 0.500918636312232,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3337,8 +3337,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9873952892480536,
-    "historical_exact_deterministic_guarantee": 0.9873952892480536,
+    "exact_minimum": 0.9873952892480536,
+    "exact_deterministic_guarantee": 0.9873952892480536,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3353,8 +3353,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.958779488037477,
-    "historical_exact_deterministic_guarantee": 0.958779488037477,
+    "exact_minimum": 0.958779488037477,
+    "exact_deterministic_guarantee": 0.958779488037477,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3369,8 +3369,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9112143012862437,
-    "historical_exact_deterministic_guarantee": 0.9112143012862437,
+    "exact_minimum": 0.9112143012862437,
+    "exact_deterministic_guarantee": 0.9112143012862437,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3385,8 +3385,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8818424566088118,
-    "historical_exact_deterministic_guarantee": 0.8818424566088118,
+    "exact_minimum": 0.8818424566088118,
+    "exact_deterministic_guarantee": 0.8818424566088118,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3401,8 +3401,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8382352941176471,
-    "historical_exact_deterministic_guarantee": 0.8382352941176471,
+    "exact_minimum": 0.8382352941176471,
+    "exact_deterministic_guarantee": 0.8382352941176471,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3417,8 +3417,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.802675585284281,
-    "historical_exact_deterministic_guarantee": 0.802675585284281,
+    "exact_minimum": 0.802675585284281,
+    "exact_deterministic_guarantee": 0.802675585284281,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3433,8 +3433,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7696998123827392,
-    "historical_exact_deterministic_guarantee": 0.7696998123827392,
+    "exact_minimum": 0.7696998123827392,
+    "exact_deterministic_guarantee": 0.7696998123827392,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3449,8 +3449,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7163561076604554,
-    "historical_exact_deterministic_guarantee": 0.7163561076604554,
+    "exact_minimum": 0.7163561076604554,
+    "exact_deterministic_guarantee": 0.7163561076604554,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3465,8 +3465,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6258235516849678,
-    "historical_exact_deterministic_guarantee": 0.6258235516849678,
+    "exact_minimum": 0.6258235516849678,
+    "exact_deterministic_guarantee": 0.6258235516849678,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3481,8 +3481,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5058370231504599,
-    "historical_exact_deterministic_guarantee": 0.5058370231504599,
+    "exact_minimum": 0.5058370231504599,
+    "exact_deterministic_guarantee": 0.5058370231504599,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3497,8 +3497,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9824769024098258,
-    "historical_exact_deterministic_guarantee": 0.9824769024098258,
+    "exact_minimum": 0.9824769024098258,
+    "exact_deterministic_guarantee": 0.9824769024098258,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3513,8 +3513,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9538611011992492,
-    "historical_exact_deterministic_guarantee": 0.9538611011992492,
+    "exact_minimum": 0.9538611011992492,
+    "exact_deterministic_guarantee": 0.9538611011992492,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3529,8 +3529,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9062959144480158,
-    "historical_exact_deterministic_guarantee": 0.9062959144480158,
+    "exact_minimum": 0.9062959144480158,
+    "exact_deterministic_guarantee": 0.9062959144480158,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3545,8 +3545,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8818424566088118,
-    "historical_exact_deterministic_guarantee": 0.8818424566088118,
+    "exact_minimum": 0.8818424566088118,
+    "exact_deterministic_guarantee": 0.8818424566088118,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3561,8 +3561,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8382352941176471,
-    "historical_exact_deterministic_guarantee": 0.8382352941176471,
+    "exact_minimum": 0.8382352941176471,
+    "exact_deterministic_guarantee": 0.8382352941176471,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3577,8 +3577,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.802675585284281,
-    "historical_exact_deterministic_guarantee": 0.802675585284281,
+    "exact_minimum": 0.802675585284281,
+    "exact_deterministic_guarantee": 0.802675585284281,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3593,8 +3593,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7696998123827392,
-    "historical_exact_deterministic_guarantee": 0.7696998123827392,
+    "exact_minimum": 0.7696998123827392,
+    "exact_deterministic_guarantee": 0.7696998123827392,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3609,8 +3609,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7163561076604554,
-    "historical_exact_deterministic_guarantee": 0.7163561076604554,
+    "exact_minimum": 0.7163561076604554,
+    "exact_deterministic_guarantee": 0.7163561076604554,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3625,8 +3625,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.62090516484674,
-    "historical_exact_deterministic_guarantee": 0.62090516484674,
+    "exact_minimum": 0.62090516484674,
+    "exact_deterministic_guarantee": 0.62090516484674,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3641,8 +3641,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9883139255602855,
-    "historical_exact_deterministic_guarantee": 0.9883139255602855,
+    "exact_minimum": 0.9883139255602855,
+    "exact_deterministic_guarantee": 0.9883139255602855,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3657,8 +3657,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9596981243497089,
-    "historical_exact_deterministic_guarantee": 0.9596981243497089,
+    "exact_minimum": 0.9596981243497089,
+    "exact_deterministic_guarantee": 0.9596981243497089,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3673,8 +3673,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.9121329375984757,
-    "historical_exact_deterministic_guarantee": 0.9121329375984757,
+    "exact_minimum": 0.9121329375984757,
+    "exact_deterministic_guarantee": 0.9121329375984757,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3689,8 +3689,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8818424566088118,
-    "historical_exact_deterministic_guarantee": 0.8818424566088118,
+    "exact_minimum": 0.8818424566088118,
+    "exact_deterministic_guarantee": 0.8818424566088118,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3705,8 +3705,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.8382352941176471,
-    "historical_exact_deterministic_guarantee": 0.8382352941176471,
+    "exact_minimum": 0.8382352941176471,
+    "exact_deterministic_guarantee": 0.8382352941176471,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3721,8 +3721,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.802675585284281,
-    "historical_exact_deterministic_guarantee": 0.802675585284281,
+    "exact_minimum": 0.802675585284281,
+    "exact_deterministic_guarantee": 0.802675585284281,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3737,8 +3737,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7696998123827392,
-    "historical_exact_deterministic_guarantee": 0.7696998123827392,
+    "exact_minimum": 0.7696998123827392,
+    "exact_deterministic_guarantee": 0.7696998123827392,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3753,8 +3753,8 @@
       0.0,
       0.0
     ],
-    "historical_exact_minimum": 0.7163561076604554,
-    "historical_exact_deterministic_guarantee": 0.7163561076604554,
+    "exact_minimum": 0.7163561076604554,
+    "exact_deterministic_guarantee": 0.7163561076604554,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3769,8 +3769,8 @@
       1.0,
       0.0
     ],
-    "historical_exact_minimum": 0.6267421879971997,
-    "historical_exact_deterministic_guarantee": 0.6267421879971997,
+    "exact_minimum": 0.6267421879971997,
+    "exact_deterministic_guarantee": 0.6267421879971997,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3785,8 +3785,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5286158012105766,
-    "historical_exact_deterministic_guarantee": 0.5286158012105766,
+    "exact_minimum": 0.5286158012105766,
+    "exact_deterministic_guarantee": 0.5286158012105766,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3801,8 +3801,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5761809879618098,
-    "historical_exact_deterministic_guarantee": 0.5761809879618098,
+    "exact_minimum": 0.5761809879618098,
+    "exact_deterministic_guarantee": 0.5761809879618098,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3817,8 +3817,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6199864659728954,
-    "historical_exact_deterministic_guarantee": 0.6199864659728954,
+    "exact_minimum": 0.6199864659728954,
+    "exact_deterministic_guarantee": 0.6199864659728954,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3833,8 +3833,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6970046403067603,
-    "historical_exact_deterministic_guarantee": 0.6970046403067603,
+    "exact_minimum": 0.6970046403067603,
+    "exact_deterministic_guarantee": 0.6970046403067603,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3849,8 +3849,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7155587116873597,
-    "historical_exact_deterministic_guarantee": 0.7155587116873597,
+    "exact_minimum": 0.7155587116873597,
+    "exact_deterministic_guarantee": 0.7155587116873597,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3865,8 +3865,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7853645686088052,
-    "historical_exact_deterministic_guarantee": 0.7853645686088052,
+    "exact_minimum": 0.7853645686088052,
+    "exact_deterministic_guarantee": 0.7853645686088052,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3881,8 +3881,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8119912646416517,
-    "historical_exact_deterministic_guarantee": 0.8119912646416517,
+    "exact_minimum": 0.8119912646416517,
+    "exact_deterministic_guarantee": 0.8119912646416517,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3897,8 +3897,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8615717375630858,
-    "historical_exact_deterministic_guarantee": 0.8615717375630858,
+    "exact_minimum": 0.8615717375630858,
+    "exact_deterministic_guarantee": 0.8615717375630858,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -3913,8 +3913,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5475651867512332,
-    "historical_exact_deterministic_guarantee": 0.5475651867512332,
+    "exact_minimum": 0.5475651867512332,
+    "exact_deterministic_guarantee": 0.5475651867512332,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -3929,8 +3929,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5913706647623187,
-    "historical_exact_deterministic_guarantee": 0.5913706647623187,
+    "exact_minimum": 0.5913706647623187,
+    "exact_deterministic_guarantee": 0.5913706647623187,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3945,8 +3945,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6683888390961837,
-    "historical_exact_deterministic_guarantee": 0.6683888390961837,
+    "exact_minimum": 0.6683888390961837,
+    "exact_deterministic_guarantee": 0.6683888390961837,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3961,8 +3961,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6869429104767831,
-    "historical_exact_deterministic_guarantee": 0.6869429104767831,
+    "exact_minimum": 0.6869429104767831,
+    "exact_deterministic_guarantee": 0.6869429104767831,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3977,8 +3977,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7567487673982285,
-    "historical_exact_deterministic_guarantee": 0.7567487673982285,
+    "exact_minimum": 0.7567487673982285,
+    "exact_deterministic_guarantee": 0.7567487673982285,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -3993,8 +3993,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7833754634310751,
-    "historical_exact_deterministic_guarantee": 0.7833754634310751,
+    "exact_minimum": 0.7833754634310751,
+    "exact_deterministic_guarantee": 0.7833754634310751,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4009,8 +4009,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.8329559363525092,
-    "historical_exact_deterministic_guarantee": 0.8329559363525092,
+    "exact_minimum": 0.8329559363525092,
+    "exact_deterministic_guarantee": 0.8329559363525092,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4025,8 +4025,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5438054780110855,
-    "historical_exact_deterministic_guarantee": 0.5438054780110855,
+    "exact_minimum": 0.5438054780110855,
+    "exact_deterministic_guarantee": 0.5438054780110855,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4041,8 +4041,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6208236523449505,
-    "historical_exact_deterministic_guarantee": 0.6208236523449505,
+    "exact_minimum": 0.6208236523449505,
+    "exact_deterministic_guarantee": 0.6208236523449505,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 5.551115123125783e-17,
     "solves": 2
@@ -4057,8 +4057,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6393777237255498,
-    "historical_exact_deterministic_guarantee": 0.6393777237255498,
+    "exact_minimum": 0.6393777237255498,
+    "exact_deterministic_guarantee": 0.6393777237255498,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4073,8 +4073,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7091835806469953,
-    "historical_exact_deterministic_guarantee": 0.7091835806469953,
+    "exact_minimum": 0.7091835806469953,
+    "exact_deterministic_guarantee": 0.7091835806469953,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4089,8 +4089,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7358102766798419,
-    "historical_exact_deterministic_guarantee": 0.7358102766798419,
+    "exact_minimum": 0.7358102766798419,
+    "exact_deterministic_guarantee": 0.7358102766798419,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4105,8 +4105,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7864152359508396,
-    "historical_exact_deterministic_guarantee": 0.7864152359508396,
+    "exact_minimum": 0.7864152359508396,
+    "exact_deterministic_guarantee": 0.7864152359508396,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4121,8 +4121,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.577018174333865,
-    "historical_exact_deterministic_guarantee": 0.577018174333865,
+    "exact_minimum": 0.577018174333865,
+    "exact_deterministic_guarantee": 0.577018174333865,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4137,8 +4137,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5955722457144643,
-    "historical_exact_deterministic_guarantee": 0.5955722457144643,
+    "exact_minimum": 0.5955722457144643,
+    "exact_deterministic_guarantee": 0.5955722457144643,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4153,8 +4153,8 @@
       -0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6653781026359098,
-    "historical_exact_deterministic_guarantee": 0.6653781026359098,
+    "exact_minimum": 0.6653781026359098,
+    "exact_deterministic_guarantee": 0.6653781026359098,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4169,8 +4169,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6920047986687564,
-    "historical_exact_deterministic_guarantee": 0.6920047986687564,
+    "exact_minimum": 0.6920047986687564,
+    "exact_deterministic_guarantee": 0.6920047986687564,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4185,8 +4185,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7652273895293484,
-    "historical_exact_deterministic_guarantee": 0.7652273895293484,
+    "exact_minimum": 0.7652273895293484,
+    "exact_deterministic_guarantee": 0.7652273895293484,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4201,8 +4201,8 @@
       0.9999999999999999,
       1.0
     ],
-    "historical_exact_minimum": 0.5355597088333661,
-    "historical_exact_deterministic_guarantee": 0.5355597088333661,
+    "exact_minimum": 0.5355597088333661,
+    "exact_deterministic_guarantee": 0.5355597088333661,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4217,8 +4217,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5883599283020448,
-    "historical_exact_deterministic_guarantee": 0.5883599283020448,
+    "exact_minimum": 0.5883599283020448,
+    "exact_deterministic_guarantee": 0.5883599283020448,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4233,8 +4233,8 @@
       0.9999999999999999,
       1.0
     ],
-    "historical_exact_minimum": 0.6218791864571915,
-    "historical_exact_deterministic_guarantee": 0.6218791864571915,
+    "exact_minimum": 0.6218791864571915,
+    "exact_deterministic_guarantee": 0.6218791864571915,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4249,8 +4249,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.7216202270381837,
-    "historical_exact_deterministic_guarantee": 0.7216202270381837,
+    "exact_minimum": 0.7216202270381837,
+    "exact_deterministic_guarantee": 0.7216202270381837,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4265,8 +4265,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5698058569214455,
-    "historical_exact_deterministic_guarantee": 0.5698058569214455,
+    "exact_minimum": 0.5698058569214455,
+    "exact_deterministic_guarantee": 0.5698058569214455,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 1.1102230246251565e-16,
     "solves": 2
@@ -4281,8 +4281,8 @@
       0.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5964325529542921,
-    "historical_exact_deterministic_guarantee": 0.5964325529542921,
+    "exact_minimum": 0.5964325529542921,
+    "exact_deterministic_guarantee": 0.5964325529542921,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4297,8 +4297,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6860605182048176,
-    "historical_exact_deterministic_guarantee": 0.6860605182048176,
+    "exact_minimum": 0.6860605182048176,
+    "exact_deterministic_guarantee": 0.6860605182048176,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4313,8 +4313,8 @@
       1.0000000000000002,
       1.0
     ],
-    "historical_exact_minimum": 0.5533437047222838,
-    "historical_exact_deterministic_guarantee": 0.5533437047222838,
+    "exact_minimum": 0.5533437047222838,
+    "exact_deterministic_guarantee": 0.5533437047222838,
     "absolute_discrepancy": 0.0,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4329,8 +4329,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.6530847453032759,
-    "historical_exact_deterministic_guarantee": 0.6530847453032759,
+    "exact_minimum": 0.6530847453032759,
+    "exact_deterministic_guarantee": 0.6530847453032759,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2
@@ -4345,8 +4345,8 @@
       1.0,
       1.0
     ],
-    "historical_exact_minimum": 0.5997410405809921,
-    "historical_exact_deterministic_guarantee": 0.5997410405809921,
+    "exact_minimum": 0.5997410405809921,
+    "exact_deterministic_guarantee": 0.5997410405809921,
     "absolute_discrepancy": 1.1102230246251565e-16,
     "lp_primal_constraint_residual": 0.0,
     "solves": 2

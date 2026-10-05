@@ -1,13 +1,11 @@
-# Manuscript examples
+# Biological examples
 
-Each folder corresponds to one biological example in the paper. Open its README for the biological question, source publication, calculation and one-command instructions.
+Choose a system below. Each directory contains one executable script with an explanation of its biological source, calculation and outputs.
 
-| Example | Tables and figure | Runnable script |
+| Example | Calculations | Saved output |
 | --- | --- | --- |
-| [1. T cell receptor proofreading](01_tcell_proofreading/) | Table 1; Figure 1 | [run_tcell_proofreading.py](01_tcell_proofreading/run_tcell_proofreading.py) |
-| [2. Ribosomal tRNA selection](02_ribosome_selection/) | Tables 2–3; Figure 2 | [run_ribosome_selection.py](02_ribosome_selection/run_ribosome_selection.py) |
-| [3. Yeast Msn2 reporters](03_msn2_reporters/) | Tables 4–5; Figure 3 | [run_msn2_reporters.py](03_msn2_reporters/run_msn2_reporters.py) |
+| [T cell receptor proofreading](01_tcell_proofreading/) | Table 1 and Fig. 1 | [Results](../artifacts/01_tcell_proofreading/) |
+| [Ribosomal tRNA selection](02_ribosome_selection/) | Tables 2–3 and Fig. 2 | [Results](../artifacts/02_ribosome_selection/) |
+| [Yeast Msn2 reporters](03_msn2_reporters/) | Tables 4–5 and Fig. 3 | [Results](../artifacts/03_msn2_reporters/) |
 
-[Installation](../README.md#install-once) is shared by all examples. Results are written beneath `runs/`. The calculated values are compared with [archived reference results](REFERENCE_RESULTS.md). The [Methods map](../METHODS_MAP.md) connects the examples to the underlying functions.
-
-`_common.py` handles files and verification. `_plot.py` reads calculated CSVs to draw the figures. Each example script calls these shared utilities automatically.
+[Installation](../README.md#install-once) is shared by all three. [Source modules](../src/) implement the mathematics. Choose `--out` to place your results in a new folder under `runs/` or outside the repository.

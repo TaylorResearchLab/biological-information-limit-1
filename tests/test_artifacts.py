@@ -16,7 +16,7 @@ import generate_artifacts as bundle
 
 class OutputSafety(unittest.TestCase):
     def test_reserved_directories(self):
-        for relative in ('artifacts', 'artifacts/new', 'examples/new', 'workstreams/new', 'runs'):
+        for relative in ('artifacts', 'artifacts/new', 'examples/new', 'src/new', 'runs'):
             with self.subTest(path=relative), self.assertRaises(ValueError):
                 _common.prepare_out(ROOT / relative)
 
@@ -58,7 +58,7 @@ class PublishedArtifacts(unittest.TestCase):
     def test_saved_manifest_and_figures(self):
         saved = ROOT / 'artifacts'
         if not saved.exists():
-            self.skipTest('Initial snapshot has not been published')
+            self.fail('Published artifacts directory is required')
         manifest = bundle.validate_bundle(saved)
         self.assertEqual((manifest['tables'], manifest['figures']), (5, 3))
 
