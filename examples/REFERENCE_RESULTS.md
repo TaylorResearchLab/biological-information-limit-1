@@ -1,7 +1,15 @@
 # Reference results
 
-The CSV files in each `expected_results/` folder are readable exports of the saved results from public commit `79157d10c2013a6445fd92c4602124c0a6c16fa6`. They are comparison targets, not inputs used to calculate new results. The new example commands preserve numerical precision and check every CSV value with absolute and relative tolerances of 1e-12. Integer counts and completion ratios must match exactly.
+The CSV files in each `expected_results/` directory supply reference values for the example scripts. [Artifacts](../artifacts/) provides figure previews and tables for reading alongside the full precision output files.
 
-Table 1 was exported from the archived TCR driver output. Tables 2–3 and the ribosome sensitivity files were exported from the archived ribosome driver output. Tables 4–5 were exported from the archived information panel and pairing-reveal JSON files. The transfer verification artifact has SHA-256 `1b7269bc5ca776cd3ea7a8f6062f161d7b57ebe8505f88791f7969848da949eb`.
+Each example calculates its outputs from the model settings or included observations. It then compares the results with the reference CSVs using absolute and relative tolerances of 1e-12. Integer counts and completion ratios require exact agreement.
 
-Msn2 additionally checks exact bytes for the regenerated compact input and all four information-analysis JSON files against the existing historical archive. The original scientific files, data and checksums remain unchanged. Generated figures read the new CSV outputs. They are new renderings of the same scientific results and are not claimed to be pixel-identical to the original manuscript figures.
+| Result | Reference source |
+| --- | --- |
+| Table 1 | [T cell reference calculation](../workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py) |
+| Tables 2–3 and ribosome sensitivity analyses | [Ribosome reference calculation](../workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py) |
+| Tables 4–5 | [Msn2 information and pairing results](../workstreams/method_comparison_2026-09-23/results/science/) |
+
+The Msn2 example also checks the exact bytes of the regenerated compact input and four analysis JSON files. Source checksums are recorded in [the source manifest](../provenance/import_manifest.json). The [example manifest](../provenance/examples_manifest.json) identifies scripts and reference CSVs.
+
+Figures read the calculated CSV outputs. Each `figure_data.json` records the plotted values and input hashes. Numerical comparisons use the data; rendering also depends on the plotting environment.

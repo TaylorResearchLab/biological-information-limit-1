@@ -1,66 +1,75 @@
-# Reproducing the manuscript calculations
+# Reproducing the paper
 
-## Environment and integrity
+## Environment
 
-The pinned environment uses Python 3.13.5, NumPy 2.3.5, SciPy 1.17.0, mpmath 1.3.0 and Matplotlib 3.10.8. Install `requirements.txt` in a virtual environment. Run `python verify_archive.py` before computation.
-
-The verifier checks file size, SHA-256, Git blob identity and Python syntax. The 18 supplementary source programs and the existing verification program retain their original bytes. New public entry points are separate files.
-
-## Primary reproduction
+The reference environment uses Python 3.13.5 with NumPy 2.3.5, SciPy 1.17.0, mpmath 1.3.0 and Matplotlib 3.10.8. Follow the [installation instructions](../README.md#install-once).
 
 ```bash
-python reproduce.py --out runs/primary-001 --figures --strict-bytes
+python verify_archive.py
 ```
 
-Choose a new or empty output directory. The command refuses to write into the source tree or replace a previous run. The `--figures` option is optional. The `--strict-bytes` option requires all three information-result files to have their recorded SHA-256 digests. Without that option, byte differences are recorded after the numerical tests and can be investigated without changing the archived identities.
+This checks source file sizes and checksums against the manifest. It also checks Python syntax.
 
-| Manuscript result | Program or output |
-| --- | --- |
-| Table 1, kinetic proofreading | `workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py`; output `primary/tcr.tsv` |
-| Tables 2 and 3, ribosome information | `workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py`; numerical checks in `primary/verification_summary.json` |
-| Separate product assay and threshold | `workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py`; output `primary/separate_output.json` |
-| Table 4, joint-reporter information | `primary/information/information_panel.json` |
-| Table 5, restored pairing | `primary/information/information_reveal.json` |
-| All 272 primary decision comparisons | `primary/information/decision_comparison.json` |
-| Figures 1–3 | `figures/` beneath the selected output directory |
-
-The existing verification program also regenerates `primary/primary_pair_results.json` from the 34 included count tables. This supplies every input needed by `run_comparison.py`.
-
-## Individual commands
+## Tables and figures
 
 ```bash
-python workstreams/paper1_checkpoint_2026-09-23/scripts/run_tcr_reference.py
-python workstreams/paper1_checkpoint_2026-09-23/scripts/run_ribosome_reference.py
-python workstreams/ribosome_separate_output_2026-09-24/src/evaluate_separate_output.py runs/separate_output.json
-python workstreams/method_comparison_2026-09-23/src/run_comparison.py --inputs runs/primary-001/primary/primary_pair_results.json --out runs/information-002
+python generate_artifacts.py --out runs/my_artifacts
 ```
 
-Create `runs/` before using the separate-output command. Each calculation preserves the original scientific program. The figure wrapper copies the original figure program into the selected output directory before running it, because that program writes beside itself. The original figure source is unchanged.
+The output contains all five main tables and all three figures. Open its `README.md` or an example directory to inspect the results. The directory layout matches [artifacts/](../artifacts/).
 
-## Comparison with archived outputs
-
-The archived result identities are in `reference_results/expected_information_sha256.json`. Local reproduction of the public primary entry point matched all three recorded outputs exactly. The run manifest records each generated digest so the result can be checked independently.
-
-The generated primary-pair file contains more fields than the historical compact input file. Consequently, the input-file hash in the newly generated `summary.json` can differ from the historical summary while the three scientific result files remain byte-identical. Input-file identity and numerical result identity are recorded separately.
-
-## Complete Msn2 derived analysis
+For an individual example:
 
 ```bash
-python tools/verify_msn2_derived.py --out runs/msn2-derived-validation-001.json
+python examples/01_tcell_proofreading/run_tcell_proofreading.py --out runs/tcell
+python examples/02_ribosome_selection/run_ribosome_selection.py --out runs/ribosome
+python examples/03_msn2_reporters/run_msn2_reporters.py --out runs/msn2
 ```
 
-Choose a new output file. The verifier first checks the archived identities of all nine Msn2 data and result files. It then reconstructs thresholds and counts from all 40,458 saved scalar-feature rows and recomputes all 1,360 comparisons across the five response definitions. It checks 170 condition records, 10 threshold records, 10 summaries, 40 reference contrasts and the pairing-reveal calculation with its 40 nested-interval checks. The 34 primary count records are also compared with those used by the primary reproduction command.
+The [Methods map](../METHODS_MAP.md) identifies the script and output for each table, figure and supporting calculation.
 
-Exact fractions, count values, labels and other discrete fields must match exactly. Floating values use absolute and relative tolerances of 1e-12. The report records the largest floating difference and byte agreement for each regenerated analysis JSON file. It separately requires exact byte agreement for the descriptive pairing-reveal output. Archived files are preserved.
+## Output locations
 
-The transfer verification found zero numerical differences and exact byte agreement for all five regenerated analysis JSON files. The report in `provenance/msn2_archive_validation.json` records that execution. The automated workflow repeats this check from the public checkout and stores its new report in the workflow output artifact.
+Supply `--out` with a new or empty directory beneath `runs/`, or an absolute path outside the repository. Quote paths containing spaces. The programs protect published artifacts and source directories. Choose a different output folder for each run.
 
-The six additional comparison-guard tests cover exact values, floating tolerances, missing fields, missing rows and nonfinite values. These are software tests, separate from scientific or biological validation.
+## Numerical checks
 
-## Original fluorescence data
+Each example checks the calculated tables against the [reference values](../examples/REFERENCE_RESULTS.md). Counts and exact ratios require exact agreement. Floating values use absolute and relative tolerances of 1e-12. Msn2 also checks the regenerated primary records and four analysis JSON files against their reference bytes.
 
-See [Data provenance](DATA_PROVENANCE.md) for the source DOI and pinned archive digest. The source command regenerates all five response definitions from the original trajectories. This calculation is distinct from both the primary binary-count entry point and the scalar-feature verification above. The original data archive is not redistributed here.
+Each `verification.json` reports the tests performed and the source and output hashes. Numerical information enclosures describe calculation precision. The scientific bounds describe the specified families of response distributions. Statistical confidence coverage requires a sampling model appropriate to the biological replicates.
 
-## Interpretation
+Figures use the calculated CSV files. `figure_data.json` records their numerical inputs. Image rendering depends on plotting libraries and fonts. Run logs contain local paths and elapsed times.
 
-The equal input prior and binary reporter definitions are declared analysis choices. Reported bounds range over the specified compatible probability distributions. They are not confidence intervals for population parameters. These calculations are distinct from estimating the capacity of the original multilevel fluorescence channels.
+## Full Msn2 derived analysis
+
+```bash
+python examples/03_msn2_reporters/run_msn2_reporters.py --full-derived --out runs/msn2_all_definitions
+```
+
+This verifies all 1,360 comparisons across five response definitions from the 40,458 included scalar fluorescence records. The checks cover the thresholds and 170 condition-count records. They also cover 10 summaries, 40 reference contrasts and the pairing calculation. The report is `all_five_definitions_verification.json`.
+
+The combined `generate_artifacts.py` command includes this verification. To perform the derived-data check alone:
+
+```bash
+python tools/verify_msn2_derived.py --out runs/msn2_derived_verification.json
+```
+
+Processing from deposited fluorescence trajectories begins with the source-data commands in [Data provenance](DATA_PROVENANCE.md).
+
+## Primary calculation verification
+
+```bash
+python reproduce.py --out runs/primary_checks --strict-bytes
+```
+
+This verifies the primary results from 34 included count records. It checks Tables 1–5 and the separate product-assay threshold. It also solves the 272 decision comparisons using 544 linear programs. The `--strict-bytes` option checks the SHA-256 digests of three information-analysis files against [their reference identities](../reference_results/expected_information_sha256.json).
+
+The output includes `run_manifest.json` and `primary/verification_summary.json`. The generated `primary_pair_results.json` contains additional analysis fields beyond the compact comparison input. Its input-file hash therefore reflects that representation. Scientific results are checked separately from input serialization.
+
+## Software tests
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+GitHub Actions runs source checks and numerical reproduction from fresh checkouts. It compares regenerated numerical files and figure inputs with the published artifacts. Each workflow saves its run outputs for inspection.

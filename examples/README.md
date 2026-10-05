@@ -1,6 +1,6 @@
 # Manuscript examples
 
-Each folder corresponds to one biological example in the paper. Open its README for the biological question, original source, calculation and one-command instructions.
+Each folder corresponds to one biological example in the paper. Open its README for the biological question, source publication, calculation and one-command instructions.
 
 | Example | Tables and figure | Runnable script |
 | --- | --- | --- |
@@ -10,4 +10,4 @@ Each folder corresponds to one biological example in the paper. Open its README 
 
 [Installation](../README.md#install-once) is shared by all examples. Results are written beneath `runs/`. The calculated values are compared with [archived reference results](REFERENCE_RESULTS.md). The [Methods map](../METHODS_MAP.md) connects the examples to the underlying functions.
 
-`_common.py` handles files and verification. `_plot.py` reads calculated CSVs to draw the figures. These shared utilities are called by the three example scripts; readers do not need to run them separately.
+`_common.py` handles files and verification. `_plot.py` reads calculated CSVs to draw the figures. Each example script calls these shared utilities automatically.

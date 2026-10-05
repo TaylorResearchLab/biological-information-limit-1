@@ -6,43 +6,43 @@ Hansen AS and O'Shea EK. Limits on information transduction through amplitude an
 
 Source data are deposited at Dryad under DOI [10.5061/dryad.97vt8](https://doi.org/10.5061/dryad.97vt8). The deposit lists `Supplementary_Source_Data.zip` and its README. Cite this source separately from the present analysis.
 
-The reviewed analysis requires an inner source-data archive with SHA-256
+The preprocessing program uses an inner source-data archive with SHA-256
 
 ```text
 a9be1b297d4945aae3b4d0c3d1734ac8ec4788da2e4bed8d43cd380e4783fd2b
 ```
 
-The original source program accepts that archive directly or a publisher supplement containing it. It verifies the pinned identity before analysis. A differently packaged download must be investigated rather than silently treated as the same input. Raw source data are not redistributed in this repository.
+The preprocessing program accepts that archive directly or a publisher supplement containing it. It checks this identity before analysis. Obtain the fluorescence trajectories from the data deposit. The repository includes the derived features and count records described below.
 
 ## Included primary inputs
 
 `workstreams/paper1_checkpoint_2026-09-23/verification_2026-10-02/primary_condition_counts.json` contains 34 records. Each record identifies the reporter construct, input protocol and four counts in the order `00, 01, 10, 11`. The records cover 17 protocols for each of two constructs and use the primary binary response definition.
 
-The count totals are 21,236 cells for the one-copy construct and 19,222 for the two-copy construct. These are descriptive counts of deposited cell records, not numbers of independent experiments. `primary_counts_provenance.json` records the source and extraction scope.
+The count totals are 21,236 cells for the one-copy construct and 19,222 for the two-copy construct. These totals count deposited cell records. Independent experimental units require the corresponding experimental metadata. `primary_counts_provenance.json` records the source and extraction scope.
 
-The primary reproduction command derives all 272 within-construct protocol-pair comparisons from these counts. Its generated pair file is the complete input for the information and decision comparison program. No private repository access is required for that command.
+The primary reproduction command derives all 272 within-construct protocol-pair comparisons from these counts. Its generated pair file is the complete input for the information and decision comparison program. All required count records are included in this repository.
 
-## Included full derived archive
+## Included derived data
 
 The saved files under `workstreams/msn2_pairing_2026-09-23/results/analysis/` contain 40,458 rows of scalar fluorescence features, 170 condition-count records, 10 threshold records with two reporter thresholds each, 1,360 comparisons across five response definitions, 40 reference contrasts and 10 summaries. Source-member provenance and the zero-value audit are included. The saved `results/constraint_reveal.json` contains 10 descriptive cases and 40 checks of nested accuracy intervals.
 
-`provenance/msn2_archive_manifest.json` records the size, SHA-256 digest and Git object identity of each of the nine files against scientific checkpoint `32b0e6633ed2f2d9c8a46f98057382bf765822d4`. All transferred bytes match these historical identities. `provenance/msn2_archive_transfer.json` records the transfer method separately from scientific computation.
+[The derived-data manifest](../provenance/msn2_archive_manifest.json) records the size, SHA-256 digest and Git object identity of each of the nine files.
 
-`tools/verify_msn2_derived.py` reconstructs all five response definitions from the archived scalar features using the unchanged analysis functions. It verifies the thresholds, counts, pair comparisons, summaries, reference contrasts and pairing-reveal results. This check starts after the original trajectory smoothing and feature extraction. The archived zero-value audit is checked for byte identity and dimensions rather than recomputed from raw traces.
+`tools/verify_msn2_derived.py` reconstructs all five response definitions from the saved scalar features using the analysis functions. It verifies the thresholds, counts, pair comparisons, summaries, reference contrasts and pairing-reveal results. This check starts with features extracted from smoothed trajectories. For the saved zero-value audit it checks file identity and dimensions. Processing the deposited traces produces that audit.
 
-## Regenerate from the original archive
+## Process deposited fluorescence trajectories
 
 ```bash
 python workstreams/msn2_pairing_2026-09-23/src/analyze_msn2.py --archive /path/to/Supplementary_Source_Data.zip --out runs/msn2-from-source-001
 python workstreams/msn2_pairing_2026-09-23/src/reveal_pairing.py --results runs/msn2-from-source-001/pair_results.json --out runs/pairing-reveal-001.json
 ```
 
-The original program defines its smoothing, trace summary, thresholds, zeros and outcome ordering explicitly. The primary response uses the maximum of complete 11-point moving-average windows and median thresholds calibrated separately for each reporter. Four alternate response definitions are available in the same program.
+The preprocessing program defines the smoothing and trace summary. It also specifies thresholds and the treatment of zero values. The primary response uses the maximum of complete 11-point moving-average windows and median thresholds calibrated separately for each reporter. Four alternate response definitions are available in the same program.
 
-The commands above provide the generation path from the original source archive for the saved derived files. They are separate from the default binary-count reproduction command and the scalar-feature verification command. Original fluorescence preprocessing was not repeated during the public archive transfer.
+These commands generate the derived files from the deposited fluorescence trajectories. The example scripts start with the included count records. The full derived-data verification starts with the included scalar features.
 
 ## Measurement scope
 
-Rows are deposited cell records. The analysis does not infer cell-to-independent-experiment membership from filenames or row order. Numerical zeros are retained as deposited. Binary outcomes reflect reporter properties, measurement noise and source preprocessing as well as biological response.
+Rows are deposited cell records. Assigning cells to independent experiments requires experimental metadata. Numerical zeros are retained as deposited. Binary outcomes reflect reporter properties, measurement noise and source preprocessing as well as biological response.
 
-The analysis uses a fixed equal prior for each protocol pair. It does not reproduce the source publication's multilevel, bias-corrected channel-capacity estimator. The published source already considered joint reporter information; the present analysis asks what separate versus paired observations establish under the stated binary definitions.
+The analysis uses binary reporter responses and a fixed equal prior for each protocol pair. It asks what separate and paired observations establish under these definitions. Hansen and O'Shea studied joint reporter information using multilevel responses and a bias-corrected channel-capacity estimator. These choices define different information quantities.

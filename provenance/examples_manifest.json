@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "base_public_commit": "79157d10c2013a6445fd92c4602124c0a6c16fa6",
-  "scope": "Reader entry points and reference exports. Original scientific files retain their existing manifest.",
+  "scope": "Example scripts, documentation, reference tables and artifact utilities.",
   "files": [
     {
       "path": ".gitattributes",
@@ -19,19 +19,34 @@
       "sha256": "fbe6fb49196338f956f2921c124374b9fd0e1ba5f06c78e1fa11b380d85ea480"
     },
     {
+      "path": "LICENSING.md",
+      "bytes": 1961,
+      "sha256": "8d496f34bf21a653d3d13a92e17d11c7b53b9c67a759e4698aaaadf2c5007dd1"
+    },
+    {
       "path": "METHODS_MAP.md",
-      "bytes": 4216,
-      "sha256": "8f8aa5bdec522f06293b4068aef2dca23c124e929a23366c7a74b317deb2138e"
+      "bytes": 3790,
+      "sha256": "518eaba5bf79dae865cf0505d9a16668613ac29c8966d62d1655f1c97cdf7428"
     },
     {
       "path": "README.md",
-      "bytes": 7514,
-      "sha256": "89d586d39d9499f972ef8c6a44cf3ee5d153b4782ef0fc9cf23a1785970f7c0e"
+      "bytes": 5127,
+      "sha256": "0f34e7ccc1d54179ce9052489486b7498e65dc206e1de2dca26c9336e01bfd0a"
+    },
+    {
+      "path": "docs/DATA_PROVENANCE.md",
+      "bytes": 4551,
+      "sha256": "b0f50ef97d978095a76cc0b1fceae5f6bd25a2699a9a527663f14f501bc4ea36"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 4119,
+      "sha256": "2308ac4bf370347d31fef457f0f3498beb8a4c9e5784f2d599f9bd85ecb4526b"
     },
     {
       "path": "examples/01_tcell_proofreading/README.md",
-      "bytes": 3758,
-      "sha256": "a15e45d602768da63f8cb59f736db9f15184fafbd7497636d21f3b3f3ee5c46f"
+      "bytes": 3731,
+      "sha256": "f0112f28181b37c573a67321ecb09d0ca99b3d93e5a398e86a678e6c9af10665"
     },
     {
       "path": "examples/01_tcell_proofreading/expected_results/table_1_tcell_proofreading.csv",
@@ -45,8 +60,8 @@
     },
     {
       "path": "examples/02_ribosome_selection/README.md",
-      "bytes": 4131,
-      "sha256": "a5b6c03c7c0731b1aeda492fab5014305d7f1cb6f972e30789d44052fb30d7b8"
+      "bytes": 4280,
+      "sha256": "86dc42489e067223a777058a88eadeb4ad13946116345d9a09d4d5df3766a5d9"
     },
     {
       "path": "examples/02_ribosome_selection/expected_results/extended_passage_sweep.csv",
@@ -75,8 +90,8 @@
     },
     {
       "path": "examples/03_msn2_reporters/README.md",
-      "bytes": 4733,
-      "sha256": "0b34c29cb843084cec9d2dbb67d61f935e3dd24009f65627a344c2828fca03d7"
+      "bytes": 4539,
+      "sha256": "499a5f23bbda93f75d3e6360b005013bbf751bbb10ebb4ffda740b9d03b88ada"
     },
     {
       "path": "examples/03_msn2_reporters/expected_results/table_4_msn2_information.csv",
@@ -95,13 +110,13 @@
     },
     {
       "path": "examples/README.md",
-      "bytes": 1222,
-      "sha256": "546c7bf35f0b7e604dad0f47b3d072f96818045bc8a308a2d9b2c0c706d968fa"
+      "bytes": 1181,
+      "sha256": "9a8f7e793ef685b798f71e655acd24d90cad65eaf987d71b9eead2944b11e4a8"
     },
     {
       "path": "examples/REFERENCE_RESULTS.md",
-      "bytes": 1206,
-      "sha256": "d2486e16a9151bb027ea24186e7ebd1b9296e1d54aa161e6313d6c19c1eedf76"
+      "bytes": 1440,
+      "sha256": "a10a2787db5921aad0b63894afe5d2b9bc36dd87727e4eddc470af50cd99ef66"
     },
     {
       "path": "examples/_common.py",
@@ -110,18 +125,23 @@
     },
     {
       "path": "examples/_plot.py",
-      "bytes": 5276,
-      "sha256": "fca23480fad78c0b60d3df2485bf9c89b567097350ad91df2be0978ed2bcb5f8"
+      "bytes": 5153,
+      "sha256": "ed7aec8494dc8886a3baff113e66d527a9c2431f7f1df786f3d02a0945592f3e"
     },
     {
       "path": "generate_artifacts.py",
-      "bytes": 10267,
-      "sha256": "a7c9e34a6b390c765c1125dcb932d36911567ab6538b86e78bee38fafb9e6f2b"
+      "bytes": 10244,
+      "sha256": "2debaa806892166880ca250db81ad39058377afa9e9a9ecfb926e522e8cf3be3"
     },
     {
       "path": "tests/test_artifacts.py",
       "bytes": 3629,
       "sha256": "9f1cf355d6eff5b3c4b07f0caed196d6e879ef3ec029bdbb41f7da2ed294474d"
+    },
+    {
+      "path": "tests/test_documentation.py",
+      "bytes": 1746,
+      "sha256": "990227b48cea7ee1b2323d4d44aadcea2965e44dcf93c152f7fc43912f962907"
     },
     {
       "path": "tests/test_examples.py",

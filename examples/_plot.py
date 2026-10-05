@@ -1,7 +1,6 @@
-"""Plot regenerated CSV results. No numerical manuscript results are hard-coded here.
+"""Plot tables and figures from calculated CSV results.
 
-These are new renderings for the example commands. The archived manuscript figure
-program remains unchanged. figure_data.json records the actual plot inputs.
+figure_data.json records the plotted rows and input file hashes.
 """
 from pathlib import Path
 import json

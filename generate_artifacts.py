@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Regenerate Tables 1-5, Figures 1-3 and supporting outputs in a new directory.
 
-Published artifacts/ and all source directories are protected. This program calls
-existing example scripts; their scientific calculations and checks are unchanged.
+Runs the three biological examples and writes tables, figures and supporting
+outputs to the selected folder. Source files and published results are protected.
 """
 from __future__ import annotations
 import argparse
@@ -36,7 +36,7 @@ def sha256(path: Path) -> str:
 
 
 def source_records() -> dict[str, str]:
-    """Identify calculation programs, required inputs and reference checks, not outputs."""
+    """Identify calculation programs, required inputs and reference checks."""
     paths = [ROOT / 'generate_artifacts.py', ROOT / 'requirements.txt', ROOT / 'verify_archive.py']
     for name in ('examples', 'workstreams', 'tools', 'provenance', 'reference_results'):
         paths.extend(p for p in (ROOT / name).rglob('*') if p.is_file()
@@ -91,26 +91,26 @@ def write_index(out: Path) -> None:
                   'Other CSV and JSON files in this directory contain the accompanying calculations. '
                   'The verification record identifies every source file checked and output produced.', '']
         (folder / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
-    overview += ['', '## Regenerate without changing these files', '',
+    overview += ['', '## Generate your own results', '',
         'From the repository folder after installing `requirements.txt`:', '', '```bash',
         'python generate_artifacts.py --out runs/my_artifacts', '```', '',
-        'An absolute path to a new folder outside the repository also works. Quote paths containing spaces. '
-        'Existing nonempty folders are refused. All repository directories except new folders beneath `runs/` are protected.', '',
+        'Choose a new or empty folder beneath `runs/`, or an absolute path outside the repository. '
+        'Quote paths containing spaces. Each run has its own output folder. Source files and published results are protected.', '',
         'The generated folder has the same example directories as this one. Compare the CSV tables and figures directly. '
-        'Each example also runs its existing numerical checks. No separate comparison command is required.', '',
-        'Scientific CSV/JSON results are reproducible. Log paths, runtime and environment records depend on the run. '
-        'Image bytes can differ with plotting-library or font versions even when the plotted data agree. '
-        '`figure_data.json` gives the numerical figure inputs.', '',
-        'The generated PNGs are renderings from recalculated results. They are not asserted to be pixel-identical '
-        'to figure images embedded in an earlier manuscript draft.', '',
-        '## Scope', '',
-        'All five main tables and three main figures are regenerated. The Msn2 example starts from included binary counts '
-        'and also verifies all 1,360 comparisons from the saved scalar features. Original fluorescence smoothing and '
-        'feature extraction remain a separate source-data procedure described in the repository documentation.', '',
-        'These are numerical reproduction records, not population confidence intervals or independent biological replication.', '',
-        '## Provenance', '',
-        '`artifact_manifest.json` records the generating source revision, source hashes and output hashes. '
-        'It excludes its own hash. This snapshot is kept on main; normal runs never replace it.', '']
+        'Each example also performs numerical reference checks automatically.', '',
+        'Numerical files and figure inputs support direct comparison across runs. Log paths and elapsed times describe each run. '
+        'Image rendering depends on plotting libraries and fonts. '
+        '`figure_data.json` records the plotted values and input hashes.', '',
+        '## Calculation scope', '',
+        'The command generates all five main tables and three main figures. The Msn2 example starts with included binary counts '
+        'and also verifies all 1,360 comparisons from the saved scalar features. '
+        'Processing deposited fluorescence trajectories uses the source-data procedure in the data provenance guide.', '',
+        'The reported bounds describe the specified response families and empirical records. '
+        'Statistical confidence coverage requires a suitable sampling model and experimental replication.', '',
+        '## File identities', '',
+        '`artifact_manifest.json` records the numerical run and file checksums. '
+        '`documentation_generator_sha256` identifies the program used to create these index pages. '
+        'The manifest lists the identities of all accompanying files. Published results are stored in `artifacts/` on main.', '']
     (out / 'README.md').write_text('\n'.join(overview), encoding='utf-8')
 
 
@@ -173,6 +173,7 @@ def main() -> None:
              for p in sorted(out.rglob('*')) if p.is_file()}
     write_json(out / 'artifact_manifest.json', {'status': 'PASS', 'format_version': 1,
         'source_commit': revision, 'source_sha256': before,
+        'documentation_generator_sha256': sha256(ROOT / 'generate_artifacts.py'),
         'tables': 5, 'figures': 3, 'msn2_full_derived_verification': True,
         'files': files})
     validate_bundle(out)

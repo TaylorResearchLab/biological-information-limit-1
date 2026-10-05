@@ -5,7 +5,7 @@ Start with [Examples](examples/). Each primary script runs on its own after the 
 | Manuscript result | Primary script | Output beneath the chosen `--out` folder |
 | --- | --- | --- |
 | Table 1: T cell completion, selectivity, classification error and mutual information | [run_tcell_proofreading.py](examples/01_tcell_proofreading/run_tcell_proofreading.py) | `table_1_tcell_proofreading.csv` |
-| Continuing ligand dependence in the sequential T cell model | Same T cell script; preserved `build()` function | `ligand_dependence.json` |
+| Continuing ligand dependence in the sequential T cell model | Same T cell script; `build()` function | `ligand_dependence.json` |
 | Figure 1 | Same T cell script | `figure_1_tcell_proofreading.png` |
 | Table 2: ribosome information at proofreading | [run_ribosome_selection.py](examples/02_ribosome_selection/run_ribosome_selection.py) | `table_2_ribosome_information.csv` |
 | Table 3: information per original encounter | Same ribosome script | `table_3_ribosome_passage.csv` |
@@ -18,7 +18,7 @@ Start with [Examples](examples/). Each primary script runs on its own after the 
 | The complete 10-case information panel | Same Msn2 script | `detailed_results/information_panel.json` |
 | Figure 3 | Same Msn2 script | `figure_3_msn2_information.png` |
 | All five Msn2 response definitions | Same Msn2 script with `--full-derived` | `all_five_definitions_verification.json` |
-| Original fluorescence processing | Original `analyze_msn2.py --archive ... --out ...` | See [Data provenance](docs/DATA_PROVENANCE.md) |
+| Fluorescence preprocessing | `analyze_msn2.py --archive ... --out ...` | See [Data provenance](docs/DATA_PROVENANCE.md) |
 
 ## Scientific implementation
 
@@ -30,10 +30,10 @@ Msn2 count analysis uses [analyze_msn2.py](workstreams/msn2_pairing_2026-09-23/s
 
 ## Output verification
 
-Each example checks its inputs against the existing [scientific manifest](provenance/import_manifest.json), calculates the results with preserved source functions and compares its CSVs with [reference exports](examples/REFERENCE_RESULTS.md). Every figure reads the calculated CSVs. `figure_data.json` records the plotted rows and input hashes.
+Each example checks its inputs against the [source manifest](provenance/import_manifest.json). It then calculates results and compares the CSV values with the [reference tables](examples/REFERENCE_RESULTS.md). Every figure reads calculated CSVs. `figure_data.json` records the plotted rows and input hashes.
 
-Exact probability fractions and certified numerical information enclosures remain available in detailed JSON. CSV exports are for reading and downstream use. Rounding in the manuscript does not replace the full precision archive. Figure renderings produced by the new example scripts are checked for data agreement rather than pixel identity with the earlier figures.
+Detailed JSON files contain exact probability fractions and certified numerical information enclosures. CSV files retain full numerical precision. The table previews use rounded values for reading.
 
-## Submission version
+## Saved results
 
-The public repository's default `main` branch is the complete reader entry point. Every required program, included input and saved reference result must be present there before submission. Tests must pass from that exact commit. A release identifier may cite the version but must not be the only location of required files. The final manuscript should cite the tested `main` commit. That final version is selected when the manuscript is ready for submission.
+[Artifacts](artifacts/) contains the five tables and three figures with their supporting outputs. Run `python generate_artifacts.py --out runs/my_artifacts` to generate the same directory structure. Each run records its source file identities and calculation settings.

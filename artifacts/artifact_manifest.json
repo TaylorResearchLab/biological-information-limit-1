@@ -236,8 +236,9 @@
       "sha256": "efa7678ca60d4852bc651a0c2f9fe28a125e90e78ac0d7ca5d06825e5bb4f0d4"
     },
     "README.md": {
-      "bytes": 2559,
-      "sha256": "bdce761943964558d8b2dead920403a903845605b00912512bb75a791c48c41d"
+      "bytes": 2475,
+      "sha256": "aff7c4728a07031d36fd222705b6edfe7be26f5e58683e95b34cea76d087a292"
     }
-  }
+  },
+  "documentation_generator_sha256": "2debaa806892166880ca250db81ad39058377afa9e9a9ecfb926e522e8cf3be3"
 }
