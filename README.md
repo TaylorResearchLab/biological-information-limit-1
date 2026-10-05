@@ -2,28 +2,28 @@
 
 Code, data and reproducible examples accompanying the manuscript by Deanne M. Taylor.
 
-## Examples
+## Examples and saved results
 
-Choose the biological example you are reading in the paper. Each folder explains the original study, our calculation, the inputs and the outputs. The script produces the named tables and figure and checks the results.
+Choose the biological example you are reading in the paper. Open **Saved results** to inspect the tables and figure without running Python. Open **Instructions** to reproduce them. Everything is available on this repository's default `main` branch.
 
-| Example | Start here | Run this script | Manuscript results |
+| Example | Instructions | Script | Saved results |
 | --- | --- | --- | --- |
-| **1. T cell receptor proofreading** | [Explanation and instructions](examples/01_tcell_proofreading/) | [run_tcell_proofreading.py](examples/01_tcell_proofreading/run_tcell_proofreading.py) | Table 1 and Figure 1 |
-| **2. Ribosomal tRNA selection** | [Explanation and instructions](examples/02_ribosome_selection/) | [run_ribosome_selection.py](examples/02_ribosome_selection/run_ribosome_selection.py) | Tables 2–3, Figure 2 and product-assay threshold |
-| **3. Yeast Msn2 reporters** | [Explanation and instructions](examples/03_msn2_reporters/) | [run_msn2_reporters.py](examples/03_msn2_reporters/run_msn2_reporters.py) | Tables 4–5, Figure 3 and all 272 primary discrimination comparisons |
+| **1. T cell receptor proofreading** | [Instructions](examples/01_tcell_proofreading/) | [run_tcell_proofreading.py](examples/01_tcell_proofreading/run_tcell_proofreading.py) | [Table 1 and Figure 1](artifacts/01_tcell_proofreading/) |
+| **2. Ribosomal tRNA selection** | [Instructions](examples/02_ribosome_selection/) | [run_ribosome_selection.py](examples/02_ribosome_selection/run_ribosome_selection.py) | [Tables 2-3, Figure 2 and supporting results](artifacts/02_ribosome_selection/) |
+| **3. Yeast Msn2 reporters** | [Instructions](examples/03_msn2_reporters/) | [run_msn2_reporters.py](examples/03_msn2_reporters/run_msn2_reporters.py) | [Tables 4-5, Figure 3 and all 272 primary comparisons](artifacts/03_msn2_reporters/) |
 
-The [Methods map](METHODS_MAP.md) links each manuscript result to its script, calculation functions and output. The [example reference tables](examples/REFERENCE_RESULTS.md) can be read without running Python.
+The [Methods map](METHODS_MAP.md) links each result to its implementation. [Artifacts](artifacts/) contains full precision CSV tables, generated PNG figures, detailed JSON results, parameters and verification records. Its [manifest](artifacts/artifact_manifest.json) identifies the generating source version and file hashes.
 
 ## Install once
 
-Download the complete repository using **Code → Download ZIP**, then unzip it. Alternatively:
+Download the complete repository using **Code > Download ZIP**, then unzip it. Alternatively:
 
 ```bash
 git clone https://github.com/TaylorResearchLab/biological-information-limit-1.git
 cd biological-information-limit-1
 ```
 
-Open a terminal in the downloaded repository folder. The recorded environment uses **Python 3.13.5**. Create an environment and install the supplied dependencies:
+Open a terminal in the downloaded repository folder. The recorded environment uses **Python 3.13.5**. Create an environment:
 
 ```bash
 python -m venv .venv
@@ -48,51 +48,66 @@ python -m pip install -r requirements.txt
 python verify_archive.py
 ```
 
-## Run an example
-
-From the repository folder, run any one of these commands:
+## Recreate every table and figure
 
 ```bash
-python examples/01_tcell_proofreading/run_tcell_proofreading.py
-python examples/02_ribosome_selection/run_ribosome_selection.py
-python examples/03_msn2_reporters/run_msn2_reporters.py
+python generate_artifacts.py --out runs/my_artifacts
 ```
 
-Results appear in `runs/tcell/`, `runs/ribosome/` or `runs/msn2/`. Each contains clearly named CSV tables, a PNG figure, `parameters_used.json` and `verification.json`. A successful run prints `PASS`. The numerical CSV values retain full precision. The figures read those calculated CSV values rather than a stored list of manuscript numbers.
+This runs all three examples, including the full Msn2 derived-data verification. The output directory mirrors the published `artifacts/` directory. It contains all five tables, all three figures and supporting outputs. The figures read the newly calculated CSV tables. Nothing is copied from the published artifact results to stand in for a calculation.
 
-Choose a new folder when repeating a run:
+```text
+artifacts/                          # Published results for reading and comparison
+    01_tcell_proofreading/
+    02_ribosome_selection/
+    03_msn2_reporters/
+runs/my_artifacts/                  # Your newly generated results
+    01_tcell_proofreading/
+    02_ribosome_selection/
+    03_msn2_reporters/
+```
+
+You can specify a new absolute output path outside the repository instead. Quote paths containing spaces. Without `--out`, the combined command uses `runs/all_artifacts/`.
+
+**The scripts refuse to overwrite published artifacts, source directories or a nonempty output directory.** Choose a new name for each run. Compare the CSV tables and figures directly; no separate comparison command is needed. Each example runs numerical reference checks automatically.
+
+The scientific CSV/JSON values and figure inputs are reproducible. Runtime, absolute paths and software-version records can differ between runs. Image bytes can also depend on plotting-library and font versions. Each `figure_data.json` records exactly which calculated values were plotted. The PNGs are generated renderings, not a claim of pixel identity with images in an earlier manuscript draft.
+
+## Run one example
 
 ```bash
-python examples/01_tcell_proofreading/run_tcell_proofreading.py --out runs/tcell_second_run
+python examples/01_tcell_proofreading/run_tcell_proofreading.py --out runs/tcell_review
+python examples/02_ribosome_selection/run_ribosome_selection.py --out runs/ribosome_review
+python examples/03_msn2_reporters/run_msn2_reporters.py --out runs/msn2_review
 ```
 
-Existing results are preserved. Use `--help` for options. Use `--skip-figures` for numerical results only. These examples use the included inputs; no original fluorescence download is needed.
+When `--out` is omitted, the individual defaults are `runs/tcell/`, `runs/ribosome/` and `runs/msn2/`. Use `--help` for options or `--skip-figures` for numerical results only. These scripts require the included repository files but no separate raw-data download.
 
-## Full Msn2 derived-data verification
+## Msn2 inputs and scope
 
-The default Msn2 example reconstructs the 272 primary comparisons from 34 binary count tables. The repository also includes the complete derived archive of 40,458 scalar fluorescence rows and 1,360 comparisons across five response definitions. To verify that larger archive in the same example:
+The Msn2 example reconstructs the 272 primary comparisons from 34 binary count tables. The repository also includes 40,458 scalar fluorescence rows and all 1,360 comparisons across five response definitions. To verify that full derived archive when running Msn2 alone:
 
 ```bash
 python examples/03_msn2_reporters/run_msn2_reporters.py --full-derived --out runs/msn2_all_definitions
 ```
 
-This additional check starts from the saved scalar features. Processing the original fluorescence trajectories is a separate calculation described in [Data provenance](docs/DATA_PROVENANCE.md). Original source data retain their source DOI and license.
+The combined artifact command already includes this check. Processing original fluorescence trajectories is a separate calculation described in [Data provenance](docs/DATA_PROVENANCE.md). The primary information analyses use the included derived observations. The original source data retain their source DOI and license.
 
-## Complete archived reproduction and provenance
+## Reproduction and provenance
 
-The existing command for the complete archived calculation remains available:
+The earlier complete reproduction command remains available:
 
 ```bash
 python reproduce.py --out runs/primary-001 --figures --strict-bytes
 ```
 
-It verifies Tables 1–5, the 272 primary comparisons, 544 linear programs and the separate product-assay threshold. It also runs the preserved manuscript figure program. The example commands above provide new figure renderings from calculated outputs; they do not replace the figure files in an author's manuscript.
+It verifies Tables 1-5, the 272 primary comparisons, 544 linear programs and the separate product-assay threshold. It runs the preserved manuscript figure program. `generate_artifacts.py` is the reader entry point for regenerating the published artifact directory using figures drawn from calculated outputs.
 
-The [reproduction guide](docs/REPRODUCING.md) documents the original commands. The reviewed calculation programs remain unchanged in [workstreams/](workstreams/). The new `examples/` scripts call those programs and functions. Their original comments and caveat docstrings are preserved.
+The [reproduction guide](docs/REPRODUCING.md) documents the earlier commands. Reviewed calculation programs remain unchanged in [workstreams/](workstreams/). The example scripts call those programs and functions. Their original comments and caveat docstrings are preserved.
 
-[Imported file identities](provenance/import_manifest.json) cover all 37 imported scientific files. [Example file identities](provenance/examples_manifest.json) cover the new entry points and reference CSVs. [Complete Msn2 archive identities](provenance/msn2_archive_manifest.json) document the nine saved derived files. [Saved primary inputs](workstreams/method_comparison_2026-09-23/inputs/primary_records.json) and [reference outputs](workstreams/method_comparison_2026-09-23/results/science/) remain available directly.
+[Imported file identities](provenance/import_manifest.json) cover all 37 imported scientific files. [Example file identities](provenance/examples_manifest.json) cover the example entry points and reference CSVs. [Complete Msn2 archive identities](provenance/msn2_archive_manifest.json) document the nine saved derived files. [Saved primary inputs](workstreams/method_comparison_2026-09-23/inputs/primary_records.json) and [reference outputs](workstreams/method_comparison_2026-09-23/results/science/) remain available directly.
 
-Run software tests with `python -m unittest discover -s tests -v`. GitHub Actions runs the original reproduction and each example from a fresh checkout. Numerical reproduction concerns the declared model families and finite observed records. Population confidence coverage and biological replication are separate questions.
+Run software tests with `python -m unittest discover -s tests -v`. The read-only GitHub Actions workflows reproduce the original calculations, individual examples and full artifact bundle. They check saved artifact integrity and compare regenerated numerical files and figure inputs against the published snapshot. These runs do not update the published results. Numerical reproduction concerns the declared model families and finite observed records. Population confidence coverage and biological replication are separate questions.
 
 ## Citation and reuse
 
