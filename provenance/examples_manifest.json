@@ -4,6 +4,16 @@
   "scope": "Reader entry points and reference exports. Original scientific files retain their existing manifest.",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 86,
+      "sha256": "a4c0b38e2096505d1551b9f2ea2574138292fa6652e4580ba1a96bb4c099c8ba"
+    },
+    {
+      "path": ".github/workflows/artifacts.yml",
+      "bytes": 1071,
+      "sha256": "13ff5591b3814348fd4d5bf7d66f3188e01aef79b5f71a8f5d3bee20fabfab8e"
+    },
+    {
       "path": ".github/workflows/examples.yml",
       "bytes": 1315,
       "sha256": "fbe6fb49196338f956f2921c124374b9fd0e1ba5f06c78e1fa11b380d85ea480"
@@ -15,8 +25,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5953,
-      "sha256": "f35584135821fe063c4da7cecd99b46c0b6cb9c54008b7fe28ff641224af178d"
+      "bytes": 7514,
+      "sha256": "89d586d39d9499f972ef8c6a44cf3ee5d153b4782ef0fc9cf23a1785970f7c0e"
     },
     {
       "path": "examples/01_tcell_proofreading/README.md",
@@ -102,6 +112,16 @@
       "path": "examples/_plot.py",
       "bytes": 5276,
       "sha256": "fca23480fad78c0b60d3df2485bf9c89b567097350ad91df2be0978ed2bcb5f8"
+    },
+    {
+      "path": "generate_artifacts.py",
+      "bytes": 10267,
+      "sha256": "a7c9e34a6b390c765c1125dcb932d36911567ab6538b86e78bee38fafb9e6f2b"
+    },
+    {
+      "path": "tests/test_artifacts.py",
+      "bytes": 3629,
+      "sha256": "9f1cf355d6eff5b3c4b07f0caed196d6e879ef3ec029bdbb41f7da2ed294474d"
     },
     {
       "path": "tests/test_examples.py",
