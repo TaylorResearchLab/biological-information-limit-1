@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "base_public_commit": "79157d10c2013a6445fd92c4602124c0a6c16fa6",
+  "scope": "Reader entry points and reference exports. Original scientific files retain their existing manifest.",
+  "files": [
+    {
+      "path": ".github/workflows/examples.yml",
+      "bytes": 1315,
+      "sha256": "fbe6fb49196338f956f2921c124374b9fd0e1ba5f06c78e1fa11b380d85ea480"
+    },
+    {
+      "path": "METHODS_MAP.md",
+      "bytes": 4216,
+      "sha256": "8f8aa5bdec522f06293b4068aef2dca23c124e929a23366c7a74b317deb2138e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5953,
+      "sha256": "f35584135821fe063c4da7cecd99b46c0b6cb9c54008b7fe28ff641224af178d"
+    },
+    {
+      "path": "examples/01_tcell_proofreading/README.md",
+      "bytes": 3758,
+      "sha256": "a15e45d602768da63f8cb59f736db9f15184fafbd7497636d21f3b3f3ee5c46f"
+    },
+    {
+      "path": "examples/01_tcell_proofreading/expected_results/table_1_tcell_proofreading.csv",
+      "bytes": 467,
+      "sha256": "2af88ce404a287d82cf3fdde8a23a4f3a6253ae35a5aee2d73d9c3cdb3123973"
+    },
+    {
+      "path": "examples/01_tcell_proofreading/run_tcell_proofreading.py",
+      "bytes": 4495,
+      "sha256": "b552e8c6bc62b3327d8453a1202c14766c533fb8ec4b2a54b17fc7d254c13a46"
+    },
+    {
+      "path": "examples/02_ribosome_selection/README.md",
+      "bytes": 4131,
+      "sha256": "a5b6c03c7c0731b1aeda492fab5014305d7f1cb6f972e30789d44052fb30d7b8"
+    },
+    {
+      "path": "examples/02_ribosome_selection/expected_results/extended_passage_sweep.csv",
+      "bytes": 167,
+      "sha256": "deb7f5c56e884df14e043c52574abc6e59ab8570ac83b3988e407968a6428824"
+    },
+    {
+      "path": "examples/02_ribosome_selection/expected_results/source_frequency_sensitivity.csv",
+      "bytes": 647,
+      "sha256": "f7aa50cb5f9226fb345ebbfc5186860637a746f20c420e9cd55be49398a112ea"
+    },
+    {
+      "path": "examples/02_ribosome_selection/expected_results/table_2_ribosome_information.csv",
+      "bytes": 345,
+      "sha256": "493dc4c33667b34b94912eeec78fb8806ded18bf4f49c56612574f40c05ebdad"
+    },
+    {
+      "path": "examples/02_ribosome_selection/expected_results/table_3_ribosome_passage.csv",
+      "bytes": 137,
+      "sha256": "1e644c6f5ac9d5f80b1bf096869ca19ad3ebfb23083185990ace50582a558c66"
+    },
+    {
+      "path": "examples/02_ribosome_selection/run_ribosome_selection.py",
+      "bytes": 4988,
+      "sha256": "a588b977e702c8dbfb84ccb3041338317493a9dfabfd9bac5cee1b2dea0f049a"
+    },
+    {
+      "path": "examples/03_msn2_reporters/README.md",
+      "bytes": 4733,
+      "sha256": "0b34c29cb843084cec9d2dbb67d61f935e3dd24009f65627a344c2828fca03d7"
+    },
+    {
+      "path": "examples/03_msn2_reporters/expected_results/table_4_msn2_information.csv",
+      "bytes": 364,
+      "sha256": "794a1ab8c0ea80ec27dd1552f0f20b9112a71423c39b2c0d5e22f4ee0910daa6"
+    },
+    {
+      "path": "examples/03_msn2_reporters/expected_results/table_5_msn2_pairing.csv",
+      "bytes": 257,
+      "sha256": "d827bb063bb874e800b8f2b5ee57e11e6b21e9531c70349c059f7ba93b591ae0"
+    },
+    {
+      "path": "examples/03_msn2_reporters/run_msn2_reporters.py",
+      "bytes": 6340,
+      "sha256": "26cd48a2036e8521df1021d4a81981f2734c1aff88eda525864f7d6a9058c8e3"
+    },
+    {
+      "path": "examples/README.md",
+      "bytes": 1222,
+      "sha256": "546c7bf35f0b7e604dad0f47b3d072f96818045bc8a308a2d9b2c0c706d968fa"
+    },
+    {
+      "path": "examples/REFERENCE_RESULTS.md",
+      "bytes": 1206,
+      "sha256": "d2486e16a9151bb027ea24186e7ebd1b9296e1d54aa161e6313d6c19c1eedf76"
+    },
+    {
+      "path": "examples/_common.py",
+      "bytes": 6131,
+      "sha256": "8ce911390411c6ad30b7bda95e105f8f327f3ea0a8ec049928eea4f492c5215e"
+    },
+    {
+      "path": "examples/_plot.py",
+      "bytes": 5276,
+      "sha256": "fca23480fad78c0b60d3df2485bf9c89b567097350ad91df2be0978ed2bcb5f8"
+    },
+    {
+      "path": "tests/test_examples.py",
+      "bytes": 2995,
+      "sha256": "bc0944de0b3279907eb4728cbef8ba64a683baa127eebb7e9b8d99de66c2e5b0"
+    }
+  ]
+}

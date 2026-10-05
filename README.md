@@ -1,70 +1,101 @@
 # Information limits from partially characterized biological processes
 
-Code and reproducible analyses accompanying the manuscript by Deanne M. Taylor.
+Code, data and reproducible examples accompanying the manuscript by Deanne M. Taylor.
 
-The analyses examine what incomplete measurements establish about biological information. Examples cover kinetic proofreading, ribosomal tRNA selection and joint reporter measurements in yeast stress signaling.
+## Examples
 
-## Reproduce the primary results
+Choose the biological example you are reading in the paper. Each folder explains the original study, our calculation, the inputs and the outputs. The script produces the named tables and figure and checks the results.
 
-Use Python 3.13.5 for the recorded environment.
+| Example | Start here | Run this script | Manuscript results |
+| --- | --- | --- | --- |
+| **1. T cell receptor proofreading** | [Explanation and instructions](examples/01_tcell_proofreading/) | [run_tcell_proofreading.py](examples/01_tcell_proofreading/run_tcell_proofreading.py) | Table 1 and Figure 1 |
+| **2. Ribosomal tRNA selection** | [Explanation and instructions](examples/02_ribosome_selection/) | [run_ribosome_selection.py](examples/02_ribosome_selection/run_ribosome_selection.py) | Tables 2–3, Figure 2 and product-assay threshold |
+| **3. Yeast Msn2 reporters** | [Explanation and instructions](examples/03_msn2_reporters/) | [run_msn2_reporters.py](examples/03_msn2_reporters/run_msn2_reporters.py) | Tables 4–5, Figure 3 and all 272 primary discrimination comparisons |
+
+The [Methods map](METHODS_MAP.md) links each manuscript result to its script, calculation functions and output. The [example reference tables](examples/REFERENCE_RESULTS.md) can be read without running Python.
+
+## Install once
+
+Download the complete repository using **Code → Download ZIP**, then unzip it. Alternatively:
 
 ```bash
 git clone https://github.com/TaylorResearchLab/biological-information-limit-1.git
 cd biological-information-limit-1
+```
+
+Open a terminal in the downloaded repository folder. The recorded environment uses **Python 3.13.5**. Create an environment and install the supplied dependencies:
+
+```bash
 python -m venv .venv
+```
+
+Activate it on macOS or Linux:
+
+```bash
 source .venv/bin/activate
+```
+
+On Windows PowerShell:
+
+```powershell
+.venv\Scripts\Activate.ps1
+```
+
+Then install and check the archived files:
+
+```bash
 python -m pip install -r requirements.txt
 python verify_archive.py
+```
+
+## Run an example
+
+From the repository folder, run any one of these commands:
+
+```bash
+python examples/01_tcell_proofreading/run_tcell_proofreading.py
+python examples/02_ribosome_selection/run_ribosome_selection.py
+python examples/03_msn2_reporters/run_msn2_reporters.py
+```
+
+Results appear in `runs/tcell/`, `runs/ribosome/` or `runs/msn2/`. Each contains clearly named CSV tables, a PNG figure, `parameters_used.json` and `verification.json`. A successful run prints `PASS`. The numerical CSV values retain full precision. The figures read those calculated CSV values rather than a stored list of manuscript numbers.
+
+Choose a new folder when repeating a run:
+
+```bash
+python examples/01_tcell_proofreading/run_tcell_proofreading.py --out runs/tcell_second_run
+```
+
+Existing results are preserved. Use `--help` for options. Use `--skip-figures` for numerical results only. These examples use the included inputs; no original fluorescence download is needed.
+
+## Full Msn2 derived-data verification
+
+The default Msn2 example reconstructs the 272 primary comparisons from 34 binary count tables. The repository also includes the complete derived archive of 40,458 scalar fluorescence rows and 1,360 comparisons across five response definitions. To verify that larger archive in the same example:
+
+```bash
+python examples/03_msn2_reporters/run_msn2_reporters.py --full-derived --out runs/msn2_all_definitions
+```
+
+This additional check starts from the saved scalar features. Processing the original fluorescence trajectories is a separate calculation described in [Data provenance](docs/DATA_PROVENANCE.md). Original source data retain their source DOI and license.
+
+## Complete archived reproduction and provenance
+
+The existing command for the complete archived calculation remains available:
+
+```bash
 python reproduce.py --out runs/primary-001 --figures --strict-bytes
 ```
 
-On Windows, activate the environment with `.venv\Scripts\activate`.
+It verifies Tables 1–5, the 272 primary comparisons, 544 linear programs and the separate product-assay threshold. It also runs the preserved manuscript figure program. The example commands above provide new figure renderings from calculated outputs; they do not replace the figure files in an author's manuscript.
 
-The command starts from the 34 included primary binary count records. It regenerates all 272 protocol comparisons and 544 linear programs. It checks the quantities reported in Tables 1–5 and the separate-output threshold, compares three full information-result files with their archived SHA-256 identities, and optionally regenerates Figures 1–3. Outputs go to a new directory. Existing source files and inputs are preserved.
+The [reproduction guide](docs/REPRODUCING.md) documents the original commands. The reviewed calculation programs remain unchanged in [workstreams/](workstreams/). The new `examples/` scripts call those programs and functions. Their original comments and caveat docstrings are preserved.
 
-Read `runs/primary-001/run_manifest.json` for the numerical checks, file comparisons and software versions. The output directory also contains the generated pair records, decision results, information bounds, pairing-reveal results and figures. The primary command needs no private repository or prior conversation files.
+[Imported file identities](provenance/import_manifest.json) cover all 37 imported scientific files. [Example file identities](provenance/examples_manifest.json) cover the new entry points and reference CSVs. [Complete Msn2 archive identities](provenance/msn2_archive_manifest.json) document the nine saved derived files. [Saved primary inputs](workstreams/method_comparison_2026-09-23/inputs/primary_records.json) and [reference outputs](workstreams/method_comparison_2026-09-23/results/science/) remain available directly.
 
-## Saved primary inputs and reference results
-
-The repository includes the [272 primary input records](workstreams/method_comparison_2026-09-23/inputs/primary_records.json) and the [reference result files](workstreams/method_comparison_2026-09-23/results/science). These cover the decision comparisons, information bounds, pairing-reveal calculation and summary. Each file matches the historical analysis checkpoint byte for byte. Their SHA-256 digests and Git object identities are recorded in [the materialization record](provenance/primary_reference_materialization.json).
-
-To rerun the comparison directly from the archived input:
-
-```bash
-python workstreams/method_comparison_2026-09-23/src/run_comparison.py --inputs workstreams/method_comparison_2026-09-23/inputs/primary_records.json --out runs/information-001
-```
-
-## Files and provenance
-
-The initial import contains all 18 Python source files from Supplementary Code S1 with their comments and docstrings unchanged. An existing verification program and its binary count inputs are included. The original directory paths are retained so that imports and manuscript paths continue to resolve.
-
-- [Reproduction guide](docs/REPRODUCING.md) maps manuscript results to commands.
-- [Data provenance](docs/DATA_PROVENANCE.md) defines the included inputs and the separate procedure for original fluorescence data.
-- [Imported file manifest](provenance/import_manifest.json) records sizes, SHA-256 digests and Git object identities.
-- [Reference result identities](reference_results/expected_information_sha256.json) records the exact archived outputs used for comparison.
-
-`verify_archive.py` checks all 37 imported files and parses all 19 imported Python programs. The top-level wrapper, archive verifier, derived-data verifier and packaging tests are separate additions. Run the packaging tests with `python -m unittest discover -s tests -v`.
-
-The GitHub Actions workflow runs archive checks, primary reproduction and verification of the complete Msn2 derived archive from a checkout of this public repository. Its output artifact contains the generated results and run records. Read the workflow's actual status rather than treating the presence of the workflow as a passed test.
-
-## Complete Msn2 derived archive
-
-The [saved Msn2 analysis files](workstreams/msn2_pairing_2026-09-23/results/analysis) include 40,458 rows of scalar fluorescence features, 170 condition-count records and all 1,360 comparisons across five response definitions. The archive also includes thresholds, source-member identities, zero-value audit records, reference contrasts, summaries and the [descriptive pairing-reveal results](workstreams/msn2_pairing_2026-09-23/results/constraint_reveal.json). All nine files match their historical size, SHA-256 digest and Git object identity. See [the archive manifest](provenance/msn2_archive_manifest.json).
-
-To verify the full derived analysis:
-
-```bash
-python tools/verify_msn2_derived.py --out runs/msn2-derived-validation-001.json
-```
-
-This command starts from the saved scalar features. It reconstructs the thresholds and all 170 count records, recomputes all 1,360 comparisons and checks the saved summaries and reference contrasts. It also reproduces the pairing-reveal calculation. Exact fractions and discrete fields must match exactly. Floating values are checked with absolute and relative tolerances of 1e-12; the report separately records whether each regenerated JSON file is byte-identical. The [recorded verification](provenance/msn2_archive_validation.json) found zero numerical differences and exact byte agreement for all five regenerated analysis JSON files.
-
-Original fluorescence preprocessing remains a separate calculation. The original programs and source-data instructions are included for that purpose. Neither the default primary command nor the derived-data verifier reruns the raw trajectories.
-
-The analyses describe the finite records and declared model families. Numerical reproduction does not establish population confidence coverage or independent biological replication.
+Run software tests with `python -m unittest discover -s tests -v`. GitHub Actions runs the original reproduction and each example from a fresh checkout. Numerical reproduction concerns the declared model families and finite observed records. Population confidence coverage and biological replication are separate questions.
 
 ## Citation and reuse
 
-Citation metadata is in [CITATION.cff](CITATION.cff). The manuscript title is given above; a preprint identifier will be added after posting.
+Citation metadata is in [CITATION.cff](CITATION.cff). A preprint identifier will be added after posting.
 
-The software is licensed under the [MIT License](LICENSE). The author-created paper, figures and scientific documentation are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). See [Licensing](LICENSING.md) for the scope of each license. Material obtained from other sources retains its original terms and attribution. Original source data should be cited through its own DOI.
+The software is licensed under the [MIT License](LICENSE). The author-created paper, figures and scientific documentation are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). [Licensing](LICENSING.md) defines the scope. Material obtained from other sources retains its original terms and attribution. Cite the original studies and source data as well as this paper.
