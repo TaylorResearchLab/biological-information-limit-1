@@ -87,6 +87,29 @@ python -m unittest discover -s tests -v
 
 GitHub Actions checks all three examples and regenerates the published artifacts from a fresh checkout. [Source checksums](provenance/source_manifest.json) and [artifact identities](artifacts/artifact_manifest.json) identify the inputs and outputs. Numerical files and figure inputs support direct comparison across runs. Runtime and log paths describe each execution. Plotting libraries and fonts can affect image rendering.
 
+## Plotting
+
+From the repository root, generate a fresh traceable analysis output first:
+python examples/02_ribosome_selection/run_ribosome_selection.py \
+    --out runs/ribosome_figure2 \
+    --skip-figures
+
+Then run the downloaded plotting script against that fresh output directory:
+python examples/02_ribosome_selection/generate_figure2_panels.py \
+  --artifact-dir runs/ribosome_figure2 \
+  --outdir figures/generated/figure2bc \
+  --dpi 600
+
+This makes the plotting chain:
+  analysis code
+→ runs/ribosome_figure2/table_2_ribosome_information.csv
+→ runs/ribosome_figure2/table_3_ribosome_passage.csv
+→ runs/ribosome_figure2/parameters_used.json
+→ Figure 2B and 2C SVG/PNG files
+
+The script reads the numerical values from those generated artifacts. 
+Omit --panel-labels when your own panels will supply the B and C labels.
+
 ## Citation and reuse
 
 Use [CITATION.cff](CITATION.cff) to cite the software. Cite the source publications and data deposit identified in each example.
