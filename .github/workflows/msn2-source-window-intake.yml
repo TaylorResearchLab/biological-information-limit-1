@@ -36,6 +36,16 @@ jobs:
             runs/source_window_second/msn2_source_window_sensitivity.json
       - name: Integrate the reviewed record and remove temporary intake files
         run: |
+          python - <<'PY'
+          from pathlib import Path
+          path = Path('tools/finalize_msn2_source_window_intake.py')
+          text = path.read_text(encoding='utf-8')
+          old = "def refresh_artifact_indexes() -> None:\n    bundle.write_index(ROOT / \"artifacts\")"
+          new = "def refresh_artifact_indexes() -> None:\n    import importlib\n    importlib.reload(bundle)\n    bundle.write_index(ROOT / \"artifacts\")"
+          if text.count(old) != 1:
+              raise SystemExit('Could not patch the one-run finalizer')
+          path.write_text(text.replace(old, new), encoding='utf-8')
+          PY
           python tools/finalize_msn2_source_window_intake.py \
             --generated runs/source_window_first/msn2_source_window_sensitivity.json
           cmp \
