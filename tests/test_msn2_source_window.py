@@ -131,6 +131,24 @@ class SourceWindowTests(unittest.TestCase):
             window.write_json(path, record, replace=True)
             self.assertEqual(path.read_bytes(), first)
 
+    def test_committed_sensitivity_record(self):
+        path = ROOT / "provenance/msn2_source_window_sensitivity.json"
+        record = __import__("json").loads(path.read_text(encoding="utf-8"))
+        self.assertEqual(record["reference_validation"]["status"], "PASS")
+        self.assertEqual(record["reference_validation"]["tolerance"], 1e-6)
+        expected = {
+            "A_centered_centers_33_to_59": (30, 0.001636),
+            "B_shrinking_window_33_to_64": (670, 0.019183),
+            "C_trailing_filter_33_to_64": (7, 0.00169),
+        }
+        for name, (changed, maximum_delta) in expected.items():
+            result = record["results"][name]
+            self.assertEqual(result["cells_with_changed_binary_state"]["count"], changed)
+            self.assertEqual(result["max_abs_change_in_table_4_and_5_bits"], maximum_delta)
+        for strain in ("1x", "2x"):
+            primary = record["results"]["all_complete_windows"]["all_pairs"][strain]
+            self.assertEqual(primary["pairs"], 136)
+
 
 if __name__ == "__main__":
     unittest.main()

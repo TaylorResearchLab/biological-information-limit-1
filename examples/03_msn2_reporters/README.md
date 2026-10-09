@@ -20,6 +20,19 @@ The bounds describe compatible probability distributions for the observed finite
 
 Add `--full-derived` to reconstruct all 1,360 comparisons across five response definitions from the 40,458 supplied scalar fluorescence records. The full artifact generator includes this check. [Data provenance](../../docs/DATA_PROVENANCE.md) provides the source trajectory preprocessing command.
 
+## Source-window sensitivity
+
+The source paper specifies an 11-point moving average and a maximum over elements 33 to 64 but does not state how smoothing treats the trace ends. [check_msn2_source_window.py](../../tools/check_msn2_source_window.py) independently evaluates three plausible readings of that definition. It validates the primary all-complete-window reconstruction against the repository results before reporting the sensitivity analysis.
+
+```bash
+python tools/check_msn2_source_window.py \
+    --archive /path/to/Supplementary_Source_Data.zip \
+    --out provenance/msn2_source_window_sensitivity.json \
+    --replace
+```
+
+The validated record is [msn2_source_window_sensitivity.json](../../provenance/msn2_source_window_sensitivity.json). The source archive is not stored in this repository.
+
 ## Outputs
 
 `table_4_msn2_information.csv` gives the selected information ranges. `table_5_msn2_pairing.csv` records the pairing-restoration comparison. `figure_3_msn2_information.png` reads those tables. `all_272_discrimination_comparisons.csv` and `detailed_results/` provide the complete primary results.
