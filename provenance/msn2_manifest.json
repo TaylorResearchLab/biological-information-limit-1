@@ -17,8 +17,8 @@
     {
       "path": "data/msn2/member_provenance.json",
       "bytes": 10479,
-      "sha256": "0bb2b62177a1d18cfa499424716cdf1447a161b10f24974532e01e225a8319a5",
-      "git_blob": "c0ab031515f272ef4198ad02b24d0f1b108afa6d"
+      "sha256": "9db76572daae3b3168c655d0fbd62964ccdcb6f67ee7b3c2ceb22d9454a27924",
+      "git_blob": "3bff112af70b36ae38cbe1e9265e72b256a50e13"
     },
     {
       "path": "data/msn2/pair_results.json",

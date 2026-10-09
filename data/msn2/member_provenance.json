@@ -1,7 +1,7 @@
 {
   "archive_sha256": "a9be1b297d4945aae3b4d0c3d1734ac8ec4788da2e4bed8d43cd380e4783fd2b",
   "archive_bytes": 37284633,
-  "solver_sha256": "746cd3c9c7f3801541a2208b71f8fb53b7ebb1424f0f0de3f75bf57b08e8a7e1",
+  "solver_sha256": "21b59cbd0ac0900231ca74701369275e8742825bb883ad1a9d29355e98cabaff",
   "members": [
     {
       "construct": "1x",

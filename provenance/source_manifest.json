@@ -46,9 +46,9 @@
     },
     {
       "path": "README.md",
-      "bytes": 5028,
-      "sha256": "82de42c910e9c48414207e656b2fefaec065bc65964930841ef5611374636a1a",
-      "git_blob": "ef085bea7e24bd92822a1369a33c383ae0db97a3"
+      "bytes": 6096,
+      "sha256": "34994de1c8b89cf0e7a5d0d1e4992c58cd39baef887e078d4718a7a2aebf82ef",
+      "git_blob": "bc67a7f7e28c47c878c203f5cc38b465216c8e5c"
     },
     {
       "path": "data/README.md",
@@ -83,8 +83,8 @@
     {
       "path": "data/msn2/member_provenance.json",
       "bytes": 10479,
-      "sha256": "0bb2b62177a1d18cfa499424716cdf1447a161b10f24974532e01e225a8319a5",
-      "git_blob": "c0ab031515f272ef4198ad02b24d0f1b108afa6d"
+      "sha256": "9db76572daae3b3168c655d0fbd62964ccdcb6f67ee7b3c2ceb22d9454a27924",
+      "git_blob": "3bff112af70b36ae38cbe1e9265e72b256a50e13"
     },
     {
       "path": "data/msn2/pair_results.json",
@@ -153,6 +153,12 @@
       "git_blob": "6818a6bfa0bab4fa71478475f5e324a18a2dbb36"
     },
     {
+      "path": "examples/02_ribosome_selection/generate_figure2_panels.py",
+      "bytes": 13136,
+      "sha256": "1660303d3a7cd8b254b8c16e64cc0e3f713084ff11758fda9123947cfcebaf9c",
+      "git_blob": "df4f9207931d73ae067686a8b29ac01a8c569d14"
+    },
+    {
       "path": "examples/02_ribosome_selection/run_ribosome_selection.py",
       "bytes": 4548,
       "sha256": "c484a54affb22d5d68a8f47a6fbc66a595e4539753b23e1ac17e0dd75d21c9e2",
@@ -189,10 +195,28 @@
       "git_blob": "ba7382fa7b4991bc2ebe4d790e5d18e4961cc0e6"
     },
     {
+      "path": "figures/figure_2_ribosome_selection.png",
+      "bytes": 703907,
+      "sha256": "1bd30da6bc8bcc8c6a640ff92fc6d68485a91d4e7015848f8c270b213aa8e4f5",
+      "git_blob": "8fb6ec1690d7d54a1a91584bef37be3c0adfa931"
+    },
+    {
+      "path": "figures/figure_2_ribosome_selection.pptx",
+      "bytes": 454296,
+      "sha256": "ffe37c2eaa4c75be121d5482287e611c1df8cc7d4771f38c7003d9ffc7002bab",
+      "git_blob": "9f92d4ab599c99aaf24c618635f62bc02c9e5e75"
+    },
+    {
       "path": "generate_artifacts.py",
       "bytes": 9795,
       "sha256": "7bd70488e91461574c27f973e8249c7a60912ef19a51028705a53b87fb2b236a",
       "git_blob": "a8d6ec8248e96015262ea3054c576b860dae2c50"
+    },
+    {
+      "path": "provenance/msn2_manifest.json",
+      "bytes": 2129,
+      "sha256": "cf434049b6eccde3a058127343ba43e7a5844e2b3fb83be1d56fa623cbcd637c",
+      "git_blob": "beb98d775f434c6d0f6c2f5162366e15c8a674e9"
     },
     {
       "path": "requirements.txt",
