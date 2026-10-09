@@ -38,3 +38,12 @@ jobs:
           path: runs/source_window_first/msn2_source_window_sensitivity.json
           if-no-files-found: error
           retention-days: 30
+      - name: Package the tested checkout
+        run: |
+          tar --exclude=.git --exclude=runs -czf /tmp/biological-information-limit-1-source.tar.gz .
+      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
+        with:
+          name: tested-source-checkout
+          path: /tmp/biological-information-limit-1-source.tar.gz
+          if-no-files-found: error
+          retention-days: 30
