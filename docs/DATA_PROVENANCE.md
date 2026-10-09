@@ -44,6 +44,21 @@ The program computes scalar features, all five response definitions and the desc
 
 The supplied count and feature records support the default artifact calculations. Fluorescence preprocessing uses the separately downloaded source ZIP.
 
+## Check the source maximum window
+
+The source publication states that each trace was smoothed with an 11-point moving average and that the maximum was taken over elements 33 to 64. It does not specify how the moving average treats the ends of the trace. The independent sensitivity tool evaluates three plausible readings of that statement and compares each with the primary maximum across all complete centered windows.
+
+```bash
+python tools/check_msn2_source_window.py \
+    --archive /path/to/Supplementary_Source_Data.zip \
+    --out provenance/msn2_source_window_sensitivity.json \
+    --replace
+```
+
+The tool verifies the pinned source archive, reconstructs the primary response independently, and checks it against the saved thresholds, Tables 4 and 5, featured accuracy values, summary widths and conditional-independence counts. Classification bounds use exact rational arithmetic. Information minima use bounded numerical optimization and serve as a robustness check; the primary manuscript bounds retain the rational certificates in `src/bics/matched_information.py`.
+
+The recorded sensitivity result is [msn2_source_window_sensitivity.json](../provenance/msn2_source_window_sensitivity.json). Across the three source-window readings, at most 1.656% of cells changed binary state and no Table 4 or Table 5 information entry changed by more than 0.019183 bits. The source ZIP is downloaded separately and is not included in the repository, so this audit is outside `generate_artifacts.py`.
+
 ## Interpretation
 
 The analysis describes the supplied finite records with a fixed equal prior for each protocol pair. The source publication examines multilevel fluorescence and estimates information capacity. The present calculation evaluates binary responses and asks how separate versus paired measurements constrain information and discrimination accuracy. Bounds range over the specified compatible distributions. Population uncertainty depends on an additional sampling model and biological replication.

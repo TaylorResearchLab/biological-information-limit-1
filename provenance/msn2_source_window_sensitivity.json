@@ -1,0 +1,1231 @@
+{
+  "archive_validation": {
+    "input_bytes": 47616466,
+    "input_kind": "publisher_bundle",
+    "input_sha256": "bc8b1dde2749fa385d8e913d7386ba679e6986a0a07cf91ad22ef7a08a936659",
+    "members": [
+      {
+        "columns": 128,
+        "condition": "DM_70min_100nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_100nM.txt",
+        "rows": 3470,
+        "sha256": "4138cd8c7480676492c4109b3a1b47bf803c9a588a428080c6c2e19c551fb5ba",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_1117nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_1117nM.txt",
+        "rows": 1423,
+        "sha256": "35eac6fb5984413827c3ab87da724e5cdbcf1a7004ebc148ac17dcd705ae52be",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_175nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_175nM.txt",
+        "rows": 1461,
+        "sha256": "a7ea1420518f20e26154b15e396787891f170abdc575545f51ca5ffcd9d7e710",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_275nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_275nM.txt",
+        "rows": 1547,
+        "sha256": "34ede8931593304e242e68e5855356478ea8631b58a1839b95af8844e9abc6a3",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_3uM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_3uM.txt",
+        "rows": 1755,
+        "sha256": "62abb74456728883e0a97f7c7ca4c40e2507fceb30892f9fe793fd92abdcc4c4",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_413nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_413nM.txt",
+        "rows": 1205,
+        "sha256": "0c8921cf2e6efe753a7e27bd2aea3e856113053d75f88bb0b3e80e7c73e1a0c6",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_690nM",
+        "member": "source_data/1x_SIP18_HXK1_DM_70min_690nM.txt",
+        "rows": 1367,
+        "sha256": "9531fca191f3760b9f861e15f60751cee5b349f3b545d61f9d5af6f7e23028ba",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM1_5min_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM1_5min_690nM.txt",
+        "rows": 1088,
+        "sha256": "0fa5e7c31d597d550047966f701be96576ec47ff6f66d4a9ddb223789b1e1ac6",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM2_40minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM2_40minINT_690nM.txt",
+        "rows": 1050,
+        "sha256": "304a0c735cdc1b00564d5ed5023522ba9bddec33b0ade16bbba508dba914e69a",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM3_25minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM3_25minINT_690nM.txt",
+        "rows": 983,
+        "sha256": "9663e1cd8c0733c24735777e0406a9ac098020560d3845c194a6c42738221784",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM4_175minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM4_175minINT_690nM.txt",
+        "rows": 1023,
+        "sha256": "b70b0378ae2a2076e7d5fdfc326590182cb139ec36b540d986550f3b0acab2fe",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM5_13minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM5_13minINT_690nM.txt",
+        "rows": 863,
+        "sha256": "d1de646037db6807d5d57cb57ca94af6623b3fb910970a9c812183014abfaa82",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM6_10minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM6_10minINT_690nM.txt",
+        "rows": 916,
+        "sha256": "9ec63b5eeb7b4a5ee342faf9294d4543ba73e1b2960c5d6870b799eb43935c42",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM7_786minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM7_786minINT_690nM.txt",
+        "rows": 857,
+        "sha256": "081745a5644e09633a77890ea3052341b637d389fac89b9f4d7f62c140582e9d",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM8_625minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM8_625minINT_690nM.txt",
+        "rows": 827,
+        "sha256": "7d09cad0a7bffd8c4f7f5d7526a197c46072e345b7aebb7adeb0be865ad10177",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM9_5minINT_690nM",
+        "member": "source_data/1x_SIP18_HXK1_FM9_5minINT_690nM.txt",
+        "rows": 782,
+        "sha256": "dcbefff7f4e16b61359bca2fb68c158ddbffbdd62ae867dbac7d1da959df6a59",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "info_theory_untreated",
+        "member": "source_data/1x_SIP18_HXK1_info_theory_untreated.txt",
+        "rows": 619,
+        "sha256": "605d4b7dc2837d283b91a8a950e4e5999fe9074738494b3802323f4c0ee3cfc9",
+        "strain": "1x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_100nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_100nM.txt",
+        "rows": 1200,
+        "sha256": "653da06b4b631acd4bbd105c6cf8b5e4fc34161475bad9f92723062d780e8dec",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_1117nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_1117nM.txt",
+        "rows": 1499,
+        "sha256": "7a891d0b12a39dec8d2cc656e194c5384e62a0f20717e08ee00e43e7492f2b73",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_175nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_175nM.txt",
+        "rows": 1832,
+        "sha256": "eeaa86e989734168906170cf35228c66bf8bd2c03c098e347cf28d94117e6a30",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_275nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_275nM.txt",
+        "rows": 1619,
+        "sha256": "cf69927c098f58af4fe2be3acd84a82a24f8e75609e8434b79cb5856573774d2",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_3uM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_3uM.txt",
+        "rows": 1654,
+        "sha256": "9d976ebdc4aa68f20ff8c74e38ca98830c5749d5afbbe45be4000c986290a937",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_413nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_413nM.txt",
+        "rows": 1122,
+        "sha256": "c68dd512f6b31f52dbe0d9ed003b14ed82f824aa88e7d7f97623127cebab5a6f",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "DM_70min_690nM",
+        "member": "source_data/2x_SIP18_HXK1_DM_70min_690nM.txt",
+        "rows": 1390,
+        "sha256": "7a05b7f6561fb1316652da4ef61b2ee46892c859c1facc8adc132dc0b098e0b7",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM1_5min_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM1_5min_690nM.txt",
+        "rows": 803,
+        "sha256": "6bcdf46cc7f1a873a924f3cb5119526f8fa7be913ee6a13c6291b98411dbbb2d",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM2_40minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM2_40minINT_690nM.txt",
+        "rows": 860,
+        "sha256": "926b2ba188ccfa0a1e1b091dd6621330c8eca67cb7b8c5935657451381e853f6",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM3_25minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM3_25minINT_690nM.txt",
+        "rows": 825,
+        "sha256": "d57a059aca8cebdf6e069414a61889841eb3ee5a43215a0ad02baae5b0c59b75",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM4_175minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM4_175minINT_690nM.txt",
+        "rows": 749,
+        "sha256": "eafa5eee7f07c06c51bb2ab71f7ec9fd3cff1890914325949a6d5ab7f2fbb6e2",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM5_13minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM5_13minINT_690nM.txt",
+        "rows": 986,
+        "sha256": "9862325686bff32ca8d227a1a075bb8e8878ab084a569e1db5de28e1664ce739",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM6_10minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM6_10minINT_690nM.txt",
+        "rows": 897,
+        "sha256": "a40a1ed025f4c82c25b7602b32c80b6d2bb2d5b7709be5cefc5aa2b2dcfd0146",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM7_786minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM7_786minINT_690nM.txt",
+        "rows": 1066,
+        "sha256": "10d7691be31f3d8fd818c7fb2afc07258bc60908f3b3887618ef716a3ba6be43",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM8_625minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM8_625minINT_690nM.txt",
+        "rows": 966,
+        "sha256": "9ad024bba70936a2e00571cfb93b88d4829105c163892e706981853c27710f00",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "FM9_5minINT_690nM",
+        "member": "source_data/2x_SIP18_HXK1_FM9_5minINT_690nM.txt",
+        "rows": 969,
+        "sha256": "0077516dce4d2edb2175ef63abbecb9d985592a1d701841fedbca15c02d55eab",
+        "strain": "2x"
+      },
+      {
+        "columns": 128,
+        "condition": "info_theory_untreated",
+        "member": "source_data/2x_SIP18_HXK1_info_theory_untreated.txt",
+        "rows": 785,
+        "sha256": "5234d3a07fcac8bd614e3d5c371d0a114aa2c0c8d09c4b8b56e59a89e9f35ef8",
+        "strain": "2x"
+      }
+    ],
+    "nested_member": "elife_poa_e06559_Supplementary_File_1.zip",
+    "paired_reporter_members": 34,
+    "row_totals": {
+      "1x": 21236,
+      "2x": 19222
+    },
+    "source_archive_bytes": 37284633,
+    "source_archive_sha256": "a9be1b297d4945aae3b4d0c3d1734ac8ec4788da2e4bed8d43cd380e4783fd2b"
+  },
+  "cells": {
+    "1x": 21236,
+    "2x": 19222
+  },
+  "numerical_scope": "Classification bounds are exact for the empirical rational response counts. Information minima use bounded numerical optimization and serve as a robustness check; the primary manuscript bounds retain rational certificates.",
+  "origin": "Independent source-window sensitivity implementation initiated during Claude review and hardened under separate GPT review; no imports from src/bics",
+  "reference_validation": {
+    "exact_checks": {
+      "1x_independence_over_count": true,
+      "1x_independence_under_count": true,
+      "1x_pair_count": true,
+      "1x_widest_comparison": true,
+      "2x_independence_over_count": true,
+      "2x_independence_under_count": true,
+      "2x_pair_count": true,
+      "2x_widest_comparison": true
+    },
+    "max_abs_difference": {
+      "accuracy_width_summaries": 4.63387e-07,
+      "featured_accuracy": 4.6153e-07,
+      "featured_independence_information": 3.97374e-07,
+      "table_4_information": 4.83051e-07,
+      "table_5_information": 4.83051e-07,
+      "thresholds": 4.54545e-07
+    },
+    "reference_files": [
+      "data/msn2/thresholds.json",
+      "data/msn2/summary.json",
+      "artifacts/03_msn2_reporters/table_4_msn2_information.csv",
+      "artifacts/03_msn2_reporters/table_5_msn2_pairing.csv",
+      "artifacts/03_msn2_reporters/primary_records.json"
+    ],
+    "status": "PASS",
+    "tolerance": 1e-06
+  },
+  "results": {
+    "A_centered_centers_33_to_59": {
+      "all_pairs": {
+        "1x": {
+          "independence_overestimates_pairs": 99,
+          "independence_underestimates_pairs": 14,
+          "median_accuracy_width": 0.141208,
+          "pairs": 136,
+          "widest_accuracy_width": 0.431762,
+          "widest_comparison": "DM_70min_175nM|FM7_786minINT_690nM"
+        },
+        "2x": {
+          "independence_overestimates_pairs": 112,
+          "independence_underestimates_pairs": 1,
+          "median_accuracy_width": 0.135944,
+          "pairs": 136,
+          "widest_accuracy_width": 0.388946,
+          "widest_comparison": "FM7_786minINT_690nM|FM8_625minINT_690nM"
+        }
+      },
+      "cells_with_changed_binary_state": {
+        "count": 30,
+        "of": 40458,
+        "percent": 0.0742
+      },
+      "definition": "Source reading A: complete centered windows, centers in elements 33 to 59",
+      "max_abs_change_in_table_4_and_5_bits": 0.001636,
+      "median_thresholds": {
+        "1x": {
+          "HXK1": 4358.145455,
+          "SIP18": 150.627273
+        },
+        "2x": {
+          "HXK1": 8194.381818,
+          "SIP18": 259.660909
+        }
+      },
+      "percent_of_cells_with_different_maximum": {
+        "1x_HXK1": 4.7137,
+        "1x_SIP18": 22.8009,
+        "2x_HXK1": 5.4937,
+        "2x_SIP18": 22.0997
+      },
+      "table_4": [
+        {
+          "accuracy_candidate_vertices": 3,
+          "accuracy_max": 0.987749,
+          "accuracy_min": 0.901585,
+          "comparison": "1x|DM_70min_100nM|DM_70min_3uM",
+          "conditional_independence_information_bits": 0.835751,
+          "independence_accuracy": 0.969768,
+          "information_max_bits": 0.944443,
+          "information_min_bits": 0.617507,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.617507335174,
+            "best_unit_point": [
+              1.0
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.617507335174,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "observed_paired_accuracy": 0.955329,
+          "observed_paired_information_bits": 0.775919
+        },
+        {
+          "accuracy_candidate_vertices": 12,
+          "accuracy_max": 0.987461,
+          "accuracy_min": 0.555699,
+          "comparison": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+          "conditional_independence_information_bits": 0.010323,
+          "independence_accuracy": 0.555699,
+          "information_max_bits": 0.917902,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.270074625629,
+              0.34212796037
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008987975786,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.555699,
+          "observed_paired_information_bits": 0.01392
+        },
+        {
+          "accuracy_candidate_vertices": 10,
+          "accuracy_max": 0.942241,
+          "accuracy_min": 0.553295,
+          "comparison": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+          "conditional_independence_information_bits": 0.010345,
+          "independence_accuracy": 0.553295,
+          "information_max_bits": 0.726749,
+          "information_min_bits": 0.008217,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008216745003,
+            "best_unit_point": [
+              0.83893584431,
+              0.772424353085
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008242762237,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.553295,
+          "observed_paired_information_bits": 0.009191
+        }
+      ],
+      "table_5": [
+        {
+          "information_max_bits": 0.917902,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.270074625629,
+              0.34212796037
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008987975786,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.396239,
+          "information_min_bits": 0.012768,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.012767796554,
+            "best_unit_point": [
+              0.695634019135
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.012779680789,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 1
+        },
+        {
+          "information_max_bits": 0.280309,
+          "information_min_bits": 0.011619,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.011619199488,
+            "best_unit_point": [
+              0.554083504656
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.011629706346,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.01392,
+          "information_min_bits": 0.01392,
+          "information_minimum_search": {
+            "algorithm": "singleton compatible family",
+            "best_message": "not applicable",
+            "best_objective_bits": 0.013919787729,
+            "best_unit_point": [],
+            "converged": 0,
+            "grid_minimum_bits": 0.013919787729,
+            "grid_points": 1,
+            "starts": 0,
+            "variable_dimensions": 0
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 1
+        }
+      ]
+    },
+    "B_shrinking_window_33_to_64": {
+      "all_pairs": {
+        "1x": {
+          "independence_overestimates_pairs": 100,
+          "independence_underestimates_pairs": 14,
+          "median_accuracy_width": 0.140038,
+          "pairs": 136,
+          "widest_accuracy_width": 0.425742,
+          "widest_comparison": "DM_70min_175nM|FM7_786minINT_690nM"
+        },
+        "2x": {
+          "independence_overestimates_pairs": 113,
+          "independence_underestimates_pairs": 0,
+          "median_accuracy_width": 0.135235,
+          "pairs": 136,
+          "widest_accuracy_width": 0.390498,
+          "widest_comparison": "FM7_786minINT_690nM|FM8_625minINT_690nM"
+        }
+      },
+      "cells_with_changed_binary_state": {
+        "count": 670,
+        "of": 40458,
+        "percent": 1.656
+      },
+      "definition": "Source reading B: end-shrinking symmetric window, elements 33 to 64",
+      "max_abs_change_in_table_4_and_5_bits": 0.019183,
+      "median_thresholds": {
+        "1x": {
+          "HXK1": 4423.372727,
+          "SIP18": 158.673333
+        },
+        "2x": {
+          "HXK1": 8315.527273,
+          "SIP18": 270.483636
+        }
+      },
+      "percent_of_cells_with_different_maximum": {
+        "1x_HXK1": 39.9652,
+        "1x_SIP18": 67.2208,
+        "2x_HXK1": 44.5479,
+        "2x_SIP18": 64.1453
+      },
+      "table_4": [
+        {
+          "accuracy_candidate_vertices": 3,
+          "accuracy_max": 0.988319,
+          "accuracy_min": 0.903602,
+          "comparison": "1x|DM_70min_100nM|DM_70min_3uM",
+          "conditional_independence_information_bits": 0.839765,
+          "independence_accuracy": 0.970762,
+          "information_max_bits": 0.946599,
+          "information_min_bits": 0.621167,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.621166778549,
+            "best_unit_point": [
+              1.0
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.621166778549,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "observed_paired_accuracy": 0.957051,
+          "observed_paired_information_bits": 0.782257
+        },
+        {
+          "accuracy_candidate_vertices": 12,
+          "accuracy_max": 0.982569,
+          "accuracy_min": 0.556827,
+          "comparison": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+          "conditional_independence_information_bits": 0.011192,
+          "independence_accuracy": 0.556827,
+          "information_max_bits": 0.897083,
+          "information_min_bits": 0.009348,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.009347835389,
+            "best_unit_point": [
+              0.244617167212,
+              0.309035580676
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.009419891025,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.556827,
+          "observed_paired_information_bits": 0.015026
+        },
+        {
+          "accuracy_candidate_vertices": 10,
+          "accuracy_max": 0.938343,
+          "accuracy_min": 0.547844,
+          "comparison": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+          "conditional_independence_information_bits": 0.008508,
+          "independence_accuracy": 0.547844,
+          "information_max_bits": 0.714061,
+          "information_min_bits": 0.006619,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.006618977896,
+            "best_unit_point": [
+              0.849316409291,
+              0.793325407852
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.00663993897,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.547844,
+          "observed_paired_information_bits": 0.007536
+        }
+      ],
+      "table_5": [
+        {
+          "information_max_bits": 0.897083,
+          "information_min_bits": 0.009348,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.009347835389,
+            "best_unit_point": [
+              0.244617167212,
+              0.309035580676
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.009419891025,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.396175,
+          "information_min_bits": 0.013924,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.013924180441,
+            "best_unit_point": [
+              0.690161182879
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.013984625989,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 1
+        },
+        {
+          "information_max_bits": 0.282213,
+          "information_min_bits": 0.012617,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.012617138864,
+            "best_unit_point": [
+              0.556823825357
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.012646049763,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.015026,
+          "information_min_bits": 0.015026,
+          "information_minimum_search": {
+            "algorithm": "singleton compatible family",
+            "best_message": "not applicable",
+            "best_objective_bits": 0.015025882294,
+            "best_unit_point": [],
+            "converged": 0,
+            "grid_minimum_bits": 0.015025882294,
+            "grid_points": 1,
+            "starts": 0,
+            "variable_dimensions": 0
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 1
+        }
+      ]
+    },
+    "C_trailing_filter_33_to_64": {
+      "all_pairs": {
+        "1x": {
+          "independence_overestimates_pairs": 99,
+          "independence_underestimates_pairs": 15,
+          "median_accuracy_width": 0.141208,
+          "pairs": 136,
+          "widest_accuracy_width": 0.43142,
+          "widest_comparison": "DM_70min_175nM|FM7_786minINT_690nM"
+        },
+        "2x": {
+          "independence_overestimates_pairs": 113,
+          "independence_underestimates_pairs": 0,
+          "median_accuracy_width": 0.135944,
+          "pairs": 136,
+          "widest_accuracy_width": 0.388946,
+          "widest_comparison": "FM7_786minINT_690nM|FM8_625minINT_690nM"
+        }
+      },
+      "cells_with_changed_binary_state": {
+        "count": 7,
+        "of": 40458,
+        "percent": 0.0173
+      },
+      "definition": "Source reading C: trailing 11-point filter, outputs at elements 33 to 64",
+      "max_abs_change_in_table_4_and_5_bits": 0.00169,
+      "median_thresholds": {
+        "1x": {
+          "HXK1": 4359.9,
+          "SIP18": 150.760909
+        },
+        "2x": {
+          "HXK1": 8195.518182,
+          "SIP18": 260.14
+        }
+      },
+      "percent_of_cells_with_different_maximum": {
+        "1x_HXK1": 2.524,
+        "1x_SIP18": 20.5312,
+        "2x_HXK1": 3.3607,
+        "2x_SIP18": 19.202
+      },
+      "table_4": [
+        {
+          "accuracy_candidate_vertices": 3,
+          "accuracy_max": 0.987749,
+          "accuracy_min": 0.901729,
+          "comparison": "1x|DM_70min_100nM|DM_70min_3uM",
+          "conditional_independence_information_bits": 0.835901,
+          "independence_accuracy": 0.969794,
+          "information_max_bits": 0.944468,
+          "information_min_bits": 0.617718,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.617717856899,
+            "best_unit_point": [
+              1.0
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.617717856899,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "observed_paired_accuracy": 0.955329,
+          "observed_paired_information_bits": 0.775954
+        },
+        {
+          "accuracy_candidate_vertices": 12,
+          "accuracy_max": 0.987119,
+          "accuracy_min": 0.555699,
+          "comparison": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+          "conditional_independence_information_bits": 0.010365,
+          "independence_accuracy": 0.555699,
+          "information_max_bits": 0.916266,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.267457656357,
+              0.338600473314
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008992089412,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.555699,
+          "observed_paired_information_bits": 0.013934
+        },
+        {
+          "accuracy_candidate_vertices": 10,
+          "accuracy_max": 0.942758,
+          "accuracy_min": 0.553813,
+          "comparison": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+          "conditional_independence_information_bits": 0.010506,
+          "independence_accuracy": 0.553813,
+          "information_max_bits": 0.728301,
+          "information_min_bits": 0.008378,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008377897025,
+            "best_unit_point": [
+              0.83606381817,
+              0.767942851042
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008395155825,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.553813,
+          "observed_paired_information_bits": 0.009328
+        }
+      ],
+      "table_5": [
+        {
+          "information_max_bits": 0.916266,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.267457656357,
+              0.338600473314
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008992089412,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.395666,
+          "information_min_bits": 0.012823,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.012823172544,
+            "best_unit_point": [
+              0.694847764689
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.012839714604,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 1
+        },
+        {
+          "information_max_bits": 0.281039,
+          "information_min_bits": 0.011679,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.011679057991,
+            "best_unit_point": [
+              0.55467877623
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.011692848942,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.013934,
+          "information_min_bits": 0.013934,
+          "information_minimum_search": {
+            "algorithm": "singleton compatible family",
+            "best_message": "not applicable",
+            "best_objective_bits": 0.013933516949,
+            "best_unit_point": [],
+            "converged": 0,
+            "grid_minimum_bits": 0.013933516949,
+            "grid_points": 1,
+            "starts": 0,
+            "variable_dimensions": 0
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 1
+        }
+      ]
+    },
+    "all_complete_windows": {
+      "all_pairs": {
+        "1x": {
+          "independence_overestimates_pairs": 99,
+          "independence_underestimates_pairs": 14,
+          "median_accuracy_width": 0.141208,
+          "pairs": 136,
+          "widest_accuracy_width": 0.43142,
+          "widest_comparison": "DM_70min_175nM|FM7_786minINT_690nM"
+        },
+        "2x": {
+          "independence_overestimates_pairs": 112,
+          "independence_underestimates_pairs": 1,
+          "median_accuracy_width": 0.135691,
+          "pairs": 136,
+          "widest_accuracy_width": 0.388946,
+          "widest_comparison": "FM7_786minINT_690nM|FM8_625minINT_690nM"
+        }
+      },
+      "cells_with_changed_binary_state": {
+        "count": 0,
+        "of": 40458,
+        "percent": 0.0
+      },
+      "definition": "Manuscript primary: maximum over all complete centered 11-frame windows",
+      "median_thresholds": {
+        "1x": {
+          "HXK1": 4359.9,
+          "SIP18": 150.766364
+        },
+        "2x": {
+          "HXK1": 8197.509091,
+          "SIP18": 260.255455
+        }
+      },
+      "percent_of_cells_with_different_maximum": {
+        "1x_HXK1": 0.0,
+        "1x_SIP18": 0.0,
+        "2x_HXK1": 0.0,
+        "2x_SIP18": 0.0
+      },
+      "table_4": [
+        {
+          "accuracy_candidate_vertices": 3,
+          "accuracy_max": 0.987749,
+          "accuracy_min": 0.901729,
+          "comparison": "1x|DM_70min_100nM|DM_70min_3uM",
+          "conditional_independence_information_bits": 0.835901,
+          "independence_accuracy": 0.969794,
+          "information_max_bits": 0.944468,
+          "information_min_bits": 0.617718,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.617717856899,
+            "best_unit_point": [
+              1.0
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.617717856899,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "observed_paired_accuracy": 0.955329,
+          "observed_paired_information_bits": 0.775954
+        },
+        {
+          "accuracy_candidate_vertices": 12,
+          "accuracy_max": 0.987119,
+          "accuracy_min": 0.555699,
+          "comparison": "1x|DM_70min_175nM|FM7_786minINT_690nM",
+          "conditional_independence_information_bits": 0.010365,
+          "independence_accuracy": 0.555699,
+          "information_max_bits": 0.916266,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.267457656357,
+              0.338600473314
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008992089412,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.555699,
+          "observed_paired_information_bits": 0.013934
+        },
+        {
+          "accuracy_candidate_vertices": 10,
+          "accuracy_max": 0.942289,
+          "accuracy_min": 0.553344,
+          "comparison": "2x|FM7_786minINT_690nM|FM8_625minINT_690nM",
+          "conditional_independence_information_bits": 0.010361,
+          "independence_accuracy": 0.553344,
+          "information_max_bits": 0.726611,
+          "information_min_bits": 0.008233,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008232635511,
+            "best_unit_point": [
+              0.837815919482,
+              0.770890572327
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008256417561,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "observed_paired_accuracy": 0.553344,
+          "observed_paired_information_bits": 0.009197
+        }
+      ],
+      "table_5": [
+        {
+          "information_max_bits": 0.916266,
+          "information_min_bits": 0.008983,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 10,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.008982611278,
+            "best_unit_point": [
+              0.267457656357,
+              0.338600473314
+            ],
+            "converged": 10,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.008992089412,
+            "grid_points": 1681,
+            "primary_method": "L-BFGS-B",
+            "starts": 10,
+            "variable_dimensions": 2
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.395666,
+          "information_min_bits": 0.012823,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.012823172544,
+            "best_unit_point": [
+              0.694847764689
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.012839714604,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 0,
+          "pairing_sustained_retained": 1
+        },
+        {
+          "information_max_bits": 0.281039,
+          "information_min_bits": 0.011679,
+          "information_minimum_search": {
+            "algorithm": "normalized bounded numerical search",
+            "attempts": 4,
+            "best_message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "best_method": "L-BFGS-B",
+            "best_objective_bits": 0.011679057991,
+            "best_unit_point": [
+              0.55467877623
+            ],
+            "converged": 4,
+            "fallback_method": "Powell if no L-BFGS-B run converges",
+            "grid_minimum_bits": 0.011692848942,
+            "grid_points": 41,
+            "primary_method": "L-BFGS-B",
+            "starts": 4,
+            "variable_dimensions": 1
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 0
+        },
+        {
+          "information_max_bits": 0.013934,
+          "information_min_bits": 0.013934,
+          "information_minimum_search": {
+            "algorithm": "singleton compatible family",
+            "best_message": "not applicable",
+            "best_objective_bits": 0.013933516949,
+            "best_unit_point": [],
+            "converged": 0,
+            "grid_minimum_bits": 0.013933516949,
+            "grid_points": 1,
+            "starts": 0,
+            "variable_dimensions": 0
+          },
+          "pairing_pulsed_retained": 1,
+          "pairing_sustained_retained": 1
+        }
+      ]
+    }
+  },
+  "scope": "Sensitivity of Msn2 binary-response results to the window of the per-cell maximum",
+  "software": {
+    "numpy": "2.3.5",
+    "python": "3.13.5",
+    "python_implementation": "CPython",
+    "scipy": "1.17.0"
+  },
+  "source_archive_bytes": 37284633,
+  "source_archive_sha256": "a9be1b297d4945aae3b4d0c3d1734ac8ec4788da2e4bed8d43cd380e4783fd2b",
+  "source_statement": "11-point moving average; maximum over elements 33 to 64 (1-indexed, 75 to 152.5 min)",
+  "strains": [
+    "1x",
+    "2x"
+  ]
+}

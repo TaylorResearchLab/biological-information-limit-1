@@ -13,6 +13,7 @@ Each example has one primary script. [Installation](README.md#install-once) is s
 | All 272 primary comparisons | Same Msn2 script | `all_272_discrimination_comparisons.csv`, `detailed_results/` |
 | All five response definitions | Same Msn2 script with `--full-derived` | `all_five_definitions_verification.json` |
 | Source fluorescence preprocessing | [process_msn2_fluorescence.py](tools/process_msn2_fluorescence.py) | Scalar features, count tables and comparisons |
+| Source-window sensitivity | [check_msn2_source_window.py](tools/check_msn2_source_window.py) | [msn2_source_window_sensitivity.json](provenance/msn2_source_window_sensitivity.json) |
 
 ## Scientific implementation
 

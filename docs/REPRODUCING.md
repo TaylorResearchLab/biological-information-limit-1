@@ -41,3 +41,14 @@ Logs and environment records describe the individual run. Image bytes can vary a
 ## Source observations
 
 [Data provenance](DATA_PROVENANCE.md) describes the source publications and the optional reconstruction from fluorescence trajectories. The primary artifact calculations use the files supplied in `data/`.
+
+The independent source-window sensitivity analysis requires the separately downloaded Hansen and O'Shea fluorescence archive:
+
+```bash
+python tools/check_msn2_source_window.py \
+    --archive /path/to/Supplementary_Source_Data.zip \
+    --out provenance/msn2_source_window_sensitivity.json \
+    --replace
+```
+
+The committed sensitivity record validates the primary reconstruction against repository references with an absolute tolerance of `1e-6`. A repeated run writes canonical JSON and can be compared byte for byte when the pinned environment is used.

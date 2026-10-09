@@ -86,6 +86,12 @@ def write_index(out: Path) -> None:
                   '[Parameters used](parameters_used.json) and [verification record](verification.json).', '',
                   'Other CSV and JSON files in this directory contain the accompanying calculations. '
                   'The verification record identifies every source file checked and output produced.', '']
+        if directory == '03_msn2_reporters':
+            lines += ['## Source-window sensitivity', '',
+                      'An independent check of three plausible readings of the source maximum window is recorded in '
+                      '[`provenance/msn2_source_window_sensitivity.json`](../../provenance/msn2_source_window_sensitivity.json). '
+                      'The separately downloaded fluorescence archive is required to rerun '
+                      '[`tools/check_msn2_source_window.py`](../../tools/check_msn2_source_window.py).', '']
         (folder / 'README.md').write_text('\n'.join(lines), encoding='utf-8')
     overview += ['', '## Generate your own results', '',
         'After installing the repository requirements, run:', '', '```bash',
