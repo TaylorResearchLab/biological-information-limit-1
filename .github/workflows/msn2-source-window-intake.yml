@@ -1,15 +1,17 @@
-name: Validate Msn2 source-window sensitivity
+name: Finalize Msn2 source-window sensitivity
 on:
   push:
     branches: [work/msn2-source-window-sensitivity]
   workflow_dispatch:
 permissions:
-  contents: read
+  contents: write
 jobs:
-  validate:
+  finalize:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262
+        with:
+          ref: work/msn2-source-window-sensitivity
       - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
         with:
           python-version: '3.13.5'
@@ -20,7 +22,7 @@ jobs:
           curl --fail --location --retry 3 \
             --output /tmp/elife-06559-supp-v1.zip \
             https://cdn.elifesciences.org/articles/06559/elife-06559-supp-v1.zip
-      - name: Generate and independently validate the sensitivity record
+      - name: Generate and compare two independent sensitivity records
         run: |
           mkdir -p runs/source_window_first runs/source_window_second
           python tools/check_msn2_source_window.py \
@@ -32,18 +34,27 @@ jobs:
           cmp \
             runs/source_window_first/msn2_source_window_sensitivity.json \
             runs/source_window_second/msn2_source_window_sensitivity.json
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: msn2-source-window-sensitivity
-          path: runs/source_window_first/msn2_source_window_sensitivity.json
-          if-no-files-found: error
-          retention-days: 30
-      - name: Package the tested checkout
+      - name: Integrate the reviewed record and remove temporary intake files
         run: |
-          tar --exclude=.git --exclude=runs -czf /tmp/biological-information-limit-1-source.tar.gz .
-      - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02
-        with:
-          name: tested-source-checkout
-          path: /tmp/biological-information-limit-1-source.tar.gz
-          if-no-files-found: error
-          retention-days: 30
+          python tools/finalize_msn2_source_window_intake.py \
+            --generated runs/source_window_first/msn2_source_window_sensitivity.json
+          cmp \
+            runs/source_window_first/msn2_source_window_sensitivity.json \
+            provenance/msn2_source_window_sensitivity.json
+      - name: Verify source identities and repository tests
+        run: |
+          python verify_sources.py
+          python -m unittest discover -s tests -v
+      - name: Regenerate and compare the complete artifact bundle
+        run: |
+          python generate_artifacts.py --out runs/final_artifact_check
+          BICS_REGENERATED_ARTIFACTS=runs/final_artifact_check \
+            python -m unittest discover -s tests -p test_artifacts.py -v
+      - name: Commit the validated integration
+        run: |
+          git diff --check
+          git config user.name "Deanne Taylor"
+          git config user.email "deannetaylorphd@gmail.com"
+          git add -A
+          git commit -m "Add validated Msn2 source-window sensitivity audit"
+          git push origin HEAD:work/msn2-source-window-sensitivity
