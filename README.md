@@ -89,26 +89,35 @@ GitHub Actions checks all three examples and regenerates the published artifacts
 
 ## Plotting
 
-From the repository root, generate a fresh traceable analysis output first:
+From the repository root, generate a fresh traceable analysis output:
+
+```bash
 python examples/02_ribosome_selection/run_ribosome_selection.py \
     --out runs/ribosome_figure2 \
     --skip-figures
+```
 
-Then run the downloaded plotting script against that fresh output directory:
+Then run the repository plotting script against that fresh output directory:
+
+```bash
 python examples/02_ribosome_selection/generate_figure2_panels.py \
-  --artifact-dir runs/ribosome_figure2 \
-  --outdir figures/generated/figure2bc \
-  --dpi 600
+    --artifact-dir runs/ribosome_figure2 \
+    --outdir figures/generated/figure2bc \
+    --dpi 600
+```
 
-This makes the plotting chain:
-  analysis code
+This produces the following traceable plotting chain:
+
+```text
+analysis code
 → runs/ribosome_figure2/table_2_ribosome_information.csv
 → runs/ribosome_figure2/table_3_ribosome_passage.csv
 → runs/ribosome_figure2/parameters_used.json
-→ Figure 2B and 2C SVG/PNG files
+→ Figure 2B and Figure 2C SVG and PNG files
+→ figures/generated/figure2bc/figure_2bc_provenance.json
+```
 
-The script reads the numerical values from those generated artifacts. 
-Omit --panel-labels when your own panels will supply the B and C labels.
+The plotting script reads the numerical values from the generated analysis artifacts. It does not encode the plotted scientific results directly. Omit `--panel-labels` when using something like  PowerPoint assembly to supply the B and C labels.
 
 ## Citation and reuse
 
