@@ -196,15 +196,15 @@
     },
     {
       "path": "figures/figure_2_ribosome_selection.png",
-      "bytes": 540999,
-      "sha256": "ccd8ea70da94243220333735a4e3994c8b04565df81503a5702f5779c03ddc43",
-      "git_blob": "b62f85458bad112de5a496b6a686b7003c884c5a"
+      "bytes": 600117,
+      "sha256": "9ab103c8d13c6e8b9c45a512af7f90b3072fc16966542c8392af4df8ad4acc6d",
+      "git_blob": "f481451229c9322fc7da203f9e98215ec5640417"
     },
     {
       "path": "figures/figure_2_ribosome_selection.pptx",
-      "bytes": 454255,
-      "sha256": "21ffc1d579adadeef15580faac2a6c7468093d4b2a890073225de395093a2d80",
-      "git_blob": "92fbe021aab729188720b67c3012637c3d225481"
+      "bytes": 464742,
+      "sha256": "6b7615cd8baee61d2d0eb6bf7e43b42fdf1f6446f2e78ea04c03dc2ba721b28d",
+      "git_blob": "4fdd4229befdf0adf74bba6c3992387bfc8eb6b6"
     },
     {
       "path": "generate_artifacts.py",
