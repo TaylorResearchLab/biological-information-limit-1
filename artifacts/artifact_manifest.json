@@ -2,7 +2,7 @@
   "status": "PASS",
   "format_version": 1,
   "source_commit": null,
-  "source_manifest_sha256": "9c3f2659fe66a2437f56819070d51543f4839f1fbf0e3888b335d7fe4db6f4e6",
+  "source_manifest_sha256": "1262b61efbd64ad3d5d775a4c611ba75e4663f65422eabc44cca12d7607c2b9b",
   "source_sha256": {
     "data/README.md": "bb38f6c68fa93f9ba94e9a4e2b50527d849cf28f5479c494b7a8fe01fb65fb3c",
     "data/msn2/README.md": "1bcaf2a8c37bddc7cf9f8d5bb4ce1aa8636ab0e56922f4c22a68aade104e918c",
@@ -30,7 +30,7 @@
     "provenance/README.md": "895525c9742c47c876a121618ea3fd986c7a7974ae51145230c51a54af3a2bd0",
     "provenance/msn2_manifest.json": "cf434049b6eccde3a058127343ba43e7a5844e2b3fb83be1d56fa623cbcd637c",
     "provenance/msn2_source_window_sensitivity.json": "3540bc83153875ce19950dbddcea267a884c64dcd72bddea30898e9d16cb6be3",
-    "provenance/source_manifest.json": "9c3f2659fe66a2437f56819070d51543f4839f1fbf0e3888b335d7fe4db6f4e6",
+    "provenance/source_manifest.json": "1262b61efbd64ad3d5d775a4c611ba75e4663f65422eabc44cca12d7607c2b9b",
     "requirements.txt": "434cb5b16661d587c9fb648e4b23b145b50ea657de367218783de0dfa9cb8cd2",
     "src/README.md": "1835d0b7a2406302279fa5498f698e6ad5e353a6f5fc46db6e720122d2196282",
     "src/bics/__init__.py": "27574b521ebd969b462fc6e41366218430813a24be50761a04dec779d610398b",
